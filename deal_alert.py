@@ -473,9 +473,12 @@ def run() -> int:
             log(f"CardSight error {status}: {body}")
             if status in (401, 403):
                 error_alert(state, env["NTFY_TOPIC"], "CardSight rejected the API key. Check the CARDSIGHT_API_KEY secret.")
+            spend(state)
+            allowed -= 1
+            if isinstance(status, int) and status >= 500:
+                continue  # CardSight hiccup on this one listing: skip it, keep going
             if status == 429:
                 state["queue"].insert(0, listing)
-            spend(state)
             break
         except Exception as e:  # noqa: BLE001
             log(f"CardSight request failed: {e}")
