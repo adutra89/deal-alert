@@ -216,67 +216,135 @@ def ebay_new_listings(token: str, player: str, cfg: dict) -> list[dict]:
 
 # ---------------------------------------------------------------- CardSight comps
 
-def cardsight_comps(api_key: str, title: str, cfg: dict) -> dict:
+BRANDS = [
+    "topps", "bowman", "panini", "fleer", "upper deck", "donruss", "score", "leaf", "skybox", "hoops",
+    "prizm", "select", "optic", "mosaic", "chrome", "finest", "stadium club", "heritage", "now",
+    "national treasures", "flawless", "immaculate", "contenders", "spectra", "obsidian", "phoenix",
+    "revolution", "court kings", "chronicles", "certified", "absolute", "crown royale", "origins",
+    "noir", "one and one", "black", "sapphire", "update", "allen ginter", "gypsy queen", "tribute",
+    "dynasty", "museum", "sterling", "inception", "archives", "big league", "opening day",
+    "collector's choice", "sp authentic", "spx", "sp", "exquisite", "ultra", "flair", "metal",
+    "e-x", "bowman's best", "draft", "cosmic", "stadium", "zenith", "illusions", "rookies & stars",
+]
+CARD_NO_RE = re.compile(r"#\s*([A-Za-z]{0,6}-?\d{1,4}[A-Za-z]?)\b|\bno\.?\s*(\d{1,4})\b", re.I)
+
+
+def words(text: str) -> list[str]:
+    return re.findall(r"[a-z0-9']+", text.lower().replace("'s", "s"))
+
+
+def card_number(title: str) -> str | None:
+    m = CARD_NO_RE.search(title)
+    if not m:
+        return None
+    return (m.group(1) or m.group(2)).upper().lstrip("0") or "0"
+
+
+def build_query(title: str, player: str) -> str:
+    """Short, clean search: year + brands + player + card # + parallel words + grade.
+
+    CardSight's title search needs every word to match, so eBay filler
+    (team names, RC, HOF, emojis...) must be left out.
+    """
+    t = " ".join(words(title))
+    parts = []
+    m = re.search(r"\b(19[5-9]\d|20[0-3]\d)\b", title)
+    if m:
+        parts.append(m.group(1))
+    for b in BRANDS:
+        bw = " ".join(words(b))
+        if re.search(rf"\b{re.escape(bw)}\b", t) and bw not in parts:
+            parts.append(" ".join(w for w in b.split() if "'" not in w))
+    parts.append(player)
+    num = card_number(title)
+    if num:
+        parts.append(num)
+    for w in PARALLEL_HINTS:
+        if re.search(rf"\b{w}\b", t):
+            parts.append(w)
+    g = detect_grade(title)
+    if g:
+        parts += [g[0], g[1]]
+    return " ".join(parts)[:300]
+
+
+def cardsight_comps(api_key: str, query: str, cfg: dict) -> dict:
     r = requests.get(
         CARDSIGHT_SEARCH_URL,
         headers={"X-API-Key": api_key},
-        params={"q": title[:300], "listing_type": "auction", "period": cfg["comp_period"], "limit": 100},
+        params={"q": query, "listing_type": "auction", "period": cfg["comp_period"], "limit": 100},
         timeout=30,
     )
     r.raise_for_status()
     return r.json()
 
 
-def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | None:
-    """Pick the card that best matches the listing and return its sold-comp median.
+def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
+    card = rec.get("matched_card")
+    if not card:
+        return False
+    g = rec.get("grade")
+    if (norm_grade(g["company_name"], g["grade_value"]) if g else None) != title_grade:
+        return False  # raw vs slab (or different grade) must line up with the listing
+    if title_num and str(card.get("number") or "").upper().lstrip("0") != title_num:
+        return False
+    tw = set(words(listing_title))
+    cset = card.get("set") or {}
+    release_words = [w for w in words(cset.get("release") or "") if len(w) > 1]
+    if release_words and not all(w in tw for w in release_words):
+        return False  # e.g. comp is "Topps Chrome Black" but listing is plain Topps
+    set_name = (cset.get("name") or "").lower()
+    if set_name and set_name not in ("base", "base set"):
+        if not all(w in tw for w in words(set_name) if len(w) > 2 and w not in ("set", "cards")):
+            return False  # insert set named in comp but not in listing
+    pname = rec.get("parallel_name")
+    if pname and not parallel_words_in_title(pname, listing_title):
+        return False
+    if not pname and looks_like_parallel(listing_title):
+        return False  # listing looks like a parallel but comp is base
+    return True
 
-    Uses the top-ranked matched result as the card identity (card + parallel + grade),
-    then keeps only sold auction comps with exactly that identity. Returns None if the
-    match looks wrong or there are too few comps to trust.
+
+def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | None:
+    """Find sold comps that are the same card, parallel and grade as the listing.
+
+    Groups matching comps by exact identity and uses the biggest group. Returns None
+    when nothing lines up or there are too few comps to trust.
     """
     title_grade = detect_grade(listing_title)
-    target = None
+    title_num = card_number(listing_title)
+    groups: dict[tuple, list[dict]] = {}
     for rec in results:
-        card = rec.get("matched_card")
-        if not card:
+        if rec.get("listing_type", "auction") != "auction" or not rec.get("price"):
             continue
-        g = rec.get("grade")
-        rec_grade = norm_grade(g["company_name"], g["grade_value"]) if g else None
-        if rec_grade != title_grade:
-            continue  # raw vs slab (or different grade) must line up with the listing
-        pname = rec.get("parallel_name")
-        if pname and not parallel_words_in_title(pname, listing_title):
+        if not identity_ok(rec, listing_title, title_grade, title_num):
             continue
-        if not pname and looks_like_parallel(listing_title):
-            continue  # listing looks like a parallel but comp is base: skip
-        target = (card["card_id"], rec.get("parallel_id"), (g or {}).get("grade_id"))
-        target_rec = rec
-        break
-    if not target:
+        key = (rec["matched_card"]["card_id"], rec.get("parallel_id"), (rec.get("grade") or {}).get("grade_id"))
+        groups.setdefault(key, []).append(rec)
+    if not groups:
         sample = [
-            f"{(r.get('matched_card') or {}).get('name', 'UNMATCHED')}|{r.get('parallel_name') or 'base'}|"
+            f"{(r.get('matched_card') or {}).get('set', {}).get('release', '?')} "
+            f"#{(r.get('matched_card') or {}).get('number', '?')}|{r.get('parallel_name') or 'base'}|"
             f"{(r.get('grade') or {}).get('company_name', 'raw')} {(r.get('grade') or {}).get('grade_value', '')}"
             for r in results[:4]
         ]
-        log(f"  no identity match (listing grade {title_grade}); top results: {sample}; {len(results)} total")
+        log(f"  no matching comps (grade {title_grade}, #{title_num}); {len(results)} results, top: {sample}")
         return None
-
-    prices = []
-    for rec in results:
-        card = rec.get("matched_card") or {}
-        key = (card.get("card_id"), rec.get("parallel_id"), (rec.get("grade") or {}).get("grade_id"))
-        if key == target and rec.get("listing_type", "auction") == "auction" and rec.get("price"):
-            prices.append(float(rec["price"]))
-    if len(prices) < int(cfg["min_comps"]):
-        log(f"  only {len(prices)} comps for matched card")
+    recs = max(groups.values(), key=len)
+    if len(recs) < int(cfg["min_comps"]):
+        log(f"  only {len(recs)} comps for matched card")
         return None
-
-    card = target_rec["matched_card"]
-    set_name = (card.get("set") or {}).get("name", "")
-    label = " ".join(x for x in [set_name, card.get("name", ""), f"#{card['number']}" if card.get("number") else "",
-                                  target_rec.get("parallel_name") or ""] if x)
+    top = recs[0]
+    card = top["matched_card"]
+    cset = card.get("set") or {}
+    label = " ".join(x for x in [
+        str(cset.get("year") or ""), cset.get("release") or "",
+        cset.get("name") if (cset.get("name") or "").lower() not in ("base", "base set") else "",
+        card.get("name", ""), f"#{card['number']}" if card.get("number") else "", top.get("parallel_name") or "",
+    ] if x)
     if title_grade:
         label += f" {title_grade[0]} {title_grade[1]}"
+    prices = [float(r["price"]) for r in recs]
     return {"median": statistics.median(prices), "count": len(prices), "label": label.strip()}
 
 
@@ -392,7 +460,9 @@ def run() -> int:
     while allowed > 0 and state["queue"]:
         listing = state["queue"].pop(0)
         try:
-            data = cardsight_comps(env["CARDSIGHT_API_KEY"], listing["title"], cfg)
+            query = build_query(listing["title"], listing["player"])
+            log(f"checking: {listing['title'][:80]}  ->  q=\"{query}\"")
+            data = cardsight_comps(env["CARDSIGHT_API_KEY"], query, cfg)
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
             body = e.response.text[:300] if e.response is not None else ""

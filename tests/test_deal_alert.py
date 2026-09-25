@@ -74,3 +74,21 @@ def test_budget_spreads_evenly():
         d.spend(state, n)
         total += n
     assert 650 <= total <= 700
+
+
+def test_build_query_strips_filler():
+    q = d.build_query("1990 Fleer - Michael Jordan #26 Chicago Bulls HOF PSA 9 🔥", "Michael Jordan")
+    assert q == "1990 fleer Michael Jordan 26 PSA 9"
+
+
+def test_release_must_match_listing():
+    r = rec(200, pname=None)
+    r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps Chrome Black", "year": "2026"}
+    assert not d.identity_ok(r, "2026 Topps Shohei Ohtani #136", None, "136")
+    r["matched_card"]["set"]["release"] = "Topps"
+    assert d.identity_ok(r, "2026 Topps Shohei Ohtani #136", None, "136")
+
+
+def test_card_number_must_match():
+    r = rec(10)
+    assert not d.identity_ok(r, "2023 Prizm Wembanyama #275", None, "275")
