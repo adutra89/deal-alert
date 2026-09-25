@@ -1,0 +1,354 @@
+[
+ {
+  "path": "/v1/pricing/search",
+  "params": {
+   "q": "1990 Fleer Michael Jordan 26",
+   "listing_type": "auction",
+   "limit": "20"
+  },
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "1990 Fleer Michael Jordan 26",
+    "listing_type": "auction",
+    "period": "all",
+    "limit": 20,
+    "as_of_date": "2026-09-25"
+   },
+   "results": [
+    {
+     "title": "1990-91 Fleer - Michael Jordan #26 Black Line Above Biographical Information",
+     "price": 33.59,
+     "date": "2026-09-25T16:31:43Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/yxt7r",
+     "image_url": "https://i.ebayimg.com/images/g/-qUAAeSwMaJqrWbe/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "Fleer 1990-91 Michael Jordan Chicago Bulls #26 NBA Basketball Trading Card",
+     "price": 26,
+     "date": "2026-09-25T16:28:18Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/rdrO0",
+     "image_url": "https://i.ebayimg.com/images/g/e~MAAeSwdo1qrWZ4/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "1990-91 Fleer Michael Jordan (Black Line Above Biographical Information) #26 HOF",
+     "price": 9.51,
+     "date": "2026-09-25T02:28:55Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/vMfyT",
+     "image_url": "https://i.ebayimg.com/images/g/OT0AAeSwSaNqqH8R/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "1990-91 Fleer #26 Michael Jordan - Mint - Perfect Centering - GOAT Bulls (5)",
+     "price": 41,
+     "date": "2026-09-25T02:15:01Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/UuC3j",
+     "image_url": "https://i.ebayimg.com/images/g/ZEYAAeSwXUJqq-Lt/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "1990 FLEER #26 MICHAEL JORDAN PSA 6",
+     "price": 24.27,
+     "date": "2026-09-25T01:48:00Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/4lkhg",
+     "image_url": "https://i.ebayimg.com/images/g/WK8AAeSwlspqqt9i/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "8f77c77d-ee00-48e8-a7a8-aba87c1ac46e",
+      "grade_value": "6",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
+     "price": 105.5,
+     "date": "2026-09-25T01:34:00Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/Hkg8T",
+     "image_url": "https://i.ebayimg.com/images/g/ZTwAAeSwS2xqrFV6/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    }
+   ],
+   "meta": {
+    "sources": [
+     {
+      "source": "ebay",
+      "count": 20
+     }
+    ],
+    "total_records": 20
+   }
+  }
+ },
+ {
+  "path": "/v1/pricing/search",
+  "params": {
+   "q": "Michael Jordan 1990 Fleer",
+   "limit": "20"
+  },
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "Michael Jordan 1990 Fleer",
+    "listing_type": "both",
+    "period": "all",
+    "limit": 20,
+    "as_of_date": "2026-09-25"
+   },
+   "results": [
+    {
+     "title": "1990-91 Fleer - Michael Jordan #26 Black Line Above Biographical Information",
+     "price": 33.59,
+     "date": "2026-09-25T16:31:43Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/yxt7r",
+     "image_url": "https://i.ebayimg.com/images/g/-qUAAeSwMaJqrWbe/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "Fleer 1990-91 Michael Jordan Chicago Bulls #26 NBA Basketball Trading Card",
+     "price": 26,
+     "date": "2026-09-25T16:28:18Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/rdrO0",
+     "image_url": "https://i.ebayimg.com/images/g/e~MAAeSwdo1qrWZ4/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "1990 FLEER 26 MICHAEL JORDAN PSA 8",
+     "price": 125,
+     "date": "2026-09-25T10:28:40.855503Z",
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/CJmrc",
+     "image_url": "https://i.ebayimg.com/images/g/6CQAAOSwVVpm3ijl/s-l225.jpg"
+    },
+    {
+     "title": "1990 Fleer Michael Jordan All-Stars #5",
+     "price": 30,
+     "date": "2026-09-25T10:28:40.855503Z",
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/E8yMg",
+     "image_url": "https://i.ebayimg.com/images/g/clIAAeSwtwVqmNGO/s-l225.jpg",
+     "matched_card": {
+      "card_id": "8b16e2ff-0341-4544-a71c-efdaa781a72a",
+      "name": "Michael Jordan",
+      "number": "5",
+      "set": {
+       "set_id": "ac1b6403-d329-4543-96fb-02b075c00c76",
+       "name": "All-Stars",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    },
+    {
+     "title": "1990 Fleer Michael Jordan #26 \ud83d\udc8e PSA 9 MINT \ud83d\udd25",
+     "price": 109.99,
+     "date": "2026-09-25T10:28:40.855503Z",
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Ngop2",
+     "image_url": "https://i.ebayimg.com/images/g/r6AAAeSw7Slqmvig/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990-91  Fleer #26   Michael Jordan    Chicago Bulls     HOF  GOAT",
+     "price": 11,
+     "date": "2026-09-25T10:28:40.855503Z",
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/WLS1l",
+     "image_url": "https://i.ebayimg.com/images/g/reMAAeSwaTFqtItG/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     }
+    }
+   ],
+   "meta": {
+    "sources": [
+     {
+      "source": "ebay",
+      "count": 20
+     }
+    ],
+    "total_records": 20
+   }
+  }
+ },
+ {
+  "path": "/v1/pricing/search",
+  "params": {
+   "q": "Jordan",
+   "limit": "5"
+  },
+  "status": 500,
+  "body": {
+   "error": "Internal server error",
+   "code": "INTERNAL_ERROR"
+  }
+ },
+ {
+  "path": "/v1/autocomplete/cards",
+  "params": {
+   "q": "1990 Fleer Michael Jordan"
+  },
+  "status": 200,
+  "body": {
+   "suggestions": []
+  }
+ },
+ {
+  "path": "/v1/catalog/search",
+  "params": {
+   "q": "1990 Fleer Michael Jordan 26"
+  },
+  "status": 200,
+  "body": {
+   "results": [
+    {
+     "type": "card",
+     "id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+     "name": "Michael Jordan",
+     "relevance": 49.416,
+     "year": "1990-91",
+     "setName": "Base Set",
+     "releaseName": "Fleer",
+     "manufacturerName": "Fleer",
+     "segmentName": "Basketball",
+     "cardNumber": "26"
+    }
+   ],
+   "total_count": 1,
+   "skip": 0,
+   "take": 20
+  }
+ }
+]
