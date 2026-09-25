@@ -52,8 +52,13 @@ NUMBERED_RE = re.compile(r"(?:#\s*)?/\s*\d{1,4}\b|\b\d{1,4}/\d{1,4}\b")
 
 # ---------------------------------------------------------------- helpers
 
+RUN_LOG: list[str] = []
+
+
 def log(msg: str) -> None:
-    print(f"[{datetime.now(timezone.utc):%H:%M:%S}] {msg}", flush=True)
+    line = f"[{datetime.now(timezone.utc):%Y-%m-%d %H:%M:%S}] {msg}"
+    RUN_LOG.append(line)
+    print(line, flush=True)
 
 
 def load_config() -> dict:
@@ -75,6 +80,11 @@ def load_state() -> dict:
 
 
 def save_state(state: dict) -> None:
+    state["last_run_log"] = RUN_LOG[-80:]
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a") as f:
+            f.write("```\n" + "\n".join(RUN_LOG) + "\n```\n")
     with open(STATE_PATH, "w") as f:
         json.dump(state, f, indent=1, sort_keys=True)
         f.write("\n")
@@ -335,6 +345,7 @@ def run() -> int:
         except Exception as e:  # noqa: BLE001
             log(f"eBay search failed for {player}: {e}")
             continue
+        log(f"eBay: {len(listings)} listings for {player}")
         for it in listings:
             if it["id"] in state["seen"]:
                 continue
@@ -359,7 +370,8 @@ def run() -> int:
             data = cardsight_comps(env["CARDSIGHT_API_KEY"], listing["title"], cfg)
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
-            log(f"CardSight error {status}")
+            body = e.response.text[:300] if e.response is not None else ""
+            log(f"CardSight error {status}: {body}")
             if status in (401, 403):
                 error_alert(state, env["NTFY_TOPIC"], "CardSight rejected the API key. Check the CARDSIGHT_API_KEY secret.")
             if status == 429:
