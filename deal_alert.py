@@ -330,13 +330,18 @@ def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
     if title_num and str(card.get("number") or "").upper().lstrip("0") != title_num:
         return False
     tw = set(words(listing_title))
+    squashed = "".join(words(listing_title))  # so "Project70" matches "Project 70"
+
+    def present(w: str) -> bool:
+        return w in tw or w in squashed
+
     cset = card.get("set") or {}
     release_words = [w for w in words(cset.get("release") or "") if len(w) > 1]
-    if release_words and not all(w in tw for w in release_words):
+    if release_words and not all(present(w) for w in release_words):
         return False  # e.g. comp is "Topps Chrome Black" but listing is plain Topps
     set_name = (cset.get("name") or "").lower()
     if set_name and set_name not in ("base", "base set"):
-        if not all(w in tw for w in words(set_name) if len(w) > 2 and w not in ("set", "cards")):
+        if not all(present(w) for w in words(set_name) if len(w) > 2 and w not in ("set", "cards")):
             return False  # insert set named in comp but not in listing
     pname = rec.get("parallel_name")
     if pname and not parallel_words_in_title(pname, listing_title):
@@ -344,6 +349,28 @@ def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
     if not pname and looks_like_parallel(listing_title):
         return False  # listing looks like a parallel but comp is base
     return True
+
+
+def brands_in(title: str) -> set[str]:
+    t = " " + " ".join(words(title)) + " "
+    return {b for b in BRANDS if f" {' '.join(words(b))} " in t}
+
+
+def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -> bool:
+    """For sold comps CardSight couldn't tie to a catalog card: compare titles directly."""
+    if not title_num or card_number(rec_title) != title_num:
+        return False
+    if detect_grade(rec_title) != title_grade:
+        return False
+    if looks_like_parallel(rec_title) != looks_like_parallel(listing_title):
+        return False
+    hints = lambda t: {w for w in PARALLEL_HINTS if re.search(rf"\b{w}\b", t.lower())}
+    if hints(rec_title) != hints(listing_title):
+        return False
+    yr = lambda t: (re.search(r"\b(19[5-9]\d|20[0-3]\d)\b", t) or [None])[0]
+    if yr(rec_title) != yr(listing_title):
+        return False
+    return brands_in(rec_title) - {"panini"} == brands_in(listing_title) - {"panini"}
 
 
 def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | None:
@@ -355,13 +382,24 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     title_grade = detect_grade(listing_title)
     title_num = card_number(listing_title)
     groups: dict[tuple, list[dict]] = {}
+    unmatched: list[dict] = []
     for rec in results:
         if rec.get("listing_type", "auction") != "auction" or not rec.get("price"):
+            continue
+        if not rec.get("matched_card"):
+            if title_match_ok(rec.get("title") or "", listing_title, title_grade, title_num):
+                unmatched.append(rec)
             continue
         if not identity_ok(rec, listing_title, title_grade, title_num):
             continue
         key = (rec["matched_card"]["card_id"], rec.get("parallel_id"), (rec.get("grade") or {}).get("grade_id"))
         groups.setdefault(key, []).append(rec)
+    if unmatched:
+        if groups:
+            biggest = max(groups, key=lambda k: len(groups[k]))
+            groups[biggest] = groups[biggest] + unmatched
+        else:
+            groups[("title-match", None, None)] = unmatched
     if not groups:
         sample = [
             f"{(r.get('matched_card') or {}).get('set', {}).get('release', '?')} "
@@ -378,7 +416,11 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     if len(recs) < int(cfg["min_comps"]):
         log(f"  only {len(recs)} comps for matched card")
         return None
-    top = recs[0]
+    top = next((r for r in recs if r.get("matched_card")), None)
+    if top is None:
+        prices = [float(r["price"]) for r in recs]
+        label = f"title match: {recs[0].get('title', '')[:60]}"
+        return {"median": statistics.median(prices), "count": len(prices), "label": label}
     card = top["matched_card"]
     cset = card.get("set") or {}
     label = " ".join(x for x in [

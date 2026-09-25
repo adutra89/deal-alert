@@ -92,3 +92,22 @@ def test_release_must_match_listing():
 def test_card_number_must_match():
     r = rec(10)
     assert not d.identity_ok(r, "2023 Prizm Wembanyama #275", None, "275")
+
+
+def test_unmatched_comps_by_title():
+    res = [{"price": p, "listing_type": "auction", "title": t} for p, t in [
+        (40, "1996-97 Fleer Metal Kobe Bryant #137 RC PSA 8"),
+        (44, "1996 FLEER METAL #137 KOBE BRYANT ROOKIE PSA 8 LAKERS"),
+        (38, "Kobe Bryant 1996 Metal Fleer #137 PSA 8"),
+        (90, "1996 Fleer Metal Kobe Bryant #137 PSA 9"),
+        (15, "1996 Fleer Kobe Bryant #203 PSA 8"),
+    ]]
+    mv = d.market_value("1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8", res, CFG)
+    assert mv["median"] == 40 and mv["count"] == 3
+
+
+def test_release_word_squashed():
+    r = rec(10)
+    r["matched_card"]["number"] = "324"
+    r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps Project70", "year": "2021"}
+    assert d.identity_ok(r, "2021 Topps Project 70 Shohei Ohtani by DJ Skee #324", None, "324")
