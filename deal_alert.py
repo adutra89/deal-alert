@@ -453,6 +453,10 @@ def run() -> int:
 
     # 2. price the most valuable queued listings within the CardSight budget
     allowed = checks_allowed_this_run(state, cfg, now)
+    sample_mode = os.environ.get("SAMPLE_ALERT") == "true"
+    if sample_mode:
+        allowed = max(allowed, 6)  # full test: price a few listings, send the best one as TEST
+    best = None
     log(f"CardSight checks allowed this run: {allowed} (used {state['usage']['calls']}/{cfg['monthly_budget']} this month)")
     state["queue"].sort(key=lambda q: q["price"] + q["shipping"], reverse=True)
 
@@ -485,6 +489,9 @@ def run() -> int:
             log(f"no reliable comps: {listing['title'][:70]}")
             continue
         ev = evaluate(listing, mv, cfg)
+        cost = listing["price"] + listing["shipping"]
+        if best is None or 1 - cost / mv["median"] > best[0]:
+            best = (1 - cost / mv["median"], listing, mv)
         log(f"${listing['price'] + listing['shipping']:.2f} vs ${mv['median']:.2f} ({mv['count']} comps): {listing['title'][:60]}")
         if ev:
             t, body = deal_message(listing, mv, ev)
@@ -495,6 +502,19 @@ def run() -> int:
                 log(f"notification failed: {e}")
         time.sleep(0.3)
 
+    if sample_mode:
+        if best:
+            disc, listing, mv = best
+            cost = listing["price"] + listing["shipping"]
+            ev = {"discount": disc, "profit": mv["median"] * (1 - float(cfg["fee_rate"])) - cost}
+            t, body = deal_message(listing, mv, ev)
+            notify(env["NTFY_TOPIC"], "TEST (not a deal) - " + t.replace(" under comps", " vs comps"), body,
+                   url=listing["url"], priority="default", tags="test_tube")
+            log(f"sent TEST alert: {t}")
+        else:
+            notify(env["NTFY_TOPIC"], "TEST - no listings could be priced", "Full test ran but nothing matched comps this time.",
+                   priority="default", tags="test_tube")
+            log("sent TEST alert: nothing priced")
     log(f"done: {deals} deal alert(s) sent")
     save_state(state)
     return 0

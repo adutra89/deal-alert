@@ -3,6 +3,8 @@ name: Deal alert
 on:
   schedule:
     - cron: "*/20 * * * *"   # every 20 minutes (GitHub may run a few minutes late)
+  push:
+    paths: ["run_test.txt"]   # editing this file runs a full test that always sends one TEST alert
   workflow_dispatch:
     inputs:
       test_notification:
@@ -35,6 +37,7 @@ jobs:
           CARDSIGHT_API_KEY: ${{ secrets.CARDSIGHT_API_KEY }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TEST_NOTIFICATION: ${{ inputs.test_notification }}
+          SAMPLE_ALERT: ${{ github.event_name == 'push' }}
         run: python deal_alert.py
       - name: Save progress
         if: always()
