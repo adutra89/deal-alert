@@ -59,3 +59,8 @@ exclude_words:
 # this fraction of the cheaper-end asks for the same card (0.8 = 20% below them).
 precheck_max_ratio: 0.8
 prechecks_per_run: 40
+
+# High-speed trial: until this time, price this many listings every run (still never
+# goes over monthly_budget). After it ends, the rest of the month's budget is spread evenly.
+burst_until: "2026-09-26T22:30:00+00:00"   # Sat 6:30pm ET
+burst_checks_per_run: 5

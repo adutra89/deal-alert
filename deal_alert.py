@@ -149,6 +149,9 @@ def checks_allowed_this_run(state: dict, cfg: dict, now: datetime) -> int:
     remaining = max(0, int(cfg["monthly_budget"]) - usage["calls"])
     if remaining == 0:
         return 0
+    burst_until = cfg.get("burst_until")
+    if burst_until and now < datetime.fromisoformat(str(burst_until)):
+        return min(int(cfg.get("burst_checks_per_run", 5)), remaining)  # trial: spend faster, still capped
     usage["credit"] = min(usage["credit"] + remaining / runs_left_in_month(now), 25.0)
     return min(int(usage["credit"]), remaining)
 
