@@ -1,48 +1,73 @@
 {
- "comp_cache": {},
+ "comp_cache": {
+  "1996 fleer metal Kobe Bryant 181 PSA 8": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": {
+    "count": 15,
+    "label": "1996-97 Metal Kobe Bryant #181 PSA 8",
+    "median": 145.5
+   }
+  },
+  "2019 panini hoops tribute Kobe Bryant 282 PSA 10": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": null
+  },
+  "2023 panini prizm Victor Wembanyama silver PSA 9": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": null
+  },
+  "2024 topps Shohei Ohtani 729": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": {
+    "count": 30,
+    "label": "title match: 2024 Topps Living Set - Shohei Ohtani #729 /32011",
+    "median": 53.5
+   }
+  },
+  "2024 topps now Shohei Ohtani OS6 PSA 10": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": {
+    "count": 18,
+    "label": "title match: 2024 TOPPS NOW OFFSEASON #OS6 SHOHEI OHTANI PSA 10",
+    "median": 69.0
+   }
+  },
+  "2025 topps chrome Victor Wembanyama PSA 9": {
+   "at": "2026-09-25T19:32:31.186496+00:00",
+   "mv": {
+    "count": 7,
+    "label": "2025-26 Topps Chrome Victor Wembanyama #221 PSA 9",
+    "median": 71.0
+   }
+  }
+ },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-25 19:30:37] eBay: 50 listings for Michael Jordan",
-  "[2026-09-25 19:30:39] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-25 19:30:40] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-25 19:30:41] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-25 19:30:41] 0 new listings queued, 227 in queue",
-  "[2026-09-25 19:31:13] pre-checked 40 on eBay; dropped 15 priced like everyone else",
-  "[2026-09-25 19:31:13] CardSight checks allowed this run: 6 (used 31/700 this month)",
-  "[2026-09-25 19:31:13] checking (40% of other asks): Shohei Ohtani RARE GOLD REFRACTOR INVESTMENT CARD TOPPS DODGERS MINT 5  ->  q=\"topps Shohei Ohtani refractor gold\"",
-  "[2026-09-25 19:31:20]   no matching comps (grade None, #None); 100 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
-  "[2026-09-25 19:31:20] no reliable comps: Shohei Ohtani RARE GOLD REFRACTOR INVESTMENT CARD TOPPS DODGERS MINT 5",
-  "[2026-09-25 19:31:20] checking (69% of other asks): 1996 Collector's Edge Rookie Rage Pink Kobe Bryant #6 RC HOF e6p  ->  q=\"1996 Kobe Bryant 6 pink\"",
-  "[2026-09-25 19:31:21]   no matching comps (grade None, #6); 1 results, top: ['? #?|base|raw ']",
-  "[2026-09-25 19:31:21] no reliable comps: 1996 Collector's Edge Rookie Rage Pink Kobe Bryant #6 RC HOF e6p",
-  "[2026-09-25 19:31:21] checking (74% of other asks): 2018 Panini Donruss - Wrapper Redemption Rated Rookie Shohei Ohtani #2  ->  q=\"2018 panini donruss Shohei Ohtani 281\"",
-  "[2026-09-25 19:31:26]   no matching comps (grade None, #281); 71 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
-  "[2026-09-25 19:31:26] no reliable comps: 2018 Panini Donruss - Wrapper Redemption Rated Rookie Shohei Ohtani #2",
-  "[2026-09-25 19:31:26] checking (76% of other asks): 1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8 L  ->  q=\"1996 fleer metal Kobe Bryant 137 PSA 8\"",
-  "[2026-09-25 19:31:27]   no matching comps (grade ('PSA', '8'), #137); 7 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
-  "[2026-09-25 19:31:27] no reliable comps: 1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8 L",
-  "[2026-09-25 19:31:27] checking (76% of other asks): 1996 ULTRA #52 KOBE BRYANT ROOKIE RC PSA 7  ->  q=\"1996 ultra Kobe Bryant 52 PSA 7\"",
-  "[2026-09-25 19:31:29]   only 1 comps for matched card",
-  "[2026-09-25 19:31:29] no reliable comps: 1996 ULTRA #52 KOBE BRYANT ROOKIE RC PSA 7",
-  "[2026-09-25 19:31:29] checking (77% of other asks): 2021 Topps Project 70 Shohei Ohtani by DJ Skee #324  ->  q=\"2021 topps Shohei Ohtani 324\"",
-  "[2026-09-25 19:31:29]   no matching comps (grade None, #324); 14 results, top: ['Topps Project70 #324|base|raw ', '? #?|base|raw ', '? #?|base|raw ', 'Topps Project70 #324|base|raw ']",
-  "[2026-09-25 19:31:29] no reliable comps: 2021 Topps Project 70 Shohei Ohtani by DJ Skee #324",
-  "[2026-09-25 19:31:30] sent TEST alert: nothing priced",
-  "[2026-09-25 19:31:30] done: 0 deal alert(s) sent"
+  "[2026-09-25 19:32:32] eBay: 50 listings for Michael Jordan",
+  "[2026-09-25 19:32:32] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-25 19:32:33] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-25 19:32:33] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-25 19:32:33] 2 new listings queued, 208 in queue",
+  "[2026-09-25 19:32:59] pre-checked 40 on eBay; dropped 22 priced like everyone else",
+  "[2026-09-25 19:32:59] CardSight checks allowed this run: 6 (used 37/700 this month)",
+  "[2026-09-25 19:32:59] checking (40% of other asks): 2019-20 Panini NBA Hoops - Hoops Tribute Kobe Bryant #282 - PSA 10 Lak  ->  q=\"2019 panini hoops tribute Kobe Bryant 282 PSA 10\"",
+  "[2026-09-25 19:33:02]   only 1 comps for matched card",
+  "[2026-09-25 19:33:02] no reliable comps: 2019-20 Panini NBA Hoops - Hoops Tribute Kobe Bryant #282 - PSA 10 Lak",
+  "[2026-09-25 19:33:02] checking (41% of other asks): 2023 Panini Prizm Victor Wembanyama Instant Impact Silver RC PSA 9  ->  q=\"2023 panini prizm Victor Wembanyama silver PSA 9\"",
+  "[2026-09-25 19:33:05]   ambiguous: no card # in title and 2 different cards match",
+  "[2026-09-25 19:33:05] no reliable comps: 2023 Panini Prizm Victor Wembanyama Instant Impact Silver RC PSA 9",
+  "[2026-09-25 19:33:05] checking (68% of other asks): Victor Wembanyama PSA 9 Clutch Gene 2025-26 Topps Chrome Basketball In  ->  q=\"2025 topps chrome Victor Wembanyama PSA 9\"",
+  "[2026-09-25 19:33:07] $54.99 vs $71.00 (7 comps): Victor Wembanyama PSA 9 Clutch Gene 2025-26 Topps Chrome Bas",
+  "[2026-09-25 19:33:07] checking (77% of other asks): 1996-97 Fleer Metal - Kobe Bryant #181 (RC) - PSA 8 - Lakers  ->  q=\"1996 fleer metal Kobe Bryant 181 PSA 8\"",
+  "[2026-09-25 19:33:08] $160.00 vs $145.50 (15 comps): 1996-97 Fleer Metal - Kobe Bryant #181 (RC) - PSA 8 - Lakers",
+  "[2026-09-25 19:33:08] checking (77% of other asks): 2024 Topps Living Set - Shohei Ohtani #729 /32011  ->  q=\"2024 topps Shohei Ohtani 729\"",
+  "[2026-09-25 19:33:10] $57.65 vs $53.50 (30 comps): 2024 Topps Living Set - Shohei Ohtani #729 /32011",
+  "[2026-09-25 19:33:11] checking (77% of other asks): 2024 TOPPS NOW OFFSEASON #OS6 SHOHEI OHTANI PSA 10  ->  q=\"2024 topps now Shohei Ohtani OS6 PSA 10\"",
+  "[2026-09-25 19:33:11] $80.99 vs $69.00 (18 comps): 2024 TOPPS NOW OFFSEASON #OS6 SHOHEI OHTANI PSA 10",
+  "[2026-09-25 19:33:12] sent TEST alert: 23% under comps - Victor Wembanyama",
+  "[2026-09-25 19:33:12] done: 0 deal alert(s) sent"
  ],
  "queue": [
-  {
-   "ask_ratio": 0.7713333333333333,
-   "found_at": "2026-09-25T19:10:31.315793+00:00",
-   "id": "v1|117431304889|0",
-   "image": "https://i.ebayimg.com/images/g/i2QAAeSwJiVqtsWs/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 75.0,
-   "query": "2024 topps now Shohei Ohtani OS6 PSA 10",
-   "shipping": 5.99,
-   "title": "2024 TOPPS NOW OFFSEASON #OS6 SHOHEI OHTANI PSA 10",
-   "url": "https://www.ebay.com/itm/117431304889?_skw=Shohei+Ohtani&hash=item1b577382b9:g:i2QAAeSwJiVqtsWs"
-  },
   {
    "ask_ratio": 0.7758620689655172,
    "found_at": "2026-09-25T18:57:02.627555+00:00",
@@ -56,6 +81,30 @@
    "url": "https://www.ebay.com/itm/168720398876?_skw=Kobe+Bryant&hash=item274884fa1c:g:PSgAAeSw~i1qtpQ6"
   },
   {
+   "ask_ratio": 0.7788944723618091,
+   "found_at": "2026-09-25T18:57:02.627522+00:00",
+   "id": "v1|278408644893|0",
+   "image": "https://i.ebayimg.com/images/g/p3kAAeSwqflqtpzU/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 155.0,
+   "query": "1996 hoops Kobe Bryant 281 PSA 9",
+   "shipping": 0.0,
+   "title": "1996-97 NBA Hoops - Rookies Kobe Bryant #281 (RC) - PSA 9 - Lakers",
+   "url": "https://www.ebay.com/itm/278408644893?_skw=Kobe+Bryant&hash=item40d272c91d:g:p3kAAeSwqflqtpzU"
+  },
+  {
+   "ask_ratio": 0.7864406779661017,
+   "found_at": "2026-09-25T18:57:02.627527+00:00",
+   "id": "v1|307198988234|0",
+   "image": "https://i.ebayimg.com/images/g/0d8AAeSwFmBqtpt7/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 110.0,
+   "query": "1996 upper deck Kobe Bryant 43 PSA 8",
+   "shipping": 6.0,
+   "title": "PSA 8 Kobe Bryant 1996 96-97 UD3 Upper Deck #43 RC Rookie Card RARE ICONIC",
+   "url": "https://www.ebay.com/itm/307198988234?_skw=Kobe+Bryant&hash=item47867c8fca:g:0d8AAeSwFmBqtpt7"
+  },
+  {
    "ask_ratio": 0.7911760982402835,
    "found_at": "2026-09-25T18:57:02.627562+00:00",
    "id": "v1|336812609981|0",
@@ -66,6 +115,18 @@
    "shipping": 4.99,
    "title": "1998-99 Collector's Edge Authentic Kobe Bryant (Yellow Jersey) BGS 8 HOF 0q3",
    "url": "https://www.ebay.com/itm/336812609981?_skw=Kobe+Bryant&hash=item4e6b9891bd:g:KZcAAeSw4cdqtpS9"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:32:32.023433+00:00",
+   "id": "v1|257765563199|0",
+   "image": "https://i.ebayimg.com/images/g/MJsAAeSwLGtqtscb/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 200.0,
+   "query": "1996 choice Michael Jordan holo BGS 9",
+   "shipping": 0.0,
+   "title": "1996 COLLECTOR'S CHOICE MICHAEL JORDAN GERMAN JORDAN'S JOURNAL HOLO BGS 9",
+   "url": "https://www.ebay.com/itm/257765563199?_skw=Michael+Jordan&hash=item3c04065b3f:g:MJsAAeSwLGtqtscb"
   },
   {
    "ask_ratio": null,
@@ -260,6 +321,7 @@
    "url": "https://www.ebay.com/itm/800714439327?_skw=Kobe+Bryant&hash=itemba6e4cba9f:g:vVAAAeSwp05qtpMN"
   },
   {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627530+00:00",
    "id": "v1|298706540226|0",
    "image": "https://i.ebayimg.com/images/g/jfgAAeSwT59qtpu3/s-l225.jpg",
@@ -271,17 +333,7 @@
    "url": "https://www.ebay.com/itm/298706540226?_skw=Kobe+Bryant&hash=item458c4c16c2:g:jfgAAeSwT59qtpu3"
   },
   {
-   "found_at": "2026-09-25T18:57:02.627527+00:00",
-   "id": "v1|307198988234|0",
-   "image": "https://i.ebayimg.com/images/g/0d8AAeSwFmBqtpt7/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 110.0,
-   "query": "1996 upper deck Kobe Bryant 43 PSA 8",
-   "shipping": 6.0,
-   "title": "PSA 8 Kobe Bryant 1996 96-97 UD3 Upper Deck #43 RC Rookie Card RARE ICONIC",
-   "url": "https://www.ebay.com/itm/307198988234?_skw=Kobe+Bryant&hash=item47867c8fca:g:0d8AAeSwFmBqtpt7"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627525+00:00",
    "id": "v1|278408626487|0",
    "image": "https://i.ebayimg.com/images/g/2i4AAeSw~VFqtpwf/s-l225.jpg",
@@ -293,28 +345,7 @@
    "url": "https://www.ebay.com/itm/278408626487?_skw=Kobe+Bryant&hash=item40d2728137:g:2i4AAeSw~VFqtpwf"
   },
   {
-   "found_at": "2026-09-25T18:57:02.627522+00:00",
-   "id": "v1|278408644893|0",
-   "image": "https://i.ebayimg.com/images/g/p3kAAeSwqflqtpzU/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 155.0,
-   "query": "1996 hoops Kobe Bryant 281 PSA 9",
-   "shipping": 0.0,
-   "title": "1996-97 NBA Hoops - Rookies Kobe Bryant #281 (RC) - PSA 9 - Lakers",
-   "url": "https://www.ebay.com/itm/278408644893?_skw=Kobe+Bryant&hash=item40d272c91d:g:p3kAAeSwqflqtpzU"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627519+00:00",
-   "id": "v1|278408663946|0",
-   "image": "https://i.ebayimg.com/images/g/0A8AAeSwnm9qtp3k/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 100.0,
-   "query": "2019 panini hoops tribute Kobe Bryant 282 PSA 10",
-   "shipping": 0.0,
-   "title": "2019-20 Panini NBA Hoops - Hoops Tribute Kobe Bryant #282 - PSA 10 Lakers",
-   "url": "https://www.ebay.com/itm/278408663946?_skw=Kobe+Bryant&hash=item40d273138a:g:0A8AAeSwnm9qtp3k"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627516+00:00",
    "id": "v1|278408669273|0",
    "image": "https://i.ebayimg.com/images/g/0m0AAeSwlMtqtp6F/s-l225.jpg",
@@ -326,6 +357,7 @@
    "url": "https://www.ebay.com/itm/278408669273?_skw=Kobe+Bryant&hash=item40d2732859:g:0m0AAeSwlMtqtp6F"
   },
   {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627496+00:00",
    "id": "v1|128098521424|0",
    "image": "https://i.ebayimg.com/images/g/Io0AAeSwrwFqtqGd/s-l225.jpg",
@@ -337,50 +369,7 @@
    "url": "https://www.ebay.com/itm/128098521424?_skw=Kobe+Bryant&hash=item1dd3445150:g:Io0AAeSwrwFqtqGd"
   },
   {
-   "found_at": "2026-09-25T18:57:02.627493+00:00",
-   "id": "v1|287608290912|0",
-   "image": "https://i.ebayimg.com/images/g/NZgAAeSwNiZqtqHR/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 120.0,
-   "query": "1996 skybox Kobe Bryant 55 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Skybox Premium - Kobe Bryant #55 (RC) - PSA 8 - Lakers",
-   "url": "https://www.ebay.com/itm/287608290912?_skw=Kobe+Bryant&hash=item42f6ca3e60:g:NZgAAeSwNiZqtqHR"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627491+00:00",
-   "id": "v1|128098523704|0",
-   "image": "https://i.ebayimg.com/images/g/-V8AAeSw7xdqtqJK/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 150.0,
-   "query": "1998 topps finest Kobe Bryant 175 PSA 9",
-   "shipping": 5.99,
-   "title": "Kobe Bryant 1998-99 Topps Finest #175 PSA 9 W/Coating Mint Los Angeles Lakers",
-   "url": "https://www.ebay.com/itm/128098523704?_skw=Kobe+Bryant&hash=item1dd3445a38:g:-V8AAeSw7xdqtqJK"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627488+00:00",
-   "id": "v1|287608293898|0",
-   "image": "https://i.ebayimg.com/images/g/HoYAAeSwy1FqtqJW/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 160.0,
-   "query": "1996 fleer metal Kobe Bryant 181 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Metal - Kobe Bryant #181 (RC) - PSA 8 - Lakers",
-   "url": "https://www.ebay.com/itm/287608293898?_skw=Kobe+Bryant&hash=item42f6ca4a0a:g:HoYAAeSwy1FqtqJW"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627485+00:00",
-   "id": "v1|800714615374|0",
-   "image": "https://i.ebayimg.com/images/g/HTMAAeSwaTFqtqM3/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 74.99,
-   "query": "2019 panini prizm Kobe Bryant 9 PSA 9",
-   "shipping": 0.0,
-   "title": "Kobe Bryant 2019-20 Panini Prizm NBA Finalists #9 PSA 9 Mint Lakers HOF",
-   "url": "https://www.ebay.com/itm/800714615374?_skw=Kobe+Bryant&hash=itemba6e4f6a4e:g:HTMAAeSwaTFqtqM3"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627482+00:00",
    "id": "v1|287608303114|0",
    "image": "https://i.ebayimg.com/images/g/WcwAAeSwZHxqtqRP/s-l225.jpg",
@@ -392,17 +381,7 @@
    "url": "https://www.ebay.com/itm/287608303114?_skw=Kobe+Bryant&hash=item42f6ca6e0a:g:WcwAAeSwZHxqtqRP"
   },
   {
-   "found_at": "2026-09-25T18:57:02.627436+00:00",
-   "id": "v1|318917644735|0",
-   "image": "https://i.ebayimg.com/images/g/vM0AAeSwy5Zqtr8c/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 190.0,
-   "query": "1996 upper deck choice Kobe Bryant SGC 9.5",
-   "shipping": 0.0,
-   "title": "Kobe Bryant RC 1996-97 Upper Deck Collectors Choice Lakers Team Set SGC 9.5",
-   "url": "https://www.ebay.com/itm/318917644735?_skw=Kobe+Bryant&hash=item4a40f911bf:g:vM0AAeSwy5Zqtr8c"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627420+00:00",
    "id": "v1|178528141159|0",
    "image": "https://i.ebayimg.com/images/g/EdQAAeSwGTZqtsMT/s-l225.jpg",
@@ -414,83 +393,7 @@
    "url": "https://www.ebay.com/itm/178528141159?_skw=Kobe+Bryant&hash=item29911b3f67:g:EdQAAeSwGTZqtsMT"
   },
   {
-   "found_at": "2026-09-25T18:57:02.231587+00:00",
-   "id": "v1|820170852637|0",
-   "image": "https://i.ebayimg.com/images/g/uzYAAeSwDWBqtoFy/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 129.0,
-   "query": "2023 panini prizm Victor Wembanyama 136 PSA 9",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Prizm Base Victor Wembanyama #136 RC PSA 9",
-   "url": "https://www.ebay.com/itm/820170852637?_skw=Victor+Wembanyama&hash=itembef5fe091d:g:uzYAAeSwDWBqtoFy"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231584+00:00",
-   "id": "v1|158337680637|0",
-   "image": "https://i.ebayimg.com/images/g/fFoAAeSw~mRqtoGi/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 73.99,
-   "query": "Victor Wembanyama",
-   "shipping": 9.99,
-   "title": "VICTOR WEMBANYAMA RARE LIGHTNING RAINBOW FOIL INVESTMENT CARD SPURS DPOY MINT",
-   "url": "https://www.ebay.com/itm/158337680637?_skw=Victor+Wembanyama&hash=item24dda944fd:g:fFoAAeSw~mRqtoGi"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231581+00:00",
-   "id": "v1|168720297472|0",
-   "image": "https://i.ebayimg.com/images/g/9GoAAeSwyBBqtoYR/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 129.99,
-   "query": "2023 topps chrome Victor Wembanyama 1 PSA 9",
-   "shipping": 5.99,
-   "title": "2023-24 Topps Chrome Victor Wembanyama #1 (RC) Rookie Spurs PSA 9",
-   "url": "https://www.ebay.com/itm/168720297472?_skw=Victor+Wembanyama&hash=item2748836e00:g:9GoAAeSwyBBqtoYR"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231578+00:00",
-   "id": "v1|137778225289|0",
-   "image": "https://i.ebayimg.com/images/g/QYkAAeSw4KJqtoXp/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 55.0,
-   "query": "2023 panini phoenix Victor Wembanyama",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Phoenix Court of the Kings Victor Wembanyama",
-   "url": "https://www.ebay.com/itm/137778225289?_skw=Victor+Wembanyama&hash=item201438e089:g:QYkAAeSw4KJqtoXp"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231572+00:00",
-   "id": "v1|147598460384|0",
-   "image": "https://i.ebayimg.com/images/g/l8cAAeSwq2VqtocV/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 165.0,
-   "query": "2023 select Victor Wembanyama 13 PSA 10",
-   "shipping": 0.0,
-   "title": "2023-24 Select Victor Wembanyama #13 Neon Icon-Rookie RC PSA 10 \ud83d\udc8e",
-   "url": "https://www.ebay.com/itm/147598460384?_skw=Victor+Wembanyama&hash=item225d8dc5e0:g:l8cAAeSwq2VqtocV"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231570+00:00",
-   "id": "v1|820170937491|0",
-   "image": "https://i.ebayimg.com/images/g/eVoAAeSw~UZqtoYw/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 65.0,
-   "query": "2023 panini prizm Victor Wembanyama silver PSA 9",
-   "shipping": 0.0,
-   "title": "2023 Panini Prizm Victor Wembanyama Instant Impact Silver RC PSA 9",
-   "url": "https://www.ebay.com/itm/820170937491?_skw=Victor+Wembanyama&hash=itembef5ff5493:g:eVoAAeSw~UZqtoYw"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231567+00:00",
-   "id": "v1|128098383664|0",
-   "image": "https://i.ebayimg.com/images/g/1MEAAeSwlQNqtouk/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 64.99,
-   "query": "2024 panini prizm mosaic sp Victor Wembanyama blue",
-   "shipping": 0.0,
-   "title": "2024-25 Panini Mosaic Victor Wembanyama Blue Prizm City Edition #/199 Spurs SP",
-   "url": "https://www.ebay.com/itm/128098383664?_skw=Victor+Wembanyama&hash=item1dd3423730:g:1MEAAeSwlQNqtouk"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.231563+00:00",
    "id": "v1|137778293533|0",
    "image": "https://i.ebayimg.com/images/g/ZGYAAeSw75lqtovW/s-l225.jpg",
@@ -502,61 +405,7 @@
    "url": "https://www.ebay.com/itm/137778293533?_skw=Victor+Wembanyama&hash=item201439eb1d:g:ZGYAAeSw75lqtovW"
   },
   {
-   "found_at": "2026-09-25T18:57:02.231560+00:00",
-   "id": "v1|366691722323|0",
-   "image": "https://i.ebayimg.com/images/g/GncAAeSwr5dqtox5/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 160.0,
-   "query": "2023 contenders Victor Wembanyama PSA 9",
-   "shipping": 3.0,
-   "title": "Victor Wembanyama 2023-24 Contenders Rookie Ticket Swatch Relic PSA 9",
-   "url": "https://www.ebay.com/itm/366691722323?_skw=Victor+Wembanyama&hash=item556087a453:g:GncAAeSwr5dqtox5"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231557+00:00",
-   "id": "v1|137778355940|0",
-   "image": "https://i.ebayimg.com/images/g/LowAAeSwBBdqtpB~/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 55.0,
-   "query": "panini prizm Victor Wembanyama",
-   "shipping": 0.0,
-   "title": "Panini Mosiac Prizm Jam Masters Victor Wembanyama Rookie Card",
-   "url": "https://www.ebay.com/itm/137778355940?_skw=Victor+Wembanyama&hash=item20143adee4:g:LowAAeSwBBdqtpB~"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231554+00:00",
-   "id": "v1|188983410189|0",
-   "image": "https://i.ebayimg.com/images/g/gAoAAeSwYu9qtpJJ/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 190.0,
-   "query": "2023 panini select certified Victor Wembanyama 3 PSA 10",
-   "shipping": 0.0,
-   "title": "Panini 2023-24 Select Victor Wembanyama Select Certified #3 RC PSA 10",
-   "url": "https://www.ebay.com/itm/188983410189?_skw=Victor+Wembanyama&hash=item2c0049fe0d:g:gAoAAeSwYu9qtpJJ"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231551+00:00",
-   "id": "v1|278408574126|0",
-   "image": "https://i.ebayimg.com/images/g/9oMAAeSwHRtqtpNO/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 109.99,
-   "query": "2023 panini prizm Victor Wembanyama 136 PSA 9",
-   "shipping": 0.0,
-   "title": "2023 Panini Prizm #136 Victor Wembanyama RC PSA 9",
-   "url": "https://www.ebay.com/itm/278408574126?_skw=Victor+Wembanyama&hash=item40d271b4ae:g:9oMAAeSwHRtqtpNO"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231546+00:00",
-   "id": "v1|227539033327|0",
-   "image": "https://i.ebayimg.com/images/g/jw0AAeSwdFlqtpXW/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 80.0,
-   "query": "2023 panini prizm Victor Wembanyama",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Prizm Victor Wembanyama RC Spurs",
-   "url": "https://www.ebay.com/itm/227539033327?_skw=Victor+Wembanyama&hash=item34fa621cef:g:jw0AAeSwdFlqtpXW"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.231542+00:00",
    "id": "v1|287608199071|0",
    "image": "https://i.ebayimg.com/images/g/rjQAAeSwh-dqtpec/s-l225.jpg",
@@ -568,39 +417,7 @@
    "url": "https://www.ebay.com/itm/287608199071?_skw=Victor+Wembanyama&hash=item42f6c8d79f:g:rjQAAeSwh-dqtpec"
   },
   {
-   "found_at": "2026-09-25T18:57:02.231536+00:00",
-   "id": "v1|257765217233|0",
-   "image": "https://i.ebayimg.com/images/g/keQAAeSwVUdqtphI/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 147.5,
-   "query": "2023 panini prizm Victor Wembanyama 12 PSA 10",
-   "shipping": 4.99,
-   "title": "2023-24 Panini Prizm Emergent Victor Wembanyama #12 PSA 10 GEM MT Rookie RC 04uh",
-   "url": "https://www.ebay.com/itm/257765217233?_skw=Victor+Wembanyama&hash=item3c040113d1:g:keQAAeSwVUdqtphI"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231532+00:00",
-   "id": "v1|287608202487|0",
-   "image": "https://i.ebayimg.com/images/g/wp4AAeSwfJNqtpgx/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 74.99,
-   "query": "2023 panini prizm Victor Wembanyama 1 silver",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Prizm - Deep Space Victor Wembanyama #1 Silver Prizm (RC)",
-   "url": "https://www.ebay.com/itm/287608202487?_skw=Victor+Wembanyama&hash=item42f6c8e4f7:g:wp4AAeSwfJNqtpgx"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231529+00:00",
-   "id": "v1|198666723053|0",
-   "image": "https://i.ebayimg.com/images/g/IzoAAeSwaNtqtphG/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 50.0,
-   "query": "2024 panini donruss prizm optic Victor Wembanyama 19 holo",
-   "shipping": 0.0,
-   "title": "2024-25 Panini Donruss Optic - My House Victor Wembanyama #19 Holo Prizm",
-   "url": "https://www.ebay.com/itm/198666723053?_skw=Victor+Wembanyama&hash=item2e41759eed:g:IzoAAeSwaNtqtphG"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.231526+00:00",
    "id": "v1|257765227674|0",
    "image": "https://i.ebayimg.com/images/g/0bEAAeSwVrpqtpjq/s-l225.jpg",
@@ -612,17 +429,7 @@
    "url": "https://www.ebay.com/itm/257765227674?_skw=Victor+Wembanyama&hash=item3c04013c9a:g:0bEAAeSwVrpqtpjq"
   },
   {
-   "found_at": "2026-09-25T18:57:02.231520+00:00",
-   "id": "v1|267795580005|0",
-   "image": "https://i.ebayimg.com/images/g/4~0AAeSwRddqtpqz/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 194.99,
-   "query": "2023 topps chrome cosmic Victor Wembanyama 151",
-   "shipping": 0.0,
-   "title": "2023-24 Topps Cosmic Chrome - Victor Wembanyama #151 (RC)",
-   "url": "https://www.ebay.com/itm/267795580005?_skw=Victor+Wembanyama&hash=item3e59dc4465:g:4~0AAeSwRddqtpqz"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.231497+00:00",
    "id": "v1|336812660988|0",
    "image": "https://i.ebayimg.com/images/g/5V8AAeSwDWBqtpxn/s-l225.jpg",
@@ -632,50 +439,6 @@
    "shipping": 0.0,
    "title": "Topps Chrome Victor Wembanyama Moment in Time MT-10 Refractor Spurs 2025-26",
    "url": "https://www.ebay.com/itm/336812660988?_skw=Victor+Wembanyama&hash=item4e6b9958fc:g:5V8AAeSwDWBqtpxn"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231491+00:00",
-   "id": "v1|336812671037|0",
-   "image": "https://i.ebayimg.com/images/g/ahcAAeSwmrtqtp6f/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 52.58,
-   "query": "2023 panini donruss Victor Wembanyama 1",
-   "shipping": 4.99,
-   "title": "2023-24 Panini Donruss Magicians Victor Wembanyama #1 Rookie RC 19di",
-   "url": "https://www.ebay.com/itm/336812671037?_skw=Victor+Wembanyama&hash=item4e6b99803d:g:ahcAAeSwmrtqtp6f"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231489+00:00",
-   "id": "v1|188983594978|0",
-   "image": "https://i.ebayimg.com/images/g/sN0AAeSwuQZqrbLW/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 54.99,
-   "query": "2025 topps chrome Victor Wembanyama PSA 9",
-   "shipping": 0.0,
-   "title": "Victor Wembanyama PSA 9 Clutch Gene 2025-26 Topps Chrome Basketball Insert Spurs",
-   "url": "https://www.ebay.com/itm/188983594978?_skw=Victor+Wembanyama&hash=item2c004ccfe2:g:sN0AAeSwuQZqrbLW"
-  },
-  {
-   "found_at": "2026-09-25T18:57:01.471746+00:00",
-   "id": "v1|257765453017|0",
-   "image": "https://i.ebayimg.com/images/g/BcoAAeSwaNtqtrkP/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 104.99,
-   "query": "2021 topps Shohei Ohtani 561",
-   "shipping": 5.0,
-   "title": "2021 Topps Project 70 Shohei Ohtani by Fucci #561",
-   "url": "https://www.ebay.com/itm/257765453017?_skw=Shohei+Ohtani&hash=item3c0404acd9:g:BcoAAeSwaNtqtrkP"
-  },
-  {
-   "found_at": "2026-09-25T18:57:01.471739+00:00",
-   "id": "v1|188983984000|0",
-   "image": "https://i.ebayimg.com/images/g/pZYAAeSwXm5qtrl-/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 145.0,
-   "query": "2026 topps Shohei Ohtani green",
-   "shipping": 0.0,
-   "title": "2026 Topps Shohei Ohtani Los Angeles Dodgers All-Star #91AS-50 Green 28/99",
-   "url": "https://www.ebay.com/itm/188983984000?_skw=Shohei+Ohtani&hash=item2c0052bf80:g:pZYAAeSwXm5qtrl-"
   },
   {
    "found_at": "2026-09-25T18:57:01.471736+00:00",
@@ -2663,6 +2426,7 @@
   "v1|257765541060|0": "2026-09-25T19:10:29.766172+00:00",
   "v1|257765541726|0": "2026-09-25T19:10:29.766172+00:00",
   "v1|257765542300|0": "2026-09-25T19:10:29.766172+00:00",
+  "v1|257765563199|0": "2026-09-25T19:32:31.186496+00:00",
   "v1|257765565103|0": "2026-09-25T19:29:02.367238+00:00",
   "v1|257765566138|0": "2026-09-25T19:29:02.367238+00:00",
   "v1|257765572529|0": "2026-09-25T19:29:02.367238+00:00",
@@ -2770,6 +2534,7 @@
   "v1|327374354504|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|327374357910|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|327374372815|0": "2026-09-25T19:04:16.846640+00:00",
+  "v1|327374402866|0": "2026-09-25T19:32:31.186496+00:00",
   "v1|336812434644|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|336812518199|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|336812532321|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2858,7 +2623,7 @@
   "v1|820171722088|0": "2026-09-25T19:29:02.367238+00:00"
  },
  "usage": {
-  "calls": 37,
+  "calls": 43,
   "credit": 0.0,
   "month": "2026-09"
  }
