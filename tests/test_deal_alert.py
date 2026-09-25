@@ -111,3 +111,12 @@ def test_release_word_squashed():
     r["matched_card"]["number"] = "324"
     r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps Project70", "year": "2021"}
     assert d.identity_ok(r, "2021 Topps Project 70 Shohei Ohtani by DJ Skee #324", None, "324")
+
+
+def test_no_card_number_is_not_priced():
+    # real miss: Clutch Gene insert #CG-17 got priced as base #221
+    r = [rec(70, grade="9"), rec(71, grade="9"), rec(72, grade="9")]
+    for x in r:
+        x["matched_card"]["number"] = "221"
+    assert d.market_value("Victor Wembanyama PSA 9 Clutch Gene 2025-26 Topps Chrome Basketball", r, CFG) is None
+    assert d.card_number("2025-26 Topps Chrome - Clutch Gene Victor Wembanyama #CG-17- PSA 9") == "CG-17"

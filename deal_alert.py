@@ -381,6 +381,8 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     """
     title_grade = detect_grade(listing_title)
     title_num = card_number(listing_title)
+    if not title_num:
+        return None  # without a card # we can't be sure which card it is (e.g. an insert vs the base card)
     groups: dict[tuple, list[dict]] = {}
     unmatched: list[dict] = []
     for rec in results:
@@ -408,9 +410,6 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
             for r in results[:4]
         ]
         log(f"  no matching comps (grade {title_grade}, #{title_num}); {len(results)} results, top: {sample}")
-        return None
-    if not title_num and len({k[0] for k in groups}) > 1:
-        log(f"  ambiguous: no card # in title and {len({k[0] for k in groups})} different cards match")
         return None
     recs = max(groups.values(), key=len)
     if len(recs) < int(cfg["min_comps"]):
@@ -533,6 +532,8 @@ def run() -> int:
                 continue
             if title_has_excluded_word(it["title"], cfg["exclude_words"]):
                 continue
+            if not card_number(it["title"]):
+                continue  # no card # in the title: too easy to price the wrong card
             state["queue"].append(it)
             new += 1
     log(f"{new} new listings queued, {len(state['queue'])} in queue")
