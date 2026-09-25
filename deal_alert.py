@@ -100,7 +100,25 @@ def detect_grade(title: str) -> tuple[str, str] | None:
     m = GRADE_RE.search(title)
     if not m:
         return None
-    return m.group(1).upper(), m.group(2)
+    return norm_grade(m.group(1), m.group(2))
+
+
+def norm_grade(company: str, value) -> tuple[str, str]:
+    """Normalize e.g. ("Professional Sports Authenticator", "9.0") -> ("PSA", "9")."""
+    c = str(company).upper()
+    aliases = {"PROFESSIONAL SPORTS": "PSA", "BECKETT": "BGS", "SPORTSCARD GUARANTY": "SGC", "CERTIFIED GUARANTY": "CGC"}
+    for k, v in aliases.items():
+        if k in c:
+            c = v
+    for grader in GRADERS:
+        if re.search(rf"\b{grader}\b", c):
+            c = grader
+            break
+    try:
+        v = f"{float(value):g}"
+    except (TypeError, ValueError):
+        v = str(value).strip()
+    return c, v
 
 
 def looks_like_parallel(title: str) -> bool:
@@ -223,7 +241,7 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         if not card:
             continue
         g = rec.get("grade")
-        rec_grade = (g["company_name"].upper(), str(g["grade_value"])) if g else None
+        rec_grade = norm_grade(g["company_name"], g["grade_value"]) if g else None
         if rec_grade != title_grade:
             continue  # raw vs slab (or different grade) must line up with the listing
         pname = rec.get("parallel_name")
@@ -235,6 +253,12 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         target_rec = rec
         break
     if not target:
+        sample = [
+            f"{(r.get('matched_card') or {}).get('name', 'UNMATCHED')}|{r.get('parallel_name') or 'base'}|"
+            f"{(r.get('grade') or {}).get('company_name', 'raw')} {(r.get('grade') or {}).get('grade_value', '')}"
+            for r in results[:4]
+        ]
+        log(f"  no identity match (listing grade {title_grade}); top results: {sample}; {len(results)} total")
         return None
 
     prices = []
@@ -244,6 +268,7 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         if key == target and rec.get("listing_type", "auction") == "auction" and rec.get("price"):
             prices.append(float(rec["price"]))
     if len(prices) < int(cfg["min_comps"]):
+        log(f"  only {len(prices)} comps for matched card")
         return None
 
     card = target_rec["matched_card"]
