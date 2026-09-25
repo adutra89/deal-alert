@@ -458,7 +458,7 @@ def run() -> int:
         allowed = max(allowed, 6)  # full test: price a few listings, send the best one as TEST
     best = None
     log(f"CardSight checks allowed this run: {allowed} (used {state['usage']['calls']}/{cfg['monthly_budget']} this month)")
-    state["queue"].sort(key=lambda q: q["price"] + q["shipping"], reverse=True)
+    state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
 
     deals = 0
     while allowed > 0 and state["queue"]:
