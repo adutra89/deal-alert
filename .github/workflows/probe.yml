@@ -1,0 +1,25 @@
+name: Probe (dev)
+on:
+  push:
+    paths: ["probe/queries.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: deal-alert
+  cancel-in-progress: false
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install requests
+      - run: python probe/probe.py
+        env:
+          CARDSIGHT_API_KEY: ${{ secrets.CARDSIGHT_API_KEY }}
+      - run: |
+          git config user.name "deal-alert-bot"
+          git config user.email "deal-alert-bot@users.noreply.github.com"
+          git add probe/results.json
+          git commit -m "probe results [skip ci]" -q && git pull --rebase -q && git push -q
