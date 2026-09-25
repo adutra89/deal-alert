@@ -214,6 +214,39 @@ def ebay_new_listings(token: str, player: str, cfg: dict) -> list[dict]:
     return items
 
 
+def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | None:
+    """Free pre-check: listing price vs the median of other Buy It Now listings of the same card.
+
+    Returns price / median-ask (0.5 = half of what others are asking), or None when
+    there aren't enough comparable listings to judge.
+    """
+    r = requests.get(
+        EBAY_SEARCH_URL,
+        headers={"Authorization": f"Bearer {token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"},
+        params={"q": query, "category_ids": EBAY_SPORTS_SINGLES_CATEGORY, "limit": 50,
+                "filter": "buyingOptions:{FIXED_PRICE},priceCurrency:USD"},
+        timeout=30,
+    )
+    r.raise_for_status()
+    grade, num, par = detect_grade(listing["title"]), card_number(listing["title"]), looks_like_parallel(listing["title"])
+    asks = []
+    for it in r.json().get("itemSummaries", []):
+        t = it.get("title", "")
+        if it.get("itemId") == listing["id"] or title_has_excluded_word(t, cfg["exclude_words"]):
+            continue
+        if detect_grade(t) != grade or (num and card_number(t) != num) or looks_like_parallel(t) != par:
+            continue
+        try:
+            price = float(it["price"]["value"])
+            ship = float(((it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}).get("value", 0))
+        except (KeyError, TypeError, ValueError):
+            continue
+        asks.append(price + ship)
+    if len(asks) < 3:
+        return None
+    return (listing["price"] + listing["shipping"]) / statistics.median(asks)
+
+
 # ---------------------------------------------------------------- CardSight comps
 
 BRANDS = [
@@ -451,21 +484,72 @@ def run() -> int:
             new += 1
     log(f"{new} new listings queued, {len(state['queue'])} in queue")
 
-    # 2. price the most valuable queued listings within the CardSight budget
+    # 2. free pre-check: compare each new listing to other eBay asks for the same card
+    ask_cutoff = float(cfg.get("precheck_max_ratio", 0.75))
+    cache = state.setdefault("comp_cache", {})
+    for k in [k for k, v in cache.items() if now - datetime.fromisoformat(v["at"]) > timedelta(hours=24)]:
+        del cache[k]
+    state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
+    prechecked, ask_memo = 0, {}
+    for q in state["queue"]:
+        q.setdefault("query", build_query(q["title"], q["player"]))
+        if "ask_ratio" in q or q["query"] in cache or prechecked >= int(cfg.get("prechecks_per_run", 40)):
+            continue
+        try:
+            q["ask_ratio"] = ebay_ask_ratio(token, q, q["query"], cfg)
+        except Exception as e:  # noqa: BLE001
+            log(f"pre-check failed: {e}")
+            break
+        prechecked += 1
+    before = len(state["queue"])
+    state["queue"] = [q for q in state["queue"] if q.get("ask_ratio") is None or q["ask_ratio"] <= ask_cutoff]
+    log(f"pre-checked {prechecked} on eBay; dropped {before - len(state['queue'])} priced like everyone else")
+
     allowed = checks_allowed_this_run(state, cfg, now)
     sample_mode = os.environ.get("SAMPLE_ALERT") == "true"
     if sample_mode:
         allowed = max(allowed, 6)  # full test: price a few listings, send the best one as TEST
     best = None
-    log(f"CardSight checks allowed this run: {allowed} (used {state['usage']['calls']}/{cfg['monthly_budget']} this month)")
-    state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
-
     deals = 0
+    log(f"CardSight checks allowed this run: {allowed} (used {state['usage']['calls']}/{cfg['monthly_budget']} this month)")
+
+    def judge(listing: dict, mv: dict | None) -> None:
+        nonlocal best, deals
+        if not mv:
+            return
+        cost = listing["price"] + listing["shipping"]
+        if best is None or 1 - cost / mv["median"] > best[0]:
+            best = (1 - cost / mv["median"], listing, mv)
+        log(f"${cost:.2f} vs ${mv['median']:.2f} ({mv['count']} comps): {listing['title'][:60]}")
+        ev = evaluate(listing, mv, cfg)
+        if ev:
+            t, body = deal_message(listing, mv, ev)
+            try:
+                notify(env["NTFY_TOPIC"], t, body, url=listing["url"])
+                deals += 1
+            except Exception as e:  # noqa: BLE001
+                log(f"notification failed: {e}")
+
+    # 3a. listings of cards priced in the last 24h: judge for free
+    rest = []
+    for q in state["queue"]:
+        if q["query"] in cache:
+            judge(q, cache[q["query"]]["mv"])
+        else:
+            rest.append(q)
+    state["queue"] = rest
+
+    # 3b. spend CardSight checks on the most promising listings (cheapest vs other asks first)
+    state["queue"].sort(key=lambda q: (q.get("ask_ratio") is None, q.get("ask_ratio") or 0))
     while allowed > 0 and state["queue"]:
         listing = state["queue"].pop(0)
+        query = listing["query"]
+        if query in cache:
+            judge(listing, cache[query]["mv"])
+            continue
         try:
-            query = build_query(listing["title"], listing["player"])
-            log(f"checking: {listing['title'][:80]}  ->  q=\"{query}\"")
+            ratio = listing.get("ask_ratio")
+            log(f"checking ({'n/a' if ratio is None else f'{ratio:.0%} of other asks'}): {listing['title'][:70]}  ->  q=\"{query}\"")
             data = cardsight_comps(env["CARDSIGHT_API_KEY"], query, cfg)
         except requests.HTTPError as e:
             status = e.response.status_code if e.response is not None else "?"
@@ -486,23 +570,11 @@ def run() -> int:
             break
         spend(state)
         allowed -= 1
-
         mv = market_value(listing["title"], data.get("results", []), cfg)
+        cache[query] = {"mv": mv, "at": now.isoformat()}
         if not mv:
             log(f"no reliable comps: {listing['title'][:70]}")
-            continue
-        ev = evaluate(listing, mv, cfg)
-        cost = listing["price"] + listing["shipping"]
-        if best is None or 1 - cost / mv["median"] > best[0]:
-            best = (1 - cost / mv["median"], listing, mv)
-        log(f"${listing['price'] + listing['shipping']:.2f} vs ${mv['median']:.2f} ({mv['count']} comps): {listing['title'][:60]}")
-        if ev:
-            t, body = deal_message(listing, mv, ev)
-            try:
-                notify(env["NTFY_TOPIC"], t, body, url=listing["url"])
-                deals += 1
-            except Exception as e:  # noqa: BLE001
-                log(f"notification failed: {e}")
+        judge(listing, mv)
         time.sleep(0.3)
 
     if sample_mode:
