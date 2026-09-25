@@ -7,12 +7,12 @@ players:
   - Kobe Bryant
 
 # Alert when (price + shipping) is at least this far under recent sold comps.
-# 0.40 = 40% under market.
-discount_threshold: 0.40
+# 0.35 = 35% under market.
+discount_threshold: 0.35
 
 # Only look at Buy It Now listings in this price range (USD, before shipping).
 min_price: 50
-max_price: 200
+max_price: 500
 
 # Need at least this many recent sold comps before trusting the market value.
 min_comps: 3
