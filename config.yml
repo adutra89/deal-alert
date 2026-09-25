@@ -4,19 +4,15 @@ players:
   - Michael Jordan
   - Shohei Ohtani
   - Victor Wembanyama
-  - Tom Brady
   - Kobe Bryant
-  - LeBron James
-  - Stephen Curry
-  # Soccer (Yamal, Haaland, Messi, Dowman) is not covered by CardSight yet.
 
 # Alert when (price + shipping) is at least this far under recent sold comps.
-# 0.30 = 30% under market.
-discount_threshold: 0.30
+# 0.40 = 40% under market.
+discount_threshold: 0.40
 
 # Only look at Buy It Now listings in this price range (USD, before shipping).
 min_price: 50
-max_price: 5000
+max_price: 200
 
 # Need at least this many recent sold comps before trusting the market value.
 min_comps: 3

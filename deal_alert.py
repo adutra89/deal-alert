@@ -312,7 +312,12 @@ def run() -> int:
     cutoff = now - timedelta(days=3)
     state["seen"] = {k: v for k, v in state["seen"].items() if datetime.fromisoformat(v) > cutoff}
     max_age = timedelta(hours=float(cfg["max_listing_age_hours"]))
-    state["queue"] = [q for q in state["queue"] if now - datetime.fromisoformat(q["found_at"]) < max_age]
+    players = set(cfg["players"])
+    lo, hi = float(cfg["min_price"]), float(cfg["max_price"])
+    state["queue"] = [
+        q for q in state["queue"]
+        if now - datetime.fromisoformat(q["found_at"]) < max_age and q["player"] in players and lo <= q["price"] <= hi
+    ]  # also drops anything that no longer fits config.yml
 
     # 1. pull new listings from eBay (free)
     try:
