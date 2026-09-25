@@ -1,0 +1,60 @@
+# Karrd Kings deal alert settings. Edit this file on GitHub to change anything.
+
+players:
+  - Michael Jordan
+  - Shohei Ohtani
+  - Victor Wembanyama
+  - Tom Brady
+  - Kobe Bryant
+  - LeBron James
+  - Stephen Curry
+  # Soccer (Yamal, Haaland, Messi, Dowman) is not covered by CardSight yet.
+
+# Alert when (price + shipping) is at least this far under recent sold comps.
+# 0.30 = 30% under market.
+discount_threshold: 0.30
+
+# Only look at Buy It Now listings in this price range (USD, before shipping).
+min_price: 50
+max_price: 5000
+
+# Need at least this many recent sold comps before trusting the market value.
+min_comps: 3
+
+# How far back to look for sold comps ("30d", "3m", "6m", "1y").
+comp_period: 3m
+
+# eBay final value fee + payment processing, used for the profit estimate.
+fee_rate: 0.13
+
+# CardSight API calls allowed per month. Free plan = 750, Pro = 5000.
+# Keep this a little under your plan's limit.
+monthly_budget: 700
+
+# Listings older than this (hours) are dropped from the queue; good deals sell fast.
+max_listing_age_hours: 6
+
+# Titles containing any of these words are skipped.
+exclude_words:
+  - lot
+  - lots
+  - you pick
+  - pick your
+  - choose
+  - reprint
+  - rp
+  - custom
+  - replica
+  - facsimile
+  - fan made
+  - novelty
+  - digital
+  - break
+  - repack
+  - mystery
+  - box
+  - pack
+  - case
+  - read description
+  - damaged
+  - proxy
