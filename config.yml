@@ -62,5 +62,5 @@ prechecks_per_run: 40
 
 # High-speed trial: until this time, price this many listings every run (still never
 # goes over monthly_budget). After it ends, the rest of the month's budget is spread evenly.
-burst_until: "2026-09-26T22:30:00+00:00"   # Sat 6:30pm ET
-burst_checks_per_run: 5
+burst_until: "2026-09-26T03:20:00+00:00"   # Fri 11:20pm ET (5-hour trial)
+burst_checks_per_run: 10
