@@ -1,71 +1,30 @@
 {
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-25 19:10:30] eBay: 50 listings for Michael Jordan",
-  "[2026-09-25 19:10:31] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-25 19:10:31] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-25 19:10:32] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-25 19:10:32] 14 new listings queued, 241 in queue",
-  "[2026-09-25 19:10:32] CardSight checks allowed this run: 6 (used 5/700 this month)",
-  "[2026-09-25 19:10:32] checking: 2026 Topps Chrome Big Time Players Shohei Ohtani Dodgers #BTP-2 11/99  ->  q=\"2026 topps chrome Shohei Ohtani BTP-2\"",
-  "[2026-09-25 19:10:33]   no matching comps (grade None, #BTP-2); 12 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
-  "[2026-09-25 19:10:33] no reliable comps: 2026 Topps Chrome Big Time Players Shohei Ohtani Dodgers #BTP-2 11/99",
-  "[2026-09-25 19:10:33] checking: Panini Phoenix 2023-24 Victor Wembanyama RC #256 Teal Lazer PSA 9 155805311  ->  q=\"2023 panini phoenix Victor Wembanyama 256 PSA 9\"",
-  "[2026-09-25 19:10:43] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
-  "[2026-09-25 19:10:43] sent TEST alert: nothing priced",
-  "[2026-09-25 19:10:43] done: 0 deal alert(s) sent"
+  "[2026-09-25 19:11:20] eBay: 50 listings for Michael Jordan",
+  "[2026-09-25 19:11:20] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-25 19:11:21] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-25 19:11:21] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-25 19:11:21] 1 new listings queued, 240 in queue",
+  "[2026-09-25 19:11:21] CardSight checks allowed this run: 6 (used 7/700 this month)",
+  "[2026-09-25 19:11:21] checking: 1996 FLEER DECADE OF EXCELLENCE #4 MICHAEL JORDAN PSA 8  ->  q=\"1996 fleer Michael Jordan 4 PSA 8\"",
+  "[2026-09-25 19:11:23] $200.99 vs $107.50 (15 comps): 1996 FLEER DECADE OF EXCELLENCE #4 MICHAEL JORDAN PSA 8",
+  "[2026-09-25 19:11:23] checking: 2023-24 Panini Donruss Optic - My House Victor Wembanyama #6 Purple Prizm (RC)  ->  q=\"2023 panini donruss prizm optic Victor Wembanyama 6 purple\"",
+  "[2026-09-25 19:11:33] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
+  "[2026-09-25 19:11:33] checking: 2024-25 Panini Select - Mezzanine Victor Wembanyama #309 Blue Cracked Ice Prizm  ->  q=\"2024 panini prizm select Victor Wembanyama 309 blue cracked ice\"",
+  "[2026-09-25 19:11:41]   only 1 comps for matched card",
+  "[2026-09-25 19:11:41] no reliable comps: 2024-25 Panini Select - Mezzanine Victor Wembanyama #309 Blue Cracked ",
+  "[2026-09-25 19:11:41] checking: 1992 Topps #205 Michael Jordan PSA 9 Bulls HOF NBA Basketball Mint Card  ->  q=\"1992 topps Michael Jordan 205 PSA 9\"",
+  "[2026-09-25 19:11:42] $199.95 vs $43.36 (18 comps): 1992 Topps #205 Michael Jordan PSA 9 Bulls HOF NBA Basketbal",
+  "[2026-09-25 19:11:42] checking: 1992 Fleer #273 Michael Jordan PSA 7 Bulls HOF NBA Basketball Card  ->  q=\"1992 fleer Michael Jordan 273 PSA 7\"",
+  "[2026-09-25 19:11:43]   only 2 comps for matched card",
+  "[2026-09-25 19:11:43] no reliable comps: 1992 Fleer #273 Michael Jordan PSA 7 Bulls HOF NBA Basketball Card",
+  "[2026-09-25 19:11:43] checking: 1992 Fleer #238 Michael Jordan PSA 9 Mint Chicago Bulls HOF NBA Basketball Card  ->  q=\"1992 fleer Michael Jordan 238 PSA 9\"",
+  "[2026-09-25 19:11:43] $199.95 vs $55.00 (12 comps): 1992 Fleer #238 Michael Jordan PSA 9 Mint Chicago Bulls HOF ",
+  "[2026-09-25 19:11:44] sent TEST alert: -87% under comps - Michael Jordan",
+  "[2026-09-25 19:11:44] done: 0 deal alert(s) sent"
  ],
  "queue": [
-  {
-   "found_at": "2026-09-25T18:57:02.231576+00:00",
-   "id": "v1|327374102714|0",
-   "image": "https://i.ebayimg.com/images/g/4XUAAeSwHQtqtocu/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 200.0,
-   "shipping": 0.0,
-   "title": "2023-24 Panini Donruss Optic - My House Victor Wembanyama #6 Purple Prizm (RC)",
-   "url": "https://www.ebay.com/itm/327374102714?_skw=Victor+Wembanyama&hash=item4c390460ba:g:4XUAAeSwHQtqtocu"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.231395+00:00",
-   "id": "v1|147598909849|0",
-   "image": "https://i.ebayimg.com/images/g/62gAAeSwoZtqtsHC/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 199.99,
-   "shipping": 0.0,
-   "title": "2024-25 Panini Select - Mezzanine Victor Wembanyama #309 Blue Cracked Ice Prizm",
-   "url": "https://www.ebay.com/itm/147598909849?_skw=Victor+Wembanyama&hash=item225d94a199:g:62gAAeSwoZtqtsHC"
-  },
-  {
-   "found_at": "2026-09-25T18:40:24.078339+00:00",
-   "id": "v1|158338404431|0",
-   "image": "https://i.ebayimg.com/images/g/qw4AAeSwzmFqbmzZ/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 199.95,
-   "shipping": 0.0,
-   "title": "1992 Topps #205 Michael Jordan PSA 9 Bulls HOF NBA Basketball Mint Card",
-   "url": "https://www.ebay.com/itm/158338404431?_skw=Michael+Jordan&hash=item24ddb4504f:g:qw4AAeSwzmFqbmzZ"
-  },
-  {
-   "found_at": "2026-09-25T18:40:24.078385+00:00",
-   "id": "v1|158338403788|0",
-   "image": "https://i.ebayimg.com/images/g/hkoAAeSwDhxqcl1G/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 199.95,
-   "shipping": 0.0,
-   "title": "1992 Fleer #273 Michael Jordan PSA 7 Bulls HOF NBA Basketball Card",
-   "url": "https://www.ebay.com/itm/158338403788?_skw=Michael+Jordan&hash=item24ddb44dcc:g:hkoAAeSwDhxqcl1G"
-  },
-  {
-   "found_at": "2026-09-25T18:40:24.078390+00:00",
-   "id": "v1|158338403799|0",
-   "image": "https://i.ebayimg.com/images/g/To0AAeSwWihqlIVy/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 199.95,
-   "shipping": 0.0,
-   "title": "1992 Fleer #238 Michael Jordan PSA 9 Mint Chicago Bulls HOF NBA Basketball Card",
-   "url": "https://www.ebay.com/itm/158338403799?_skw=Michael+Jordan&hash=item24ddb44dd7:g:To0AAeSwWihqlIVy"
-  },
   {
    "found_at": "2026-09-25T18:57:00.954547+00:00",
    "id": "v1|158338407855|0",
@@ -2806,6 +2765,7 @@
   "v1|307199144116|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|307199178664|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|307199187927|0": "2026-09-25T19:10:29.766172+00:00",
+  "v1|307199189401|0": "2026-09-25T19:11:19.450199+00:00",
   "v1|318914708958|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|318916742785|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|318916829744|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2923,8 +2883,8 @@
   "v1|820171579785|0": "2026-09-25T18:40:23.258016+00:00"
  },
  "usage": {
-  "calls": 7,
-  "credit": 0.432744680851064,
+  "calls": 13,
+  "credit": 0.0,
   "month": "2026-09"
  }
 }
