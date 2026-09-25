@@ -2,17 +2,241 @@
  {
   "path": "/v1/pricing/search",
   "params": {
+   "q": "1990 Fleer - Michael Jordan #26 PSA 9",
+   "listing_type": "auction",
+   "limit": "10"
+  },
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "1990 Fleer - Michael Jordan #26 PSA 9",
+    "listing_type": "auction",
+    "period": "all",
+    "limit": 10,
+    "as_of_date": "2026-09-25"
+   },
+   "results": [
+    {
+     "title": "1990 Fleer Basketball Micheal Jordan #26 PSA 9  GOAT",
+     "price": 71,
+     "date": "2026-08-09T23:35:49Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/p5XFv",
+     "image_url": "https://i.ebayimg.com/images/g/KRUAAeSwpx9qb9Oc/s-l225.jpg"
+    }
+   ],
+   "meta": {
+    "sources": [
+     {
+      "source": "ebay",
+      "count": 1
+     }
+    ],
+    "total_records": 1
+   }
+  }
+ },
+ {
+  "path": "/v1/pricing/search",
+  "params": {
+   "q": "1990 Fleer Michael Jordan 26 PSA 9",
+   "listing_type": "auction",
+   "limit": "10"
+  },
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "1990 Fleer Michael Jordan 26 PSA 9",
+    "listing_type": "auction",
+    "period": "all",
+    "limit": 10,
+    "as_of_date": "2026-09-25"
+   },
+   "results": [
+    {
+     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
+     "price": 105.5,
+     "date": "2026-09-25T01:34:00Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/Hkg8T",
+     "image_url": "https://i.ebayimg.com/images/g/ZTwAAeSwS2xqrFV6/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Michael Jordan 1990-91 Fleer #26 MINT PSA 9",
+     "price": 113.5,
+     "date": "2026-09-24T02:40:01Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/ziBEw",
+     "image_url": "https://i.ebayimg.com/images/g/n50AAeSw53Jqq0UA/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
+     "price": 107.5,
+     "date": "2026-09-24T01:48:30Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/zSYTq",
+     "image_url": "https://i.ebayimg.com/images/g/q9YAAeSwHahqqwXs/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990 FLEER #26 MICHAEL JORDAN PSA 9",
+     "price": 90,
+     "date": "2026-09-23T01:54:48Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/lmB44",
+     "image_url": "https://i.ebayimg.com/images/g/oIoAAeSwdIRqrJlD/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990-91 Fleer - Michael Jordan #26 PSA 9",
+     "price": 107.5,
+     "date": "2026-09-23T01:49:01Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/I13Oa",
+     "image_url": "https://i.ebayimg.com/images/g/B7IAAeSwXYxqrJf~/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1990-91 Fleer - Michael Jordan #26  PSA 9",
+     "price": 152.5,
+     "date": "2026-09-22T18:43:22Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/Snxns",
+     "image_url": "https://i.ebayimg.com/images/g/gFYAAeSwl9hqqY55/s-l225.jpg",
+     "matched_card": {
+      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
+      "name": "Michael Jordan",
+      "number": "26",
+      "set": {
+       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "name": "Base Set",
+       "year": "1990-91",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    }
+   ],
+   "meta": {
+    "sources": [
+     {
+      "source": "ebay",
+      "count": 10
+     }
+    ],
+    "total_records": 10
+   }
+  }
+ },
+ {
+  "path": "/v1/pricing/search",
+  "params": {
    "q": "1990 Fleer Michael Jordan 26",
    "listing_type": "auction",
-   "limit": "20"
+   "period": "3m",
+   "limit": "100"
   },
   "status": 200,
   "body": {
    "query": {
     "q": "1990 Fleer Michael Jordan 26",
     "listing_type": "auction",
-    "period": "all",
-    "limit": 20,
+    "period": "3m",
+    "limit": 100,
     "as_of_date": "2026-09-25"
    },
    "results": [
@@ -153,141 +377,176 @@
     "sources": [
      {
       "source": "ebay",
-      "count": 20
+      "count": 100
      }
     ],
-    "total_records": 20
+    "total_records": 100
    }
   }
  },
  {
   "path": "/v1/pricing/search",
   "params": {
-   "q": "Michael Jordan 1990 Fleer",
-   "limit": "20"
+   "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number",
+   "limit": "5"
   },
   "status": 200,
   "body": {
    "query": {
-    "q": "Michael Jordan 1990 Fleer",
+    "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number",
     "listing_type": "both",
     "period": "all",
-    "limit": 20,
+    "limit": 5,
+    "as_of_date": "2026-09-25"
+   },
+   "results": [],
+   "meta": {
+    "sources": [],
+    "total_records": 0
+   }
+  }
+ },
+ {
+  "path": "/v1/pricing/search",
+  "params": {
+   "q": "2026 Topps Shohei Ohtani 1",
+   "listing_type": "auction",
+   "period": "3m",
+   "limit": "10"
+  },
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "2026 Topps Shohei Ohtani 1",
+    "listing_type": "auction",
+    "period": "3m",
+    "limit": 10,
     "as_of_date": "2026-09-25"
    },
    "results": [
     {
-     "title": "1990-91 Fleer - Michael Jordan #26 Black Line Above Biographical Information",
-     "price": 33.59,
-     "date": "2026-09-25T16:31:43Z",
+     "title": "2026 Topps Chrome Black - Shohei Ohtani #1 Blue Refractor /150",
+     "price": 201.31,
+     "date": "2026-09-25T17:31:48Z",
      "source": "ebay",
      "listing_type": "auction",
-     "url": "https://showme.cards/yxt7r",
-     "image_url": "https://i.ebayimg.com/images/g/-qUAAeSwMaJqrWbe/s-l225.jpg",
+     "url": "https://showme.cards/9xiOY",
+     "image_url": "https://i.ebayimg.com/images/g/8ywAAeSwpwVqrWE2/s-l225.jpg",
+     "parallel_id": "c52d4e53-5cff-4741-8cca-746bbd1d1b27",
+     "parallel_name": "Blue Refractor",
      "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
+      "card_id": "080f87dd-7d8b-441f-8583-08d4256e6f71",
+      "name": "Shohei Ohtani",
+      "number": "1",
       "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "set_id": "8c363c01-715f-4352-9080-295dc9bb9fd5",
        "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
+       "year": "2026",
+       "release": "Topps Chrome Black"
       }
      }
     },
     {
-     "title": "Fleer 1990-91 Michael Jordan Chicago Bulls #26 NBA Basketball Trading Card",
-     "price": 26,
-     "date": "2026-09-25T16:28:18Z",
+     "title": "2026 Topps Chrome Black - Shohei Ohtani #1 Green Refractor /99",
+     "price": 180.27,
+     "date": "2026-09-25T17:30:15Z",
      "source": "ebay",
      "listing_type": "auction",
-     "url": "https://showme.cards/rdrO0",
-     "image_url": "https://i.ebayimg.com/images/g/e~MAAeSwdo1qrWZ4/s-l225.jpg",
+     "url": "https://showme.cards/IAXeR",
+     "image_url": "https://i.ebayimg.com/images/g/AZcAAeSwnJNqrWCw/s-l225.jpg",
+     "parallel_id": "f7e1ee1f-e329-47a1-9007-8e2694ccc44e",
+     "parallel_name": "Green Refractor",
      "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
+      "card_id": "080f87dd-7d8b-441f-8583-08d4256e6f71",
+      "name": "Shohei Ohtani",
+      "number": "1",
       "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "set_id": "8c363c01-715f-4352-9080-295dc9bb9fd5",
        "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
+       "year": "2026",
+       "release": "Topps Chrome Black"
       }
      }
     },
     {
-     "title": "1990 FLEER 26 MICHAEL JORDAN PSA 8",
-     "price": 125,
-     "date": "2026-09-25T10:28:40.855503Z",
+     "title": "2026 Topps Chrome - Shohei Ohtani #1 X-Fractor",
+     "price": 16.47,
+     "date": "2026-09-25T15:40:03Z",
      "source": "ebay",
-     "listing_type": "fixed",
-     "url": "https://showme.cards/CJmrc",
-     "image_url": "https://i.ebayimg.com/images/g/6CQAAOSwVVpm3ijl/s-l225.jpg"
-    },
-    {
-     "title": "1990 Fleer Michael Jordan All-Stars #5",
-     "price": 30,
-     "date": "2026-09-25T10:28:40.855503Z",
-     "source": "ebay",
-     "listing_type": "fixed",
-     "url": "https://showme.cards/E8yMg",
-     "image_url": "https://i.ebayimg.com/images/g/clIAAeSwtwVqmNGO/s-l225.jpg",
+     "listing_type": "auction",
+     "url": "https://showme.cards/kwq6c",
+     "image_url": "https://i.ebayimg.com/images/g/FPkAAeSwdb9qrVsg/s-l225.jpg",
+     "parallel_id": "b6ae037f-3cac-4773-b230-2c58cb9558a3",
+     "parallel_name": "X-Fractor",
      "matched_card": {
-      "card_id": "8b16e2ff-0341-4544-a71c-efdaa781a72a",
-      "name": "Michael Jordan",
-      "number": "5",
+      "card_id": "a6e8628b-6257-41af-9c40-2269819bc473",
+      "name": "Shohei Ohtani",
+      "number": "1",
       "set": {
-       "set_id": "ac1b6403-d329-4543-96fb-02b075c00c76",
-       "name": "All-Stars",
-       "year": "1990-91",
-       "release": "Fleer"
+       "set_id": "7e80a9fb-8f5b-4c91-bd08-bd6aef804fde",
+       "name": "Base Set",
+       "year": "2026",
+       "release": "Topps Chrome"
       }
      }
     },
     {
-     "title": "1990 Fleer Michael Jordan #26 \ud83d\udc8e PSA 9 MINT \ud83d\udd25",
-     "price": 109.99,
-     "date": "2026-09-25T10:28:40.855503Z",
+     "title": "Topps 2026 Series 1 8-Bit Ballers Shohei Ohtani Dodgers #8B-7 Insert",
+     "price": 1,
+     "date": "2026-09-25T14:42:25Z",
      "source": "ebay",
-     "listing_type": "fixed",
-     "url": "https://showme.cards/Ngop2",
-     "image_url": "https://i.ebayimg.com/images/g/r6AAAeSw7Slqmvig/s-l225.jpg",
+     "listing_type": "auction",
+     "url": "https://showme.cards/f4R8L",
+     "image_url": "https://i.ebayimg.com/images/g/c2MAAeSw2aZqpBMx/s-l225.jpg",
      "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
+      "card_id": "55ec528d-e80f-4d3b-ae92-426c06f2e43e",
+      "name": "Shohei Ohtani",
+      "number": "8B-7",
       "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
+       "set_id": "2e6482cb-34e9-4189-ad90-d4d90faae1d0",
+       "name": "8-Bit Ballers",
+       "year": "2026",
+       "release": "Topps"
       }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
     {
-     "title": "1990-91  Fleer #26   Michael Jordan    Chicago Bulls     HOF  GOAT",
-     "price": 11,
-     "date": "2026-09-25T10:28:40.855503Z",
+     "title": "2026 TOPPS SERIES 1 #TOG-1 SHOHEI OHTANI TITANS OF THE GAME",
+     "price": 1.6,
+     "date": "2026-09-25T03:02:00Z",
      "source": "ebay",
-     "listing_type": "fixed",
-     "url": "https://showme.cards/WLS1l",
-     "image_url": "https://i.ebayimg.com/images/g/reMAAeSwaTFqtItG/s-l225.jpg",
+     "listing_type": "auction",
+     "url": "https://showme.cards/cbA3j",
+     "image_url": "https://i.ebayimg.com/images/g/8NQAAeSw-MtqmOEp/s-l225.jpg",
      "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
+      "card_id": "63ed5295-5d08-4714-bc0c-50bd2f71c864",
+      "name": "Shohei Ohtani",
+      "number": "TOG-1",
       "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
+       "set_id": "4210eae6-2568-4868-a05a-aced6dbf30e2",
+       "name": "Titans of the Game",
+       "year": "2026",
+       "release": "Topps"
+      }
+     }
+    },
+    {
+     "title": "2026 Topps Chrome #1 Shohei Ohtani DODGERS",
+     "price": 3.25,
+     "date": "2026-09-25T02:25:31Z",
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/VWQmq",
+     "image_url": "https://i.ebayimg.com/images/g/UOEAAeSwLB5qrKFf/s-l225.jpg",
+     "matched_card": {
+      "card_id": "a6e8628b-6257-41af-9c40-2269819bc473",
+      "name": "Shohei Ohtani",
+      "number": "1",
+      "set": {
+       "set_id": "7e80a9fb-8f5b-4c91-bd08-bd6aef804fde",
        "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
+       "year": "2026",
+       "release": "Topps Chrome"
       }
      }
     }
@@ -296,59 +555,34 @@
     "sources": [
      {
       "source": "ebay",
-      "count": 20
+      "count": 10
      }
     ],
-    "total_records": 20
+    "total_records": 10
    }
-  }
- },
- {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "Jordan",
-   "limit": "5"
-  },
-  "status": 500,
-  "body": {
-   "error": "Internal server error",
-   "code": "INTERNAL_ERROR"
-  }
- },
- {
-  "path": "/v1/autocomplete/cards",
-  "params": {
-   "q": "1990 Fleer Michael Jordan"
-  },
-  "status": 200,
-  "body": {
-   "suggestions": []
   }
  },
  {
   "path": "/v1/catalog/search",
   "params": {
-   "q": "1990 Fleer Michael Jordan 26"
+   "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number"
   },
   "status": 200,
   "body": {
-   "results": [
-    {
-     "type": "card",
-     "id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-     "name": "Michael Jordan",
-     "relevance": 49.416,
-     "year": "1990-91",
-     "setName": "Base Set",
-     "releaseName": "Fleer",
-     "manufacturerName": "Fleer",
-     "segmentName": "Basketball",
-     "cardNumber": "26"
-    }
-   ],
-   "total_count": 1,
+   "results": [],
+   "total_count": 0,
    "skip": 0,
-   "take": 20
+   "take": 20,
+   "messages": [
+    {
+     "type": "warning",
+     "message": "search limited to first 10 terms"
+    },
+    {
+     "type": "info",
+     "message": "no results with 'topps' as a manufacturer filter; showing broader matches"
+    }
+   ]
   }
  }
 ]
