@@ -1,5 +1,13 @@
 {
  "comp_cache": {
+  "1996 Kobe Bryant 6 pink": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
+  },
+  "1996 fleer metal Kobe Bryant 137 PSA 8": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
+  },
   "1996 topps Michael Jordan 139 PSA 9": {
    "at": "2026-09-25T19:29:02.367238+00:00",
    "mv": {
@@ -8,6 +16,14 @@
     "median": 49.035
    }
   },
+  "1996 ultra Kobe Bryant 52 PSA 7": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
+  },
+  "2018 panini donruss Shohei Ohtani 281": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
+  },
   "2018 topps update Shohei Ohtani US1 PSA 8": {
    "at": "2026-09-25T19:29:02.367238+00:00",
    "mv": {
@@ -15,6 +31,10 @@
     "label": "2018 Topps Update Shohei Ohtani #US1 PSA 8",
     "median": 119.0
    }
+  },
+  "2021 topps Shohei Ohtani 324": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
   },
   "2021 topps Shohei Ohtani 742": {
    "at": "2026-09-25T19:29:02.367238+00:00",
@@ -39,47 +59,45 @@
   "2026 topps inception Victor Wembanyama": {
    "at": "2026-09-25T19:29:02.367238+00:00",
    "mv": null
+  },
+  "topps Shohei Ohtani refractor gold": {
+   "at": "2026-09-25T19:30:35.252865+00:00",
+   "mv": null
   }
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-25 19:29:03] eBay: 50 listings for Michael Jordan",
-  "[2026-09-25 19:29:03] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-25 19:29:04] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-25 19:29:05] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-25 19:29:05] 21 new listings queued, 255 in queue",
-  "[2026-09-25 19:29:32] pre-checked 40 on eBay; dropped 22 priced like everyone else",
-  "[2026-09-25 19:29:32] CardSight checks allowed this run: 6 (used 25/700 this month)",
-  "[2026-09-25 19:29:32] checking (21% of other asks): 2026 Topps Inception - Victor Wembanyama /125  ->  q=\"2026 topps inception Victor Wembanyama\"",
-  "[2026-09-25 19:29:33]   no matching comps (grade None, #None); 4 results, top: ['? #?|base|raw ', 'Topps Inception #34|base|raw ', 'Topps Inception #34|base|raw ', 'Topps Inception #34|base|raw ']",
-  "[2026-09-25 19:29:33] no reliable comps: 2026 Topps Inception - Victor Wembanyama /125",
-  "[2026-09-25 19:29:33] checking (25% of other asks): 2018 Topps Update #US1 Shohei Ohtani Angels RC Rookie PSA 8 NM-MT  ->  q=\"2018 topps update Shohei Ohtani US1 PSA 8\"",
-  "[2026-09-25 19:29:36] $131.50 vs $119.00 (10 comps): 2018 Topps Update #US1 Shohei Ohtani Angels RC Rookie PSA 8 ",
-  "[2026-09-25 19:29:36] checking (55% of other asks): Topps 2026 Series 1 Shohei Ohtani Stars of MLB SMLB-9 PSA 10 Dodgers  ->  q=\"2026 topps Shohei Ohtani PSA 10\"",
-  "[2026-09-25 19:29:37] $98.48 vs $94.00 (16 comps): Topps 2026 Series 1 Shohei Ohtani Stars of MLB SMLB-9 PSA 10",
-  "[2026-09-25 19:29:37] checking (55% of other asks): 2023-24 Panini Prizm Monopoly Victor Wembanyama Red Icons Pattern Rook  ->  q=\"2023 panini prizm Victor Wembanyama 81 red\"",
-  "[2026-09-25 19:29:41] $189.99 vs $120.50 (3 comps): 2023-24 Panini Prizm Monopoly Victor Wembanyama Red Icons Pa",
-  "[2026-09-25 19:29:41] checking (64% of other asks): 2021 Topps Project 70 1973 Shohei Ohtani by Infinite #742  ->  q=\"2021 topps Shohei Ohtani 742\"",
-  "[2026-09-25 19:29:41]   no matching comps (grade None, #742); 11 results, top: ['Topps Project70 #742|base|raw ', '? #?|base|raw ', '? #?|base|raw ', 'Topps Project70 #742|base|raw ']",
-  "[2026-09-25 19:29:41] no reliable comps: 2021 Topps Project 70 1973 Shohei Ohtani by Infinite #742",
-  "[2026-09-25 19:29:41] checking (65% of other asks): Michael Jordan 1996 Topps #139 Psa 9  ->  q=\"1996 topps Michael Jordan 139 PSA 9\"",
-  "[2026-09-25 19:29:42] $81.00 vs $49.03 (24 comps): Michael Jordan 1996 Topps #139 Psa 9",
-  "[2026-09-25 19:29:43] sent TEST alert: -5% under comps - Shohei Ohtani",
-  "[2026-09-25 19:29:43] done: 0 deal alert(s) sent"
+  "[2026-09-25 19:30:37] eBay: 50 listings for Michael Jordan",
+  "[2026-09-25 19:30:39] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-25 19:30:40] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-25 19:30:41] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-25 19:30:41] 0 new listings queued, 227 in queue",
+  "[2026-09-25 19:31:13] pre-checked 40 on eBay; dropped 15 priced like everyone else",
+  "[2026-09-25 19:31:13] CardSight checks allowed this run: 6 (used 31/700 this month)",
+  "[2026-09-25 19:31:13] checking (40% of other asks): Shohei Ohtani RARE GOLD REFRACTOR INVESTMENT CARD TOPPS DODGERS MINT 5  ->  q=\"topps Shohei Ohtani refractor gold\"",
+  "[2026-09-25 19:31:20]   no matching comps (grade None, #None); 100 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
+  "[2026-09-25 19:31:20] no reliable comps: Shohei Ohtani RARE GOLD REFRACTOR INVESTMENT CARD TOPPS DODGERS MINT 5",
+  "[2026-09-25 19:31:20] checking (69% of other asks): 1996 Collector's Edge Rookie Rage Pink Kobe Bryant #6 RC HOF e6p  ->  q=\"1996 Kobe Bryant 6 pink\"",
+  "[2026-09-25 19:31:21]   no matching comps (grade None, #6); 1 results, top: ['? #?|base|raw ']",
+  "[2026-09-25 19:31:21] no reliable comps: 1996 Collector's Edge Rookie Rage Pink Kobe Bryant #6 RC HOF e6p",
+  "[2026-09-25 19:31:21] checking (74% of other asks): 2018 Panini Donruss - Wrapper Redemption Rated Rookie Shohei Ohtani #2  ->  q=\"2018 panini donruss Shohei Ohtani 281\"",
+  "[2026-09-25 19:31:26]   no matching comps (grade None, #281); 71 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
+  "[2026-09-25 19:31:26] no reliable comps: 2018 Panini Donruss - Wrapper Redemption Rated Rookie Shohei Ohtani #2",
+  "[2026-09-25 19:31:26] checking (76% of other asks): 1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8 L  ->  q=\"1996 fleer metal Kobe Bryant 137 PSA 8\"",
+  "[2026-09-25 19:31:27]   no matching comps (grade ('PSA', '8'), #137); 7 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']",
+  "[2026-09-25 19:31:27] no reliable comps: 1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8 L",
+  "[2026-09-25 19:31:27] checking (76% of other asks): 1996 ULTRA #52 KOBE BRYANT ROOKIE RC PSA 7  ->  q=\"1996 ultra Kobe Bryant 52 PSA 7\"",
+  "[2026-09-25 19:31:29]   only 1 comps for matched card",
+  "[2026-09-25 19:31:29] no reliable comps: 1996 ULTRA #52 KOBE BRYANT ROOKIE RC PSA 7",
+  "[2026-09-25 19:31:29] checking (77% of other asks): 2021 Topps Project 70 Shohei Ohtani by DJ Skee #324  ->  q=\"2021 topps Shohei Ohtani 324\"",
+  "[2026-09-25 19:31:29]   no matching comps (grade None, #324); 14 results, top: ['Topps Project70 #324|base|raw ', '? #?|base|raw ', '? #?|base|raw ', 'Topps Project70 #324|base|raw ']",
+  "[2026-09-25 19:31:29] no reliable comps: 2021 Topps Project 70 Shohei Ohtani by DJ Skee #324",
+  "[2026-09-25 19:31:30] sent TEST alert: nothing priced",
+  "[2026-09-25 19:31:30] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
-   "found_at": "2026-09-25T19:29:03.841493+00:00",
-   "id": "v1|336812898062|0",
-   "image": "https://i.ebayimg.com/images/g/~-UAAeSw9tNqtsYC/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 63.0,
-   "query": "2018 panini donruss Shohei Ohtani 281",
-   "shipping": 0.0,
-   "title": "2018 Panini Donruss - Wrapper Redemption Rated Rookie Shohei Ohtani #281 English",
-   "url": "https://www.ebay.com/itm/336812898062?_skw=Shohei+Ohtani&hash=item4e6b9cf70e:g:~-UAAeSw9tNqtsYC"
-  },
-  {
+   "ask_ratio": 0.7713333333333333,
    "found_at": "2026-09-25T19:10:31.315793+00:00",
    "id": "v1|117431304889|0",
    "image": "https://i.ebayimg.com/images/g/i2QAAeSwJiVqtsWs/s-l225.jpg",
@@ -91,347 +109,7 @@
    "url": "https://www.ebay.com/itm/117431304889?_skw=Shohei+Ohtani&hash=item1b577382b9:g:i2QAAeSwJiVqtsWs"
   },
   {
-   "found_at": "2026-09-25T19:29:03.841488+00:00",
-   "id": "v1|257765565103|0",
-   "image": "https://i.ebayimg.com/images/g/L2EAAeSwtExqtsfA/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 144.99,
-   "query": "2021 topps Shohei Ohtani 324",
-   "shipping": 5.0,
-   "title": "2021 Topps Project 70 Shohei Ohtani by DJ Skee #324",
-   "url": "https://www.ebay.com/itm/257765565103?_skw=Shohei+Ohtani&hash=item3c040662af:g:L2EAAeSwtExqtsfA"
-  },
-  {
-   "found_at": "2026-09-25T19:04:18.178465+00:00",
-   "id": "v1|128098673657|0",
-   "image": "https://i.ebayimg.com/images/g/vTAAAeSwHgdqtsOB/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 174.99,
-   "query": "2024 topps chrome Shohei Ohtani 1 refractor",
-   "shipping": 5.99,
-   "title": "Shohei Ohtani 2024 Topps Chrome #1 Raywave Refractor Dodgers",
-   "url": "https://www.ebay.com/itm/128098673657?_skw=Shohei+Ohtani&hash=item1dd346a3f9:g:vTAAAeSwHgdqtsOB"
-  },
-  {
-   "found_at": "2026-09-25T19:29:03.841495+00:00",
-   "id": "v1|318917730611|0",
-   "image": "https://i.ebayimg.com/images/g/K~gAAeSwtyZqtsZd/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 200.0,
-   "query": "2026 topps heritage Shohei Ohtani 277 refractor blue PSA 9",
-   "shipping": 9.99,
-   "title": "Topps 2026 Topps Heritage Shohei Ohtani Light Blue Sparkle Refractor #277 PSA 9",
-   "url": "https://www.ebay.com/itm/318917730611?_skw=Shohei+Ohtani&hash=item4a40fa6133:g:K~gAAeSwtyZqtsZd"
-  },
-  {
-   "found_at": "2026-09-25T19:29:03.841477+00:00",
-   "id": "v1|117431321920|0",
-   "image": "https://i.ebayimg.com/images/g/DWcAAeSwIF5qtse~/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 124.99,
-   "query": "2022 topps chrome Shohei Ohtani RL-4",
-   "shipping": 0.0,
-   "title": "2022 Topps Chrome Ben Baller Edition Shohei Ohtani Ridin' Low #RL-4 Angels",
-   "url": "https://www.ebay.com/itm/117431321920?_skw=Shohei+Ohtani&hash=item1b5773c540:g:DWcAAeSwIF5qtse~"
-  },
-  {
-   "found_at": "2026-09-25T19:29:03.841441+00:00",
-   "id": "v1|117431326490|0",
-   "image": "https://i.ebayimg.com/images/g/PDcAAeSwaTFqtspZ/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 108.0,
-   "query": "2025 bowman chrome Shohei Ohtani 100 purple",
-   "shipping": 0.0,
-   "title": "Shohei Ohtani 2025 Bowman Chrome Purple #100 /250 Los Angeles Dodgers",
-   "url": "https://www.ebay.com/itm/117431326490?_skw=Shohei+Ohtani&hash=item1b5773d71a:g:PDcAAeSwaTFqtspZ"
-  },
-  {
-   "found_at": "2026-09-25T19:29:03.289426+00:00",
-   "id": "v1|257765573037|0",
-   "image": "https://i.ebayimg.com/images/g/PmwAAeSwsilqtskY/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 69.25,
-   "query": "1989 fleer Michael Jordan 3 BGS 6",
-   "shipping": 4.99,
-   "title": "1989-90 Fleer All-Stars Stickers Michael Jordan #3 BGS 6 HOF 11t8",
-   "url": "https://www.ebay.com/itm/257765573037?_skw=Michael+Jordan&hash=item3c040681ad:g:PmwAAeSwsilqtskY"
-  },
-  {
-   "found_at": "2026-09-25T19:10:32.351165+00:00",
-   "id": "v1|407245522611|0",
-   "image": "https://i.ebayimg.com/images/g/Gm8AAeSwJOVqtsUR/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 134.99,
-   "query": "1996 fleer ultra Kobe Bryant 3 SGC 8",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Ultra Kobe Bryant All-Rookie #3 RC SGC 8 NM-MT Lakers",
-   "url": "https://www.ebay.com/itm/407245522611?_skw=Kobe+Bryant&hash=item5ed1b986b3:g:Gm8AAeSwJOVqtsUR"
-  },
-  {
-   "found_at": "2026-09-25T19:10:31.792831+00:00",
-   "id": "v1|307199187927|0",
-   "image": "https://i.ebayimg.com/images/g/Ha4AAeSwrwFqtsV3/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 83.99,
-   "query": "2025 topps now Victor Wembanyama 127 PSA 10",
-   "shipping": 5.99,
-   "title": "Victor Wembanyama 2025-26 Topps Now #127 2nd Youngest With 500 Blocks PSA 10",
-   "url": "https://www.ebay.com/itm/307199187927?_skw=Victor+Wembanyama&hash=item47867f9bd7:g:Ha4AAeSwrwFqtsV3"
-  },
-  {
-   "found_at": "2026-09-25T19:10:31.315795+00:00",
-   "id": "v1|318917707087|0",
-   "image": "https://i.ebayimg.com/images/g/BUUAAeSwH0hqtsTZ/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 150.0,
-   "query": "2019 panini donruss Shohei Ohtani 164 pink holo",
-   "shipping": 9.99,
-   "title": "Panini 2019 Donruss Shohei Ohtani Holo Pink #164 Los Angeles Angels MLB",
-   "url": "https://www.ebay.com/itm/318917707087?_skw=Shohei+Ohtani&hash=item4a40fa054f:g:BUUAAeSwH0hqtsTZ"
-  },
-  {
-   "found_at": "2026-09-25T19:10:30.719987+00:00",
-   "id": "v1|257765541726|0",
-   "image": "https://i.ebayimg.com/images/g/QUYAAeSwtUBqtsWV/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 90.0,
-   "query": "1998 upper deck Michael Jordan J12 BGS 8.5",
-   "shipping": 0.0,
-   "title": "1998-99 Upper Deck Ovation Jordan Rules #J12 Michael Jordan Bulls BGS 8.5",
-   "url": "https://www.ebay.com/itm/257765541726?_skw=Michael+Jordan&hash=item3c0406075e:g:QUYAAeSwtUBqtsWV"
-  },
-  {
-   "found_at": "2026-09-25T19:04:18.178462+00:00",
-   "id": "v1|237090641170|0",
-   "image": "https://i.ebayimg.com/images/g/o5IAAeSwqDxqtsN6/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 55.99,
-   "query": "topps Shohei Ohtani refractor gold",
-   "shipping": 0.0,
-   "title": "Shohei Ohtani RARE GOLD REFRACTOR INVESTMENT CARD TOPPS DODGERS MINT 50/50 MVP",
-   "url": "https://www.ebay.com/itm/237090641170?_skw=Shohei+Ohtani&hash=item3733b41512:g:o5IAAeSwqDxqtsN6"
-  },
-  {
-   "found_at": "2026-09-25T19:04:18.178459+00:00",
-   "id": "v1|327374372815|0",
-   "image": "https://i.ebayimg.com/images/g/EmEAAeSwuyVqtsNP/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 189.0,
-   "query": "2024 topps inception Shohei Ohtani PSA 10",
-   "shipping": 8.0,
-   "title": "2024 Topps Inception Shohei Ohtani PSA 10",
-   "url": "https://www.ebay.com/itm/327374372815?_skw=Shohei+Ohtani&hash=item4c39087fcf:g:EmEAAeSwuyVqtsNP"
-  },
-  {
-   "found_at": "2026-09-25T19:04:18.178456+00:00",
-   "id": "v1|318917702474|0",
-   "image": "https://i.ebayimg.com/images/g/8kcAAeSw0WBqtsQm/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 150.0,
-   "query": "2019 panini donruss Shohei Ohtani AA4 pink PSA 9",
-   "shipping": 9.99,
-   "title": "Panini 2019 Donruss Shohei Ohtani Action All-Stars Pink Firework #AA4 PSA 9",
-   "url": "https://www.ebay.com/itm/318917702474?_skw=Shohei+Ohtani&hash=item4a40f9f34a:g:8kcAAeSw0WBqtsQm"
-  },
-  {
-   "found_at": "2026-09-25T19:04:18.178439+00:00",
-   "id": "v1|407245522610|0",
-   "image": "",
-   "player": "Shohei Ohtani",
-   "price": 69.99,
-   "query": "2025 topps Shohei Ohtani SMLB-10 BGS 9.5",
-   "shipping": 0.0,
-   "title": "2025 Topps Shohei Ohtani Stars of MLB #SMLB-10 BGS 9.5 GEM MINT Dodgers",
-   "url": "https://www.ebay.com/itm/407245522610?_skw=Shohei+Ohtani&hash=item5ed1b986b2:i:407245522610"
-  },
-  {
-   "found_at": "2026-09-25T19:04:17.638049+00:00",
-   "id": "v1|117431293743|0",
-   "image": "https://i.ebayimg.com/images/g/wiQAAeSwrWJqtsMl/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 119.99,
-   "query": "1992 topps stadium club stadium Michael Jordan 1 PSA 8",
-   "shipping": 5.99,
-   "title": "Michael Jordan 1992-93 Topps Stadium Club #1 Dunk PSA 8 Bulls",
-   "url": "https://www.ebay.com/itm/117431293743?_skw=Michael+Jordan&hash=item1b5773572f:g:wiQAAeSwrWJqtsMl"
-  },
-  {
-   "found_at": "2026-09-25T19:04:17.638046+00:00",
-   "id": "v1|298706858237|0",
-   "image": "https://i.ebayimg.com/images/g/BtwAAeSw3cFqtsPN/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 65.0,
-   "query": "1992 upper deck Michael Jordan 23 PSA 8",
-   "shipping": 0.0,
-   "title": "Upper Deck 1992-93 Michael Jordan #23 Chicago Bulls NBA Basketball Card PSA 8",
-   "url": "https://www.ebay.com/itm/298706858237?_skw=Michael+Jordan&hash=item458c50f0fd:g:BtwAAeSw3cFqtsPN"
-  },
-  {
-   "found_at": "2026-09-25T19:04:17.638043+00:00",
-   "id": "v1|298706858635|0",
-   "image": "https://i.ebayimg.com/images/g/m04AAeSwuiRqtsR3/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 76.0,
-   "query": "1993 Michael Jordan TD2 PSA 5",
-   "shipping": 5.99,
-   "title": "1993 UD INTERNATIONAL TRIPLE DOUBLE GERMAN #TD2 MICHAEL JORDAN PSA 5",
-   "url": "https://www.ebay.com/itm/298706858635?_skw=Michael+Jordan&hash=item458c50f28b:g:m04AAeSwuiRqtsR3"
-  },
-  {
-   "found_at": "2026-09-25T19:04:17.638035+00:00",
-   "id": "v1|407195518410|0",
-   "image": "https://i.ebayimg.com/images/g/EUMAAeSw2ZtqnFTJ/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 100.0,
-   "query": "1992 fleer Michael Jordan 238 PSA 9",
-   "shipping": 0.0,
-   "title": "Michael Jordan 1992-93 Fleer #238 LL (PSA 9)",
-   "url": "https://www.ebay.com/itm/407195518410?_skw=Michael+Jordan&hash=item5ecebe85ca:g:EUMAAeSw2ZtqnFTJ"
-  },
-  {
-   "found_at": "2026-09-25T19:04:17.638015+00:00",
-   "id": "v1|117429587545|0",
-   "image": "https://i.ebayimg.com/images/g/IZAAAeSwaSpqtXHt/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 149.99,
-   "query": "1998 upper deck Michael Jordan QMM2",
-   "shipping": 4.99,
-   "title": "1998-99 Micheal Jordan Upper Deck -Mj23 Bronze Quantum Die-Cut #QMM2 /2300 \ud83d\udc3a\ud83d\udd25",
-   "url": "https://www.ebay.com/itm/117429587545?_skw=Michael+Jordan&hash=item1b57594e59:g:IZAAAeSwaSpqtXHt"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627593+00:00",
-   "id": "v1|267795278191|0",
-   "image": "https://i.ebayimg.com/images/g/SmwAAeSwSgtqtlDG/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 99.99,
-   "query": "2001 upper deck Kobe Bryant 179 PSA 10",
-   "shipping": 6.25,
-   "title": "2001 UPPER DECK #179 KOBE BRYANT LAKERS HOF PSA 10",
-   "url": "https://www.ebay.com/itm/267795278191?_skw=Kobe+Bryant&hash=item3e59d7a96f:g:SmwAAeSwSgtqtlDG"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627591+00:00",
-   "id": "v1|407244651800|0",
-   "image": "https://i.ebayimg.com/images/g/9YEAAeSwy5Zqtl0-/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 59.99,
-   "query": "2012 panini Kobe Bryant 21 PSA 9",
-   "shipping": 0.0,
-   "title": "2012 Panini Prestige #21 Kobe Bryant PSA 9",
-   "url": "https://www.ebay.com/itm/407244651800?_skw=Kobe+Bryant&hash=item5ed1ac3d18:g:9YEAAeSwy5Zqtl0-"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627588+00:00",
-   "id": "v1|267791229707|0",
-   "image": "https://i.ebayimg.com/images/g/TfEAAeSwHahqsKvQ/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 69.99,
-   "query": "1997 metal Kobe Bryant 86",
-   "shipping": 0.0,
-   "title": "1997-98 Metal Universe Championship Preview - Kobe Bryant #86",
-   "url": "https://www.ebay.com/itm/267791229707?_skw=Kobe+Bryant&hash=item3e5999e30b:g:TfEAAeSwHahqsKvQ"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627585+00:00",
-   "id": "v1|257761679401|0",
-   "image": "https://i.ebayimg.com/images/g/yR0AAeSwVD9qtF2Y/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 129.99,
-   "query": "1996 fleer metal Kobe Bryant 181",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Metal - Kobe Bryant #181 Rookie RC",
-   "url": "https://www.ebay.com/itm/257761679401?_skw=Kobe+Bryant&hash=item3c03cb1829:g:yR0AAeSwVD9qtF2Y"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627581+00:00",
-   "id": "v1|257755882590|0",
-   "image": "https://i.ebayimg.com/images/g/pBgAAeSwSkFqsLdb/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 69.99,
-   "query": "1996 skybox Kobe Bryant 142",
-   "shipping": 0.0,
-   "title": "1996-97 Skybox Z Force - Kobe Bryant #142 Rookie RC",
-   "url": "https://www.ebay.com/itm/257755882590?_skw=Kobe+Bryant&hash=item3c0372a45e:g:pBgAAeSwSkFqsLdb"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627578+00:00",
-   "id": "v1|298706129569|0",
-   "image": "https://i.ebayimg.com/images/g/PWkAAeSwYxRqtnDa/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 75.0,
-   "query": "1996 ultra Kobe Bryant 52 PSA 7",
-   "shipping": 5.99,
-   "title": "1996 ULTRA #52 KOBE BRYANT ROOKIE RC PSA 7",
-   "url": "https://www.ebay.com/itm/298706129569?_skw=Kobe+Bryant&hash=item458c45d2a1:g:PWkAAeSwYxRqtnDa"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627575+00:00",
-   "id": "v1|128098332569|0",
-   "image": "https://i.ebayimg.com/images/g/zqYAAeSw1xZqtoIP/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 110.0,
-   "query": "1996 upper deck Kobe Bryant 19",
-   "shipping": 5.27,
-   "title": "1996-97 Upper Deck UD3 Kobe Bryant #19 Hardwood Prospects Rookie RC HOF MINT",
-   "url": "https://www.ebay.com/itm/128098332569?_skw=Kobe+Bryant&hash=item1dd3416f99:g:zqYAAeSw1xZqtoIP"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627573+00:00",
-   "id": "v1|336812518199|0",
-   "image": "https://i.ebayimg.com/images/g/tyMAAeSw-YBqtoUC/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 146.95,
-   "query": "1996 Kobe Bryant 6 pink",
-   "shipping": 4.99,
-   "title": "1996 Collector's Edge Rookie Rage Pink Kobe Bryant #6 RC HOF e6p",
-   "url": "https://www.ebay.com/itm/336812518199?_skw=Kobe+Bryant&hash=item4e6b972b37:g:tyMAAeSw-YBqtoUC"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627568+00:00",
-   "id": "v1|407245080710|0",
-   "image": "https://i.ebayimg.com/images/g/c6wAAeSwcS9qto31/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 75.0,
-   "query": "1996 upper deck Kobe Bryant 58 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Upper Deck - Kobe Bryant #58 (RC) PSA 8 NM-MT",
-   "url": "https://www.ebay.com/itm/407245080710?_skw=Kobe+Bryant&hash=item5ed1b2c886:g:c6wAAeSwcS9qto31"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627565+00:00",
-   "id": "v1|366691775141|0",
-   "image": "https://i.ebayimg.com/images/g/X~cAAeSw3cFqtpOp/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 90.0,
-   "query": "2006 topps finest Kobe Bryant 25 PSA 8",
-   "shipping": 0.0,
-   "title": "Topps Finest 2006-07 Kobe Bryant #25 Lakers Graded NBA Basketball Card PSA 8",
-   "url": "https://www.ebay.com/itm/366691775141?_skw=Kobe+Bryant&hash=item55608872a5:g:X~cAAeSw3cFqtpOp"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627562+00:00",
-   "id": "v1|336812609981|0",
-   "image": "https://i.ebayimg.com/images/g/KZcAAeSw4cdqtpS9/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 120.0,
-   "query": "1998 Kobe Bryant BGS 8",
-   "shipping": 4.99,
-   "title": "1998-99 Collector's Edge Authentic Kobe Bryant (Yellow Jersey) BGS 8 HOF 0q3",
-   "url": "https://www.ebay.com/itm/336812609981?_skw=Kobe+Bryant&hash=item4e6b9891bd:g:KZcAAeSw4cdqtpS9"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627560+00:00",
-   "id": "v1|407245160646|0",
-   "image": "https://i.ebayimg.com/images/g/ksMAAeSwx-5qtpRm/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 55.0,
-   "query": "2001 fleer skybox hoops Kobe Bryant 27",
-   "shipping": 0.0,
-   "title": "Fleer/SkyBox 2001-02 NBA Hoops Hot Prospects Kobe Bryant #27 Lakers Base",
-   "url": "https://www.ebay.com/itm/407245160646?_skw=Kobe+Bryant&hash=item5ed1b400c6:g:ksMAAeSwx-5qtpRm"
-  },
-  {
+   "ask_ratio": 0.7758620689655172,
    "found_at": "2026-09-25T18:57:02.627555+00:00",
    "id": "v1|168720398876|0",
    "image": "https://i.ebayimg.com/images/g/PSgAAeSw~i1qtpQ6/s-l225.jpg",
@@ -443,6 +121,187 @@
    "url": "https://www.ebay.com/itm/168720398876?_skw=Kobe+Bryant&hash=item274884fa1c:g:PSgAAeSw~i1qtpQ6"
   },
   {
+   "ask_ratio": 0.7911760982402835,
+   "found_at": "2026-09-25T18:57:02.627562+00:00",
+   "id": "v1|336812609981|0",
+   "image": "https://i.ebayimg.com/images/g/KZcAAeSw4cdqtpS9/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 120.0,
+   "query": "1998 Kobe Bryant BGS 8",
+   "shipping": 4.99,
+   "title": "1998-99 Collector's Edge Authentic Kobe Bryant (Yellow Jersey) BGS 8 HOF 0q3",
+   "url": "https://www.ebay.com/itm/336812609981?_skw=Kobe+Bryant&hash=item4e6b9891bd:g:KZcAAeSw4cdqtpS9"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:29:03.841495+00:00",
+   "id": "v1|318917730611|0",
+   "image": "https://i.ebayimg.com/images/g/K~gAAeSwtyZqtsZd/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 200.0,
+   "query": "2026 topps heritage Shohei Ohtani 277 refractor blue PSA 9",
+   "shipping": 9.99,
+   "title": "Topps 2026 Topps Heritage Shohei Ohtani Light Blue Sparkle Refractor #277 PSA 9",
+   "url": "https://www.ebay.com/itm/318917730611?_skw=Shohei+Ohtani&hash=item4a40fa6133:g:K~gAAeSwtyZqtsZd"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:29:03.841477+00:00",
+   "id": "v1|117431321920|0",
+   "image": "https://i.ebayimg.com/images/g/DWcAAeSwIF5qtse~/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 124.99,
+   "query": "2022 topps chrome Shohei Ohtani RL-4",
+   "shipping": 0.0,
+   "title": "2022 Topps Chrome Ben Baller Edition Shohei Ohtani Ridin' Low #RL-4 Angels",
+   "url": "https://www.ebay.com/itm/117431321920?_skw=Shohei+Ohtani&hash=item1b5773c540:g:DWcAAeSwIF5qtse~"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:29:03.841441+00:00",
+   "id": "v1|117431326490|0",
+   "image": "https://i.ebayimg.com/images/g/PDcAAeSwaTFqtspZ/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 108.0,
+   "query": "2025 bowman chrome Shohei Ohtani 100 purple",
+   "shipping": 0.0,
+   "title": "Shohei Ohtani 2025 Bowman Chrome Purple #100 /250 Los Angeles Dodgers",
+   "url": "https://www.ebay.com/itm/117431326490?_skw=Shohei+Ohtani&hash=item1b5773d71a:g:PDcAAeSwaTFqtspZ"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:29:03.289426+00:00",
+   "id": "v1|257765573037|0",
+   "image": "https://i.ebayimg.com/images/g/PmwAAeSwsilqtskY/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 69.25,
+   "query": "1989 fleer Michael Jordan 3 BGS 6",
+   "shipping": 4.99,
+   "title": "1989-90 Fleer All-Stars Stickers Michael Jordan #3 BGS 6 HOF 11t8",
+   "url": "https://www.ebay.com/itm/257765573037?_skw=Michael+Jordan&hash=item3c040681ad:g:PmwAAeSwsilqtskY"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:10:32.351165+00:00",
+   "id": "v1|407245522611|0",
+   "image": "https://i.ebayimg.com/images/g/Gm8AAeSwJOVqtsUR/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 134.99,
+   "query": "1996 fleer ultra Kobe Bryant 3 SGC 8",
+   "shipping": 0.0,
+   "title": "1996-97 Fleer Ultra Kobe Bryant All-Rookie #3 RC SGC 8 NM-MT Lakers",
+   "url": "https://www.ebay.com/itm/407245522611?_skw=Kobe+Bryant&hash=item5ed1b986b3:g:Gm8AAeSwJOVqtsUR"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:10:31.792831+00:00",
+   "id": "v1|307199187927|0",
+   "image": "https://i.ebayimg.com/images/g/Ha4AAeSwrwFqtsV3/s-l225.jpg",
+   "player": "Victor Wembanyama",
+   "price": 83.99,
+   "query": "2025 topps now Victor Wembanyama 127 PSA 10",
+   "shipping": 5.99,
+   "title": "Victor Wembanyama 2025-26 Topps Now #127 2nd Youngest With 500 Blocks PSA 10",
+   "url": "https://www.ebay.com/itm/307199187927?_skw=Victor+Wembanyama&hash=item47867f9bd7:g:Ha4AAeSwrwFqtsV3"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:10:31.315795+00:00",
+   "id": "v1|318917707087|0",
+   "image": "https://i.ebayimg.com/images/g/BUUAAeSwH0hqtsTZ/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 150.0,
+   "query": "2019 panini donruss Shohei Ohtani 164 pink holo",
+   "shipping": 9.99,
+   "title": "Panini 2019 Donruss Shohei Ohtani Holo Pink #164 Los Angeles Angels MLB",
+   "url": "https://www.ebay.com/itm/318917707087?_skw=Shohei+Ohtani&hash=item4a40fa054f:g:BUUAAeSwH0hqtsTZ"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:10:30.719987+00:00",
+   "id": "v1|257765541726|0",
+   "image": "https://i.ebayimg.com/images/g/QUYAAeSwtUBqtsWV/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 90.0,
+   "query": "1998 upper deck Michael Jordan J12 BGS 8.5",
+   "shipping": 0.0,
+   "title": "1998-99 Upper Deck Ovation Jordan Rules #J12 Michael Jordan Bulls BGS 8.5",
+   "url": "https://www.ebay.com/itm/257765541726?_skw=Michael+Jordan&hash=item3c0406075e:g:QUYAAeSwtUBqtsWV"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:04:18.178456+00:00",
+   "id": "v1|318917702474|0",
+   "image": "https://i.ebayimg.com/images/g/8kcAAeSw0WBqtsQm/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 150.0,
+   "query": "2019 panini donruss Shohei Ohtani AA4 pink PSA 9",
+   "shipping": 9.99,
+   "title": "Panini 2019 Donruss Shohei Ohtani Action All-Stars Pink Firework #AA4 PSA 9",
+   "url": "https://www.ebay.com/itm/318917702474?_skw=Shohei+Ohtani&hash=item4a40f9f34a:g:8kcAAeSw0WBqtsQm"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:04:18.178439+00:00",
+   "id": "v1|407245522610|0",
+   "image": "",
+   "player": "Shohei Ohtani",
+   "price": 69.99,
+   "query": "2025 topps Shohei Ohtani SMLB-10 BGS 9.5",
+   "shipping": 0.0,
+   "title": "2025 Topps Shohei Ohtani Stars of MLB #SMLB-10 BGS 9.5 GEM MINT Dodgers",
+   "url": "https://www.ebay.com/itm/407245522610?_skw=Shohei+Ohtani&hash=item5ed1b986b2:i:407245522610"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T19:04:17.638043+00:00",
+   "id": "v1|298706858635|0",
+   "image": "https://i.ebayimg.com/images/g/m04AAeSwuiRqtsR3/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 76.0,
+   "query": "1993 Michael Jordan TD2 PSA 5",
+   "shipping": 5.99,
+   "title": "1993 UD INTERNATIONAL TRIPLE DOUBLE GERMAN #TD2 MICHAEL JORDAN PSA 5",
+   "url": "https://www.ebay.com/itm/298706858635?_skw=Michael+Jordan&hash=item458c50f28b:g:m04AAeSwuiRqtsR3"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T18:57:02.627593+00:00",
+   "id": "v1|267795278191|0",
+   "image": "https://i.ebayimg.com/images/g/SmwAAeSwSgtqtlDG/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 99.99,
+   "query": "2001 upper deck Kobe Bryant 179 PSA 10",
+   "shipping": 6.25,
+   "title": "2001 UPPER DECK #179 KOBE BRYANT LAKERS HOF PSA 10",
+   "url": "https://www.ebay.com/itm/267795278191?_skw=Kobe+Bryant&hash=item3e59d7a96f:g:SmwAAeSwSgtqtlDG"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T18:57:02.627591+00:00",
+   "id": "v1|407244651800|0",
+   "image": "https://i.ebayimg.com/images/g/9YEAAeSwy5Zqtl0-/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 59.99,
+   "query": "2012 panini Kobe Bryant 21 PSA 9",
+   "shipping": 0.0,
+   "title": "2012 Panini Prestige #21 Kobe Bryant PSA 9",
+   "url": "https://www.ebay.com/itm/407244651800?_skw=Kobe+Bryant&hash=item5ed1ac3d18:g:9YEAAeSwy5Zqtl0-"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-25T18:57:02.627565+00:00",
+   "id": "v1|366691775141|0",
+   "image": "https://i.ebayimg.com/images/g/X~cAAeSw3cFqtpOp/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 90.0,
+   "query": "2006 topps finest Kobe Bryant 25 PSA 8",
+   "shipping": 0.0,
+   "title": "Topps Finest 2006-07 Kobe Bryant #25 Lakers Graded NBA Basketball Card PSA 8",
+   "url": "https://www.ebay.com/itm/366691775141?_skw=Kobe+Bryant&hash=item55608872a5:g:X~cAAeSw3cFqtpOp"
+  },
+  {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627550+00:00",
    "id": "v1|336812616780|0",
    "image": "https://i.ebayimg.com/images/g/osIAAeSwYu9qtpXN/s-l225.jpg",
@@ -454,6 +313,7 @@
    "url": "https://www.ebay.com/itm/336812616780?_skw=Kobe+Bryant&hash=item4e6b98ac4c:g:osIAAeSwYu9qtpXN"
   },
   {
+   "ask_ratio": null,
    "found_at": "2026-09-25T18:57:02.627548+00:00",
    "id": "v1|800714439327|0",
    "image": "https://i.ebayimg.com/images/g/vVAAAeSwp05qtpMN/s-l225.jpg",
@@ -463,50 +323,6 @@
    "shipping": 0.0,
    "title": "(1) \"Kobe Bryant\" basketball card PSA 9 Upper Deck 2001 Higher Ground #HG8 (24)",
    "url": "https://www.ebay.com/itm/800714439327?_skw=Kobe+Bryant&hash=itemba6e4cba9f:g:vVAAAeSwp05qtpMN"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627541+00:00",
-   "id": "v1|407245174749|0",
-   "image": "https://i.ebayimg.com/images/g/dMgAAeSwrABqtpd7/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 70.0,
-   "query": "1998 upper deck Kobe Bryant F2",
-   "shipping": 0.0,
-   "title": "1998-99 Upper Deck Encore - Driving Forces Kobe Bryant #F2",
-   "url": "https://www.ebay.com/itm/407245174749?_skw=Kobe+Bryant&hash=item5ed1b437dd:g:dMgAAeSwrABqtpd7"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627538+00:00",
-   "id": "v1|318917120122|0",
-   "image": "https://i.ebayimg.com/images/g/v~UAAeSwlCJqtpks/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 125.0,
-   "query": "1997 metal Kobe Bryant 86",
-   "shipping": 0.0,
-   "title": "Kobe Bryant 1997 Metal Universe #86",
-   "url": "https://www.ebay.com/itm/318917120122?_skw=Kobe+Bryant&hash=item4a40f1107a:g:v~UAAeSwlCJqtpks"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627536+00:00",
-   "id": "v1|188983524198|0",
-   "image": "https://i.ebayimg.com/images/g/yrgAAeSw9CpqtpkZ/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 75.0,
-   "query": "2003 fleer Kobe Bryant 56",
-   "shipping": 0.0,
-   "title": "2003-04 Fleer Platinum - Kobe Bryant #56",
-   "url": "https://www.ebay.com/itm/188983524198?_skw=Kobe+Bryant&hash=item2c004bbb66:g:yrgAAeSw9CpqtpkZ"
-  },
-  {
-   "found_at": "2026-09-25T18:57:02.627533+00:00",
-   "id": "v1|287608233325|0",
-   "image": "https://i.ebayimg.com/images/g/rMoAAeSwNjpqtpuX/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 195.0,
-   "query": "1996 fleer metal Kobe Bryant 137 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) - PSA 8 Lakers",
-   "url": "https://www.ebay.com/itm/287608233325?_skw=Kobe+Bryant&hash=item42f6c95d6d:g:rMoAAeSwNjpqtpuX"
   },
   {
    "found_at": "2026-09-25T18:57:02.627530+00:00",
@@ -3107,7 +2923,7 @@
   "v1|820171722088|0": "2026-09-25T19:29:02.367238+00:00"
  },
  "usage": {
-  "calls": 31,
+  "calls": 37,
   "credit": 0.0,
   "month": "2026-09"
  }
