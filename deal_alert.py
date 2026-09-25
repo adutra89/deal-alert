@@ -252,7 +252,7 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
 # ---------------------------------------------------------------- CardSight comps
 
 BRANDS = [
-    "topps", "bowman", "panini", "fleer", "upper deck", "donruss", "score", "leaf", "skybox", "hoops",
+    "topps", "bowman", "bbm", "epoch", "panini", "fleer", "upper deck", "donruss", "score", "leaf", "skybox", "hoops",
     "prizm", "select", "optic", "mosaic", "chrome", "finest", "stadium club", "heritage", "now",
     "national treasures", "flawless", "immaculate", "contenders", "spectra", "obsidian", "phoenix",
     "revolution", "court kings", "chronicles", "certified", "absolute", "crown royale", "origins",
