@@ -244,7 +244,9 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
         asks.append(price + ship)
     if len(asks) < 3:
         return None
-    return (listing["price"] + listing["shipping"]) / statistics.median(asks)
+    asks.sort()
+    low_quartile = asks[len(asks) // 4]  # asks run high; compare against the cheaper end
+    return (listing["price"] + listing["shipping"]) / low_quartile
 
 
 # ---------------------------------------------------------------- CardSight comps
@@ -266,11 +268,17 @@ def words(text: str) -> list[str]:
     return re.findall(r"[a-z0-9']+", text.lower().replace("'s", "s"))
 
 
+CODE_NO_RE = re.compile(r"\b([A-Z]{1,6}-[A-Z]{0,3}\d{1,4}[A-Z]?)\b")
+
+
 def card_number(title: str) -> str | None:
     m = CARD_NO_RE.search(title)
-    if not m:
-        return None
-    return (m.group(1) or m.group(2)).upper().lstrip("0") or "0"
+    if m:
+        return (m.group(1) or m.group(2)).upper().lstrip("0") or "0"
+    m = CODE_NO_RE.search(title)  # insert codes written without '#', e.g. SMLB-9, BTP-2
+    if m and not re.fullmatch(r"(19|20)\d\d-\d\d", m.group(1)):
+        return m.group(1).upper()
+    return None
 
 
 def build_query(title: str, player: str) -> str:
@@ -362,6 +370,9 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
             for r in results[:4]
         ]
         log(f"  no matching comps (grade {title_grade}, #{title_num}); {len(results)} results, top: {sample}")
+        return None
+    if not title_num and len({k[0] for k in groups}) > 1:
+        log(f"  ambiguous: no card # in title and {len({k[0] for k in groups})} different cards match")
         return None
     recs = max(groups.values(), key=len)
     if len(recs) < int(cfg["min_comps"]):

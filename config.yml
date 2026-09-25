@@ -56,6 +56,6 @@ exclude_words:
   - proxy
 
 # Free eBay pre-check: only spend a CardSight check on listings priced at or below
-# this fraction of what other sellers ask for the same card (0.75 = 25% cheaper).
-precheck_max_ratio: 0.75
+# this fraction of the cheaper-end asks for the same card (0.8 = 20% below them).
+precheck_max_ratio: 0.8
 prechecks_per_run: 40
