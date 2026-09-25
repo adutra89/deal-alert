@@ -1,588 +1,458 @@
 [
  {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "1990 Fleer - Michael Jordan #26 PSA 9",
-   "listing_type": "auction",
-   "limit": "10"
+  "title": "2024 Topps Inception Shohei Ohtani PSA 10",
+  "query": "2024 topps inception Shohei Ohtani PSA 10",
+  "n_results": 10,
+  "market_value": {
+   "median": 162.45,
+   "count": 3,
+   "label": "2024 Topps Inception Shohei Ohtani #73 PSA 10"
   },
-  "status": 200,
-  "body": {
-   "query": {
-    "q": "1990 Fleer - Michael Jordan #26 PSA 9",
-    "listing_type": "auction",
-    "period": "all",
-    "limit": 10,
-    "as_of_date": "2026-09-25"
-   },
-   "results": [
-    {
-     "title": "1990 Fleer Basketball Micheal Jordan #26 PSA 9  GOAT",
-     "price": 71,
-     "date": "2026-08-09T23:35:49Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/p5XFv",
-     "image_url": "https://i.ebayimg.com/images/g/KRUAAeSwpx9qb9Oc/s-l225.jpg"
-    }
-   ],
-   "meta": {
-    "sources": [
-     {
-      "source": "ebay",
-      "count": 1
+  "log": [],
+  "top": [
+   {
+    "title": "2024 TOPPS INCEPTION GOLD ELECTRICITY #73 SHOHEI OHTANI 48/50 PSA 10",
+    "price": 1253,
+    "parallel_name": "Gold Electricity",
+    "matched_card": {
+     "card_id": "d1ace4bc-6dff-4c7d-b9a6-b676fba89a9a",
+     "name": "Shohei Ohtani",
+     "number": "73",
+     "set": {
+      "set_id": "3f693da4-6c21-4b17-b472-e0a79901074f",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Topps Inception"
      }
-    ],
-    "total_records": 1
+    },
+    "grade": {
+     "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+     "grade_value": "10",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "2024 Topps Inception - Shohei Ohtani #73 Green PSA 10 Gem Mint",
+    "price": 224.5,
+    "parallel_name": "Green",
+    "matched_card": {
+     "card_id": "d1ace4bc-6dff-4c7d-b9a6-b676fba89a9a",
+     "name": "Shohei Ohtani",
+     "number": "73",
+     "set": {
+      "set_id": "3f693da4-6c21-4b17-b472-e0a79901074f",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Topps Inception"
+     }
+    },
+    "grade": {
+     "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+     "grade_value": "10",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "2024 Topps Inception Shohei Ohtani #73 PSA 10 GEM MINT Dodgers",
+    "price": 165,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "d1ace4bc-6dff-4c7d-b9a6-b676fba89a9a",
+     "name": "Shohei Ohtani",
+     "number": "73",
+     "set": {
+      "set_id": "3f693da4-6c21-4b17-b472-e0a79901074f",
+      "name": "Base Set",
+      "year": "2024",
+      "release": "Topps Inception"
+     }
+    },
+    "grade": {
+     "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+     "grade_value": "10",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "2024 Topps Inception Shohei Ohtani Yellow #/199 Dodgers PSA 10 GEM MINT",
+    "price": 510,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "2024 Topps Inception Shohei Ohtani Magenta 29/99 Dodgers PSA 10",
+    "price": 380,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
    }
-  }
+  ]
  },
  {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "1990 Fleer Michael Jordan 26 PSA 9",
-   "listing_type": "auction",
-   "limit": "10"
-  },
-  "status": 200,
-  "body": {
-   "query": {
-    "q": "1990 Fleer Michael Jordan 26 PSA 9",
-    "listing_type": "auction",
-    "period": "all",
-    "limit": 10,
-    "as_of_date": "2026-09-25"
+  "title": "2001-02 UPPER DECK HARDCOURT KOBE BRYANT KB-F UD GAME FLOOR GAME FILM RELIC SP",
+  "query": "2001 upper deck sp Kobe Bryant",
+  "n_results": 18,
+  "market_value": null,
+  "log": [
+   "[2026-09-25 19:08:26]   no matching comps (grade None, #None); 18 results, top: ['? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ', '? #?|base|raw ']"
+  ],
+  "top": [
+   {
+    "title": "2001-02 Upper Deck MVP KOBE BRYANT #A1 \u201cAIRBORNE\u201d SP \ud83d\udd25 LEGEND \ud83d\udd25",
+    "price": 27,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
    },
-   "results": [
-    {
-     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
-     "price": 105.5,
-     "date": "2026-09-25T01:34:00Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/Hkg8T",
-     "image_url": "https://i.ebayimg.com/images/g/ZTwAAeSwS2xqrFV6/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "Michael Jordan 1990-91 Fleer #26 MINT PSA 9",
-     "price": 113.5,
-     "date": "2026-09-24T02:40:01Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/ziBEw",
-     "image_url": "https://i.ebayimg.com/images/g/n50AAeSw53Jqq0UA/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
-     "price": 107.5,
-     "date": "2026-09-24T01:48:30Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/zSYTq",
-     "image_url": "https://i.ebayimg.com/images/g/q9YAAeSwHahqqwXs/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "1990 FLEER #26 MICHAEL JORDAN PSA 9",
-     "price": 90,
-     "date": "2026-09-23T01:54:48Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/lmB44",
-     "image_url": "https://i.ebayimg.com/images/g/oIoAAeSwdIRqrJlD/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "1990-91 Fleer - Michael Jordan #26 PSA 9",
-     "price": 107.5,
-     "date": "2026-09-23T01:49:01Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/I13Oa",
-     "image_url": "https://i.ebayimg.com/images/g/B7IAAeSwXYxqrJf~/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "1990-91 Fleer - Michael Jordan #26  PSA 9",
-     "price": 152.5,
-     "date": "2026-09-22T18:43:22Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/Snxns",
-     "image_url": "https://i.ebayimg.com/images/g/gFYAAeSwl9hqqY55/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    }
-   ],
-   "meta": {
-    "sources": [
-     {
-      "source": "ebay",
-      "count": 10
-     }
-    ],
-    "total_records": 10
+   {
+    "title": "2001/02 Upper Deck KOBE BRYANT \"NBA ALL-STAR 2001\" 3 OF 3 SP DUNKING\ud83d\udd25RARE\ud83d\udd25",
+    "price": 18.5,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "2001 UPPER DECK SP AUTHENTIC #38 KOBE BRYANT PSA 8",
+    "price": 58.37,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "2001-02 Upper deck SP Authentic #38 Kobe Bryant Los Angeles Lakers",
+    "price": 8.5,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "2001/02 Upper Deck KOBE BRYANT \"NBA ALL-STAR 2001\" 3 OF 3 SP DUNKING RARE -CLEAN",
+    "price": 55,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
    }
-  }
+  ]
  },
  {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "1990 Fleer Michael Jordan 26",
-   "listing_type": "auction",
-   "period": "3m",
-   "limit": "100"
+  "title": "1992 Topps #205 Michael Jordan PSA 9 Bulls HOF NBA Basketball Mint Card",
+  "query": "1992 topps Michael Jordan 205 PSA 9",
+  "n_results": 36,
+  "market_value": {
+   "median": 43.364999999999995,
+   "count": 18,
+   "label": "1992-93 Topps Michael Jordan #205 PSA 9"
   },
-  "status": 200,
-  "body": {
-   "query": {
-    "q": "1990 Fleer Michael Jordan 26",
-    "listing_type": "auction",
-    "period": "3m",
-    "limit": 100,
-    "as_of_date": "2026-09-25"
-   },
-   "results": [
-    {
-     "title": "1990-91 Fleer - Michael Jordan #26 Black Line Above Biographical Information",
-     "price": 33.59,
-     "date": "2026-09-25T16:31:43Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/yxt7r",
-     "image_url": "https://i.ebayimg.com/images/g/-qUAAeSwMaJqrWbe/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
+  "log": [],
+  "top": [
+   {
+    "title": "1992 Topps 50-Point Club Michael Jordan #205 Chicago Bulls (HOF) PSA 9 MINT",
+    "price": 41,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "80444332-ae7a-4eb8-b43b-c4388610d027",
+     "name": "Michael Jordan",
+     "number": "205",
+     "set": {
+      "set_id": "8ec22e99-6d94-4943-be81-b061e838a30f",
+      "name": "Base Set",
+      "year": "1992-93",
+      "release": "Topps"
      }
     },
-    {
-     "title": "Fleer 1990-91 Michael Jordan Chicago Bulls #26 NBA Basketball Trading Card",
-     "price": 26,
-     "date": "2026-09-25T16:28:18Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/rdrO0",
-     "image_url": "https://i.ebayimg.com/images/g/e~MAAeSwdo1qrWZ4/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     }
-    },
-    {
-     "title": "1990-91 Fleer Michael Jordan (Black Line Above Biographical Information) #26 HOF",
-     "price": 9.51,
-     "date": "2026-09-25T02:28:55Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/vMfyT",
-     "image_url": "https://i.ebayimg.com/images/g/OT0AAeSwSaNqqH8R/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     }
-    },
-    {
-     "title": "1990-91 Fleer #26 Michael Jordan - Mint - Perfect Centering - GOAT Bulls (5)",
-     "price": 41,
-     "date": "2026-09-25T02:15:01Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/UuC3j",
-     "image_url": "https://i.ebayimg.com/images/g/ZEYAAeSwXUJqq-Lt/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     }
-    },
-    {
-     "title": "1990 FLEER #26 MICHAEL JORDAN PSA 6",
-     "price": 24.27,
-     "date": "2026-09-25T01:48:00Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/4lkhg",
-     "image_url": "https://i.ebayimg.com/images/g/WK8AAeSwlspqqt9i/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "8f77c77d-ee00-48e8-a7a8-aba87c1ac46e",
-      "grade_value": "6",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
-    },
-    {
-     "title": "1990 FLEER #26 MICHAEL JORDAN BULLS HOF PSA 9",
-     "price": 105.5,
-     "date": "2026-09-25T01:34:00Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/Hkg8T",
-     "image_url": "https://i.ebayimg.com/images/g/ZTwAAeSwS2xqrFV6/s-l225.jpg",
-     "matched_card": {
-      "card_id": "5a519ac7-3805-4a4f-968f-0e3433ae3d5c",
-      "name": "Michael Jordan",
-      "number": "26",
-      "set": {
-       "set_id": "82fe2632-be42-44ea-80a5-9677a3045308",
-       "name": "Base Set",
-       "year": "1990-91",
-       "release": "Fleer"
-      }
-     },
-     "grade": {
-      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
-      "grade_value": "9",
-      "company_name": "PSA",
-      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-     }
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
     }
-   ],
-   "meta": {
-    "sources": [
-     {
-      "source": "ebay",
-      "count": 100
+   },
+   {
+    "title": "1992-93 Topps 50 Point Club Gold Michael Jordan #205 PSA 9 Chicago Bulls",
+    "price": 80,
+    "parallel_name": "Gold",
+    "matched_card": {
+     "card_id": "80444332-ae7a-4eb8-b43b-c4388610d027",
+     "name": "Michael Jordan",
+     "number": "205",
+     "set": {
+      "set_id": "8ec22e99-6d94-4943-be81-b061e838a30f",
+      "name": "Base Set",
+      "year": "1992-93",
+      "release": "Topps"
      }
-    ],
-    "total_records": 100
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "1992 TOPPS GOLD MICHAEL JORDAN #205 PSA MINT 9",
+    "price": 83,
+    "parallel_name": "Gold",
+    "matched_card": {
+     "card_id": "80444332-ae7a-4eb8-b43b-c4388610d027",
+     "name": "Michael Jordan",
+     "number": "205",
+     "set": {
+      "set_id": "8ec22e99-6d94-4943-be81-b061e838a30f",
+      "name": "Base Set",
+      "year": "1992-93",
+      "release": "Topps"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "1992 Topps 50-Point Club Michael Jordan #205 Chicago Bulls (HOF) PSA 9 MINT",
+    "price": 51,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "80444332-ae7a-4eb8-b43b-c4388610d027",
+     "name": "Michael Jordan",
+     "number": "205",
+     "set": {
+      "set_id": "8ec22e99-6d94-4943-be81-b061e838a30f",
+      "name": "Base Set",
+      "year": "1992-93",
+      "release": "Topps"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "1992 Topps Gold Michael Jordan 50 Point Club #205\u2026..PSA 9\u2026.MINT.",
+    "price": 76.5,
+    "parallel_name": "Gold",
+    "matched_card": {
+     "card_id": "80444332-ae7a-4eb8-b43b-c4388610d027",
+     "name": "Michael Jordan",
+     "number": "205",
+     "set": {
+      "set_id": "8ec22e99-6d94-4943-be81-b061e838a30f",
+      "name": "Base Set",
+      "year": "1992-93",
+      "release": "Topps"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
    }
-  }
+  ]
  },
  {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number",
-   "limit": "5"
-  },
-  "status": 200,
-  "body": {
-   "query": {
-    "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number",
-    "listing_type": "both",
-    "period": "all",
-    "limit": 5,
-    "as_of_date": "2026-09-25"
-   },
-   "results": [],
-   "meta": {
-    "sources": [],
-    "total_records": 0
-   }
-  }
+  "title": "2008 Fleer #50 Kobe Bryant 1988 Retro - PSA 9 - Lakers",
+  "query": "2008 fleer Kobe Bryant 50 PSA 9",
+  "n_results": 0,
+  "market_value": null,
+  "log": [
+   "[2026-09-25 19:08:28]   no matching comps (grade ('PSA', '9'), #50); 0 results, top: []"
+  ],
+  "top": []
  },
  {
-  "path": "/v1/pricing/search",
-  "params": {
-   "q": "2026 Topps Shohei Ohtani 1",
-   "listing_type": "auction",
-   "period": "3m",
-   "limit": "10"
-  },
-  "status": 200,
-  "body": {
-   "query": {
-    "q": "2026 Topps Shohei Ohtani 1",
-    "listing_type": "auction",
-    "period": "3m",
-    "limit": 10,
-    "as_of_date": "2026-09-25"
-   },
-   "results": [
-    {
-     "title": "2026 Topps Chrome Black - Shohei Ohtani #1 Blue Refractor /150",
-     "price": 201.31,
-     "date": "2026-09-25T17:31:48Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/9xiOY",
-     "image_url": "https://i.ebayimg.com/images/g/8ywAAeSwpwVqrWE2/s-l225.jpg",
-     "parallel_id": "c52d4e53-5cff-4741-8cca-746bbd1d1b27",
-     "parallel_name": "Blue Refractor",
-     "matched_card": {
-      "card_id": "080f87dd-7d8b-441f-8583-08d4256e6f71",
-      "name": "Shohei Ohtani",
-      "number": "1",
-      "set": {
-       "set_id": "8c363c01-715f-4352-9080-295dc9bb9fd5",
-       "name": "Base Set",
-       "year": "2026",
-       "release": "Topps Chrome Black"
-      }
+  "title": "1993 Topps #384 Michael Jordan PSA 9 Bulls HOF NBA Basketball Mint Card",
+  "query": "1993 topps Michael Jordan 384 PSA 9",
+  "n_results": 6,
+  "market_value": null,
+  "log": [
+   "[2026-09-25 19:08:29]   only 2 comps for matched card"
+  ],
+  "top": [
+   {
+    "title": "1993 TOPPS #384 MICHAEL JORDAN PSA 9",
+    "price": 61,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "958bd0b6-114a-4ac5-b97d-2f642112721a",
+     "name": "Michael Jordan",
+     "number": "384",
+     "set": {
+      "set_id": "7a575649-4188-43d3-95c8-7f27d939a13f",
+      "name": "Base Set",
+      "year": "1993-94",
+      "release": "Topps"
      }
     },
-    {
-     "title": "2026 Topps Chrome Black - Shohei Ohtani #1 Green Refractor /99",
-     "price": 180.27,
-     "date": "2026-09-25T17:30:15Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/IAXeR",
-     "image_url": "https://i.ebayimg.com/images/g/AZcAAeSwnJNqrWCw/s-l225.jpg",
-     "parallel_id": "f7e1ee1f-e329-47a1-9007-8e2694ccc44e",
-     "parallel_name": "Green Refractor",
-     "matched_card": {
-      "card_id": "080f87dd-7d8b-441f-8583-08d4256e6f71",
-      "name": "Shohei Ohtani",
-      "number": "1",
-      "set": {
-       "set_id": "8c363c01-715f-4352-9080-295dc9bb9fd5",
-       "name": "Base Set",
-       "year": "2026",
-       "release": "Topps Chrome Black"
-      }
-     }
-    },
-    {
-     "title": "2026 Topps Chrome - Shohei Ohtani #1 X-Fractor",
-     "price": 16.47,
-     "date": "2026-09-25T15:40:03Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/kwq6c",
-     "image_url": "https://i.ebayimg.com/images/g/FPkAAeSwdb9qrVsg/s-l225.jpg",
-     "parallel_id": "b6ae037f-3cac-4773-b230-2c58cb9558a3",
-     "parallel_name": "X-Fractor",
-     "matched_card": {
-      "card_id": "a6e8628b-6257-41af-9c40-2269819bc473",
-      "name": "Shohei Ohtani",
-      "number": "1",
-      "set": {
-       "set_id": "7e80a9fb-8f5b-4c91-bd08-bd6aef804fde",
-       "name": "Base Set",
-       "year": "2026",
-       "release": "Topps Chrome"
-      }
-     }
-    },
-    {
-     "title": "Topps 2026 Series 1 8-Bit Ballers Shohei Ohtani Dodgers #8B-7 Insert",
-     "price": 1,
-     "date": "2026-09-25T14:42:25Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/f4R8L",
-     "image_url": "https://i.ebayimg.com/images/g/c2MAAeSw2aZqpBMx/s-l225.jpg",
-     "matched_card": {
-      "card_id": "55ec528d-e80f-4d3b-ae92-426c06f2e43e",
-      "name": "Shohei Ohtani",
-      "number": "8B-7",
-      "set": {
-       "set_id": "2e6482cb-34e9-4189-ad90-d4d90faae1d0",
-       "name": "8-Bit Ballers",
-       "year": "2026",
-       "release": "Topps"
-      }
-     }
-    },
-    {
-     "title": "2026 TOPPS SERIES 1 #TOG-1 SHOHEI OHTANI TITANS OF THE GAME",
-     "price": 1.6,
-     "date": "2026-09-25T03:02:00Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/cbA3j",
-     "image_url": "https://i.ebayimg.com/images/g/8NQAAeSw-MtqmOEp/s-l225.jpg",
-     "matched_card": {
-      "card_id": "63ed5295-5d08-4714-bc0c-50bd2f71c864",
-      "name": "Shohei Ohtani",
-      "number": "TOG-1",
-      "set": {
-       "set_id": "4210eae6-2568-4868-a05a-aced6dbf30e2",
-       "name": "Titans of the Game",
-       "year": "2026",
-       "release": "Topps"
-      }
-     }
-    },
-    {
-     "title": "2026 Topps Chrome #1 Shohei Ohtani DODGERS",
-     "price": 3.25,
-     "date": "2026-09-25T02:25:31Z",
-     "source": "ebay",
-     "listing_type": "auction",
-     "url": "https://showme.cards/VWQmq",
-     "image_url": "https://i.ebayimg.com/images/g/UOEAAeSwLB5qrKFf/s-l225.jpg",
-     "matched_card": {
-      "card_id": "a6e8628b-6257-41af-9c40-2269819bc473",
-      "name": "Shohei Ohtani",
-      "number": "1",
-      "set": {
-       "set_id": "7e80a9fb-8f5b-4c91-bd08-bd6aef804fde",
-       "name": "Base Set",
-       "year": "2026",
-       "release": "Topps Chrome"
-      }
-     }
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
     }
-   ],
-   "meta": {
-    "sources": [
-     {
-      "source": "ebay",
-      "count": 10
+   },
+   {
+    "title": "1993 TOPPS #384 MICHAEL JORDAN PSA 9",
+    "price": 58.02,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "958bd0b6-114a-4ac5-b97d-2f642112721a",
+     "name": "Michael Jordan",
+     "number": "384",
+     "set": {
+      "set_id": "7a575649-4188-43d3-95c8-7f27d939a13f",
+      "name": "Base Set",
+      "year": "1993-94",
+      "release": "Topps"
      }
-    ],
-    "total_records": 10
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "1993 TOPPS GOLD #384 MICHAEL JORDAN PSA 9 MINT",
+    "price": 70.25,
+    "parallel_name": "Gold",
+    "matched_card": {
+     "card_id": "958bd0b6-114a-4ac5-b97d-2f642112721a",
+     "name": "Michael Jordan",
+     "number": "384",
+     "set": {
+      "set_id": "7a575649-4188-43d3-95c8-7f27d939a13f",
+      "name": "Base Set",
+      "year": "1993-94",
+      "release": "Topps"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   },
+   {
+    "title": "Michael Jordan 1993 Topps Reigning Scoring Leader #384 PSA 9",
+    "price": 46,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "1993-94 Topps Michael Jordan Gold #384 Bulls PSA 9",
+    "price": 53.23,
+    "parallel_name": "Gold",
+    "matched_card": {
+     "card_id": "958bd0b6-114a-4ac5-b97d-2f642112721a",
+     "name": "Michael Jordan",
+     "number": "384",
+     "set": {
+      "set_id": "7a575649-4188-43d3-95c8-7f27d939a13f",
+      "name": "Base Set",
+      "year": "1993-94",
+      "release": "Topps"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
    }
-  }
+  ]
  },
  {
-  "path": "/v1/catalog/search",
-  "params": {
-   "q": "Topps Flagship 2026 Shohei Ohtani Los Angeles Dodgers #1 Serial Number"
+  "title": "1996-97 NBA Hoops - Rookies Kobe Bryant #281 (RC) - PSA 9 - Lakers",
+  "query": "1996 hoops Kobe Bryant 281 PSA 9",
+  "n_results": 19,
+  "market_value": {
+   "median": 102.5,
+   "count": 13,
+   "label": "1996-97 NBA Hoops Kobe Bryant #281 PSA 9"
   },
-  "status": 200,
-  "body": {
-   "results": [],
-   "total_count": 0,
-   "skip": 0,
-   "take": 20,
-   "messages": [
-    {
-     "type": "warning",
-     "message": "search limited to first 10 terms"
+  "log": [],
+  "top": [
+   {
+    "title": "KOBE BRYANT PSA 9 1996-97 HOOPS #281 ROOKIE RC LAKERS 4890",
+    "price": 180.5,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "1996 HOOPS #281 KOBE BRYANT ROOKIE RC PSA 9",
+    "price": 154.5,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "1996-97 SkyBox NBA HOOPS Kobe Bryant RC ROOKIE #281 PSA 9 MINT LA LAKERS ",
+    "price": 138,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "da9365d7-4d7c-4852-ac98-25180f2fc00b",
+     "name": "Kobe Bryant",
+     "number": "281",
+     "set": {
+      "set_id": "9603d58a-34af-4133-b01d-0cce5cd15f21",
+      "name": "Base Set",
+      "year": "1996-97",
+      "release": "NBA Hoops"
+     }
     },
-    {
-     "type": "info",
-     "message": "no results with 'topps' as a manufacturer filter; showing broader matches"
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
     }
-   ]
-  }
+   },
+   {
+    "title": "1996-97 Hoops Kobe Bryant RC Rookie #281 Lakers HoF PSA 9",
+    "price": 175,
+    "parallel_name": null,
+    "matched_card": null,
+    "grade": null
+   },
+   {
+    "title": "1996-97 NBA Hoops Kobe Bryant RC Los Angeles Lakers Rookie #281 PSA 9 Mint",
+    "price": 173,
+    "parallel_name": null,
+    "matched_card": {
+     "card_id": "da9365d7-4d7c-4852-ac98-25180f2fc00b",
+     "name": "Kobe Bryant",
+     "number": "281",
+     "set": {
+      "set_id": "9603d58a-34af-4133-b01d-0cce5cd15f21",
+      "name": "Base Set",
+      "year": "1996-97",
+      "release": "NBA Hoops"
+     }
+    },
+    "grade": {
+     "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+     "grade_value": "9",
+     "company_name": "PSA",
+     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+    }
+   }
+  ]
  }
 ]
