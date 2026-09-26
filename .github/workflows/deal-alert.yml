@@ -48,10 +48,10 @@ jobs:
           start=$(date +%s)
           first=true
           while true; do
-            git pull -q --rebase origin main || true
+            git pull -q --rebase origin main || { git rebase --abort 2>/dev/null; git fetch -q origin main && git reset -q --hard origin/main; }
             if [ "$first" = true ]; then export TEST_NOTIFICATION="$FIRST_TEST"; else export TEST_NOTIFICATION=false; fi
             if [ "$SINGLE" = true ]; then export SAMPLE_ALERT=true; fi
-            python deal_alert.py || echo "run failed, will retry next cycle"
+            timeout 600 python deal_alert.py || echo "run failed or timed out, will retry next cycle"
             git add state.json
             git diff --cached --quiet || (git commit -m "update state [skip ci]" -q && (git push -q || (git pull -q --rebase origin main && git push -q)))
             first=false

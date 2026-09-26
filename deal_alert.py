@@ -786,4 +786,14 @@ def run() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(run())
+    try:
+        sys.exit(run())
+    except Exception:  # noqa: BLE001
+        import traceback
+        log("CRASH: " + traceback.format_exc()[-1500:])
+        try:
+            st = load_state()
+            save_state(st)  # keeps the crash message in state.json so it can be diagnosed
+        except Exception:  # noqa: BLE001
+            pass
+        sys.exit(1)
