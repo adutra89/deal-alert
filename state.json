@@ -1,5 +1,17 @@
 {
  "comp_cache": {
+  "1987 fleer Michael Jordan 2 PSA 4": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
+  "1991 upper deck Michael Jordan AW4 silver PSA 9": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
+  "1992 Michael Jordan JW4 PSA 7.5": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
   "1992 fleer Michael Jordan 32 PSA 9": {
    "at": "2026-09-26T00:45:03.258417+00:00",
    "mv": {
@@ -7,6 +19,10 @@
     "label": "1992-93 Fleer Michael Jordan #32 PSA 9",
     "median": 64.0
    }
+  },
+  "1992 skybox Michael Jordan 11 BGS 9": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
   },
   "1992 upper deck Michael Jordan P5 BGS 9.5": {
    "at": "2026-09-26T01:05:39.210998+00:00",
@@ -68,8 +84,20 @@
    "at": "2026-09-26T01:46:38.554644+00:00",
    "mv": null
   },
+  "1998 Michael Jordan A7 PSA 9": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
   "1998 skybox metal Kobe Bryant 133 SGC 8": {
    "at": "2026-09-26T00:45:03.258417+00:00",
+   "mv": null
+  },
+  "1998 upper deck Michael Jordan SQ30 blue BGS 8.5": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
+  "1999 Michael Jordan J2 PSA 7": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
    "mv": null
   },
   "2000 topps Kobe Bryant 109 PSA 8": {
@@ -84,6 +112,14 @@
    "at": "2026-09-26T01:05:39.210998+00:00",
    "mv": null
   },
+  "2008 fleer Michael Jordan SC-3 SGC 9": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
+  "2009 Michael Jordan 5 BGS 9": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
+   "mv": null
+  },
   "2018 leaf update draft Shohei Ohtani DY-01 CGC 9": {
    "at": "2026-09-26T01:26:08.204215+00:00",
    "mv": null
@@ -94,6 +130,10 @@
   },
   "2018 topps now Shohei Ohtani 210J PSA 9": {
    "at": "2026-09-26T01:46:38.554644+00:00",
+   "mv": null
+  },
+  "2018 topps now Shohei Ohtani MOY-1": {
+   "at": "2026-09-26T01:47:29.171842+00:00",
    "mv": null
   },
   "2018 topps update Shohei Ohtani IA-23 PSA 10": {
@@ -203,154 +243,46 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-26 01:46:39] eBay: 50 listings for Michael Jordan",
-  "[2026-09-26 01:46:40] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-26 01:46:40] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-26 01:46:41] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-26 01:46:41] 26 new listings queued, 159 in queue",
-  "[2026-09-26 01:47:05] pre-checked 26 on eBay; dropped 17 priced like everyone else",
-  "[2026-09-26 01:47:05] CardSight checks allowed this run: 10 (used 148/700 this month)",
-  "[2026-09-26 01:47:05] checking (69% of other asks): 2023-24 Select Victor Wembanyama PSA 10 Mezzanine Level #311 RC Rookie  ->  q=\"2023 select Victor Wembanyama 311 PSA 10\"",
-  "[2026-09-26 01:47:06]   only 1 comps for matched card",
-  "[2026-09-26 01:47:06] no reliable comps: 2023-24 Select Victor Wembanyama PSA 10 Mezzanine Level #311 RC Rookie",
-  "[2026-09-26 01:47:06] checking (78% of other asks): PSA 10 2025 TOPPS NOW #370 SHOHEI OHTANI  ->  q=\"2025 topps now Shohei Ohtani 370 PSA 10\"",
-  "[2026-09-26 01:47:07]   only 1 comps for matched card",
-  "[2026-09-26 01:47:07] no reliable comps: PSA 10 2025 TOPPS NOW #370 SHOHEI OHTANI",
-  "[2026-09-26 01:47:07] checking (n/a): 2000 Topps Gallery - Masters Kobe Bryant #109 PSA 8  ->  q=\"2000 topps Kobe Bryant 109 PSA 8\"",
-  "[2026-09-26 01:47:08]   no matching comps (grade ('PSA', '8'), #109); 0 results, top: []",
-  "[2026-09-26 01:47:08] no reliable comps: 2000 Topps Gallery - Masters Kobe Bryant #109 PSA 8",
-  "[2026-09-26 01:47:09] checking (n/a): 1996 Kobe Bryant SkyBox E-X2000 23KT Gold Purple Signature PSA 8  ->  q=\"1996 skybox Kobe Bryant E-X2000 gold purple PSA 8\"",
-  "[2026-09-26 01:47:09]   no matching comps (grade ('PSA', '8'), #E-X2000); 0 results, top: []",
-  "[2026-09-26 01:47:09] no reliable comps: 1996 Kobe Bryant SkyBox E-X2000 23KT Gold Purple Signature PSA 8",
-  "[2026-09-26 01:47:09] checking (n/a): SHOHEI OHTANI 2023 Topps Finest #17 \"Purple\" 072/250 PSA 9 Angels Dodg  ->  q=\"2023 topps finest Shohei Ohtani 17 purple PSA 9\"",
-  "[2026-09-26 01:47:10]   no matching comps (grade ('PSA', '9'), #17); 0 results, top: []",
-  "[2026-09-26 01:47:10] no reliable comps: SHOHEI OHTANI 2023 Topps Finest #17 \"Purple\" 072/250 PSA 9 Angels Dodg",
-  "[2026-09-26 01:47:10] checking (n/a): 2018 TOPPS NOW JAPANESE #210J SHOHEI OHTANI ROOKIE RC PSA 9  ->  q=\"2018 topps now Shohei Ohtani 210J PSA 9\"",
-  "[2026-09-26 01:47:10]   only 4 comps for matched card",
-  "[2026-09-26 01:47:10] no reliable comps: 2018 TOPPS NOW JAPANESE #210J SHOHEI OHTANI ROOKIE RC PSA 9",
-  "[2026-09-26 01:47:10] checking (n/a): 1996-97 Topps Chrome - 72 Wins Chicago Bulls #72 PSA 9  Michael Jordan  ->  q=\"1996 topps chrome Michael Jordan 72 PSA 9\"",
-  "[2026-09-26 01:47:11]   only 1 comps for matched card",
-  "[2026-09-26 01:47:11] no reliable comps: 1996-97 Topps Chrome - 72 Wins Chicago Bulls #72 PSA 9  Michael Jordan",
-  "[2026-09-26 01:47:12] checking (n/a): Michael Jordan 92-93 Stadium Club Members Only #210 Gem Mint BGS 9.5    ->  q=\"stadium club stadium Michael Jordan 210 BGS 9.5\"",
-  "[2026-09-26 01:47:13]   no matching comps (grade ('BGS', '9.5'), #210); 1 results, top: ['? #?|base|raw ']",
-  "[2026-09-26 01:47:13] no reliable comps: Michael Jordan 92-93 Stadium Club Members Only #210 Gem Mint BGS 9.5  ",
-  "[2026-09-26 01:47:14] checking (n/a): 1997-98 Fleer Ultra #1 BS Michael Jordan Big Shots SGC 8  Chicago Bull  ->  q=\"1997 fleer ultra Michael Jordan 1 SGC 8\"",
-  "[2026-09-26 01:47:14]   no matching comps (grade ('SGC', '8'), #1); 0 results, top: []",
-  "[2026-09-26 01:47:14] no reliable comps: 1997-98 Fleer Ultra #1 BS Michael Jordan Big Shots SGC 8  Chicago Bull",
-  "[2026-09-26 01:47:14] checking (n/a): 2024 TOPPS PRISTINE PRISTINE PURPLE #293 SHOHEI OHTANI /99 PSA 9 Dodge  ->  q=\"2024 topps Shohei Ohtani 293 purple PSA 9\"",
-  "[2026-09-26 01:47:15]   no matching comps (grade ('PSA', '9'), #293); 0 results, top: []",
-  "[2026-09-26 01:47:15] no reliable comps: 2024 TOPPS PRISTINE PRISTINE PURPLE #293 SHOHEI OHTANI /99 PSA 9 Dodge",
-  "[2026-09-26 01:47:15] done: 0 deal alert(s) sent"
+  "[2026-09-26 01:47:29] eBay: 50 listings for Michael Jordan",
+  "[2026-09-26 01:47:30] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-26 01:47:30] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-26 01:47:31] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-26 01:47:31] 1 new listings queued, 133 in queue",
+  "[2026-09-26 01:47:31] pre-checked 1 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-26 01:47:31] CardSight checks allowed this run: 10 (used 158/700 this month)",
+  "[2026-09-26 01:47:31] checking (68% of other asks): 2018 TOPPS NOW MOMENT OF THE YEAR OHTANI RC # MOY-1  ->  q=\"2018 topps now Shohei Ohtani MOY-1\"",
+  "[2026-09-26 01:47:31]   only 3 comps for matched card",
+  "[2026-09-26 01:47:31] no reliable comps: 2018 TOPPS NOW MOMENT OF THE YEAR OHTANI RC # MOY-1",
+  "[2026-09-26 01:47:32] checking (n/a): 1992 Skybox Olympic Team #11 Michael Jordan BGS 9  ->  q=\"1992 skybox Michael Jordan 11 BGS 9\"",
+  "[2026-09-26 01:47:32]   no matching comps (grade ('BGS', '9'), #11); 0 results, top: []",
+  "[2026-09-26 01:47:32] no reliable comps: 1992 Skybox Olympic Team #11 Michael Jordan BGS 9",
+  "[2026-09-26 01:47:33] checking (n/a): 1992 UD JERRY WEST SELECTS #JW4 MICHAEL JORDAN PSA 7.5  ->  q=\"1992 Michael Jordan JW4 PSA 7.5\"",
+  "[2026-09-26 01:47:33]   no matching comps (grade ('PSA', '7.5'), #JW4); 0 results, top: []",
+  "[2026-09-26 01:47:33] no reliable comps: 1992 UD JERRY WEST SELECTS #JW4 MICHAEL JORDAN PSA 7.5",
+  "[2026-09-26 01:47:33] checking (n/a): 1987 Fleer Sticker #2 Michael Jordan Chicago Bulls PSA 4 VG-EX HOF GOA  ->  q=\"1987 fleer Michael Jordan 2 PSA 4\"",
+  "[2026-09-26 01:47:34]   no matching comps (grade ('PSA', '4'), #2); 0 results, top: []",
+  "[2026-09-26 01:47:34] no reliable comps: 1987 Fleer Sticker #2 Michael Jordan Chicago Bulls PSA 4 VG-EX HOF GOA",
+  "[2026-09-26 01:47:34] checking (n/a): 1998 UD IONIX AREA 23 #A7 MICHAEL JORDAN PSA 9  ->  q=\"1998 Michael Jordan A7 PSA 9\"",
+  "[2026-09-26 01:47:35]   only 1 comps for matched card",
+  "[2026-09-26 01:47:35] no reliable comps: 1998 UD IONIX AREA 23 #A7 MICHAEL JORDAN PSA 9",
+  "[2026-09-26 01:47:35] checking (n/a): 2009-10 UD Legacy Collection Michael Jordan #5 BGS 9 Game Used Fusion  ->  q=\"2009 Michael Jordan 5 BGS 9\"",
+  "[2026-09-26 01:47:36]   no matching comps (grade ('BGS', '9'), #5); 1 results, top: ['? #?|base|raw ']",
+  "[2026-09-26 01:47:36] no reliable comps: 2009-10 UD Legacy Collection Michael Jordan #5 BGS 9 Game Used Fusion",
+  "[2026-09-26 01:47:36] checking (n/a): 1998-99 Upper Deck UD Choice - Starquest Michael Jordan #SQ30 Blue BGS  ->  q=\"1998 upper deck Michael Jordan SQ30 blue BGS 8.5\"",
+  "[2026-09-26 01:47:36]   no matching comps (grade ('BGS', '8.5'), #SQ30); 0 results, top: []",
+  "[2026-09-26 01:47:36] no reliable comps: 1998-99 Upper Deck UD Choice - Starquest Michael Jordan #SQ30 Blue BGS",
+  "[2026-09-26 01:47:37] checking (n/a): 1991 Upper Deck Award Winner Michael Jordan #AW4 Silver Hologram PSA 9  ->  q=\"1991 upper deck Michael Jordan AW4 silver PSA 9\"",
+  "[2026-09-26 01:47:37]   no matching comps (grade ('PSA', '9'), #AW4); 0 results, top: []",
+  "[2026-09-26 01:47:37] no reliable comps: 1991 Upper Deck Award Winner Michael Jordan #AW4 Silver Hologram PSA 9",
+  "[2026-09-26 01:47:38] checking (n/a): 2008-09 FLEER HOT PROSPECTS SUPREME COURT MICHAEL JORDAN SC-3 SGC 9 LO  ->  q=\"2008 fleer Michael Jordan SC-3 SGC 9\"",
+  "[2026-09-26 01:47:39]   no matching comps (grade ('SGC', '9'), #SC-3); 0 results, top: []",
+  "[2026-09-26 01:47:39] no reliable comps: 2008-09 FLEER HOT PROSPECTS SUPREME COURT MICHAEL JORDAN SC-3 SGC 9 LO",
+  "[2026-09-26 01:47:39] checking (n/a): Jordan 1999 Almanac #J2 Very Rare, only 11 total graded! Only 4 nicer.  ->  q=\"1999 Michael Jordan J2 PSA 7\"",
+  "[2026-09-26 01:47:40]   no matching comps (grade ('PSA', '7'), #J2); 0 results, top: []",
+  "[2026-09-26 01:47:40] no reliable comps: Jordan 1999 Almanac #J2 Very Rare, only 11 total graded! Only 4 nicer.",
+  "[2026-09-26 01:47:40] done: 0 deal alert(s) sent"
  ],
  "queue": [
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T01:26:09.111305+00:00",
-   "id": "v1|366692581181|0",
-   "image": "https://i.ebayimg.com/images/g/hCgAAeSwEhhqtxwm/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 79.99,
-   "query": "1992 skybox Michael Jordan 11 BGS 9",
-   "shipping": 0.0,
-   "title": "1992 Skybox Olympic Team #11 Michael Jordan BGS 9",
-   "url": "https://www.ebay.com/itm/366692581181?_skw=Michael+Jordan&hash=item556094bf3d:g:hCgAAeSwEhhqtxwm"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T01:26:09.111279+00:00",
-   "id": "v1|168721350423|0",
-   "image": "https://i.ebayimg.com/images/g/A5UAAeSw95xqKvgn/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 69.95,
-   "query": "1992 Michael Jordan JW4 PSA 7.5",
-   "shipping": 6.99,
-   "title": "1992 UD JERRY WEST SELECTS #JW4 MICHAEL JORDAN PSA 7.5",
-   "url": "https://www.ebay.com/itm/168721350423?_skw=Michael+Jordan&hash=item2748937f17:g:A5UAAeSw95xqKvgn"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T01:26:09.111253+00:00",
-   "id": "v1|278390354769|0",
-   "image": "https://i.ebayimg.com/images/g/YesAAeSwDG9qqe1B/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 439.99,
-   "query": "1987 fleer Michael Jordan 2 PSA 4",
-   "shipping": 0.0,
-   "title": "1987 Fleer Sticker #2 Michael Jordan Chicago Bulls PSA 4 VG-EX HOF GOAT",
-   "url": "https://www.ebay.com/itm/278390354769?_skw=Michael+Jordan&hash=item40d15bb351:g:YesAAeSwDG9qqe1B"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940079+00:00",
-   "id": "v1|117431717960|0",
-   "image": "https://i.ebayimg.com/images/g/XwIAAeSwtUBqtxF9/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 345.0,
-   "query": "1998 Michael Jordan A7 PSA 9",
-   "shipping": 5.99,
-   "title": "1998 UD IONIX AREA 23 #A7 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/117431717960?_skw=Michael+Jordan&hash=item1b5779d048:g:XwIAAeSwtUBqtxF9"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940071+00:00",
-   "id": "v1|137779941620|0",
-   "image": "https://i.ebayimg.com/images/g/GcsAAeSwr~9qm2L4/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 129.99,
-   "query": "2009 Michael Jordan 5 BGS 9",
-   "shipping": 0.0,
-   "title": "2009-10 UD Legacy Collection Michael Jordan #5 BGS 9 Game Used Fusion",
-   "url": "https://www.ebay.com/itm/137779941620?_skw=Michael+Jordan&hash=item20145310f4:g:GcsAAeSwr~9qm2L4"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940065+00:00",
-   "id": "v1|137779948310|0",
-   "image": "https://i.ebayimg.com/images/g/QRIAAeSweLVqm1wF/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 139.99,
-   "query": "1998 upper deck Michael Jordan SQ30 blue BGS 8.5",
-   "shipping": 0.0,
-   "title": "1998-99 Upper Deck UD Choice - Starquest Michael Jordan #SQ30 Blue BGS 8.5",
-   "url": "https://www.ebay.com/itm/137779948310?_skw=Michael+Jordan&hash=item2014532b16:g:QRIAAeSweLVqm1wF"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940059+00:00",
-   "id": "v1|237090987443|0",
-   "image": "https://i.ebayimg.com/images/g/dqEAAeSwFClqtxKI/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 300.0,
-   "query": "1991 upper deck Michael Jordan AW4 silver PSA 9",
-   "shipping": 5.99,
-   "title": "1991 Upper Deck Award Winner Michael Jordan #AW4 Silver Hologram PSA 9 MINT\ud83d\udd25\ud83d\udd25!",
-   "url": "https://www.ebay.com/itm/237090987443?_skw=Michael+Jordan&hash=item3733b95db3:g:dqEAAeSwFClqtxKI"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940056+00:00",
-   "id": "v1|267795916363|0",
-   "image": "https://i.ebayimg.com/images/g/ypcAAeSwyBBqtxIi/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 300.0,
-   "query": "2008 fleer Michael Jordan SC-3 SGC 9",
-   "shipping": 0.0,
-   "title": "2008-09 FLEER HOT PROSPECTS SUPREME COURT MICHAEL JORDAN SC-3 SGC 9 LOW POP OF 5",
-   "url": "https://www.ebay.com/itm/267795916363?_skw=Michael+Jordan&hash=item3e59e1664b:g:ypcAAeSwyBBqtxIi"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T00:45:03.940049+00:00",
-   "id": "v1|336813226952|0",
-   "image": "https://i.ebayimg.com/images/g/H4cAAeSwmbxqtxKA/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 129.0,
-   "query": "1999 Michael Jordan J2 PSA 7",
-   "shipping": 3.95,
-   "title": "Jordan 1999 Almanac #J2 Very Rare, only 11 total graded! Only 4 nicer. PSA 7!",
-   "url": "https://www.ebay.com/itm/336813226952?_skw=Michael+Jordan&hash=item4e6ba1fbc8:g:H4cAAeSwmbxqtxKA"
-  },
   {
    "ask_ratio": null,
    "found_at": "2026-09-26T00:45:03.940044+00:00",
@@ -2187,6 +2119,7 @@
   "v1|158339395215|0": "2026-09-26T00:45:03.258417+00:00",
   "v1|158339462491|0": "2026-09-26T01:05:39.210998+00:00",
   "v1|158339518954|0": "2026-09-26T01:26:08.204215+00:00",
+  "v1|158339603162|0": "2026-09-26T01:47:29.171842+00:00",
   "v1|168705646394|0": "2026-09-26T00:45:03.258417+00:00",
   "v1|168720262490|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|168720297472|0": "2026-09-25T18:57:00.252118+00:00",
@@ -3151,7 +3084,7 @@
   "v1|820172840487|0": "2026-09-26T01:46:38.554644+00:00"
  },
  "usage": {
-  "calls": 158,
+  "calls": 168,
   "credit": 0.0,
   "month": "2026-09"
  }
