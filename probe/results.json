@@ -1,665 +1,1931 @@
 [
  {
-  "title": "Fleer Ultra 1996-97 All-Rookies Kobe Bryant Lakers #3 Rookie",
-  "query": "1996 fleer ultra Kobe Bryant 3",
-  "n_results": 49,
-  "market_value": {
-   "median": 62.55,
-   "count": 7,
-   "label": "1996-97 Ultra All-Rookie Kobe Bryant #3"
+  "path": "/v1/marketplace/search",
+  "params": {
+   "q": "Kobe Bryant PSA",
+   "limit": "100"
   },
-  "log": [],
-  "all": [
-   {
-    "title": "Kobe Bryant HOF GOAT 1996-97 Fleer Ultra - All Rookie #3 (RC)",
-    "price": 10.5,
-    "date": "2026-09-25T02:20:48Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
+  "status": 200,
+  "body": {
+   "query": {
+    "q": "Kobe Bryant PSA",
+    "listing_type": "both",
+    "limit": 100,
+    "as_of_date": "2026-09-26"
    },
-   {
-    "title": "1996 FLEER ULTRA FRESH FACES #3 KOBE BRYANT ROOKIE RC PSA 5",
-    "price": 393.98,
-    "date": "2026-09-25T01:37:00Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra All-Rookie #3 of 15 Kobe Bryant RC Lakers",
-    "price": 48.91,
-    "date": "2026-09-22T01:00:01Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
+   "results": [
+    {
+     "title": "Kobe Bryant 1996-97 Upper Deck Collector's Choice #267 RC LA Lakers HOF PSA 8.5",
+     "price": 71,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/zrF1W",
+     "image_url": "https://i.ebayimg.com/images/g/J7QAAeSwx-9p9hqT/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T07:00:01Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "ee79ed72-ebad-4747-8bd8-3771302ecb18",
+      "name": "Kobe Bryant",
+      "number": "267",
+      "set": {
+       "set_id": "589e3738-1455-4052-aa69-103e8f490c30",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Collector's Choice"
+      }
+     },
+     "grade": {
+      "grade_id": "3782dc96-28cb-4315-a96d-fbee585c06d0",
+      "grade_value": "8.5",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
-    "grade": null
-   },
-   {
-    "title": "1996\u201197 Fleer Ultra All Rookie Kobe Bryant RC #3 of 15 Los Angeles Lakers IO25",
-    "price": 71,
-    "date": "2026-09-20T02:02:04Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
+    {
+     "title": "2013-14 Panini NBA Hoops Kobe Bryant Class Action #17 \ud83d\udca5PSA 9 Lakers HOF ",
+     "price": 70,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/mh1aK",
+     "image_url": "https://i.ebayimg.com/images/g/Ex4AAeSwIWdqrjOf/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T07:03:29Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "0fa48ca0-ad1f-444c-b975-da22cc20b802",
+      "name": "Kobe Bryant",
+      "number": "17",
+      "set": {
+       "set_id": "ad5409d8-a7e0-49cf-a5f0-4da39847a23f",
+       "name": "Class Action",
+       "year": "2013-14",
+       "release": "NBA Hoops"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
-    "grade": null
-   },
-   {
-    "title": "KOBE BRYANT (HOF) FLEER ULTRA 1996-97 ALL ROOKIE INSERT #3 LEGEND LOOK!!",
-    "price": 61,
-    "date": "2026-09-19T18:09:31Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "8886acbb-fa6e-4a45-a834-ce36dba8e95f",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "3ef80a77-1095-4ee7-b671-957b538da0ec",
-      "name": "All-Rookie",
-      "year": "1996-97",
-      "release": "Ultra"
+    {
+     "title": "1998-99 SkyBox Premium Kobe Bryant #44 \ud83d\udca5PSA 8.5 Los Angeles Lakers",
+     "price": 150,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/SsRHq",
+     "image_url": "https://i.ebayimg.com/images/g/jPIAAeSw4kFqrjZq/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T07:16:03Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "80038b78-a70c-4714-ab74-0755a9bbbcd3",
+      "name": "Kobe Bryant",
+      "number": "44",
+      "set": {
+       "set_id": "4caa7d3d-d99b-4a6e-b8c4-1dd95553a981",
+       "name": "Base Set",
+       "year": "1998-99",
+       "release": "SkyBox Premium"
+      }
+     },
+     "grade": {
+      "grade_id": "3782dc96-28cb-4315-a96d-fbee585c06d0",
+      "grade_value": "8.5",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 49,
-    "date": "2026-09-17T20:47:32Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
+    {
+     "title": "1998-99 Topps - Coast to Coast Kobe Bryant #CC1 - PSA 8 Rare",
+     "price": 4500,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/pvabI",
+     "image_url": "https://i.ebayimg.com/images/g/gnMAAeSwNKlqbaVB/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T07:54:26Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "ab3fc158-2e8d-493b-a85b-915c2a19a61a",
+      "name": "Kobe Bryant",
+      "number": "CC1",
+      "set": {
+       "set_id": "9df28704-0aed-4555-8daa-3926091f4ab4",
+       "name": "Coast to Coast",
+       "year": "1998-99",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra All Rookie Team # 3 KOBE BRYANT  RC SGC 8",
-    "price": 122.75,
-    "date": "2026-09-17T01:02:28Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
+    {
+     "title": "1996-97 SkyBox Z-Force Kobe Bryant #142 PSA 8 NM-MT Rookie RC Lakers HOF",
+     "price": 455,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/5Wt60",
+     "image_url": "https://i.ebayimg.com/images/g/xkMAAeSwMbhqgnah/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T11:07:43Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "75dfc1c5-56cb-447a-973d-08138e709413",
+      "name": "Kobe Bryant",
+      "number": "142",
+      "set": {
+       "set_id": "18f65e6e-c9fb-4747-9563-faacda8a19a2",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "SkyBox Z-Force"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
      }
     },
-    "grade": {
-     "grade_id": "5eab7828-d389-4f06-968b-602b2ac3d5cb",
-     "grade_value": "8",
-     "company_name": "SGC",
-     "company_id": "aa797bb1-ae21-440f-91b6-7484e47ce0ce"
+    {
+     "title": "Fleer 1996-97 Metal Kobe Bryant Rookie #181 Los Angeles Lakers PSA 8",
+     "price": 500,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/mIdpS",
+     "image_url": "https://i.ebayimg.com/images/g/5qsAAeSwWtdqPes5/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-26T16:09:58Z",
+     "bid_count": 0
+    },
+    {
+     "title": "1996-97 Topps Kobe Bryant RC #138 Los Angeles Lakers PSA 9 HOF Mint ",
+     "price": 699.99,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/uOsni",
+     "image_url": "https://i.ebayimg.com/images/g/I9kAAeSwMyRqgeA3/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-27T00:36:24Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "a38437eb-f457-423e-b563-3774f8271837",
+      "name": "Kobe Bryant",
+      "number": "138",
+      "set": {
+       "set_id": "0df274f2-4fc3-47c4-be9c-a93d6c679528",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Bowman 1998 Bowman's Best Kobe Bryant Lakers #88 PSA 9 Graded Card 63084707",
+     "price": 455,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/LzTKB",
+     "image_url": "https://i.ebayimg.com/images/g/M6gAAeSwijdqiw2y/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-27T15:16:11Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Bowman's Best 1996-97 Kobe Bryant Lakers #R23 RC Rookies Insert PSA 8",
+     "price": 430,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/xs4U2",
+     "image_url": "https://i.ebayimg.com/images/g/N5kAAeSww45qiwvM/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-27T15:16:32Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "18ffed24-fc04-414e-9f04-e67269204dfb",
+      "name": "Kobe Bryant",
+      "number": "R23",
+      "set": {
+       "set_id": "6d2afd4d-bea4-44ba-b370-9b54870beffa",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Bowman's Best"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Fleer/SkyBox 2004-05 Skybox Autographics Kobe Bryant Auto #17 PSA 8 Lakers",
+     "price": 280,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/cHqXe",
+     "image_url": "https://i.ebayimg.com/images/g/-DgAAeSwLrNqmMbO/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-27T16:34:34Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "d3de01f3-9a35-46ff-b2d0-a9b95aa42dd3",
+      "name": "Kobe Bryant",
+      "number": "17",
+      "set": {
+       "set_id": "0bd85776-2486-4224-b6b0-4f2f18848469",
+       "name": "Base Set",
+       "year": "2004-05",
+       "release": "Skybox Autographics"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Topps 1996-97 Kobe Bryant Los Angeles Lakers #138 RC PSA 8 Graded",
+     "price": 600,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/RR8fp",
+     "image_url": "https://i.ebayimg.com/images/g/fOsAAeSwbbpqptV6/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-27T16:57:55Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "a38437eb-f457-423e-b563-3774f8271837",
+      "name": "Kobe Bryant",
+      "number": "138",
+      "set": {
+       "set_id": "0df274f2-4fc3-47c4-be9c-a93d6c679528",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "\ud83d\udcc8  Panini Prizm 2013-14 Kobe Bryant #1 Lakers Base PSA 10 Gem \ud83d\udd25 ",
+     "price": 525,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/QtK6j",
+     "image_url": "https://i.ebayimg.com/images/g/~owAAeSw69Rqpz-L/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T00:31:09Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "0c859639-5b1a-4c62-8ddf-9b606c6b55a8",
+      "name": "Kobe Bryant",
+      "number": "1",
+      "set": {
+       "set_id": "f34eed31-93ba-478f-9c7f-b3473546014a",
+       "name": "Base Set",
+       "year": "2013-14",
+       "release": "Panini Prizm"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "\ud83d\udd25Panini 2013-14 Prizm Kobe Bryant #1 Lakers Gem PSA 10 HOF\ud83d\udd25",
+     "price": 560,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/qXDtq",
+     "image_url": "https://i.ebayimg.com/images/g/RU8AAeSw4OBqp0DV/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T00:34:35Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "0c859639-5b1a-4c62-8ddf-9b606c6b55a8",
+      "name": "Kobe Bryant",
+      "number": "1",
+      "set": {
+       "set_id": "f34eed31-93ba-478f-9c7f-b3473546014a",
+       "name": "Base Set",
+       "year": "2013-14",
+       "release": "Panini Prizm"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1997 Finest Kobe Bryant #262 w/coating Lakers Legend HOF GOAT PSA 8 NM-MT!",
+     "price": 125.99,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/x8IX4",
+     "image_url": "https://i.ebayimg.com/images/g/3ssAAeSwE4dqrZWD/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T01:00:01Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "ccac99b0-d5e2-47ca-ad38-205b75229c5d",
+      "name": "Kobe Bryant",
+      "number": "262",
+      "set": {
+       "set_id": "c15ddfa2-00e6-4cae-80f8-0653419e7160",
+       "name": "Base Set",
+       "year": "1997-98",
+       "release": "Finest"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "SkyBox 1997-98 NBA Hoops Talkin' Hoops Insert Kobe Bryant #15 Lakers PSA -RARE\ud83d\udd25",
+     "price": 500,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/y6qu7",
+     "image_url": "https://i.ebayimg.com/images/g/ylMAAeSwcZxqlN0s/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T01:49:22Z",
+     "bid_count": 0
+    },
+    {
+     "title": "PSA 10 GEM MINT 2008 SP SPA AUTHENTIC KOBE BRYANT #89 LAKERS 23014 B153",
+     "price": 250,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/o0WM5",
+     "image_url": "https://i.ebayimg.com/images/g/Sp0AAeSwzkdqsJIT/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T02:16:10Z",
+     "bid_count": 0
+    },
+    {
+     "title": "2018 PRIZM KOBE BRYANT RED ICE CARD #15 PSA 9 MINT!! LAKERS HOF $$$$ INVEST \ud83d\udcc8",
+     "price": 475,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/gLbzi",
+     "image_url": "https://i.ebayimg.com/images/g/GBkAAeSw~bxqgnMz/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T02:35:52Z",
+     "bid_count": 0,
+     "parallel_id": "d4a41e0f-bf8c-492e-bbea-d6a9e47d7b7d",
+     "parallel_name": "Red",
+     "matched_card": {
+      "card_id": "151fc208-cc43-4aca-ba74-feb97857859c",
+      "name": "Kobe Bryant",
+      "number": "15",
+      "set": {
+       "set_id": "bd94dc81-ced8-47f8-9dad-2ee4a7953a97",
+       "name": "Base Set",
+       "year": "2018-19",
+       "release": "Panini Prizm"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2009 Panini Certified Basketball Card #64 Kobe Bryant LA Lakers! PSA 10",
+     "price": 238,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/sI1en",
+     "image_url": "https://i.ebayimg.com/images/g/0NoAAeSwGClqsOQE/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T08:03:03Z",
+     "bid_count": 0
+    },
+    {
+     "title": "1996-97 Topps - Kobe Bryant #138 RC - PSA 9 MINT",
+     "price": 490,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/unBGQ",
+     "image_url": "https://i.ebayimg.com/images/g/oEgAAeSwsGZqtF4x/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-28T23:19:27Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "a38437eb-f457-423e-b563-3774f8271837",
+      "name": "Kobe Bryant",
+      "number": "138",
+      "set": {
+       "set_id": "0df274f2-4fc3-47c4-be9c-a93d6c679528",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Topps 1996 Topps Kobe Bryant #138 PSA 7 Graded Card Los Angeles Lakers",
+     "price": 2500,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/Qa7Wm",
+     "image_url": "https://i.ebayimg.com/images/g/eW8AAeSwf8FqqOCd/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T06:08:52Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "a38437eb-f457-423e-b563-3774f8271837",
+      "name": "Kobe Bryant",
+      "number": "138",
+      "set": {
+       "set_id": "0df274f2-4fc3-47c4-be9c-a93d6c679528",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+      "grade_value": "7",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Panini 2009-10 Studio Kobe Bryant #3 Los Angeles Lakers PSA 9 Graded",
+     "price": 999.99,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/G4QB0",
+     "image_url": "https://i.ebayimg.com/images/g/SwMAAeSwEpZqsnaf/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T12:39:38Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "e24340e6-d1e5-4567-aa4e-56f158f92b85",
+      "name": "Kobe Bryant",
+      "number": "3",
+      "set": {
+       "set_id": "49e007f9-42f1-486c-8e9a-90cc47a65724",
+       "name": "Base Set",
+       "year": "2009-10",
+       "release": "Panini Studio"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2013 PANINI PRIZM KOBE BRYANT #1 MINT PSA 9",
+     "price": 175,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/EwTaC",
+     "image_url": "https://i.ebayimg.com/images/g/2OsAAeSwsmlqsqGo/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T15:44:34Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Topps 2005-06 Pristine Kobe Bryant Relic Memorabilia #150 PSA 8 225/500 Lakers",
+     "price": 2620,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/1ALfd",
+     "image_url": "https://i.ebayimg.com/images/g/c-AAAeSwvd5qqWjd/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T15:55:33Z",
+     "bid_count": 0
+    },
+    {
+     "title": "2002 SP Authentic Kobe Bryant #37 Lakers HOF PSA 9 MINT GOAT",
+     "price": 101.11,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/QSdmp",
+     "image_url": "https://i.ebayimg.com/images/g/~acAAeSwd4xqoH9C/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T21:36:29Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Topps 1996 Finest Kobe Bryant #74 PSA 9 Mint Los Angeles Lakers",
+     "price": 700,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/6rxhR",
+     "image_url": "https://i.ebayimg.com/images/g/JEIAAeSw1-xqsvaE/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T21:46:32Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "940fb104-8a19-4c1f-b8c8-989f950c0800",
+      "name": "Kobe Bryant",
+      "number": "74",
+      "set": {
+       "set_id": "e0755ba9-8736-44d8-8896-04112d65d817",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Finest"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1996 Ultra Kobe Bryant #266 PSA 7 NM",
+     "price": 60,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/G0bNO",
+     "image_url": "https://i.ebayimg.com/images/g/49cAAeSw7b5qswTp/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-29T22:49:06Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "a524d5f6-2bec-4c07-a888-08097b9f1448",
+      "name": "Kobe Bryant",
+      "number": "266",
+      "set": {
+       "set_id": "3d262443-5493-46cc-b21b-0fbca6c09b30",
+       "name": "Base Set",
+       "year": "1996-97",
+       "release": "Ultra"
+      }
+     },
+     "grade": {
+      "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+      "grade_value": "7",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Panini 2013-14 Pinnacle Kobe Bryant Los Angeles Lakers #108 PSA Graded",
+     "price": 175,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/wXWhk",
+     "image_url": "https://i.ebayimg.com/images/g/qtYAAeSwmOxqszC5/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-30T01:52:35Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Fleer Hot Prospects Hot Materials Kobe Bryant Lakers HM-KB PSA 8 Memorabilia",
+     "price": 3500,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/FdEAx",
+     "image_url": "https://i.ebayimg.com/images/g/tD8AAeSw5zhp4ZHn/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-30T02:05:38Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Kobe Bryant 2013 Psa Mint Nine Gold Basketball Card \ufffc",
+     "price": 2100,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/sJ6k1",
+     "image_url": "https://i.ebayimg.com/images/g/JzIAAeSwkP9qtDCk/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-30T20:07:44Z",
+     "bid_count": 0
+    },
+    {
+     "title": "1996 Upper Deck Kobe Bryant #R10 RC Rookie Exclusives PSA 6 Graded card",
+     "price": 129.99,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/nOayh",
+     "image_url": "https://i.ebayimg.com/images/g/LPkAAeSwq7tqtEmZ/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-30T21:52:03Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "c247d79e-cd3c-4b19-ad3c-2beef4cda384",
+      "name": "Kobe Bryant",
+      "number": "R10",
+      "set": {
+       "set_id": "4b1a1c61-2fa0-4cfd-a119-9e1ea38e41ac",
+       "name": "Rookie Exclusives",
+       "year": "1996-97",
+       "release": "Upper Deck"
+      }
+     },
+     "grade": {
+      "grade_id": "8f77c77d-ee00-48e8-a7a8-aba87c1ac46e",
+      "grade_value": "6",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2008-09 Upper Deck SP Authentic Kobe Bryant Lakers #89 PSA 10 Graded Card",
+     "price": 560,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/RTISK",
+     "image_url": "https://i.ebayimg.com/images/g/MJIAAeSwPXdqhi8t/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-09-30T22:35:16Z",
+     "bid_count": 0
+    },
+    {
+     "title": "1997-98 Metal Universe - Kobe Bryant #81 PSA 7",
+     "price": 650,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/oxvZW",
+     "image_url": "https://i.ebayimg.com/images/g/KZkAAeSwr4VqogR6/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T01:37:03Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "782d3bd2-752e-4fde-94b5-b48a2b8a8a32",
+      "name": "Kobe Bryant",
+      "number": "81",
+      "set": {
+       "set_id": "cbcec2b8-5585-492d-8f11-bc7cff820172",
+       "name": "Base Set",
+       "year": "1997-98",
+       "release": "Metal Universe"
+      }
+     },
+     "grade": {
+      "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+      "grade_value": "7",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2014-15 Panini Select Concourse Kobe Bryant #20 Purple & White Prizm PSA 9 Rare",
+     "price": 650,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/NzINT",
+     "image_url": "https://i.ebayimg.com/images/g/8gMAAeSwqR1qrvHe/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T02:39:33Z",
+     "bid_count": 0
+    },
+    {
+     "title": "PANINI 2012-13 KOBE ANTHOLOGY KOBE BRYANT #91 PSA 10 LAKERS BASKETBALL POP 23",
+     "price": 200,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/m4ZBQ",
+     "image_url": "https://i.ebayimg.com/images/g/xnMAAeSwrwFqtKOp/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:19:00Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "3c439c4f-9fed-4608-8686-663f7f1eb681",
+      "name": "Kobe Bryant",
+      "number": "91",
+      "set": {
+       "set_id": "15fd83e4-1685-4459-ba80-805d2d766ca2",
+       "name": "Base Set",
+       "year": "2012-13",
+       "release": "Panini Kobe Anthology"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2007-08 Fleer - Kobe Bryant #153 PSA 9 Mint, ONLY 11 Higher",
+     "price": 150,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/Kut7K",
+     "image_url": "https://i.ebayimg.com/images/g/x2QAAeSwEcVqtKWV/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:26:24Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "026cb62c-12b1-4db4-b3f5-6f01bdba6a13",
+      "name": "Kobe Bryant",
+      "number": "153",
+      "set": {
+       "set_id": "628e2a1d-b4e7-4de6-96a4-8f4e38b8d6fc",
+       "name": "Base Set",
+       "year": "2007-08",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2000-01 Fleer Triple Crown - Kobe Bryant #74 PSA 9 Mint, ONLY 9 Higher",
+     "price": 165,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/CIcXH",
+     "image_url": "https://i.ebayimg.com/images/g/OucAAeSw4ElqtKa~/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:30:28Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "df19166f-b891-4b26-bbc1-959419d9bf2f",
+      "name": "Kobe Bryant",
+      "number": "74",
+      "set": {
+       "set_id": "c6a097a9-0f2f-4670-be60-fb0c0394d7ab",
+       "name": "Base Set",
+       "year": "2000-01",
+       "release": "Fleer Triple Crown"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "KOBE BRYANT 2002-03 UPPER DECK HARDCOURT #35 LAKERS PSA 9, ONLY 7 higher.",
+     "price": 150,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/U4xHd",
+     "image_url": "https://i.ebayimg.com/images/g/6zIAAeSwTD9qtKgX/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:35:23Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "3e1e4f30-5772-41e1-9f18-afa8711162fb",
+      "name": "Kobe Bryant",
+      "number": "35",
+      "set": {
+       "set_id": "c2cae2b8-e31d-457b-9287-e7b4adf56ded",
+       "name": "Base Set",
+       "year": "2002-03",
+       "release": "Upper Deck Hardcourt"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "UPPER DECK 2000 KOBE BRYANT #432 PSA 9 LOS ANGELES LAKERS, ONLY 5 HIGHER",
+     "price": 150,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/8RvuZ",
+     "image_url": "https://i.ebayimg.com/images/g/G~wAAeSwrwFqtKvB/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:51:45Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "9d0f88a9-6944-4d1d-985b-4956ece284bd",
+      "name": "Kobe Bryant",
+      "number": "432",
+      "set": {
+       "set_id": "f94f363b-aaf9-472e-a86f-5ca2762f0069",
+       "name": "Base Set",
+       "year": "2000-01",
+       "release": "Upper Deck"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "FLEER TRADITION 2000 Hardcourt Classics Kobe Bryant #3HC PSA 9, POP 3, NO 10\u2019s.",
+     "price": 250,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/4LrAj",
+     "image_url": "https://i.ebayimg.com/images/g/AyoAAeSwnyFqtK1B/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-01T04:57:50Z",
+     "bid_count": 0
+    },
+    {
+     "title": "Topps 1997 Finest Showstoppers Kobe Bryant #262 Los Angeles Lakers PSA 8",
+     "price": 210,
+     "source": "ebay",
+     "listing_type": "auction",
+     "url": "https://showme.cards/ao4Gv",
+     "image_url": "https://i.ebayimg.com/images/g/b8AAAeSwrWpqh6Lk/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "end_date": "2026-10-02T01:03:25Z",
+     "bid_count": 0,
+     "matched_card": {
+      "card_id": "ccac99b0-d5e2-47ca-ad38-205b75229c5d",
+      "name": "Kobe Bryant",
+      "number": "262",
+      "set": {
+       "set_id": "c15ddfa2-00e6-4cae-80f8-0653419e7160",
+       "name": "Base Set",
+       "year": "1997-98",
+       "release": "Finest"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2000 UD #190 KOBE BRYANT PSA 9",
+     "price": 2000,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/KWufk",
+     "image_url": "https://i.ebayimg.com/images/g/PY8AAeSwUERqrWDQ/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2000 UD #189 KOBE BRYANT PSA 9",
+     "price": 425,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/G9GrL",
+     "image_url": "https://i.ebayimg.com/images/g/BuEAAeSweQVqrVnv/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2020-21 Panini NBA HOOPS Slam Kobe Bryant #19  PSA 9 Lakers",
+     "price": 275,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/ZjaJi",
+     "image_url": "https://i.ebayimg.com/images/g/jicAAeSwIWdqrdXw/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "0e879cc0-4f2a-4b33-bff9-59b35f1c64a4",
+      "name": "Kobe Bryant",
+      "number": "19",
+      "set": {
+       "set_id": "889d9c49-996e-4e4c-a307-845fefc28435",
+       "name": "Slam",
+       "year": "2020-21",
+       "release": "NBA Hoops"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2020-21 Panini NBA Hoops - Slam Kobe Bryant #19 Winter PSA 9",
+     "price": 300,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/enbKe",
+     "image_url": "https://i.ebayimg.com/images/g/exUAAeSwkFdqrWrb/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "0e879cc0-4f2a-4b33-bff9-59b35f1c64a4",
+      "name": "Kobe Bryant",
+      "number": "19",
+      "set": {
+       "set_id": "889d9c49-996e-4e4c-a307-845fefc28435",
+       "name": "Slam",
+       "year": "2020-21",
+       "release": "NBA Hoops"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2020 PANINI HOOPS KOBE BRYANT SLAM WINTER HOLO #19 PSA 10 POP 11 - LOWEST POP",
+     "price": 5995,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/hQFFQ",
+     "image_url": "https://i.ebayimg.com/images/g/8SgAAeSwwlhqrby5/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "Kobe Bryant 2016 Panini Studio Defying Gravity Die-Cut Insert #DG-KB PSA 10",
+     "price": 1500,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/jy4Ud",
+     "image_url": "https://i.ebayimg.com/images/g/5VMAAeSwWaNqgzU4/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "Panini 2013-14 Elite Face 2 Face #2 LeBron James Kobe Bryant PSA 10",
+     "price": 1200,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/DJXUV",
+     "image_url": "https://i.ebayimg.com/images/g/E60AAeSwwTlqlO0T/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2013 Panini Titanium Draft Year #143 Kobe Bryant /96 PSA 9",
+     "price": 649.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/2dW33",
+     "image_url": "https://i.ebayimg.com/images/g/64IAAeSwx0ZqnZsn/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "265f624e-bb49-457f-8806-00b2564c2fe2",
+      "name": "Kobe Bryant",
+      "number": "143",
+      "set": {
+       "set_id": "e7d9b4d5-9c82-44a9-bd64-53b198c42173",
+       "name": "Draft Year",
+       "year": "2013-14",
+       "release": "Panini Titanium"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2012-13 Panini Kobe Anthology Kobe Bryant #11 Yellow Printing Plate 1/1 PSA",
+     "price": 1500,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/XmNZ8",
+     "image_url": "https://i.ebayimg.com/images/g/oqMAAeSweQVqrc9g/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "41933284-594f-4303-a65a-7a96b3054626",
+      "name": "Kobe Bryant",
+      "number": "11",
+      "set": {
+       "set_id": "15fd83e4-1685-4459-ba80-805d2d766ca2",
+       "name": "Base Set",
+       "year": "2012-13",
+       "release": "Panini Kobe Anthology"
+      }
+     },
+     "grade": {
+      "grade_id": "d874d82a-0171-49b2-9687-a6741b117618",
+      "grade_value": "1",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2012-13 Panini Kobe Anthology - Kobe Bryant #15 PSA 9",
+     "price": 49,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/aGGQy",
+     "image_url": "https://i.ebayimg.com/images/g/UyQAAeSwh9BqraVV/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "1a59499c-7dc9-4102-9086-e7fab668e890",
+      "name": "Kobe Bryant",
+      "number": "15",
+      "set": {
+       "set_id": "15fd83e4-1685-4459-ba80-805d2d766ca2",
+       "name": "Base Set",
+       "year": "2012-13",
+       "release": "Panini Kobe Anthology"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2012 Panini Kobe Bryant Anthology #145 Los Angeles Lakers Black Mamba PSA 9",
+     "price": 70,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/S3smU",
+     "image_url": "https://i.ebayimg.com/images/g/uBkAAeSwvoBqrZYI/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2012 PANINI KOBE ANTHOLOGY #178 KOBE BRYANT PSA 10",
+     "price": 299.95,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/pgsNd",
+     "image_url": "https://i.ebayimg.com/images/g/6fAAAeSw8SBqrR9Y/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "136fb233-c475-4a0d-ba21-9e67aad8d234",
+      "name": "Kobe Bryant",
+      "number": "178",
+      "set": {
+       "set_id": "15fd83e4-1685-4459-ba80-805d2d766ca2",
+       "name": "Base Set",
+       "year": "2012-13",
+       "release": "Panini Kobe Anthology"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2012 Prizm MVP #3 Kobe Bryant PSA 9 Lakers Low Pop Rare",
+     "price": 999,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/ovlhr",
+     "image_url": "https://i.ebayimg.com/images/g/y8wAAeSwDK9qrarR/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "1f88012e-163d-4de8-a897-411e7ec32edd",
+      "name": "Kobe Bryant",
+      "number": "3",
+      "set": {
+       "set_id": "67961f07-6014-4f97-bfc0-70f63fdc8abb",
+       "name": "Most Valuable Players MVPs",
+       "year": "2012-13",
+       "release": "Panini Prizm"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2008-09 Fleer Kobe Bryant CGC 9 PSA LA Lakers #101\ud83d\udc8e \ud83d\udc8e",
+     "price": 117.5,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/fCQ7v",
+     "image_url": "https://i.ebayimg.com/images/g/5KQAAeSw2lNqrfkm/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "02cb8b5f-4d05-4e7e-97a5-58d4483826cd",
+      "name": "Kobe Bryant",
+      "number": "101",
+      "set": {
+       "set_id": "2b5ee69f-4835-4327-a8c6-b08678f43770",
+       "name": "Base Set",
+       "year": "2008-09",
+       "release": "Fleer"
+      }
+     },
+     "grade": {
+      "grade_id": "e209754b-97bb-4938-8615-4f90751c6cad",
+      "grade_value": "9",
+      "company_name": "CGC",
+      "company_id": "131e9c4b-9c30-4f2c-88a2-1b61e567bcc6"
+     }
+    },
+    {
+     "title": "Kobe Bryant 2007 Topps Chrome Basketball Card #24 Graded PSA 8",
+     "price": 329,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/4qMkG",
+     "image_url": "https://i.ebayimg.com/images/g/9gwAAeSwDaxqrWxm/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "756199c9-1431-4043-9001-c635cb33567d",
+      "name": "Kobe Bryant",
+      "number": "24",
+      "set": {
+       "set_id": "f3ef65fc-1b73-402a-bc18-db0759948272",
+       "name": "Base Set",
+       "year": "2007-08",
+       "release": "Topps Chrome"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2006-07 Topps - Clutch City Stars Kobe Bryant #CCS13 PSA 9 Mint Lakers",
+     "price": 90,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/qDls5",
+     "image_url": "https://i.ebayimg.com/images/g/rhUAAeSwR7VqriC9/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "b6630c42-d865-469c-b91a-cefb34dc66c4",
+      "name": "Kobe Bryant",
+      "number": "CCS13",
+      "set": {
+       "set_id": "dec95b39-021f-41cc-a9e1-e2f55a864891",
+       "name": "Clutch City Stars",
+       "year": "2006-07",
+       "release": "Topps"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2005-06 Topps 1952 Style Design #50 Kobe Bryant Los Angeles Lakers PSA 7 NM",
+     "price": 99.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/o7ThI",
+     "image_url": "https://i.ebayimg.com/images/g/il8AAeSwlspqrckx/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "3282f9b0-1456-42c3-a73a-34fd1b28ee82",
+      "name": "Kobe Bryant",
+      "number": "50",
+      "set": {
+       "set_id": "e4d305ce-2454-405c-a66b-f489ac4997b4",
+       "name": "Base Set",
+       "year": "2005-06",
+       "release": "Topps 1952 Style"
+      }
+     },
+     "grade": {
+      "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+      "grade_value": "7",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2005-06 Upper Deck Collectibles Die-Cast #DC4 Kobe Bryant PSA 6 Lakers HOF",
+     "price": 199.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/9AuvR",
+     "image_url": "https://i.ebayimg.com/images/g/j2sAAeSwRMlqrbn0/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2004 Topps Bazooka Trading Card #69 Kobe Bryant Mini PSA 4 VG EX Pop 1",
+     "price": 250,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/8p6JR",
+     "image_url": "https://i.ebayimg.com/images/g/~5MAAeSwMH9qrEv~/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "parallel_id": "cf65dc67-35b8-46f7-a135-b918a6838a61",
+     "parallel_name": "Mini",
+     "matched_card": {
+      "card_id": "15594be5-b832-4684-9f14-03a7e1d3d5d1",
+      "name": "Kobe Bryant",
+      "number": "69",
+      "set": {
+       "set_id": "cc458da0-6ceb-4cb6-895c-4d38242db90d",
+       "name": "Base Set",
+       "year": "2004-05",
+       "release": "Bazooka"
+      }
+     },
+     "grade": {
+      "grade_id": "a8570f61-c057-46da-a302-eefaeee82d6e",
+      "grade_value": "4",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Kobe Bryant 2004-05 Topps PSA 9",
+     "price": 225,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/bqzj7",
+     "image_url": "https://i.ebayimg.com/images/g/CgYAAOSwqHFmPpL4/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "Skybox 2003-04 Autographics Kobe Bryant Auto #2 Lakers PSA 9",
+     "price": 200,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/kQyrz",
+     "image_url": "https://i.ebayimg.com/images/g/1YkAAeSwsKFqraFu/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "e29bd464-d0da-4b02-8897-21027a0b632a",
+      "name": "Kobe Bryant",
+      "number": "2",
+      "set": {
+       "set_id": "86731f09-93e4-4716-a586-fe29cadfe3a7",
+       "name": "Base Set",
+       "year": "2003-04",
+       "release": "SkyBox Autographics"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2003 Topps Finest Kobe Bryant #88 PSA 9 MINT Lakers NEW LABEL LOW POP HOF MAMBA",
+     "price": 129,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/trhN5",
+     "image_url": "https://i.ebayimg.com/images/g/bzkAAeSwXFlqrTx9/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "80534c31-0496-414c-a2d8-273617d5c97a",
+      "name": "Kobe Bryant",
+      "number": "88",
+      "set": {
+       "set_id": "8ba4b095-2787-47d5-ab20-d171f0c74cc4",
+       "name": "Base Set",
+       "year": "2003-04",
+       "release": "Finest"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "MBA Silver Diamond PSA 8 Kobe Bryant 2003-04 Topps Pristine Gold Refractor /99",
+     "price": 8500,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/zuBjO",
+     "image_url": "https://i.ebayimg.com/images/g/z~UAAeSwD91qrfIV/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2003 Upper Deck Triple Dimensions Kobe Bryant #36 PSA 9 MINT Lakers NEW LABEL",
+     "price": 89.95,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/nVhNz",
+     "image_url": "https://i.ebayimg.com/images/g/pq8AAeSwcGZqrb1-/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "8d9055b2-fe0a-4a7d-b96b-4de21165d1ed",
+      "name": "Kobe Bryant",
+      "number": "36",
+      "set": {
+       "set_id": "5a3063dc-9493-495a-b9b9-b69c540057ea",
+       "name": "Base Set",
+       "year": "2003-04",
+       "release": "Upper Deck Triple Dimensions"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2002 FLEER AUTHENTIX TICKET KOBE BRYANT  BALCONY /250 PSA 7 LAKERS \ud83d\udd25",
+     "price": 270,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/m93m3",
+     "image_url": "https://i.ebayimg.com/images/g/EBMAAeSwShxqram~/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2002 Fleer Premium Kobe Bryant Skylines #15 /2500 PSA 8",
+     "price": 249.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/YgtYc",
+     "image_url": "https://i.ebayimg.com/images/g/q9sAAeSwE01qrW7Y/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2002-03 Fleer Premium Kobe Bryant Skylines #15 PSA 10 Serial /2500 Lakers",
+     "price": 1999,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/y0DRS",
+     "image_url": "https://i.ebayimg.com/images/g/l~gAAeSwR25qrVi2/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2002-03 Topps Chrome Kobe Bryant #21 Lakers PSA 10 GEM MINT",
+     "price": 650,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/3S6Ib",
+     "image_url": "https://i.ebayimg.com/images/g/~3cAAeSwtMVqrgxB/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "ff68b397-a688-4cf5-97ff-d36cecdbfca2",
+      "name": "Kobe Bryant",
+      "number": "21",
+      "set": {
+       "set_id": "c99d3481-5f24-45e0-9c28-dfd145a441c1",
+       "name": "Base Set",
+       "year": "2002-03",
+       "release": "Topps Chrome"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2001-02 Upper Deck Flight Team - Jersey Jams Kobe Bryant - Game Used Patch PSA 8",
+     "price": 425,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/6OZwp",
+     "image_url": "https://i.ebayimg.com/images/g/dKYAAeSwQR5qrbTB/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2000-01 Fleer Premium Skilled Artists Kobe Bryant #8 PSA 7 NM HOF Lakers",
+     "price": 49.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Tpu5m",
+     "image_url": "https://i.ebayimg.com/images/g/gy4AAeSw10tqQKLm/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "2000 Topps Gold Label Kobe Bryant Jam Artists #JA8 PSA 7",
+     "price": 540,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/t2Vyr",
+     "image_url": "https://i.ebayimg.com/images/g/gmoAAeSwt5dqrbbk/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "d2ced4c4-3718-48b9-ab9f-56b61caf5eb0",
+      "name": "Kobe Bryant",
+      "number": "JA8",
+      "set": {
+       "set_id": "30e5463f-cb66-4055-9e52-51449b33c61e",
+       "name": "Jam Artists",
+       "year": "2000-01",
+       "release": "Topps Gold Label"
+      }
+     },
+     "grade": {
+      "grade_id": "06747244-9940-4c80-814e-47fba403462f",
+      "grade_value": "7",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "2000-01 Upper Deck Pros & Prospects Kobe Bryant #37 PSA 9 MINT HOF ac9",
+     "price": 115.24,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/N1REE",
+     "image_url": "https://i.ebayimg.com/images/g/7l4AAeSwABRqraoj/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "e4c3e941-967c-4720-8653-ee1689573316",
+      "name": "Kobe Bryant",
+      "number": "37",
+      "set": {
+       "set_id": "5a924c0c-47ea-4088-8556-f97ddb73755e",
+       "name": "Base Set",
+       "year": "2000-01",
+       "release": "Upper Deck Pros & Prospects"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1999 FLAIR SHOWCASE GUARANTEED FRESH #4 KOBE BRYANT PSA 10 LAKERS GOAT",
+     "price": 4999,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/iBLuU",
+     "image_url": "https://i.ebayimg.com/images/g/SZIAAeSw4lxqrZrq/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1999-00 Flair Showcase Trading Card #50 Kobe Bryant Lakers PSA 8 NM MT",
+     "price": 250,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/6dwJr",
+     "image_url": "https://i.ebayimg.com/images/g/-tcAAeSwK7pqrEtF/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "af75747f-bd38-4953-a14b-4520b0e9beb9",
+      "name": "Kobe Bryant",
+      "number": "50",
+      "set": {
+       "set_id": "93e25142-113f-4a48-8b80-da4f05f385df",
+       "name": "Base Set",
+       "year": "1999-00",
+       "release": "Flair Showcase"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1999 Fleer Force Kobe Bryant #2 PSA 10 GEM MINT Lakers Lakers LOW POP NEW LABEL",
+     "price": 399.95,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/oFV3h",
+     "image_url": "https://i.ebayimg.com/images/g/39oAAeSwAMdqrb8P/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "2642442b-e7bf-4780-9852-f60d47ada24c",
+      "name": "Kobe Bryant",
+      "number": "2",
+      "set": {
+       "set_id": "397d94fb-c03d-4fc2-b11d-ebde72285cb5",
+       "name": "Base Set",
+       "year": "1999-00",
+       "release": "Fleer Force"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1999 SkyBox E-X Kobe Bryant #25 PSA 10",
+     "price": 2000,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/1LBQx",
+     "image_url": "https://i.ebayimg.com/images/g/R6wAAeSwquFqrVHk/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "c32b68a1-5cca-4ec8-b7a8-2d80010f9720",
+      "name": "Kobe Bryant",
+      "number": "25",
+      "set": {
+       "set_id": "d621d930-6eb1-4a4e-934d-f7a6ec853def",
+       "name": "Base Set",
+       "year": "1999-00",
+       "release": "E-X"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Kobe Bryant Eyes Of The Game Refractor 1999 Stadium Club Chrome MINT PSA 9 POP37",
+     "price": 1590,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/KBUwY",
+     "image_url": "https://i.ebayimg.com/images/g/xCIAAeSwMXRqrbzx/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1999 METAL UNIVERSE KOBE BRYANT & ANFERNEE HARDAWAY RIVALRIES INSERT PSA 10\ud83d\udc8e\ud83d\udd25",
+     "price": 4000,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/ZgQqx",
+     "image_url": "https://i.ebayimg.com/images/g/t~MAAeSw9TBqrf3b/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "Kobe Bryant 1999-00 SP Authentic SP First Class #2 Upper Deck PSA 9 MINT Lakers",
+     "price": 300,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Z5oww",
+     "image_url": "https://i.ebayimg.com/images/g/q54AAeSwn35qrB3s/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "KOBE BRYANT 1999-00 UPPER DECK ENCORE UPPER REALM #UR2 LA LAKERS PSA 10 GEM MINT",
+     "price": 800,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/KEhIE",
+     "image_url": "https://i.ebayimg.com/images/g/AsEAAeSwM0NqrVoA/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "e2a4e459-a26d-43b0-8be9-73c6bdd463d4",
+      "name": "Kobe Bryant",
+      "number": "UR2",
+      "set": {
+       "set_id": "5d931b2d-03e5-4c75-a421-78e06fe9d7bb",
+       "name": "Upper Realm",
+       "year": "1999-00",
+       "release": "Upper Deck Encore"
+      }
+     },
+     "grade": {
+      "grade_id": "4c004b81-2c7d-4d29-b69a-dc8d2f477aeb",
+      "grade_value": "10",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1999 UPPER DECK BLACK DIAMOND #38 KOBE BRYANT PSA 9",
+     "price": 200,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/4mOwp",
+     "image_url": "https://i.ebayimg.com/images/g/2X0AAeSwf9tqrW9l/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "35de3f52-214e-4168-8450-048cebdadeac",
+      "name": "Kobe Bryant",
+      "number": "38",
+      "set": {
+       "set_id": "b4f2d6d1-d610-4a12-9aa4-94b5ac84511c",
+       "name": "Base Set",
+       "year": "1999-00",
+       "release": "Upper Deck Black Diamond"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1999-00 Upper Deck HoloGrFX - Nba 24-7 Kobe Bryant #N8 PSA 9 MINT",
+     "price": 549.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/k7nAB",
+     "image_url": "https://i.ebayimg.com/images/g/eM8AAeSwzEtqrWu8/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "45d96386-28eb-4fbc-a6d6-fa08ba2d1489",
+      "name": "Kobe Bryant",
+      "number": "N8",
+      "set": {
+       "set_id": "90e451fe-9410-4057-88a9-f225f48260d5",
+       "name": "NBA 24-7",
+       "year": "1999-00",
+       "release": "Upper Deck HoloGrFX"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1998 Fleer Tradition Kobe Bryant Kevin Garnett Signed #100 Vintage '61 PSA Auto",
+     "price": 299.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/t9XXM",
+     "image_url": "https://i.ebayimg.com/images/g/eeAAAeSwyCpqrZOn/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998-99 SkyBox Metal Universe Kobe Bryant #53 PSA 9 Los Angeles Lakers",
+     "price": 499,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/plTO4",
+     "image_url": "https://i.ebayimg.com/images/g/FcQAAeSw7fFqrZwl/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998-99 Skybox Molten Metal Supernatural Kobe Bryant #133 PSA 8",
+     "price": 225,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/oW7OD",
+     "image_url": "https://i.ebayimg.com/images/g/1KYAAeSwfUpqrX2T/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998 Topps Stadium Club #S17 Kobe Bryant Statliners Die cut Lakers PSA 6 EX-MINT",
+     "price": 249.98,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/bF96f",
+     "image_url": "https://i.ebayimg.com/images/g/DjoAAeSw-TFqrclr/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998 Stadium Club Kobe Bryant Never Compromise #NC2 PSA 9",
+     "price": 299.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/O9hrJ",
+     "image_url": "https://i.ebayimg.com/images/g/9CgAAeSwMH9qrVU0/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "5b44e0a3-a692-47e6-968a-c39a2022fe9b",
+      "name": "Kobe Bryant",
+      "number": "NC2",
+      "set": {
+       "set_id": "1d5b3df3-6b38-4045-a2e2-ad75255cae92",
+       "name": "Never Compromise",
+       "year": "1998-99",
+       "release": "Stadium Club"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1998-99 Topps Chrome Refractor #68 Kobe Bryant PSA 9",
+     "price": 3700,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/SysjM",
+     "image_url": "https://i.ebayimg.com/images/g/TAQAAeSwUERqrk~K/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "088cfc85-8e68-4852-be3a-65c8439a6681",
+      "name": "Kobe Bryant",
+      "number": "68",
+      "set": {
+       "set_id": "a81b7edb-d4ad-4cb4-a4dc-b70e2ab09bf8",
+       "name": "Base Set",
+       "year": "1998-99",
+       "release": "Topps Chrome"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Topps 1998-99 Topps Chrome Refractor Kobe Bryant #68 Lakers PSA 8",
+     "price": 2199.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/MkW57",
+     "image_url": "https://i.ebayimg.com/images/g/0DkAAeSweQVqrglw/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "088cfc85-8e68-4852-be3a-65c8439a6681",
+      "name": "Kobe Bryant",
+      "number": "68",
+      "set": {
+       "set_id": "a81b7edb-d4ad-4cb4-a4dc-b70e2ab09bf8",
+       "name": "Base Set",
+       "year": "1998-99",
+       "release": "Topps Chrome"
+      }
+     },
+     "grade": {
+      "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
+      "grade_value": "8",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "Upper Deck 1998 UD Choice Starquest Blue Kobe Bryant #SQ13 PSA 9 Graded",
+     "price": 275,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Pvpdk",
+     "image_url": "https://i.ebayimg.com/images/g/GMYAAeSwqmVqrDp2/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998-99 Upper Deck UD Choice Starquest Green Kobe Bryant SQ13 PSA 7",
+     "price": 249.95,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/3oFsG",
+     "image_url": "https://i.ebayimg.com/images/g/uFoAAeSwaeRp0BVO/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998 Black Diamond Kobe Bryant Triple Diamond /1500 PSA 9 #46 Lakers HOF",
+     "price": 499.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Jdg2X",
+     "image_url": "https://i.ebayimg.com/images/g/ln8AAeSwchBqraJY/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998-99 Upper Deck Ionix #K13 Kobe Bryant Kinetix LA Lakers PSA 9 MINT",
+     "price": 389.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/ZmKIN",
+     "image_url": "https://i.ebayimg.com/images/g/XJMAAeSwZsZqrckY/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1998-99 Upper Deck Ovation - Future Forces Kobe Bryant #F3 PSA 10 Pop6 RARE!",
+     "price": 5100,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/lm783",
+     "image_url": "https://i.ebayimg.com/images/g/9ZAAAeSwhzxqrW-v/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1997-98 Flair Showcase KOBE BRYANT #18 Row 0 #218/250 PSA 9 Mint! LA Lakers",
+     "price": 14995,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/exZuS",
+     "image_url": "https://i.ebayimg.com/images/g/vZkAAeSwguFqrX-C/s-l225.jpg",
+     "condition": "UNKNOWN",
+     "matched_card": {
+      "card_id": "0665d756-6235-45e3-b4bc-922bdbaa2d7c",
+      "name": "Kobe Bryant",
+      "number": "18",
+      "set": {
+       "set_id": "b22fe6c5-4432-4faf-b7ed-9e06e7f36775",
+       "name": "Base Set",
+       "year": "1997-98",
+       "release": "Flair Showcase"
+      }
+     },
+     "grade": {
+      "grade_id": "f14655b7-0047-4add-9ae9-e2a8fcec0526",
+      "grade_value": "9",
+      "company_name": "PSA",
+      "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
+     }
+    },
+    {
+     "title": "1996-97 topps basketball kobe bryant 138 PSA 9 / plus 1997-98 Ultra Star Power",
+     "price": 550,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/Tz5Ih",
+     "image_url": "https://i.ebayimg.com/images/g/gecAAeSw1XpqrbfK/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1997 SP AUTHENTIC #P32 KOBE BRYANT PROFILES II 2 ULTRA RARE GOLD VERSION PSA 8",
+     "price": 1000,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/eT2PN",
+     "image_url": "https://i.ebayimg.com/images/g/0UYAAeSwHWVqraYP/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1997-98 Fleer Ultra Kobe Bryant #1 PSA 8 NM-MT Los Angeles Lakers",
+     "price": 259.99,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/PUfLs",
+     "image_url": "https://i.ebayimg.com/images/g/ClAAAeSw3qdqrUcQ/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1997-98 Bowmans Best NBA Basketball #88 Kobe Bryant PSA 9 MINT L A Lakers HOF",
+     "price": 115,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/EoOib",
+     "image_url": "https://i.ebayimg.com/images/g/3z4AAeSwtLZqrUQq/s-l225.jpg",
+     "condition": "UNKNOWN"
+    },
+    {
+     "title": "1997-98 Bowman's Best - Best Techniques Kobe Bryant #T4 Refractor PSA 8",
+     "price": 1000,
+     "source": "ebay",
+     "listing_type": "fixed",
+     "url": "https://showme.cards/6YFc9",
+     "image_url": "https://i.ebayimg.com/images/g/Pn8AAeSwLgNqrSMc/s-l225.jpg",
+     "condition": "UNKNOWN"
     }
-   },
-   {
-    "title": "1996-97 Fleer Ultra All Rookie Kobe Bryant #3 Rookie Insert Lakers Card",
-    "price": 42,
-    "date": "2026-09-16T08:50:15Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
+   ],
+   "meta": {
+    "sources": [
+     {
+      "source": "ebay",
+      "count": 100
      }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996\u201197 Fleer Ultra All Rookie Kobe Bryant RC #3 of 15 Los Angeles Lakers IO25",
-    "price": 32,
-    "date": "2026-09-16T01:49:14Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "Fleer 1996-97 Fleer Ultra All-Rookie Kobe Bryant Lakers #3 of 5 Insert",
-    "price": 48,
-    "date": "2026-09-14T03:02:54Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC) Lakers",
-    "price": 72.01,
-    "date": "2026-09-13T21:38:13Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 71,
-    "date": "2026-09-13T07:19:06Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "Fleer 1996-97 Fleer Ultra Kobe Bryant Lakers #3 All-Rookie Insert",
-    "price": 42,
-    "date": "2026-09-12T14:59:07Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996 Fleer Ultra KOBE BRYANT #3 Fresh Faces Die-Cut RC PSA 8 NM-MINT A760",
-    "price": 885.2,
-    "date": "2026-09-12T02:16:50Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "8cf6b653-cbee-4ffd-92aa-c3de253560a2",
-     "grade_value": "8",
-     "company_name": "PSA",
-     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-    }
-   },
-   {
-    "title": "Fleer Ultra Kobe Bryant All-Rookies Rookie #3 1996-97 PSA 7 Graded",
-    "price": 143.5,
-    "date": "2026-09-12T01:21:07Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "8886acbb-fa6e-4a45-a834-ce36dba8e95f",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "3ef80a77-1095-4ee7-b671-957b538da0ec",
-      "name": "All-Rookie",
-      "year": "1996-97",
-      "release": "Ultra"
-     }
-    },
-    "grade": {
-     "grade_id": "06747244-9940-4c80-814e-47fba403462f",
-     "grade_value": "7",
-     "company_name": "PSA",
-     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-    }
-   },
-   {
-    "title": "1996\u201197 Fleer Ultra All Rookie #3 of 15 Kobe Bryant RC Los Angeles Lakers IO25",
-    "price": 64,
-    "date": "2026-09-10T01:45:01Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 41,
-    "date": "2026-09-09T18:27:29Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 60,
-    "date": "2026-09-08T22:16:22Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "(3) Kobe Bryant 1996-97 Fleer Ultra #52 Rookie RC - Lakers HOF MVP!",
-    "price": 90,
-    "date": "2026-09-08T00:38:00Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "Fleer 1996-97 Ultra All Rookies Kobe Bryant Lakers #3 of 5 Insert Card",
-    "price": 100,
-    "date": "2026-09-06T03:06:49Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra Fresh Face Kobe Bryant #3 RC",
-    "price": 450,
-    "date": "2026-09-03T22:50:24Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 46,
-    "date": "2026-08-31T00:39:54Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 34,
-    "date": "2026-08-30T00:44:55Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Kobe Bryant Fleer Ultra All Rookie Team Insert #3 Of 15.",
-    "price": 102.5,
-    "date": "2026-08-30T00:32:54Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "Fleer 1996-97 Ultra All Rookie Kobe Bryant Rookie Insert #3 Los Angeles Lakers",
-    "price": 40,
-    "date": "2026-08-26T11:41:31Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "KOBE BRYANT BGS 8.5 1996 FLEER ULTRA #3 ROOKIE FRESH FACES RC LAKERS 4597",
-    "price": 608.79,
-    "date": "2026-08-26T01:19:00Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "ef908ad0-9361-496d-b4c7-a6634ac673c1",
-     "grade_value": "8.5",
-     "company_name": "BGS",
-     "company_id": "11bfc982-39bc-4813-99fc-70483a4dd653"
-    }
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 42,
-    "date": "2026-08-23T20:52:34Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996 FLEER ULTRA FRESH FACES #3 KOBE BRYANT ROOKIE RC PSA 7",
-    "price": 456.21,
-    "date": "2026-08-21T01:01:00Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996 Fleer Ultra ALL-ROOKIES INSERT Kobe Bryant ROOKIE #3 BGS 8 LAKERS NM-MT HOF",
-    "price": 131.38,
-    "date": "2026-08-20T01:12:00Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "f4905928-6c1d-4a1e-9ea2-5dc15e5b4112",
-     "grade_value": "8",
-     "company_name": "BGS",
-     "company_id": "11bfc982-39bc-4813-99fc-70483a4dd653"
-    }
-   },
-   {
-    "title": "KOBE BRYANT 1996 FLEER ULTRA #3 ROOKIE FRESH FACES RC LAKERS",
-    "price": 495,
-    "date": "2026-08-19T02:04:00Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "KOBE BRYANT 1996-97 FLEER ULTRA ALL-ROOKIES ROOKIE #3 LAKERS Q7128",
-    "price": 49.87,
-    "date": "2026-08-13T02:35:00Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra - All Rookie Kobe Bryant #3 (RC)",
-    "price": 33,
-    "date": "2026-08-12T22:33:29Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra All Rookie Kobe Bryant #3 BGS 7 HOF 0ls",
-    "price": 52.01,
-    "date": "2026-08-11T02:54:30Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "f373932a-6989-4917-bf16-a064ec75f4ce",
-     "grade_value": "7",
-     "company_name": "BGS",
-     "company_id": "11bfc982-39bc-4813-99fc-70483a4dd653"
-    }
-   },
-   {
-    "title": "1996-97 Fleer Ultra All-Rookie Kobe Bryant #3 BGS 7.5 (9.5 Centering!)",
-    "price": 48,
-    "date": "2026-07-31T02:00:01Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "f78ee777-02d6-48d1-b1de-d8eac108419c",
-     "grade_value": "7.5",
-     "company_name": "BGS",
-     "company_id": "11bfc982-39bc-4813-99fc-70483a4dd653"
-    }
-   },
-   {
-    "title": "1996 FLEER ULTRA ALL-ROOKIES #3 KOBE BRYANT ROOKIE RC PSA 7",
-    "price": 77,
-    "date": "2026-07-31T01:37:00Z",
-    "parallel_name": null,
-    "matched_card": {
-     "card_id": "4ea8a9cd-6475-4fbd-860a-a98948ecfbc9",
-     "name": "Kobe Bryant",
-     "number": "3",
-     "set": {
-      "set_id": "784e386f-2a11-4c01-bfa2-88e99bd64a1c",
-      "name": "Rookie Sensations",
-      "year": "1996-97",
-      "release": "Fleer"
-     }
-    },
-    "grade": {
-     "grade_id": "06747244-9940-4c80-814e-47fba403462f",
-     "grade_value": "7",
-     "company_name": "PSA",
-     "company_id": "7acc6827-3794-4205-bc73-08a9060d5af7"
-    }
-   },
-   {
-    "title": "1996 Fleer Ultra Kobe Bryant All Rookie RC #3 Lakers",
-    "price": 40.99,
-    "date": "2026-07-26T00:42:00Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra 3 of 15 All Rookie Kobe Bryant RC Lakers IO25",
-    "price": 59,
-    "date": "2026-07-23T03:29:57Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996-97 Fleer Ultra All Rookie 3 of 15 Kobe Bryant RC Los Angeles Lakers IO25",
-    "price": 76.76,
-    "date": "2026-07-23T03:28:57Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "1996 Fleer Ultra Kobe Bryant Fresh Faces Rookie RC #3 Lakers PSA 7",
-    "price": 432.99,
-    "date": "2026-07-23T01:25:42Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
-   },
-   {
-    "title": "Fleer 1996-97 Ultra All-Rookies Kobe Bryant Lakers #3 of 9 BGS 7.5 RC",
-    "price": 87,
-    "date": "2026-07-22T19:37:08Z",
-    "parallel_name": null,
-    "matched_card": null,
-    "grade": null
+    ],
+    "total_records": 100
    }
-  ]
+  }
  }
 ]
