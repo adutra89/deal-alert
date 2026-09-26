@@ -448,6 +448,14 @@
    "at": "2026-09-26T05:51:55.611506+00:00",
    "mv": null
   },
+  "2023 panini donruss Victor Wembanyama 29": {
+   "at": "2026-09-26T12:23:02.930821+00:00",
+   "mv": {
+    "count": 45,
+    "label": "2023-24 Donruss Franchise Features Victor Wembanyama #29",
+    "median": 5.5
+   }
+  },
   "2023 panini prizm draft Victor Wembanyama 2 PSA 10": {
    "at": "2026-09-26T02:07:42.554885+00:00",
    "mv": {
@@ -567,18 +575,18 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-26 12:02:33] eBay: 50 listings for Michael Jordan",
-  "[2026-09-26 12:02:34] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-26 12:02:34] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-26 12:02:35] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-26 12:02:35] 8 new listings queued, 48 in queue",
-  "[2026-09-26 12:02:37] 16 auctions ending soon with <= 5 bids",
-  "[2026-09-26 12:02:41] pre-checked 7 on eBay; dropped 5 priced like everyone else",
-  "[2026-09-26 12:02:51] CardSight checks allowed this run: 1 (used 240/700 this month)",
-  "[2026-09-26 12:02:51] $180.00 vs $120.25 (12 comps): Topps 2018 Update Series Shohei Ohtani #US1 Pitching Red Jer",
-  "[2026-09-26 12:02:51] checking (60% of other asks): Topps Stars of MLB 2026 Topps Series 1 Shohei Ohtani #SMLB-9 Dodgers  ->  q=\"2026 topps Shohei Ohtani SMLB-9\"",
-  "[2026-09-26 12:03:01] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
-  "[2026-09-26 12:03:01] done: 0 deal alert(s) sent"
+  "[2026-09-26 12:23:03] eBay: 50 listings for Michael Jordan",
+  "[2026-09-26 12:23:04] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-26 12:23:04] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-26 12:23:05] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-26 12:23:05] 9 new listings queued, 49 in queue",
+  "[2026-09-26 12:23:06] 21 auctions ending soon with <= 5 bids",
+  "[2026-09-26 12:23:12] pre-checked 9 on eBay; dropped 6 priced like everyone else",
+  "[2026-09-26 12:23:24] CardSight checks allowed this run: 2 (used 241/700 this month)",
+  "[2026-09-26 12:23:24] checking (n/a): 2022 Panini Prizm - Stained Glass Shohei Ohtani #SG-3 Red Wave Prizm /  ->  q=\"2022 panini prizm Shohei Ohtani SG-3 red wave\"",
+  "[2026-09-26 12:23:34] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
+  "[2026-09-26 12:23:34] checking (n/a): Panini 2023-24 Donruss Victor Wembanyama Franchise Features #29 RC Spu  ->  q=\"2023 panini donruss Victor Wembanyama 29\"",
+  "[2026-09-26 12:23:41] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -593,6 +601,19 @@
    "shipping": 0.0,
    "title": "2023-24 Panini Phoenix Fade To Black Silver RC Victor Wembanyama Holo MINT #11",
    "url": "https://www.ebay.com/itm/227540201742?_skw=Victor+Wembanyama&hash=item34fa73f10e:g:RAUAAeSw~plqt62C"
+  },
+  {
+   "ask_ratio": 0.6764117647058823,
+   "ask_ref": 170.0,
+   "found_at": "2026-09-26T12:23:04.640458+00:00",
+   "id": "v1|820174503480|0",
+   "image": "https://i.ebayimg.com/images/g/UQsAAeSwV~Vqt7QB/s-l225.jpg",
+   "player": "Victor Wembanyama",
+   "price": 114.99,
+   "query": "2024 panini immaculate Victor Wembanyama 14",
+   "shipping": 0.0,
+   "title": "2024 NBA Panini Immaculate Collection #14 Victor Wembanyama /99 Spurs",
+   "url": "https://www.ebay.com/itm/820174503480?_skw=Victor+Wembanyama&hash=itembef635be38:g:UQsAAeSwV~Vqt7QB"
   },
   {
    "ask_ratio": 0.7233712010874842,
@@ -671,6 +692,30 @@
    "shipping": 5.99,
    "title": "2018 PANINI CHRONICLES CLASSICS #13 SHOHEI OHTANI ROOKIE RC PSA 10",
    "url": "https://www.ebay.com/itm/117432346716?_skw=Shohei+Ohtani&hash=item1b5783685c:g:0hsAAeSwp05qt5SW"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-26T12:23:04.152258+00:00",
+   "id": "v1|398433962994|0",
+   "image": "https://i.ebayimg.com/images/g/VL8AAeSwQU1qt7XK/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 85.0,
+   "query": "topps Shohei Ohtani 70",
+   "shipping": 0.0,
+   "title": "Topps Project70 Shohei Ohtani Insert #70 Los Angeles Angels MLB Card",
+   "url": "https://www.ebay.com/itm/398433962994?_skw=Shohei+Ohtani&hash=item5cc483cbf2:g:VL8AAeSwQU1qt7XK"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-26T12:23:04.152236+00:00",
+   "id": "v1|178530034569|0",
+   "image": "https://i.ebayimg.com/images/g/kGkAAeSwaTFqt7dL/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 229.99,
+   "query": "2019 topps chrome Shohei Ohtani FS1 PSA 10",
+   "shipping": 5.99,
+   "title": "Shohei Ohtani 2019 Topps Chrome Future Stars #FS1 - PSA 10 GEM MINT",
+   "url": "https://www.ebay.com/itm/178530034569?_skw=Shohei+Ohtani&hash=item2991382389:g:kGkAAeSwaTFqt7dL"
   },
   {
    "ask_ratio": null,
@@ -1067,30 +1112,6 @@
    "shipping": 0.0,
    "title": "Topps 2018 Opening Day Shohei Ohtani Rookie Card #198 Los Angeles Angels",
    "url": "https://www.ebay.com/itm/287609567707?_skw=Shohei+Ohtani&hash=item42f6ddb9db:g:S4oAAeSwrYtqt2Oi"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T06:12:09.752220+00:00",
-   "id": "v1|257766398008|0",
-   "image": "https://i.ebayimg.com/images/g/cqIAAeSwrWJqt17m/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 50.52,
-   "query": "2023 panini mosaic Victor Wembanyama 3 PSA 8",
-   "shipping": 4.99,
-   "title": "2023-24 Panini Mosaic Jam Masters Victor Wembanyama #3 PSA 8 Rookie RC 0x3f",
-   "url": "https://www.ebay.com/itm/257766398008?_skw=Victor+Wembanyama&hash=item3c04131838:g:cqIAAeSwrWJqt17m"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-26T06:12:08.905800+00:00",
-   "id": "v1|128099443077|0",
-   "image": "https://i.ebayimg.com/images/g/NrIAAeSwL7tqt2CK/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 86.96,
-   "query": "1997 upper deck Michael Jordan AT5 PSA 9",
-   "shipping": 0.0,
-   "title": "1997-98 Upper Deck Air Time #AT5 Michael Jordan PSA 9 Graded Card NBA 97-98 1998",
-   "url": "https://www.ebay.com/itm/128099443077?_skw=Michael+Jordan&hash=item1dd3526185:g:NrIAAeSwL7tqt2CK"
   }
  ],
  "seen": {
@@ -1101,6 +1122,7 @@
   "a:v1|158309117742|0": "2026-09-26T10:40:43.136647+00:00",
   "a:v1|158309148737|0": "2026-09-26T11:01:10.521667+00:00",
   "a:v1|168699875686|0": "2026-09-26T09:19:14.242689+00:00",
+  "a:v1|188951420154|0": "2026-09-26T12:23:02.930821+00:00",
   "a:v1|257752225302|0": "2026-09-26T07:36:57.996924+00:00",
   "a:v1|800684714343|0": "2026-09-26T08:58:41.273065+00:00",
   "v1|117426385372|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1187,6 +1209,8 @@
   "v1|117432301314|0": "2026-09-26T09:19:14.242689+00:00",
   "v1|117432346558|0": "2026-09-26T09:59:38.956337+00:00",
   "v1|117432346716|0": "2026-09-26T09:59:38.956337+00:00",
+  "v1|117432504443|0": "2026-09-26T12:23:02.930821+00:00",
+  "v1|117432526307|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|128093729662|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|128093981190|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|128094049016|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1299,6 +1323,7 @@
   "v1|137780124385|0": "2026-09-26T01:46:38.554644+00:00",
   "v1|137780201808|0": "2026-09-26T02:28:18.156599+00:00",
   "v1|137780291443|0": "2026-09-26T03:09:20.516384+00:00",
+  "v1|137781734440|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|147598335706|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|147598335720|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|147598335739|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1396,6 +1421,7 @@
   "v1|147599930685|0": "2026-09-26T05:11:21.765482+00:00",
   "v1|147600187381|0": "2026-09-26T07:57:31.721960+00:00",
   "v1|147600192061|0": "2026-09-26T08:17:49.953462+00:00",
+  "v1|147600563258|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|158337450336|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|158337680637|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|158338158259|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1641,6 +1667,7 @@
   "v1|178529220613|0": "2026-09-26T04:51:02.546779+00:00",
   "v1|178529377151|0": "2026-09-26T06:12:08.180412+00:00",
   "v1|178529461199|0": "2026-09-26T07:36:57.996924+00:00",
+  "v1|178530034569|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|188983378481|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|188983378485|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|188983378498|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1945,6 +1972,8 @@
   "v1|237091781601|0": "2026-09-26T11:42:06.689813+00:00",
   "v1|237091784802|0": "2026-09-26T12:02:33.070410+00:00",
   "v1|237091800683|0": "2026-09-26T12:02:33.070410+00:00",
+  "v1|237091814425|0": "2026-09-26T12:23:02.930821+00:00",
+  "v1|237091826302|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|257755882590|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|257761679401|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|257765079681|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2056,6 +2085,8 @@
   "v1|257766856663|0": "2026-09-26T12:02:33.070410+00:00",
   "v1|257766856729|0": "2026-09-26T12:02:33.070410+00:00",
   "v1|257766858237|0": "2026-09-26T12:02:33.070410+00:00",
+  "v1|257766915997|0": "2026-09-26T12:23:02.930821+00:00",
+  "v1|257766918735|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|267790079228|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|267791229707|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|267795278191|0": "2026-09-25T18:57:00.252118+00:00",
@@ -2574,6 +2605,7 @@
   "v1|336813849604|0": "2026-09-26T11:42:06.689813+00:00",
   "v1|336813864410|0": "2026-09-26T11:42:06.689813+00:00",
   "v1|336813884532|0": "2026-09-26T12:02:33.070410+00:00",
+  "v1|336813905877|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|366691722323|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|366691775141|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|366692009042|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2740,6 +2772,8 @@
   "v1|398433503734|0": "2026-09-26T08:58:41.273065+00:00",
   "v1|398433763940|0": "2026-09-26T11:01:10.521667+00:00",
   "v1|398433785670|0": "2026-09-26T11:01:10.521667+00:00",
+  "v1|398433962994|0": "2026-09-26T12:23:02.930821+00:00",
+  "v1|398433986349|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|407195518410|0": "2026-09-25T19:04:16.846640+00:00",
   "v1|407195518423|0": "2026-09-25T20:16:19.428612+00:00",
   "v1|407195518439|0": "2026-09-25T21:17:52.889454+00:00",
@@ -2886,6 +2920,7 @@
   "v1|800718273176|0": "2026-09-26T11:42:06.689813+00:00",
   "v1|800718349076|0": "2026-09-26T12:02:33.070410+00:00",
   "v1|800718384396|0": "2026-09-26T12:02:33.070410+00:00",
+  "v1|800718464545|0": "2026-09-26T12:23:02.930821+00:00",
   "v1|820170852637|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|820170937491|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|820171064358|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2952,11 +2987,12 @@
   "v1|820173823237|0": "2026-09-26T07:57:31.721960+00:00",
   "v1|820173852645|0": "2026-09-26T08:17:49.953462+00:00",
   "v1|820173902771|0": "2026-09-26T08:38:18.632725+00:00",
-  "v1|820173967737|0": "2026-09-26T08:58:41.273065+00:00"
+  "v1|820173967737|0": "2026-09-26T08:58:41.273065+00:00",
+  "v1|820174503480|0": "2026-09-26T12:23:02.930821+00:00"
  },
  "usage": {
-  "calls": 241,
-  "credit": 0.9114775671146556,
+  "calls": 243,
+  "credit": 0.3325301986936031,
   "month": "2026-09"
  }
 }
