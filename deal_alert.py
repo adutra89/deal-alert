@@ -217,6 +217,50 @@ def ebay_new_listings(token: str, player: str, cfg: dict) -> list[dict]:
     return items
 
 
+def ebay_ending_auctions(token: str, player: str, cfg: dict) -> list[dict]:
+    """Auctions for this player ending within the next auction_window_minutes, with few bids."""
+    now = datetime.now(timezone.utc)
+    end = (now + timedelta(minutes=int(cfg.get("auction_window_minutes", 45)))).strftime("%Y-%m-%dT%H:%M:%SZ")
+    params = {
+        "q": player,
+        "category_ids": EBAY_SPORTS_SINGLES_CATEGORY,
+        "sort": "endingSoonest",
+        "limit": 100,
+        "filter": f"buyingOptions:{{AUCTION}},itemEndDate:[..{end}],price:[0..{cfg['max_price']}],"
+                  f"priceCurrency:USD,itemLocationCountry:US",
+    }
+    r = requests.get(
+        EBAY_SEARCH_URL,
+        headers={"Authorization": f"Bearer {token}", "X-EBAY-C-MARKETPLACE-ID": "EBAY_US"},
+        params=params,
+        timeout=30,
+    )
+    r.raise_for_status()
+    items = []
+    for it in r.json().get("itemSummaries", []):
+        try:
+            bid = float((it.get("currentBidPrice") or it.get("price"))["value"])
+            end_at = datetime.fromisoformat(it["itemEndDate"].replace("Z", "+00:00"))
+        except (KeyError, TypeError, ValueError):
+            continue
+        bids = int(it.get("bidCount") or 0)
+        if bids > int(cfg.get("auction_max_bids", 5)) or end_at < now + timedelta(minutes=3):
+            continue
+        ship = 0.0
+        for opt in it.get("shippingOptions") or []:
+            try:
+                ship = float(opt["shippingCost"]["value"])
+                break
+            except (KeyError, TypeError, ValueError):
+                pass
+        items.append({
+            "id": it["itemId"], "kind": "auction", "title": it.get("title", ""), "price": bid,
+            "shipping": ship, "bids": bids, "ends_at": end_at.isoformat(), "url": it.get("itemWebUrl", ""),
+            "player": player, "found_at": now.isoformat(),
+        })
+    return items
+
+
 def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | None:
     """Free pre-check: listing price vs the median of other Buy It Now listings of the same card.
 
@@ -493,7 +537,20 @@ def notify(topic: str, title: str, body: str, url: str = "", priority: str = "hi
     r.raise_for_status()
 
 
-def deal_message(listing: dict, mv: dict, ev: dict) -> tuple[str, str]:
+def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> tuple[str, str]:
+    if listing.get("kind") == "auction":
+        mins = max(0, int((datetime.fromisoformat(listing["ends_at"]) - datetime.now(timezone.utc)).total_seconds() // 60))
+        threshold = float((cfg or {}).get("discount_threshold", 0.35))
+        max_bid = mv["median"] * (1 - threshold) - listing["shipping"]
+        title = f"AUCTION ends in {mins} min - {listing['player']}"
+        body = (
+            f"{listing['title']}\n\n"
+            f"Current bid: ${listing['price']:,.2f} ({listing['bids']} bids) + ${listing['shipping']:,.2f} ship\n"
+            f"Sold comps: ${mv['median']:,.2f} median ({mv['count']} sales)\n"
+            f"Bid up to ${max_bid:,.2f} to stay {threshold:.0%} under market\n"
+            f"Matched: {mv['label']}"
+        )
+        return title, body
     title = f"{ev['discount']:.0%} under comps - {listing['player']}"
     body = (
         f"{listing['title']}\n\n"
@@ -577,6 +634,24 @@ def run() -> int:
             new += 1
     log(f"{new} new listings queued, {len(state['queue'])} in queue")
 
+    auctions = []
+    if cfg.get("auctions", True):
+        for player in cfg["players"]:
+            try:
+                found = ebay_ending_auctions(token, player, cfg)
+            except Exception as e:  # noqa: BLE001
+                log(f"eBay auction search failed for {player}: {e}")
+                continue
+            for it in found:
+                if f"a:{it['id']}" in state["seen"] or player.split()[-1].lower() not in it["title"].lower():
+                    continue
+                if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not card_number(it["title"]):
+                    continue
+                it["query"] = build_query(it["title"], player)
+                auctions.append(it)
+        auctions.sort(key=lambda a: a["ends_at"])
+        log(f"{len(auctions)} auctions ending soon with <= {cfg.get('auction_max_bids', 5)} bids")
+
     # 2. free pre-check: compare each new listing to other eBay asks for the same card
     ask_cutoff = float(cfg.get("precheck_max_ratio", 0.75))
     cache = state.setdefault("comp_cache", {})
@@ -597,6 +672,15 @@ def run() -> int:
     before = len(state["queue"])
     state["queue"] = [q for q in state["queue"] if q.get("ask_ratio") is None or q["ask_ratio"] <= ask_cutoff]
     log(f"pre-checked {prechecked} on eBay; dropped {before - len(state['queue'])} priced like everyone else")
+    for a in auctions[:20]:
+        if a["query"] in cache:
+            continue
+        try:
+            a["ask_ratio"] = ebay_ask_ratio(token, a, a["query"], cfg)
+        except Exception as e:  # noqa: BLE001
+            log(f"auction pre-check failed: {e}")
+            break
+    auctions = [a for a in auctions if a.get("ask_ratio") is None or a["ask_ratio"] <= ask_cutoff]
 
     allowed = checks_allowed_this_run(state, cfg, now)
     sample_mode = os.environ.get("SAMPLE_ALERT") == "true"
@@ -608,8 +692,12 @@ def run() -> int:
 
     def judge(listing: dict, mv: dict | None) -> None:
         nonlocal best, deals
+        if listing.get("kind") == "auction":
+            state["seen"][f"a:{listing['id']}"] = now.isoformat()  # judged once; don't alert twice
         if not mv:
             return
+        if listing.get("kind") == "auction" and mv["median"] < float(cfg["min_price"]):
+            return  # cheap card: not worth the time even at a discount
         ref = listing.get("ask_ref")
         if ref and mv["median"] > 1.6 * ref:
             log(f"  comps ${mv['median']:.0f} way above what sellers ask now (~${ref:.0f}); likely wrong card, skipping")
@@ -620,12 +708,15 @@ def run() -> int:
         log(f"${cost:.2f} vs ${mv['median']:.2f} ({mv['count']} comps): {listing['title'][:60]}")
         ev = evaluate(listing, mv, cfg)
         if ev:
-            t, body = deal_message(listing, mv, ev)
+            t, body = deal_message(listing, mv, ev, cfg)
             try:
                 notify(env["NTFY_TOPIC"], t, body, url=listing["url"])
                 deals += 1
             except Exception as e:  # noqa: BLE001
                 log(f"notification failed: {e}")
+
+    # auctions go first this run (they're about to end); they never stay in the saved queue
+    state["queue"] = auctions + state["queue"]
 
     # 3a. listings of cards priced in the last 24h: judge for free
     rest = []
@@ -637,7 +728,7 @@ def run() -> int:
     state["queue"] = rest
 
     # 3b. spend CardSight checks on the most promising listings (cheapest vs other asks first)
-    state["queue"].sort(key=lambda q: (q.get("ask_ratio") is None, q.get("ask_ratio") or 0))
+    state["queue"].sort(key=lambda q: (q.get("kind") != "auction", q.get("ask_ratio") is None, q.get("ask_ratio") or 0))
     while allowed > 0 and state["queue"]:
         listing = state["queue"].pop(0)
         query = listing["query"]
@@ -674,12 +765,14 @@ def run() -> int:
         judge(listing, mv)
         time.sleep(0.3)
 
+    state["queue"] = [q for q in state["queue"] if q.get("kind") != "auction"]
+
     if sample_mode:
         if best:
             disc, listing, mv = best
             cost = listing["price"] + listing["shipping"]
             ev = {"discount": disc, "profit": mv["median"] * (1 - float(cfg["fee_rate"])) - cost}
-            t, body = deal_message(listing, mv, ev)
+            t, body = deal_message(listing, mv, ev, cfg)
             notify(env["NTFY_TOPIC"], "TEST (not a deal) - " + t.replace(" under comps", " vs comps"), body,
                    url=listing["url"], priority="default", tags="test_tube")
             log(f"sent TEST alert: {t}")

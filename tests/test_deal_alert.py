@@ -138,3 +138,11 @@ def test_subset_names_must_agree():
 
 def test_trim_outliers():
     assert d.trim([40, 45, 50, 400]) == [40, 45, 50]
+
+
+def test_auction_message_has_max_bid():
+    from datetime import datetime, timedelta, timezone
+    a = {"kind": "auction", "title": "t", "player": "Kobe Bryant", "price": 20.0, "shipping": 5.0, "bids": 1,
+         "ends_at": (datetime.now(timezone.utc) + timedelta(minutes=15)).isoformat()}
+    t, body = d.deal_message(a, {"median": 100.0, "count": 6, "label": "x"}, {}, {"discount_threshold": 0.35})
+    assert "AUCTION" in t and "Bid up to $60.00" in body
