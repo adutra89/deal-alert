@@ -33,6 +33,6 @@ for line in open("probe/queries.txt"):
     except Exception:
         body = r.text[:500]
     if isinstance(body, dict) and isinstance(body.get("results"), list):
-        body["results"] = body["results"][:6]
+        body["results"] = body["results"][:100]
     out.append({"path": path, "params": params, "status": r.status_code, "body": body})
 json.dump(out, open("probe/results.json", "w"), indent=1)
