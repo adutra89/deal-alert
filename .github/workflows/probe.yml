@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: deal-alert
+  group: probe
   cancel-in-progress: false
 jobs:
   probe:

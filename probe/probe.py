@@ -23,7 +23,7 @@ for line in open("probe/queries.txt"):
         res = data.get("results", [])
         mv = d.market_value(title, res, cfg)
         out.append({"title": title, "query": q, "n_results": len(res), "market_value": mv, "log": list(d.RUN_LOG),
-                    "top": [{k: r.get(k) for k in ("title", "price", "parallel_name", "matched_card", "grade")} for r in res[:5]]})
+                    "all": [{k: r.get(k) for k in ("title", "price", "date", "parallel_name", "matched_card", "grade")} for r in res[:40]]})
         continue
     path, _, q = line.partition(" ")
     params = dict(p.split("=", 1) for p in q.split("&")) if "=" in q else {"q": q}
