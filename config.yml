@@ -15,7 +15,7 @@ min_price: 50
 max_price: 500
 
 # Need at least this many recent sold comps before trusting the market value.
-min_comps: 3
+min_comps: 5
 
 # How far back to look for sold comps ("30d", "3m", "6m", "1y").
 comp_period: 3m

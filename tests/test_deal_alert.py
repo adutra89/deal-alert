@@ -120,3 +120,21 @@ def test_no_card_number_is_not_priced():
         x["matched_card"]["number"] = "221"
     assert d.market_value("Victor Wembanyama PSA 9 Clutch Gene 2025-26 Topps Chrome Basketball", r, CFG) is None
     assert d.card_number("2025-26 Topps Chrome - Clutch Gene Victor Wembanyama #CG-17- PSA 9") == "CG-17"
+
+
+def test_subset_names_must_agree():
+    # real miss: All-Rookies #3 (~$50) was valued using Fresh Faces #3 sales (~$450)
+    res = [{"price": p, "listing_type": "auction", "title": t} for p, t in [
+        (450, "1996-97 Fleer Ultra Fresh Face Kobe Bryant #3 RC"),
+        (495, "KOBE BRYANT 1996 FLEER ULTRA #3 ROOKIE FRESH FACES RC LAKERS"),
+        (433, "1996 Fleer Ultra Kobe Bryant Fresh Faces Rookie RC #3 Lakers"),
+        (49, "1996-97 Fleer Ultra All-Rookie Kobe Bryant #3 RC"),
+        (61, "KOBE BRYANT FLEER ULTRA 1996-97 ALL ROOKIE INSERT #3"),
+        (42, "1996-97 Fleer Ultra All Rookie Kobe Bryant #3 Rookie Insert"),
+    ]]
+    mv = d.market_value("Fleer Ultra 1996-97 All-Rookies Kobe Bryant Lakers #3 Rookie", res, CFG)
+    assert mv["median"] == 49
+
+
+def test_trim_outliers():
+    assert d.trim([40, 45, 50, 400]) == [40, 45, 50]

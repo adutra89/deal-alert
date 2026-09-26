@@ -249,6 +249,7 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
         return None
     asks.sort()
     low_quartile = asks[len(asks) // 4]  # asks run high; compare against the cheaper end
+    listing["ask_ref"] = low_quartile
     return (listing["price"] + listing["shipping"]) / low_quartile
 
 
@@ -359,6 +360,23 @@ def brands_in(title: str) -> set[str]:
     return {b for b in BRANDS if f" {' '.join(words(b))} " in t}
 
 
+SUBSET_PHRASES = [
+    "fresh faces", "all rookie", "all rookies", "rookie sensations", "star power", "die cut", "diecut",
+    "gold medallion", "precious metal", "rookie rage", "decade of excellence", "all stars", "all star",
+    "power surge", "hot pack", "clutch gene", "downtown", "kaboom", "color blast", "stained glass",
+    "instant impact", "rated rookie", "future watch", "team leaders", "league leaders", "highlights",
+    "checklist", "retro", "throwback", "anniversary", "variation", "sp variation", "ssp", "image variation",
+    "photo variation", "fanatics", "game used", "jersey", "patch", "relic", "auto", "autograph",
+]
+
+
+def subsets_in(title: str) -> set[str]:
+    t = " " + " ".join(words(title.replace("-", " "))) + " "
+    found = {p for p in SUBSET_PHRASES if f" {p} " in t}
+    # treat singular/plural variants as the same subset
+    return {p.rstrip("s") for p in found}
+
+
 def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -> bool:
     """For sold comps CardSight couldn't tie to a catalog card: compare titles directly."""
     if not title_num or card_number(rec_title) != title_num:
@@ -376,6 +394,15 @@ def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -
     return brands_in(rec_title) - {"panini"} == brands_in(listing_title) - {"panini"}
 
 
+def trim(prices) -> list[float]:
+    """Drop sales far from the middle (mislabeled cards, shill bids, damaged copies)."""
+    p = sorted(prices)
+    if len(p) < 3:
+        return p
+    m = statistics.median(p)
+    return [x for x in p if 0.5 * m <= x <= 2 * m]
+
+
 def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | None:
     """Find sold comps that are the same card, parallel and grade as the listing.
 
@@ -388,9 +415,12 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         return None  # without a card # we can't be sure which card it is (e.g. an insert vs the base card)
     groups: dict[tuple, list[dict]] = {}
     unmatched: list[dict] = []
+    listing_subsets = subsets_in(listing_title)
     for rec in results:
         if rec.get("listing_type", "auction") != "auction" or not rec.get("price"):
             continue
+        if rec.get("title") and subsets_in(rec["title"]) != listing_subsets:
+            continue  # e.g. "Fresh Faces #3" ($450) is a different card from "All-Rookies #3" ($50)
         if not rec.get("matched_card"):
             if title_match_ok(rec.get("title") or "", listing_title, title_grade, title_num):
                 unmatched.append(rec)
@@ -402,7 +432,8 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     if unmatched:
         if groups:
             biggest = max(groups, key=lambda k: len(groups[k]))
-            groups[biggest] = groups[biggest] + unmatched
+            m = statistics.median(float(r["price"]) for r in groups[biggest])
+            groups[biggest] = groups[biggest] + [r for r in unmatched if 0.5 * m <= float(r["price"]) <= 2 * m]
         else:
             groups[("title-match", None, None)] = unmatched
     if not groups:
@@ -420,7 +451,9 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         return None
     top = next((r for r in recs if r.get("matched_card")), None)
     if top is None:
-        prices = [float(r["price"]) for r in recs]
+        prices = trim(float(r["price"]) for r in recs)
+        if len(prices) < int(cfg["min_comps"]):
+            return None
         label = f"title match: {recs[0].get('title', '')[:60]}"
         return {"median": statistics.median(prices), "count": len(prices), "label": label}
     card = top["matched_card"]
@@ -432,7 +465,10 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     ] if x)
     if title_grade:
         label += f" {title_grade[0]} {title_grade[1]}"
-    prices = [float(r["price"]) for r in recs]
+    prices = trim(float(r["price"]) for r in recs)
+    if len(prices) < int(cfg["min_comps"]):
+        log(f"  only {len(prices)} comps after dropping outliers")
+        return None
     return {"median": statistics.median(prices), "count": len(prices), "label": label.strip()}
 
 
@@ -573,6 +609,10 @@ def run() -> int:
     def judge(listing: dict, mv: dict | None) -> None:
         nonlocal best, deals
         if not mv:
+            return
+        ref = listing.get("ask_ref")
+        if ref and mv["median"] > 1.6 * ref:
+            log(f"  comps ${mv['median']:.0f} way above what sellers ask now (~${ref:.0f}); likely wrong card, skipping")
             return
         cost = listing["price"] + listing["shipping"]
         if best is None or 1 - cost / mv["median"] > best[0]:
