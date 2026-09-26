@@ -16,6 +16,14 @@
    "at": "2026-09-26T02:07:42.554885+00:00",
    "mv": null
   },
+  "1991 Michael Jordan AW4 PSA 9": {
+   "at": "2026-09-26T09:19:14.242689+00:00",
+   "mv": {
+    "count": 7,
+    "label": "title match: Michael Jordan PSA 9 1991-92 UD Award Winner Holograms Chica",
+    "median": 204.5
+   }
+  },
   "1991 skybox Michael Jordan 39 SGC 10": {
    "at": "2026-09-26T02:48:49.941981+00:00",
    "mv": null
@@ -523,22 +531,32 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-26 08:58:42] eBay: 50 listings for Michael Jordan",
-  "[2026-09-26 08:58:42] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-26 08:58:43] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-26 08:58:43] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-26 08:58:43] 11 new listings queued, 71 in queue",
-  "[2026-09-26 08:58:45] 6 auctions ending soon with <= 5 bids",
-  "[2026-09-26 08:58:51] pre-checked 11 on eBay; dropped 8 priced like everyone else",
-  "[2026-09-26 08:58:55] CardSight checks allowed this run: 2 (used 227/700 this month)",
-  "[2026-09-26 08:58:55] checking (33% of other asks): 2025 Topps Holiday - Shohei Ohtani #H200 Holiday SP Variant LA Dodgers  ->  q=\"2025 topps sp Shohei Ohtani H200\"",
-  "[2026-09-26 08:59:02]   only 1 comps for matched card",
-  "[2026-09-26 08:59:02] no reliable comps: 2025 Topps Holiday - Shohei Ohtani #H200 Holiday SP Variant LA Dodgers",
-  "[2026-09-26 08:59:02] checking (62% of other asks): Topps 2024 Chrome Shohei Ohtani #1 Pink Refractor Los Angeles Dodgers  ->  q=\"2024 topps chrome Shohei Ohtani 1 refractor pink\"",
-  "[2026-09-26 08:59:12] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
-  "[2026-09-26 08:59:12] done: 0 deal alert(s) sent"
+  "[2026-09-26 09:19:15] eBay: 50 listings for Michael Jordan",
+  "[2026-09-26 09:19:15] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-26 09:19:15] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-26 09:19:16] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-26 09:19:16] 2 new listings queued, 64 in queue",
+  "[2026-09-26 09:19:18] 4 auctions ending soon with <= 5 bids",
+  "[2026-09-26 09:19:19] pre-checked 2 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-26 09:19:22] CardSight checks allowed this run: 1 (used 229/700 this month)",
+  "[2026-09-26 09:19:22] checking (21% of other asks): 1991 UD AWARD WINNER HOLOGRAM #AW4 MICHAEL JORDAN PSA 9  ->  q=\"1991 Michael Jordan AW4 PSA 9\"",
+  "[2026-09-26 09:19:25] $75.00 vs $204.50 (7 comps): 1991 UD AWARD WINNER HOLOGRAM #AW4 MICHAEL JORDAN PSA 9",
+  "[2026-09-26 09:19:26] done: 1 deal alert(s) sent"
  ],
  "queue": [
+  {
+   "ask_ratio": 0.6062695162009814,
+   "ask_ref": 493.18,
+   "found_at": "2026-09-26T09:19:15.026499+00:00",
+   "id": "v1|366693177086|0",
+   "image": "https://i.ebayimg.com/images/g/hlcAAeSwkVVqt4yP/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 299.0,
+   "query": "1991 upper deck Michael Jordan AW1 PSA 9",
+   "shipping": 0.0,
+   "title": "1991 Upper Deck Michael Jordan Award Winner Hologram #AW1 PSA 9",
+   "url": "https://www.ebay.com/itm/366693177086?_skw=Michael+Jordan&hash=item55609dd6fe:g:hlcAAeSwkVVqt4yP"
+  },
   {
    "ask_ratio": 0.75,
    "ask_ref": 400.0,
@@ -1293,6 +1311,7 @@
  ],
  "seen": {
   "a:v1|158308695137|0": "2026-09-26T07:57:31.721960+00:00",
+  "a:v1|168699875686|0": "2026-09-26T09:19:14.242689+00:00",
   "a:v1|257752225302|0": "2026-09-26T07:36:57.996924+00:00",
   "a:v1|800684714343|0": "2026-09-26T08:58:41.273065+00:00",
   "v1|117426385372|0": "2026-09-25T18:40:23.258016+00:00",
@@ -1376,6 +1395,7 @@
   "v1|117432032638|0": "2026-09-26T05:11:21.765482+00:00",
   "v1|117432120196|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|117432297734|0": "2026-09-26T08:58:41.273065+00:00",
+  "v1|117432301314|0": "2026-09-26T09:19:14.242689+00:00",
   "v1|128093729662|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|128093981190|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|128094049016|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2103,6 +2123,7 @@
   "v1|237091560779|0": "2026-09-26T08:38:18.632725+00:00",
   "v1|237091563596|0": "2026-09-26T08:38:18.632725+00:00",
   "v1|237091568699|0": "2026-09-26T08:58:41.273065+00:00",
+  "v1|237091606331|0": "2026-09-26T09:19:14.242689+00:00",
   "v1|257755882590|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|257761679401|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|257765079681|0": "2026-09-25T18:40:23.258016+00:00",
@@ -2738,6 +2759,7 @@
   "v1|366692831427|0": "2026-09-26T05:11:21.765482+00:00",
   "v1|366693062647|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|366693155588|0": "2026-09-26T08:58:41.273065+00:00",
+  "v1|366693177086|0": "2026-09-26T09:19:14.242689+00:00",
   "v1|377513556541|0": "2026-09-25T20:16:19.428612+00:00",
   "v1|377522422006|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|377522566467|0": "2026-09-25T18:40:23.258016+00:00",
@@ -3069,8 +3091,8 @@
   "v1|820173967737|0": "2026-09-26T08:58:41.273065+00:00"
  },
  "usage": {
-  "calls": 229,
-  "credit": 0.14687720993712716,
+  "calls": 230,
+  "credit": 0.5612916243515416,
   "month": "2026-09"
  }
 }
