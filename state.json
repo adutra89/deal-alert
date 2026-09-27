@@ -27,15 +27,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-27 05:47:18] eBay: 50 listings for Michael Jordan",
-  "[2026-09-27 05:47:18] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-27 05:47:18] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-27 05:47:19] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-27 05:47:19] 12 new listings queued, 210 in queue",
-  "[2026-09-27 05:47:21] 22 auctions ending soon with <= 5 bids",
-  "[2026-09-27 05:47:28] pre-checked 12 on eBay; dropped 5 priced like everyone else",
-  "[2026-09-27 05:47:40] CardSight checks allowed this run: 0 (used 597/700 this month)",
-  "[2026-09-27 05:47:40] done: 0 deal alert(s) sent"
+  "[2026-09-27 05:48:29] eBay: 50 listings for Michael Jordan",
+  "[2026-09-27 05:48:29] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-27 05:48:30] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-27 05:48:30] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-27 05:48:30] 2 new listings queued, 207 in queue",
+  "[2026-09-27 05:48:31] 20 auctions ending soon with <= 5 bids",
+  "[2026-09-27 05:48:33] pre-checked 2 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-27 05:48:44] CardSight checks allowed this run: 0 (used 597/700 this month)",
+  "[2026-09-27 05:48:44] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -102,6 +102,19 @@
    "shipping": 0.0,
    "title": "Panini Prizm 2018-19 Kobe Bryant Los Angeles Lakers #15 PSA 10 Base",
    "url": "https://www.ebay.com/itm/137783681951?_skw=Kobe+Bryant&hash=item20148c239f:g:7ZMAAeSwcS9quHIj"
+  },
+  {
+   "ask_ratio": 0.4237493341081892,
+   "ask_ref": 412.98,
+   "found_at": "2026-09-27T05:48:30.498027+00:00",
+   "id": "v1|307201368939|0",
+   "image": "https://i.ebayimg.com/images/g/x0sAAeSw855quK1y/s-l225.jpg",
+   "player": "Kobe Bryant",
+   "price": 175.0,
+   "query": "1998 upper deck Kobe Bryant 69 PSA 10",
+   "shipping": 0.0,
+   "title": "1998-99 Upper Deck UD Choice Preview - Kobe Bryant #69 PSA 10",
+   "url": "https://www.ebay.com/itm/307201368939?_skw=Kobe+Bryant&hash=item4786a0e36b:g:x0sAAeSw855quK1y"
   },
   {
    "ask_ratio": 0.44150110375275936,
@@ -5132,6 +5145,7 @@
   "v1|257768181434|0": "2026-09-27T04:45:45.089114+00:00",
   "v1|257768183608|0": "2026-09-27T05:06:13.289079+00:00",
   "v1|257768224082|0": "2026-09-27T05:26:41.109700+00:00",
+  "v1|257768247214|0": "2026-09-27T05:48:28.294029+00:00",
   "v1|267790079228|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|267791229707|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|267795278191|0": "2026-09-25T18:57:00.252118+00:00",
@@ -5658,6 +5672,7 @@
   "v1|307201317576|0": "2026-09-27T05:06:13.289079+00:00",
   "v1|307201358808|0": "2026-09-27T05:47:17.154805+00:00",
   "v1|307201364605|0": "2026-09-27T05:47:17.154805+00:00",
+  "v1|307201368939|0": "2026-09-27T05:48:28.294029+00:00",
   "v1|318914708958|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|318915861194|0": "2026-09-25T19:29:02.367238+00:00",
   "v1|318916742785|0": "2026-09-25T18:40:23.258016+00:00",
@@ -6990,7 +7005,7 @@
  },
  "usage": {
   "calls": 597,
-  "credit": 0.5714472900805232,
+  "credit": 0.9515210908185305,
   "month": "2026-09"
  }
 }
