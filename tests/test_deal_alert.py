@@ -146,3 +146,22 @@ def test_auction_message_has_max_bid():
          "ends_at": (datetime.now(timezone.utc) + timedelta(minutes=15)).isoformat()}
     t, body = d.deal_message(a, {"median": 100.0, "count": 6, "label": "x"}, {}, {"discount_threshold": 0.35})
     assert "AUCTION" in t and "Bid up to $60.00" in body
+
+
+def test_graded_sale_titles_excluded_for_raw_listing():
+    # real miss: raw 97-98 Metal Universe Jordan #23 valued at $395 using graded sales CardSight left untagged
+    res = []
+    for p, t in [(400, "1997-98 Metal Universe Michael Jordan #23 PSA 10"), (390, "97 Metal Universe Jordan #23 BGS 9.5"),
+                 (395, "1997 Metal Universe #23 Michael Jordan PSA 10 GEM MINT"), (40, "1997-98 Metal Universe Michael Jordan #23"),
+                 (45, "Michael Jordan 1997 Metal Universe #23 Bulls"), (38, "1997-98 Skybox Metal Universe Jordan #23")]:
+        r = rec(p); r["title"] = t; r["matched_card"]["number"] = "23"
+        r["matched_card"]["set"] = {"name": "Base Set", "release": "Metal Universe", "year": "1997-98"}
+        res.append(r)
+    mv = d.market_value("1997-98 Skybox Metal Universe Michael Jordan #23", res, CFG)
+    assert mv["median"] == 40
+
+
+def test_year_must_match():
+    r = rec(3); r["matched_card"]["number"] = "453"
+    r["matched_card"]["set"] = {"name": "Base Set", "release": "Upper Deck", "year": "1992-93"}
+    assert not d.identity_ok(r, "1988 Upper Deck Michael Jordan #453", None, "453")

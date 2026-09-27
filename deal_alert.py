@@ -375,6 +375,12 @@ def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
     g = rec.get("grade")
     if (norm_grade(g["company_name"], g["grade_value"]) if g else None) != title_grade:
         return False  # raw vs slab (or different grade) must line up with the listing
+    if rec.get("title") and detect_grade(rec["title"]) != title_grade:
+        return False  # CardSight sometimes misses the grade; trust the sale title too
+    lyr = (re.search(r"\b(19[5-9]\d|20[0-3]\d)\b", listing_title) or [None])[0]
+    cyr = str((card.get("set") or {}).get("year") or "")[:4]
+    if lyr and cyr and lyr != cyr:
+        return False  # e.g. a 1992 card offered as comps for a 1988 listing
     if title_num and str(card.get("number") or "").upper().lstrip("0") != title_num:
         return False
     tw = set(words(listing_title))
