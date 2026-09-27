@@ -95,15 +95,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-27 16:40:31] eBay: 50 listings for Michael Jordan",
-  "[2026-09-27 16:40:31] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-27 16:40:32] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-27 16:40:32] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-27 16:40:32] 32 new listings queued, 154 in queue",
-  "[2026-09-27 16:40:34] 92 auctions ending soon with <= 5 bids",
-  "[2026-09-27 16:40:51] pre-checked 32 on eBay; dropped 18 priced like everyone else",
-  "[2026-09-27 16:41:04] CardSight checks allowed this run: 0 (used 610/700 this month)",
-  "[2026-09-27 16:41:04] done: 0 deal alert(s) sent"
+  "[2026-09-27 16:41:20] eBay: 50 listings for Michael Jordan",
+  "[2026-09-27 16:41:21] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-27 16:41:21] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-27 16:41:22] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-27 16:41:22] 1 new listings queued, 137 in queue",
+  "[2026-09-27 16:41:24] 92 auctions ending soon with <= 5 bids",
+  "[2026-09-27 16:41:24] pre-checked 1 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-27 16:41:38] CardSight checks allowed this run: 0 (used 610/700 this month)",
+  "[2026-09-27 16:41:38] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -3642,6 +3642,7 @@
   "v1|178533298273|0": "2026-09-27T16:19:55.811563+00:00",
   "v1|178533361715|0": "2026-09-27T16:40:30.492424+00:00",
   "v1|178533376576|0": "2026-09-27T16:40:30.492424+00:00",
+  "v1|178533379497|0": "2026-09-27T16:41:19.901806+00:00",
   "v1|188983378481|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|188983378485|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|188983378498|0": "2026-09-25T18:40:23.258016+00:00",
@@ -5735,6 +5736,7 @@
   "v1|336815568801|0": "2026-09-27T15:39:02.133998+00:00",
   "v1|336815571782|0": "2026-09-27T15:59:31.082572+00:00",
   "v1|336815613501|0": "2026-09-27T16:19:55.811563+00:00",
+  "v1|336815643679|0": "2026-09-27T16:41:19.901806+00:00",
   "v1|366691722323|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|366691775141|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|366692009042|0": "2026-09-25T18:40:23.258016+00:00",
@@ -6734,7 +6736,7 @@
  },
  "usage": {
   "calls": 610,
-  "credit": 0.4622777868541683,
+  "credit": 0.84042904735837,
   "month": "2026-09"
  }
 }
