@@ -171,18 +171,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-28 10:11:12] eBay: 50 listings for Michael Jordan",
-  "[2026-09-28 10:11:12] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-28 10:11:13] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-28 10:11:13] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-28 10:11:13] 4 new listings queued, 72 in queue",
-  "[2026-09-28 10:11:15] 6 auctions ending soon with <= 5 bids",
-  "[2026-09-28 10:11:17] pre-checked 4 on eBay; dropped 1 priced like everyone else",
-  "[2026-09-28 10:11:21] CardSight checks allowed this run: 1 (used 630/700 this month)",
-  "[2026-09-28 10:11:21] checking (59% of other asks): 1995 Collector's Choice SE #238 MICHAEL JORDAN Blue PSA 9 - MINT Low P  ->  q=\"1995 choice Michael Jordan 238 blue PSA 9\"",
-  "[2026-09-28 10:11:30]   no matching comps (grade ('PSA', '9'), #238); 3 results, top: [\"Collector's Choice SE #238|base|PSA 9\", \"Collector's Choice SE #238|base|PSA 9\", '? #?|base|raw ']",
-  "[2026-09-28 10:11:30] no reliable comps: 1995 Collector's Choice SE #238 MICHAEL JORDAN Blue PSA 9 - MINT Low P",
-  "[2026-09-28 10:11:30] done: 0 deal alert(s) sent"
+  "[2026-09-28 10:31:33] eBay: 50 listings for Michael Jordan",
+  "[2026-09-28 10:31:34] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-28 10:31:34] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-28 10:31:35] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-28 10:31:35] 1 new listings queued, 67 in queue",
+  "[2026-09-28 10:31:36] 8 auctions ending soon with <= 5 bids",
+  "[2026-09-28 10:31:37] pre-checked 1 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-28 10:31:42] CardSight checks allowed this run: 0 (used 631/700 this month)",
+  "[2026-09-28 10:31:42] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -199,32 +196,6 @@
    "url": "https://www.ebay.com/itm/336816487128?_skw=Michael+Jordan&hash=item4e6bd3bad8:g:M0gAAeSwR8RqufUJ"
   },
   {
-   "ask_ratio": 0.42393695747829907,
-   "ask_ref": 249.99,
-   "found_at": "2026-09-28T04:24:47.399591+00:00",
-   "id": "v1|298713037515|0",
-   "image": "https://i.ebayimg.com/images/g/CtwAAeSw8MFquehs/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2023 panini hoops Victor Wembanyama 108 PSA 10",
-   "shipping": 5.99,
-   "title": "2023 PANINI HAUNTED HOOPS #108 VICTOR WEMBANYAMA PSA 10",
-   "url": "https://www.ebay.com/itm/298713037515?_skw=Victor+Wembanyama&hash=item458caf3acb:g:CtwAAeSw8MFquehs"
-  },
-  {
-   "ask_ratio": 0.46659999999999996,
-   "ask_ref": 150.0,
-   "found_at": "2026-09-28T04:24:47.399593+00:00",
-   "id": "v1|800726574651|0",
-   "image": "https://i.ebayimg.com/images/g/d2AAAeSwFmBquee3/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 69.99,
-   "query": "2025 bowman chrome sapphire Victor Wembanyama BCV-143 sapphire",
-   "shipping": 0.0,
-   "title": "2025 Bowman Sapphire Victor Wembanyama Chrome #BCV-143 San Antonio Spurs 1",
-   "url": "https://www.ebay.com/itm/800726574651?_skw=Victor+Wembanyama&hash=itemba6f05e63b:g:d2AAAeSwFmBquee3"
-  },
-  {
    "ask_ratio": 0.5,
    "ask_ref": 350.0,
    "found_at": "2026-09-28T07:49:09.182439+00:00",
@@ -236,19 +207,6 @@
    "shipping": 0.0,
    "title": "2023-24 Topps Midnight - Victor Wembanyama #50 Twilight /99 (RC)",
    "url": "https://www.ebay.com/itm/377528289301?_skw=Victor+Wembanyama&hash=item57e6708815:g:IOMAAeSw3i1quhcM"
-  },
-  {
-   "ask_ratio": 0.5175666666666667,
-   "ask_ref": 300.0,
-   "found_at": "2026-09-28T04:24:47.399599+00:00",
-   "id": "v1|820180778398|0",
-   "image": "https://i.ebayimg.com/images/g/gC8AAeSw0PxqueYP/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 150.0,
-   "query": "2023 donruss Victor Wembanyama 3 PSA 10",
-   "shipping": 5.27,
-   "title": "2023-24 Donruss Victor Wembanyama #3 Hardwood Masters RC PSA 10 Spurs",
-   "url": "https://www.ebay.com/itm/820180778398?_skw=Victor+Wembanyama&hash=itembef6957d9e:g:gC8AAeSw0PxqueYP"
   },
   {
    "ask_ratio": 0.5210800568450971,
@@ -1024,30 +982,6 @@
    "shipping": 5.99,
    "title": "1998 UD MJ CAREER COLLECTION MJ RETRO #52 MICHAEL JORDAN PSA 10",
    "url": "https://www.ebay.com/itm/307202841326?_skw=Michael+Jordan&hash=item4786b75aee:g:x30AAeSwYxRque36"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T04:24:47.026149+00:00",
-   "id": "v1|257770261352|0",
-   "image": "https://i.ebayimg.com/images/g/p2wAAeSwG9lqueZ-/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 109.98,
-   "query": "2019 topps now Shohei Ohtani TN-9 PSA 9",
-   "shipping": 2.99,
-   "title": "\ud83d\udcc82019 TOPPS 2018 TOPPS NOW REVIEW #TN-9 TROUT/PUJOLS/OHTANI (PSA 9)",
-   "url": "https://www.ebay.com/itm/257770261352?_skw=Shohei+Ohtani&hash=item3c044e0b68:g:p2wAAeSwG9lqueZ-"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T04:24:47.026139+00:00",
-   "id": "v1|800726575030|0",
-   "image": "https://i.ebayimg.com/images/g/bEcAAeSwVgFquefo/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 160.0,
-   "query": "2018 topps now Shohei Ohtani 5J",
-   "shipping": 0.0,
-   "title": "2018 Topps Now - Shohei Ohtani #5J Japan /3982 (RC)",
-   "url": "https://www.ebay.com/itm/800726575030?_skw=Shohei+Ohtani&hash=itemba6f05e7b6:g:bEcAAeSwVgFquefo"
   }
  ],
  "seen": {
@@ -2303,6 +2237,7 @@
   "v1|128102428615|0": "2026-09-28T03:22:30.298499+00:00",
   "v1|128102455089|0": "2026-09-28T03:22:30.298499+00:00",
   "v1|128102530419|0": "2026-09-28T03:43:16.879813+00:00",
+  "v1|128102535825|0": "2026-09-28T10:31:32.726806+00:00",
   "v1|128102595860|0": "2026-09-28T05:05:37.160920+00:00",
   "v1|128102606767|0": "2026-09-28T05:05:37.160920+00:00",
   "v1|128102632773|0": "2026-09-28T05:26:21.858902+00:00",
@@ -2743,6 +2678,7 @@
   "v1|147604416861|0": "2026-09-28T06:07:20.349757+00:00",
   "v1|147604709456|0": "2026-09-28T08:49:46.303977+00:00",
   "v1|147604709468|0": "2026-09-28T08:49:46.303977+00:00",
+  "v1|147604884880|0": "2026-09-28T10:31:32.726806+00:00",
   "v1|158337352311|0": "2026-09-27T01:40:14.208281+00:00",
   "v1|158337450336|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|158337680637|0": "2026-09-25T18:57:00.252118+00:00",
@@ -4750,6 +4686,7 @@
   "v1|257770644800|0": "2026-09-28T08:29:38.914639+00:00",
   "v1|257770770765|0": "2026-09-28T09:50:55.192371+00:00",
   "v1|257770792335|0": "2026-09-28T10:11:11.340665+00:00",
+  "v1|257770833782|0": "2026-09-28T10:31:32.726806+00:00",
   "v1|267790079228|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|267791229707|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|267795278191|0": "2026-09-25T18:57:00.252118+00:00",
@@ -7760,7 +7697,7 @@
  },
  "usage": {
   "calls": 631,
-  "credit": 0.20518661855765785,
+  "credit": 0.5781595915306308,
   "month": "2026-09"
  }
 }
