@@ -164,6 +164,10 @@
     "median": 3.125
    }
   },
+  "2025 topps update Shohei Ohtani US84": {
+   "at": "2026-09-28T09:10:26.831702+00:00",
+   "mv": null
+  },
   "topps chrome Victor Wembanyama 22 refractor": {
    "at": "2026-09-27T20:28:56.168082+00:00",
    "mv": null
@@ -171,15 +175,17 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-28 09:10:02] eBay: 50 listings for Michael Jordan",
-  "[2026-09-28 09:10:02] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-28 09:10:03] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-28 09:10:03] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-28 09:10:03] 5 new listings queued, 103 in queue",
-  "[2026-09-28 09:10:05] 9 auctions ending soon with <= 5 bids",
-  "[2026-09-28 09:10:08] pre-checked 5 on eBay; dropped 2 priced like everyone else",
-  "[2026-09-28 09:10:12] CardSight checks allowed this run: 0 (used 629/700 this month)",
-  "[2026-09-28 09:10:12] done: 0 deal alert(s) sent"
+  "[2026-09-28 09:10:27] eBay: 50 listings for Michael Jordan",
+  "[2026-09-28 09:10:28] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-28 09:10:28] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-28 09:10:29] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-28 09:10:29] 0 new listings queued, 101 in queue",
+  "[2026-09-28 09:10:31] 8 auctions ending soon with <= 5 bids",
+  "[2026-09-28 09:10:31] pre-checked 0 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-28 09:10:36] CardSight checks allowed this run: 1 (used 629/700 this month)",
+  "[2026-09-28 09:10:36] checking (28% of other asks): 2025 Topps Update Series - Season Highlights Checklist Shohei Ohtani #  ->  q=\"2025 topps update Shohei Ohtani US84\"",
+  "[2026-09-28 09:10:38] no reliable comps: 2025 Topps Update Series - Season Highlights Checklist Shohei Ohtani #",
+  "[2026-09-28 09:10:39] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -1694,6 +1700,7 @@
   "a:v1|206568592515|0": "2026-09-26T22:50:22.605474+00:00",
   "a:v1|206568782394|0": "2026-09-27T01:40:14.208281+00:00",
   "a:v1|206570581942|0": "2026-09-27T22:12:23.448190+00:00",
+  "a:v1|206571619190|0": "2026-09-28T09:10:26.831702+00:00",
   "a:v1|206573031229|0": "2026-09-27T22:33:35.640959+00:00",
   "a:v1|206575559530|0": "2026-09-28T00:58:03.113663+00:00",
   "a:v1|227521779826|0": "2026-09-26T16:53:13.547085+00:00",
@@ -8107,8 +8114,8 @@
   "v1|820180930663|0": "2026-09-28T05:26:21.858902+00:00"
  },
  "usage": {
-  "calls": 629,
-  "credit": 0.7065091805407229,
+  "calls": 630,
+  "credit": 0.08217055620209845,
   "month": "2026-09"
  }
 }
