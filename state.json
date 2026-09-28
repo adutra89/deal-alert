@@ -159,18 +159,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-28 14:37:21] eBay: 50 listings for Michael Jordan",
-  "[2026-09-28 14:37:21] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-28 14:37:22] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-28 14:37:23] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-28 14:37:23] 10 new listings queued, 70 in queue",
-  "[2026-09-28 14:37:25] 86 auctions ending soon with <= 5 bids",
-  "[2026-09-28 14:37:31] pre-checked 10 on eBay; dropped 6 priced like everyone else",
-  "[2026-09-28 14:37:46] CardSight checks allowed this run: 1 (used 635/700 this month)",
-  "[2026-09-28 14:37:46] checking (40% of other asks): Upper Deck 1998 MJ Reflections Michael Jordan #MJ78 Bulls NBA Card  ->  q=\"1998 upper deck Michael Jordan MJ78\"",
-  "[2026-09-28 14:37:46]   no matching comps (grade None, #MJ78); 1 results, top: ['? #?|base|raw ']",
-  "[2026-09-28 14:37:46] no reliable comps: Upper Deck 1998 MJ Reflections Michael Jordan #MJ78 Bulls NBA Card",
-  "[2026-09-28 14:37:46] done: 0 deal alert(s) sent"
+  "[2026-09-28 14:38:05] eBay: 50 listings for Michael Jordan",
+  "[2026-09-28 14:38:06] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-28 14:38:06] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-28 14:38:07] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-28 14:38:07] 1 new listings queued, 65 in queue",
+  "[2026-09-28 14:38:09] 85 auctions ending soon with <= 5 bids",
+  "[2026-09-28 14:38:09] pre-checked 1 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-28 14:38:22] CardSight checks allowed this run: 0 (used 636/700 this month)",
+  "[2026-09-28 14:38:22] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -276,6 +273,18 @@
    "shipping": 0.0,
    "title": "2002-03 Topps Finest - MICHAEL JORDAN #100 PSA 9",
    "url": "https://www.ebay.com/itm/820181707109?_skw=Michael+Jordan&hash=itembef6a3a965:g:4zcAAeSwGABqujvI"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-28T14:38:06.275780+00:00",
+   "id": "v1|377529055558|0",
+   "image": "https://i.ebayimg.com/images/g/ghEAAeSwPV5qunnv/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 150.0,
+   "query": "2025 topps bowman chrome Shohei Ohtani 17 CGC 10",
+   "shipping": 0.0,
+   "title": "Topps 2025 Bowman Chrome Shohei Ohtani #17 Chrome Dodgers CGC PRISTINE 10",
+   "url": "https://www.ebay.com/itm/377529055558?_skw=Shohei+Ohtani&hash=item57e67c3946:g:ghEAAeSwPV5qunnv"
   },
   {
    "ask_ratio": null,
@@ -6548,6 +6557,7 @@
   "v1|366697367127|0": "2026-09-28T13:35:37.957928+00:00",
   "v1|366697452454|0": "2026-09-28T14:16:51.917616+00:00",
   "v1|366697478529|0": "2026-09-28T14:37:20.147529+00:00",
+  "v1|366697502940|0": "2026-09-28T14:38:04.830509+00:00",
   "v1|377513556541|0": "2026-09-25T20:16:19.428612+00:00",
   "v1|377513566741|0": "2026-09-27T18:03:50.208246+00:00",
   "v1|377513575767|0": "2026-09-27T02:01:02.837905+00:00",
@@ -6705,6 +6715,7 @@
   "v1|377528769869|0": "2026-09-28T12:13:28.208679+00:00",
   "v1|377528840200|0": "2026-09-28T12:33:57.151848+00:00",
   "v1|377528845700|0": "2026-09-28T12:33:57.151848+00:00",
+  "v1|377529055558|0": "2026-09-28T14:38:04.830509+00:00",
   "v1|398431187116|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|398431274647|0": "2026-09-25T18:40:23.258016+00:00",
   "v1|398431328326|0": "2026-09-25T18:40:23.258016+00:00",
@@ -7848,7 +7859,7 @@
  },
  "usage": {
   "calls": 636,
-  "credit": 0.07676412062004445,
+  "credit": 0.44670631715183634,
   "month": "2026-09"
  }
 }
