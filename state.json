@@ -171,15 +171,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-28 08:09:27] eBay: 50 listings for Michael Jordan",
-  "[2026-09-28 08:09:28] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-28 08:09:28] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-28 08:09:28] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-28 08:09:28] 3 new listings queued, 125 in queue",
-  "[2026-09-28 08:09:30] 8 auctions ending soon with <= 5 bids",
-  "[2026-09-28 08:09:32] pre-checked 3 on eBay; dropped 2 priced like everyone else",
-  "[2026-09-28 08:09:37] CardSight checks allowed this run: 0 (used 628/700 this month)",
-  "[2026-09-28 08:09:37] done: 0 deal alert(s) sent"
+  "[2026-09-28 08:29:39] eBay: 50 listings for Michael Jordan",
+  "[2026-09-28 08:29:40] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-28 08:29:40] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-28 08:29:40] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-28 08:29:40] 3 new listings queued, 118 in queue",
+  "[2026-09-28 08:29:42] 1 auctions ending soon with <= 5 bids",
+  "[2026-09-28 08:29:44] pre-checked 3 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-28 08:29:44] CardSight checks allowed this run: 0 (used 628/700 this month)",
+  "[2026-09-28 08:29:44] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -573,17 +573,28 @@
    "url": "https://www.ebay.com/itm/800726315153?_skw=Michael+Jordan&hash=itemba6f01f091:g:8JoAAeSwbdtqudm6"
   },
   {
-   "ask_ratio": 0.7900790079007901,
-   "ask_ref": 99.99,
-   "found_at": "2026-09-28T02:20:46.877017+00:00",
-   "id": "v1|820180316029|0",
-   "image": "https://i.ebayimg.com/images/g/iIYAAeSwrwFqucwu/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 79.0,
-   "query": "2016 Shohei Ohtani AS-06",
-   "shipping": 0.0,
-   "title": "2016 Calbee - All-Stars Shohei Ohtani #AS-06 (RC)",
-   "url": "https://www.ebay.com/itm/820180316029?_skw=Shohei+Ohtani&hash=itembef68e6f7d:g:iIYAAeSwrwFqucwu"
+   "ask_ratio": null,
+   "found_at": "2026-09-28T08:29:40.968435+00:00",
+   "id": "v1|257770644800|0",
+   "image": "",
+   "player": "Kobe Bryant",
+   "price": 57.75,
+   "query": "2000 upper deck Kobe Bryant 302 BGS 9",
+   "shipping": 4.99,
+   "title": "2000-01 Upper Deck Victory Fly 2 Kobe Kobe Bryant #302 BGS 9 MINT HOF 0q3",
+   "url": "https://www.ebay.com/itm/257770644800?_skw=Kobe+Bryant&hash=item3c0453e540:i:257770644800"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-28T08:29:39.706819+00:00",
+   "id": "v1|257770640264|0",
+   "image": "https://i.ebayimg.com/images/g/mzMAAeSwjhxquiO0/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 60.05,
+   "query": "1992 topps Michael Jordan 205 gold PSA 6.5",
+   "shipping": 4.99,
+   "title": "1992-93 Topps 50 Point Club Gold Michael Jordan #205 PSA 6.5 HOF 02ml",
+   "url": "https://www.ebay.com/itm/257770640264?_skw=Michael+Jordan&hash=item3c0453d388:g:mzMAAeSwjhxquiO0"
   },
   {
    "ask_ratio": null,
@@ -1604,90 +1615,6 @@
    "shipping": 0.0,
    "title": "SkyBox 1996-97 NBA Hoops Superfeats Insert Michael Jordan Bulls #1/10",
    "url": "https://www.ebay.com/itm/147604010669?_skw=Michael+Jordan&hash=item225de276ad:g:AvAAAeSwZD1qudAr"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.877066+00:00",
-   "id": "v1|117435057300|0",
-   "image": "https://i.ebayimg.com/images/g/OJgAAeSwiYhquclU/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 55.86,
-   "query": "2019 bowman Shohei Ohtani 2 PSA 7",
-   "shipping": 5.99,
-   "title": "2019 BOWMAN PLATINUM ICE #2 SHOHEI OHTANI PSA 7",
-   "url": "https://www.ebay.com/itm/117435057300?_skw=Shohei+Ohtani&hash=item1b57acc494:g:OJgAAeSwiYhquclU"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.877049+00:00",
-   "id": "v1|407250817230|0",
-   "image": "https://i.ebayimg.com/images/g/peoAAeSwXS1qucqu/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 110.0,
-   "query": "2019 stadium club stadium Shohei Ohtani 66 CGC 9",
-   "shipping": 6.0,
-   "title": "2019 Stadium Club Shohei Ohtani #66 CGC 9",
-   "url": "https://www.ebay.com/itm/407250817230?_skw=Shohei+Ohtani&hash=item5ed20a50ce:g:peoAAeSwXS1qucqu"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.877031+00:00",
-   "id": "v1|407250828702|0",
-   "image": "https://i.ebayimg.com/images/g/q1AAAeSw2eNqucuo/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 85.0,
-   "query": "2018 topps now Shohei Ohtani 72 PSA 8",
-   "shipping": 0.0,
-   "title": "Topps 2018 Topps Now Shohei Ohtani RC #72 PSA 8",
-   "url": "https://www.ebay.com/itm/407250828702?_skw=Shohei+Ohtani&hash=item5ed20a7d9e:g:q1AAAeSw2eNqucuo"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.877029+00:00",
-   "id": "v1|820180307741|0",
-   "image": "https://i.ebayimg.com/images/g/ckQAAeSwsilqucvd/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 125.0,
-   "query": "2020 panini prizm select Shohei Ohtani 112 red",
-   "shipping": 0.0,
-   "title": "Panini 2020 Select Premier Shohei Ohtani Red Prizm #112 Angels /199",
-   "url": "https://www.ebay.com/itm/820180307741?_skw=Shohei+Ohtani&hash=itembef68e4f1d:g:ckQAAeSwsilqucvd"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.877023+00:00",
-   "id": "v1|298712823664|0",
-   "image": "https://i.ebayimg.com/images/g/9p8AAeSwHgdqucyf/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 65.0,
-   "query": "2025 topps chrome update Shohei Ohtani 6 PSA 9",
-   "shipping": 5.99,
-   "title": "2025 TOPPS CHROME UPDATE FORTUNE 15 #6 SHOHEI OHTANI PSA 9",
-   "url": "https://www.ebay.com/itm/298712823664?_skw=Shohei+Ohtani&hash=item458cabf770:g:9p8AAeSwHgdqucyf"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.398559+00:00",
-   "id": "v1|237094280189|0",
-   "image": "https://i.ebayimg.com/images/g/qbUAAeSwtnRqubwX/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 160.0,
-   "query": "1995 flair Michael Jordan 15 PSA 7",
-   "shipping": 0.0,
-   "title": "1995 Flair Basketball Michael Jordan #15 Chicago Bulls PSA 7 Fresh Slab HOF GOAT",
-   "url": "https://www.ebay.com/itm/237094280189?_skw=Michael+Jordan&hash=item3733eb9bfd:g:qbUAAeSwtnRqubwX"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-28T02:20:46.398556+00:00",
-   "id": "v1|366696370939|0",
-   "image": "https://i.ebayimg.com/images/g/cEgAAeSwjhxqucvU/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 65.0,
-   "query": "1991 upper deck Michael Jordan 44 HGA 9.5",
-   "shipping": 0.0,
-   "title": "1991 Upper Deck Michael Jordan #44 Chicago Bulls HGA 9.5 \ud83d\udc8e Mint \ud83d\udc40\ud83d\udd25\ud83d\udc10\ud83d\udc02",
-   "url": "https://www.ebay.com/itm/366696370939?_skw=Michael+Jordan&hash=item5560ce92fb:g:cEgAAeSwjhxqucvU"
   }
  ],
  "seen": {
@@ -5374,6 +5301,8 @@
   "v1|257770349036|0": "2026-09-28T05:05:37.160920+00:00",
   "v1|257770382828|0": "2026-09-28T05:26:21.858902+00:00",
   "v1|257770407839|0": "2026-09-28T05:46:55.082284+00:00",
+  "v1|257770640264|0": "2026-09-28T08:29:38.914639+00:00",
+  "v1|257770644800|0": "2026-09-28T08:29:38.914639+00:00",
   "v1|267790079228|0": "2026-09-26T07:36:57.996924+00:00",
   "v1|267791229707|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|267795278191|0": "2026-09-25T18:57:00.252118+00:00",
@@ -8089,6 +8018,7 @@
   "v1|800726748354|0": "2026-09-28T05:05:37.160920+00:00",
   "v1|800726789680|0": "2026-09-28T05:05:37.160920+00:00",
   "v1|800727422582|0": "2026-09-28T07:49:07.258557+00:00",
+  "v1|800727595588|0": "2026-09-28T08:29:38.914639+00:00",
   "v1|820170090279|0": "2026-09-26T14:47:55.231583+00:00",
   "v1|820170852637|0": "2026-09-25T18:57:00.252118+00:00",
   "v1|820170937491|0": "2026-09-25T18:57:00.252118+00:00",
@@ -8364,7 +8294,7 @@
  },
  "usage": {
   "calls": 628,
-  "credit": 0.5749370856729543,
+  "credit": 0.9519004364582946,
   "month": "2026-09"
  }
 }
