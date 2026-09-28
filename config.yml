@@ -25,7 +25,7 @@ fee_rate: 0.13
 
 # CardSight API calls allowed per month. Free plan = 750, Pro = 5000.
 # Keep this a little under your plan's limit.
-monthly_budget: 700
+monthly_budget: 740
 
 # Listings older than this (hours) are dropped from the queue; good deals sell fast.
 max_listing_age_hours: 6
