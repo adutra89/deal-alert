@@ -315,15 +315,17 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-29 12:37:50] eBay: 50 listings for Michael Jordan",
-  "[2026-09-29 12:37:51] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-29 12:37:51] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-29 12:37:52] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-29 12:37:52] 15 new listings queued, 54 in queue",
-  "[2026-09-29 12:37:55] 22 auctions ending soon with <= 5 bids",
-  "[2026-09-29 12:38:09] pre-checked 15 on eBay; dropped 11 priced like everyone else",
-  "[2026-09-29 12:38:21] CardSight checks allowed this run: 0 (used 662/740 this month)",
-  "[2026-09-29 12:38:21] done: 0 deal alert(s) sent"
+  "[2026-09-29 12:38:35] eBay: 50 listings for Michael Jordan",
+  "[2026-09-29 12:38:36] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-29 12:38:36] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-29 12:38:37] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-29 12:38:37] 0 new listings queued, 43 in queue",
+  "[2026-09-29 12:38:39] 23 auctions ending soon with <= 5 bids",
+  "[2026-09-29 12:38:39] pre-checked 0 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-29 12:38:51] CardSight checks allowed this run: 1 (used 662/740 this month)",
+  "[2026-09-29 12:38:51] checking (12% of other asks): 2024 Panini Prizm Victor Wembanyama #2 Deep Space Silver Prizm TRUE SI  ->  q=\"2024 panini prizm Victor Wembanyama 2 silver\"",
+  "[2026-09-29 12:39:01] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
+  "[2026-09-29 12:39:01] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -8088,8 +8090,8 @@
   "v1|820185622662|0": "2026-09-29T09:54:28.820892+00:00"
  },
  "usage": {
-  "calls": 662,
-  "credit": 0.8188129064727506,
+  "calls": 663,
+  "credit": 0.547784869089573,
   "month": "2026-09"
  }
 }
