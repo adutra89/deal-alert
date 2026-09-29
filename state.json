@@ -192,6 +192,10 @@
     "median": 31.0
    }
   },
+  "2023 topps Victor Wembanyama FP-1": {
+   "at": "2026-09-29T23:43:37.064895+00:00",
+   "mv": null
+  },
   "2023 topps bowman Victor Wembanyama BCV-143": {
    "at": "2026-09-29T06:51:21.441738+00:00",
    "mv": null
@@ -311,16 +315,18 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-29 23:42:08] eBay: 50 listings for Michael Jordan",
-  "[2026-09-29 23:42:09] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-29 23:42:10] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-29 23:42:11] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-29 23:42:11] 49 new listings queued, 336 in queue",
-  "[2026-09-29 23:42:15] 111 auctions ending soon with <= 5 bids",
-  "[2026-09-29 23:42:57] pre-checked 40 on eBay; dropped 24 priced like everyone else",
-  "[2026-09-29 23:43:17] CardSight checks allowed this run: 1 (used 686/740 this month)",
-  "[2026-09-29 23:43:17] checking (50% of other asks): 2019 Topps - Shohei Ohtani #250 Post-Swing Rookie Gold Cup  ->  q=\"2019 topps Shohei Ohtani 250 gold\"",
-  "[2026-09-29 23:43:23] done: 0 deal alert(s) sent"
+  "[2026-09-29 23:43:37] eBay: 50 listings for Michael Jordan",
+  "[2026-09-29 23:43:38] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-29 23:43:39] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-29 23:43:39] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-29 23:43:39] 3 new listings queued, 315 in queue",
+  "[2026-09-29 23:43:41] 109 auctions ending soon with <= 5 bids",
+  "[2026-09-29 23:43:52] pre-checked 22 on eBay; dropped 17 priced like everyone else",
+  "[2026-09-29 23:44:05] CardSight checks allowed this run: 1 (used 687/740 this month)",
+  "[2026-09-29 23:44:05] checking (34% of other asks): Topps 2023 First Pitch Victor Wembanyama #FP-1 Insert New York Yankees  ->  q=\"2023 topps Victor Wembanyama FP-1\"",
+  "[2026-09-29 23:44:06]   no matching comps (grade None, #FP-1); 15 results, top: ['Topps #FP-1|base|raw ', 'Topps #FP-1|base|raw ', 'Topps #FP-1|base|raw ', 'Topps #FP-1|base|raw ']",
+  "[2026-09-29 23:44:06] no reliable comps: Topps 2023 First Pitch Victor Wembanyama #FP-1 Insert New York Yankees",
+  "[2026-09-29 23:44:06] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -634,6 +640,19 @@
    "shipping": 8.0,
    "title": "2021 Topps Project 70 Shohei Ohtani #324 DJ Skee Jujutsu Kaisen LA Dodgers",
    "url": "https://www.ebay.com/itm/377532353991?_skw=Shohei+Ohtani&hash=item57e6ae8dc7:g:3bEAAeSwtChqvEdU"
+  },
+  {
+   "ask_ratio": 0.6436249999999999,
+   "ask_ref": 160.0,
+   "found_at": "2026-09-29T23:42:08.013498+00:00",
+   "id": "v1|800735561858|0",
+   "image": "https://i.ebayimg.com/images/g/9XQAAeSwNr5qvEr-/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 94.99,
+   "query": "1992 upper deck Michael Jordan 453 PSA 9",
+   "shipping": 7.99,
+   "title": "Upper Deck 1992 Michael Jordan Bulls #453 PSA 9 Correct, Champ. in 87 & 88",
+   "url": "https://www.ebay.com/itm/800735561858?_skw=Michael+Jordan&hash=itemba6f8f0882:g:9XQAAeSwNr5qvEr-"
   },
   {
    "ask_ratio": 0.6499916664682492,
@@ -1079,6 +1098,18 @@
   },
   {
    "ask_ratio": null,
+   "found_at": "2026-09-29T23:43:39.018142+00:00",
+   "id": "v1|237097793886|0",
+   "image": "https://i.ebayimg.com/images/g/ZM0AAeSwNYZqvEvX/s-l225.jpg",
+   "player": "Victor Wembanyama",
+   "price": 275.0,
+   "query": "2023 panini origins Victor Wembanyama 19 pink",
+   "shipping": 0.0,
+   "title": "Panini 2023-24 Origins Victor Wembanyama Taking the Leap RC #19 Pink /99 Spurs",
+   "url": "https://www.ebay.com/itm/237097793886?_skw=Victor+Wembanyama&hash=item373421395e:g:ZM0AAeSwNYZqvEvX"
+  },
+  {
+   "ask_ratio": null,
    "found_at": "2026-09-29T23:42:11.037749+00:00",
    "id": "v1|168742628978|0",
    "image": "https://i.ebayimg.com/images/g/LEsAAeSwpEBqvEjR/s-l225.jpg",
@@ -1208,105 +1239,6 @@
    "shipping": 7.99,
    "title": "1997-98 Collector's Choice Hot Properties Michael Jordan Bulls #385 CSG 9.5 gem",
    "url": "https://www.ebay.com/itm/800735557208?_skw=Michael+Jordan&hash=itemba6f8ef658:g:NqAAAeSwWwhqvElG"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013522+00:00",
-   "id": "v1|307205848226|0",
-   "image": "https://i.ebayimg.com/images/g/K2cAAeSwpb1qvEtq/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 500.0,
-   "query": "1993 Michael Jordan 23 PSA 10",
-   "shipping": 5.99,
-   "title": "1993 UD #23 MICHAEL JORDAN PSA 10",
-   "url": "https://www.ebay.com/itm/307205848226?_skw=Michael+Jordan&hash=item4786e53ca2:g:K2cAAeSwpb1qvEtq"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013519+00:00",
-   "id": "v1|117438803665|0",
-   "image": "https://i.ebayimg.com/images/g/T-cAAeSw8~lqvEts/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 320.0,
-   "query": "1997 skybox Michael Jordan 190 PSA 9",
-   "shipping": 5.99,
-   "title": "1997 SKYBOX Z-FORCE #190 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/117438803665?_skw=Michael+Jordan&hash=item1b57e5eed1:g:T-cAAeSw8~lqvEts"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013517+00:00",
-   "id": "v1|117438803691|0",
-   "image": "https://i.ebayimg.com/images/g/QMcAAeSwhlNqvEtu/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 350.0,
-   "query": "1998 Michael Jordan 13 PSA 10",
-   "shipping": 5.99,
-   "title": "1998 UD IONIX #13 MICHAEL JORDAN PSA 10",
-   "url": "https://www.ebay.com/itm/117438803691?_skw=Michael+Jordan&hash=item1b57e5eeeb:g:QMcAAeSwhlNqvEtu"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013514+00:00",
-   "id": "v1|307205848446|0",
-   "image": "https://i.ebayimg.com/images/g/NkcAAeSwn6dqvEtw/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 320.0,
-   "query": "1997 skybox Michael Jordan 190 PSA 9",
-   "shipping": 5.99,
-   "title": "1997 SKYBOX Z-FORCE #190 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/307205848446?_skw=Michael+Jordan&hash=item4786e53d7e:g:NkcAAeSwn6dqvEtw"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013512+00:00",
-   "id": "v1|307205848482|0",
-   "image": "https://i.ebayimg.com/images/g/MFoAAeSwiVpqvEtx/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 320.0,
-   "query": "1997 skybox Michael Jordan 190 PSA 9",
-   "shipping": 5.99,
-   "title": "1997 SKYBOX Z-FORCE #190 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/307205848482?_skw=Michael+Jordan&hash=item4786e53da2:g:MFoAAeSwiVpqvEtx"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013509+00:00",
-   "id": "v1|307205848507|0",
-   "image": "https://i.ebayimg.com/images/g/NogAAeSwn6dqvEt2/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 250.0,
-   "query": "1992 fleer Michael Jordan 273 PSA 9",
-   "shipping": 5.99,
-   "title": "1992 FLEER #273 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/307205848507?_skw=Michael+Jordan&hash=item4786e53dbb:g:NogAAeSwn6dqvEt2"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013506+00:00",
-   "id": "v1|117438803745|0",
-   "image": "https://i.ebayimg.com/images/g/PeQAAeSwe1BqvEuC/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 320.0,
-   "query": "1997 skybox Michael Jordan 190 PSA 9",
-   "shipping": 5.99,
-   "title": "1997 SKYBOX Z-FORCE #190 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/117438803745?_skw=Michael+Jordan&hash=item1b57e5ef21:g:PeQAAeSwe1BqvEuC"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013502+00:00",
-   "id": "v1|117438803790|0",
-   "image": "https://i.ebayimg.com/images/g/HSIAAeSwYa5qvEuD/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 320.0,
-   "query": "1997 skybox Michael Jordan 190 PSA 9",
-   "shipping": 5.99,
-   "title": "1997 SKYBOX Z-FORCE #190 MICHAEL JORDAN PSA 9",
-   "url": "https://www.ebay.com/itm/117438803790?_skw=Michael+Jordan&hash=item1b57e5ef4e:g:HSIAAeSwYa5qvEuD"
-  },
-  {
-   "found_at": "2026-09-29T23:42:08.013498+00:00",
-   "id": "v1|800735561858|0",
-   "image": "https://i.ebayimg.com/images/g/9XQAAeSwNr5qvEr-/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 94.99,
-   "query": "1992 upper deck Michael Jordan 453 PSA 9",
-   "shipping": 7.99,
-   "title": "Upper Deck 1992 Michael Jordan Bulls #453 PSA 9 Correct, Champ. in 87 & 88",
-   "url": "https://www.ebay.com/itm/800735561858?_skw=Michael+Jordan&hash=itemba6f8f0882:g:9XQAAeSwNr5qvEr-"
   },
   {
    "ask_ratio": null,
@@ -2149,17 +2081,6 @@
    "url": "https://www.ebay.com/itm/800735329937?_skw=Michael+Jordan&hash=itemba6f8b7e91:g:A~4AAeSwl59qvDeg"
   },
   {
-   "found_at": "2026-09-29T22:18:47.559978+00:00",
-   "id": "v1|128105680067|0",
-   "image": "https://i.ebayimg.com/images/g/dWQAAeSw5etqvDer/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 240.0,
-   "query": "1991 skybox Michael Jordan 333 PSA 10",
-   "shipping": 5.58,
-   "title": "1991 Skybox #333 Michael Jordan VS Magic Johnson HOF PSA 10 GEM MINT",
-   "url": "https://www.ebay.com/itm/128105680067?_skw=Michael+Jordan&hash=item1dd3b18cc3:g:dWQAAeSw5etqvDer"
-  },
-  {
    "ask_ratio": null,
    "found_at": "2026-09-29T21:58:07.870302+00:00",
    "id": "v1|298717865453|0",
@@ -2700,17 +2621,7 @@
    "url": "https://www.ebay.com/itm/407255510814?_skw=Michael+Jordan&hash=item5ed251ef1e:g:868AAeSwWwhqvBZH"
   },
   {
-   "found_at": "2026-09-29T20:35:08.200715+00:00",
-   "id": "v1|237097554446|0",
-   "image": "https://i.ebayimg.com/images/g/OWEAAeSwVhNqvB2a/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 115.23,
-   "query": "1998 skybox Michael Jordan 67",
-   "shipping": 4.99,
-   "title": "1998-99 Skybox Premium Michael Jordan Reggie Miller (Guarding ) #67 HOF 03hd",
-   "url": "https://www.ebay.com/itm/237097554446?_skw=Michael+Jordan&hash=item37341d920e:g:OWEAAeSwVhNqvB2a"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-29T20:35:08.200710+00:00",
    "id": "v1|407255513692|0",
    "image": "https://i.ebayimg.com/images/g/4XYAAeSw-UZqvBV4/s-l225.jpg",
@@ -2722,6 +2633,7 @@
    "url": "https://www.ebay.com/itm/407255513692?_skw=Michael+Jordan&hash=item5ed251fa5c:g:4XYAAeSw-UZqvBV4"
   },
   {
+   "ask_ratio": null,
    "found_at": "2026-09-29T20:35:08.200708+00:00",
    "id": "v1|407255515336|0",
    "image": "https://i.ebayimg.com/images/g/2N8AAeSw1MJqvBYC/s-l225.jpg",
@@ -2733,17 +2645,7 @@
    "url": "https://www.ebay.com/itm/407255515336?_skw=Michael+Jordan&hash=item5ed25200c8:g:2N8AAeSw1MJqvBYC"
   },
   {
-   "found_at": "2026-09-29T20:35:08.200705+00:00",
-   "id": "v1|147608315176|0",
-   "image": "https://i.ebayimg.com/images/g/VTQAAeSwoH1qvB0N/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 450.0,
-   "query": "1991 hoops Michael Jordan 579 PSA 10",
-   "shipping": 5.27,
-   "title": "1991-92 NBA HOOPS USA Basketball Michael Jordan #579 PSA 10 Gem Mint DREAM TEAM",
-   "url": "https://www.ebay.com/itm/147608315176?_skw=Michael+Jordan&hash=item225e242528:g:VTQAAeSwoH1qvB0N"
-  },
-  {
+   "ask_ratio": null,
    "found_at": "2026-09-29T20:35:08.200702+00:00",
    "id": "v1|407255517379|0",
    "image": "https://i.ebayimg.com/images/g/UOsAAeSw28NqvB3t/s-l225.jpg",
@@ -2753,50 +2655,6 @@
    "shipping": 6.99,
    "title": "1996-97 Fleer Metal - Metal Shredders Michael Jordan #241 Graded SGC 8.5",
    "url": "https://www.ebay.com/itm/407255517379?_skw=Michael+Jordan&hash=item5ed25208c3:g:UOsAAeSw28NqvB3t"
-  },
-  {
-   "found_at": "2026-09-29T20:35:08.200699+00:00",
-   "id": "v1|147608316356|0",
-   "image": "https://i.ebayimg.com/images/g/D-IAAeSwxotqvB5U/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 54.96,
-   "query": "1992 fleer Michael Jordan 273 PSA 8",
-   "shipping": 0.0,
-   "title": "1992-93 Fleer #273 Michael Jordan PSA 8 Graded Basketball Card NBA Slam Dunk 92",
-   "url": "https://www.ebay.com/itm/147608316356?_skw=Michael+Jordan&hash=item225e2429c4:g:D-IAAeSwxotqvB5U"
-  },
-  {
-   "found_at": "2026-09-29T20:35:08.200692+00:00",
-   "id": "v1|336819423692|0",
-   "image": "https://i.ebayimg.com/images/g/YHoAAeSwmP5qvB6C/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 55.0,
-   "query": "1999 upper deck black Michael Jordan DG5 black",
-   "shipping": 9.0,
-   "title": "1999-00 Upper Deck Black Diamond - Jordan Diamond Gallery Michael Jordan #DG5",
-   "url": "https://www.ebay.com/itm/336819423692?_skw=Michael+Jordan&hash=item4e6c0089cc:g:YHoAAeSwmP5qvB6C"
-  },
-  {
-   "found_at": "2026-09-29T20:35:08.200687+00:00",
-   "id": "v1|137794500104|0",
-   "image": "https://i.ebayimg.com/images/g/UBAAAeSwGNdqvB0t/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 124.88,
-   "query": "1990 skybox Michael Jordan 41 PSA 9",
-   "shipping": 0.0,
-   "title": "1990 SkyBox Michael Jordan #41 PSA 9 MINT Chicago Bulls Basketball Card",
-   "url": "https://www.ebay.com/itm/137794500104?_skw=Michael+Jordan&hash=item2015313608:g:UBAAAeSwGNdqvB0t"
-  },
-  {
-   "found_at": "2026-09-29T20:35:08.200668+00:00",
-   "id": "v1|800734941712|0",
-   "image": "https://i.ebayimg.com/images/g/5ioAAeSwr9JqvB5l/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 250.0,
-   "query": "1991 Michael Jordan 2 PSA 9",
-   "shipping": 0.0,
-   "title": "Nike 1991 Michael Jordan/Mars Blackmon #2 High Flying 1989 PSA 9 167067343",
-   "url": "https://www.ebay.com/itm/800734941712?_skw=Michael+Jordan&hash=itemba6f859210:g:5ioAAeSwr9JqvB5l"
   },
   {
    "ask_ratio": null,
@@ -4353,6 +4211,7 @@
   "a:v1|307191323213|0": "2026-09-28T18:45:22.180452+00:00",
   "a:v1|307191778460|0": "2026-09-29T02:44:12.187756+00:00",
   "a:v1|307193621536|0": "2026-09-29T22:18:46.883508+00:00",
+  "a:v1|307193700516|0": "2026-09-29T23:43:37.064895+00:00",
   "a:v1|307195887451|0": "2026-09-29T04:48:35.548333+00:00",
   "a:v1|318892722182|0": "2026-09-27T00:37:16.277165+00:00",
   "a:v1|318892722555|0": "2026-09-27T00:37:16.277165+00:00",
@@ -7336,6 +7195,7 @@
   "v1|237097768606|0": "2026-09-29T23:20:49.515184+00:00",
   "v1|237097793124|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|237097793638|0": "2026-09-29T23:42:06.339875+00:00",
+  "v1|237097793886|0": "2026-09-29T23:43:37.064895+00:00",
   "v1|257743741927|0": "2026-09-27T19:05:56.061314+00:00",
   "v1|257759668380|0": "2026-09-27T15:18:36.809748+00:00",
   "v1|257759668381|0": "2026-09-27T15:39:02.133998+00:00",
@@ -8656,6 +8516,7 @@
   "v1|307205848482|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|307205848507|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|307205849350|0": "2026-09-29T23:42:06.339875+00:00",
+  "v1|307205850731|0": "2026-09-29T23:43:37.064895+00:00",
   "v1|318922341066|0": "2026-09-26T23:54:05.103633+00:00",
   "v1|318922346228|0": "2026-09-26T23:54:05.103633+00:00",
   "v1|318922347288|0": "2026-09-26T23:54:05.103633+00:00",
@@ -10127,6 +9988,7 @@
   "v1|398445035062|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|398445039000|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|398445057128|0": "2026-09-29T23:42:06.339875+00:00",
+  "v1|398445059152|0": "2026-09-29T23:43:37.064895+00:00",
   "v1|398445062951|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|407235760015|0": "2026-09-28T00:37:22.942872+00:00",
   "v1|407237830908|0": "2026-09-27T23:14:58.727669+00:00",
@@ -10412,6 +10274,7 @@
   "v1|407255774003|0": "2026-09-29T23:20:49.515184+00:00",
   "v1|407255778823|0": "2026-09-29T23:42:06.339875+00:00",
   "v1|407255799118|0": "2026-09-29T23:42:06.339875+00:00",
+  "v1|407255799885|0": "2026-09-29T23:43:37.064895+00:00",
   "v1|800720442813|0": "2026-09-26T23:54:05.103633+00:00",
   "v1|800720487422|0": "2026-09-27T00:15:09.310118+00:00",
   "v1|800720496112|0": "2026-09-27T00:15:09.310118+00:00",
@@ -11040,8 +10903,8 @@
   "v1|820187747908|0": "2026-09-29T23:42:06.339875+00:00"
  },
  "usage": {
-  "calls": 687,
-  "credit": 0.6185158323706985,
+  "calls": 688,
+  "credit": 0.3445432296309725,
   "month": "2026-09"
  }
 }
