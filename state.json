@@ -116,10 +116,6 @@
     "median": 8.75
    }
   },
-  "2015 Shohei Ohtani 11": {
-   "at": "2026-09-29T08:33:30.787627+00:00",
-   "mv": null
-  },
   "2018 panini contenders draft Kobe Bryant 34": {
    "at": "2026-09-30T04:54:25.247269+00:00",
    "mv": {
@@ -303,17 +299,16 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 08:19:00] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 08:19:00] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 08:19:01] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 08:19:02] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 08:19:02] 10 new listings queued, 160 in queue",
-  "[2026-09-30 08:19:04] 11 auctions ending soon with <= 5 bids",
-  "[2026-09-30 08:19:10] pre-checked 10 on eBay; dropped 8 priced like everyone else",
-  "[2026-09-30 08:19:18] CardSight checks allowed this run: 1 (used 706/740 this month)",
-  "[2026-09-30 08:19:18] checking (63% of other asks): 2018 Panini Diamond Kings #73 Shohei Ohtani Rookie Baseball Card Nrmt  ->  q=\"2018 panini Shohei Ohtani 73\"",
-  "[2026-09-30 08:19:28] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
-  "[2026-09-30 08:19:28] done: 0 deal alert(s) sent"
+  "[2026-09-30 08:39:31] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 08:39:31] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 08:39:32] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 08:39:32] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 08:39:32] 6 new listings queued, 145 in queue",
+  "[2026-09-30 08:39:34] 2 auctions ending soon with <= 5 bids",
+  "[2026-09-30 08:39:38] pre-checked 5 on eBay; dropped 5 priced like everyone else",
+  "[2026-09-30 08:39:39] CardSight checks allowed this run: 0 (used 707/740 this month)",
+  "[2026-09-30 08:39:39] $400.00 vs $4.64 (23 comps): 1990-91 Skybox - Michael Jordan #41-psa none- ten cards",
+  "[2026-09-30 08:39:39] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -356,19 +351,6 @@
    "url": "https://www.ebay.com/itm/278421888533?_skw=Shohei+Ohtani&hash=item40d33cde15:g:9LYAAeSwxn9qvJxk"
   },
   {
-   "ask_ratio": 0.3853564547206166,
-   "ask_ref": 259.5,
-   "found_at": "2026-09-30T02:29:31.323765+00:00",
-   "id": "v1|366700784360|0",
-   "image": "https://i.ebayimg.com/images/g/osQAAeSwASdqvG-D/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 100.0,
-   "query": "1996 upper deck Michael Jordan 1 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Upper Deck  - Memorable Moments Michael Jordan #1 PSA 8",
-   "url": "https://www.ebay.com/itm/366700784360?_skw=Michael+Jordan&hash=item556111eae8:g:osQAAeSwASdqvG-D"
-  },
-  {
    "ask_ratio": 0.4213560770981819,
    "ask_ref": 1005.99,
    "found_at": "2026-09-30T04:54:26.256175+00:00",
@@ -406,32 +388,6 @@
    "shipping": 0.0,
    "title": "Michael Jordan 1996-97 Fleer Ultra #16 PSA 8 Chicago Bulls",
    "url": "https://www.ebay.com/itm/198676962388?_skw=Michael+Jordan&hash=item2e4211dc54:g:nd0AAeSwS8JqvIGc"
-  },
-  {
-   "ask_ratio": 0.5299499999999999,
-   "ask_ref": 200.0,
-   "found_at": "2026-09-30T02:29:32.392742+00:00",
-   "id": "v1|206591445027|0",
-   "image": "https://i.ebayimg.com/images/g/QOIAAeSwt-dqvG2j/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2023 panini hoops Victor Wembanyama 108 PSA 10",
-   "shipping": 6.0,
-   "title": "2023-24 Panini Haunted Hoops Victor Wembanyama #108 Rookie Psa 10",
-   "url": "https://www.ebay.com/itm/206591445027?_skw=Victor+Wembanyama&hash=item3019cf4823:g:QOIAAeSwt-dqvG2j"
-  },
-  {
-   "ask_ratio": 0.5299499999999999,
-   "ask_ref": 200.0,
-   "found_at": "2026-09-30T02:29:32.392740+00:00",
-   "id": "v1|206591446456|0",
-   "image": "https://i.ebayimg.com/images/g/TzgAAeSwPjJqvG3f/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2023 panini hoops Victor Wembanyama 108 PSA 10",
-   "shipping": 6.0,
-   "title": "2023-24 Panini Haunted Hoops Victor Wembanyama #108 Rookie Psa 10. ",
-   "url": "https://www.ebay.com/itm/206591446456?_skw=Victor+Wembanyama&hash=item3019cf4db8:g:TzgAAeSwPjJqvG3f"
   },
   {
    "ask_ratio": 0.5317824094093229,
@@ -720,19 +676,6 @@
    "url": "https://www.ebay.com/itm/147609185711?_skw=Michael+Jordan&hash=item225e316daf:g:894AAeSwfCZqvI1O"
   },
   {
-   "ask_ratio": 0.734,
-   "ask_ref": 125.0,
-   "found_at": "2026-09-30T02:29:31.817065+00:00",
-   "id": "v1|820186911180|0",
-   "image": "https://i.ebayimg.com/images/g/T40AAeSweHNqu~hU/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 85.0,
-   "query": "2026 topps Shohei Ohtani S-29 refractor",
-   "shipping": 6.75,
-   "title": "2026 Topps Pristine Shohei Ohtani #S-29 SPOTLESS REFRACTOR insert DODGERS!",
-   "url": "https://www.ebay.com/itm/820186911180?_skw=Shohei+Ohtani&hash=itembef6f311cc:g:T40AAeSweHNqu~hU"
-  },
-  {
    "ask_ratio": 0.7377403774926665,
    "ask_ref": 337.49,
    "found_at": "2026-09-30T02:50:14.753918+00:00",
@@ -796,19 +739,6 @@
    "shipping": 0.0,
    "title": "1997-98 Flair Showcase - Michael Jordan #1 Row 3 PSA 7",
    "url": "https://www.ebay.com/itm/327380731095?_skw=Michael+Jordan&hash=item4c396984d7:g:Rr0AAeSwp7tqvFRS"
-  },
-  {
-   "ask_ratio": 0.771161164249717,
-   "ask_ref": 97.23,
-   "found_at": "2026-09-30T02:29:31.323779+00:00",
-   "id": "v1|800736114430|0",
-   "image": "https://i.ebayimg.com/images/g/SH8AAeSwt-dqvG5K/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 66.99,
-   "query": "1992 upper deck Michael Jordan 488 PSA 9",
-   "shipping": 7.99,
-   "title": "Upper Deck 1992-93 Game Faces Michael Jordan Bulls #488 PSA 9 mint! HOF",
-   "url": "https://www.ebay.com/itm/800736114430?_skw=Michael+Jordan&hash=itemba6f9776fe:g:SH8AAeSwt-dqvG5K"
   },
   {
    "ask_ratio": 0.7743715605420814,
@@ -2091,102 +2021,6 @@
    "shipping": 0.0,
    "title": "1998-99 Upper Deck Black Diamond - Michael Jordan #3  PSA 9",
    "url": "https://www.ebay.com/itm/366700812129?_skw=Michael+Jordan&hash=item5561125761:g:43EAAeSwNrpqvHQK"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:32.773798+00:00",
-   "id": "v1|267799308649|0",
-   "image": "https://i.ebayimg.com/images/g/bi0AAeSwj~lqvHCm/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 195.0,
-   "query": "2000 fleer Kobe Bryant 85 PSA 8",
-   "shipping": 5.93,
-   "title": "2000 FLEER SHOWCASE #85 KOBE BRYANT PSA 8",
-   "url": "https://www.ebay.com/itm/267799308649?_skw=Kobe+Bryant&hash=item3e5a152969:g:bi0AAeSwj~lqvHCm"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:32.392737+00:00",
-   "id": "v1|366700799805|0",
-   "image": "https://i.ebayimg.com/images/g/oaEAAeSw8z5qvHJ4/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 110.0,
-   "query": "2025 topps chrome Victor Wembanyama PP-5 purple",
-   "shipping": 5.99,
-   "title": "2025-26 Topps Chrome Power Players Purple Geometric #PP-5 Victor Wembanyama /75",
-   "url": "https://www.ebay.com/itm/366700799805?_skw=Victor+Wembanyama&hash=item556112273d:g:oaEAAeSw8z5qvHJ4"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:32.392713+00:00",
-   "id": "v1|366700801622|0",
-   "image": "https://i.ebayimg.com/images/g/vPQAAeSwEFNqvHI2/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 350.0,
-   "query": "2024 panini mosaic Victor Wembanyama 31 blue PSA 9",
-   "shipping": 0.0,
-   "title": "Panini Mosaic 2024-25 Victor Wembanyama #31 Intl Blue /35 PSA 9 Spurs",
-   "url": "https://www.ebay.com/itm/366700801622?_skw=Victor+Wembanyama&hash=item5561122e56:g:vPQAAeSwEFNqvHI2"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:31.817090+00:00",
-   "id": "v1|820188163941|0",
-   "image": "https://i.ebayimg.com/images/g/idIAAeSwEhdqvG~V/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 55.0,
-   "query": "2023 topps chrome Shohei Ohtani TT-2 PSA 9",
-   "shipping": 0.0,
-   "title": "Topps 2023 Topps Chrome Topps in Technicolor Shohei Ohtani TT-2 PSA 9",
-   "url": "https://www.ebay.com/itm/820188163941?_skw=Shohei+Ohtani&hash=itembef7062f65:g:idIAAeSwEhdqvG~V"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:31.817046+00:00",
-   "id": "v1|206591460676|0",
-   "image": "https://i.ebayimg.com/images/g/i3AAAeSwkJlqvHM4/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 299.99,
-   "query": "2025 best Shohei Ohtani P-25 refractor",
-   "shipping": 4.5,
-   "title": "2025 Bowman's Best Shohei Ohtani Pixel Portraits Mini Diamond Refractor #P-25",
-   "url": "https://www.ebay.com/itm/206591460676?_skw=Shohei+Ohtani&hash=item3019cf8544:g:i3AAAeSwkJlqvHM4"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:31.817022+00:00",
-   "id": "v1|117439077689|0",
-   "image": "https://i.ebayimg.com/images/g/wfEAAeSwm0pqvHL9/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 399.99,
-   "query": "2026 topps chrome now Shohei Ohtani WB4 green",
-   "shipping": 0.0,
-   "title": "2026 Topps Now Chrome WBC Grand Slam Shohei Ohtani /99 Green #WB4 Japan MLB",
-   "url": "https://www.ebay.com/itm/117439077689?_skw=Shohei+Ohtani&hash=item1b57ea1d39:g:wfEAAeSwm0pqvHL9"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:31.323767+00:00",
-   "id": "v1|168742888007|0",
-   "image": "https://i.ebayimg.com/images/g/eRoAAeSwutRqvG7q/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 499.0,
-   "query": "1995 choice Michael Jordan 410 CSG 8.5",
-   "shipping": 10.0,
-   "title": "1995-96 UD Collectors Choice Michael Jordan #410 Platinum Foil CSG 8.5 Rare ",
-   "url": "https://www.ebay.com/itm/168742888007?_skw=Michael+Jordan&hash=item2749dc2247:g:eRoAAeSwutRqvG7q"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T02:29:31.323755+00:00",
-   "id": "v1|117439072793|0",
-   "image": "https://i.ebayimg.com/images/g/sBIAAeSwrPpqvHBO/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 329.99,
-   "query": "1996 spx Michael Jordan 8 BGS 8.5",
-   "shipping": 7.99,
-   "title": "1996-97 SPx Michael Jordan #8 BGS 8.5 Chicago Bulls GOAT Die Cut",
-   "url": "https://www.ebay.com/itm/117439072793?_skw=Michael+Jordan&hash=item1b57ea0a19:g:sBIAAeSwrPpqvHBO"
   }
  ],
  "seen": {
@@ -2998,9 +2832,13 @@
   "v1|128105987485|0": "2026-09-30T03:10:51.398556+00:00",
   "v1|128105988151|0": "2026-09-30T03:10:51.398556+00:00",
   "v1|128105990289|0": "2026-09-30T03:10:51.398556+00:00",
+  "v1|128106030835|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|128106030846|0": "2026-09-30T08:18:59.216766+00:00",
+  "v1|128106030870|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|128106030883|0": "2026-09-30T08:18:59.216766+00:00",
   "v1|128106030890|0": "2026-09-30T08:18:59.216766+00:00",
+  "v1|128106030915|0": "2026-09-30T08:39:29.983719+00:00",
+  "v1|128106030917|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|128106050296|0": "2026-09-30T04:13:09.361009+00:00",
   "v1|128106093088|0": "2026-09-30T04:33:50.321748+00:00",
   "v1|128106141385|0": "2026-09-30T04:54:25.247269+00:00",
@@ -4052,7 +3890,6 @@
   "v1|178530927885|0": "2026-09-29T07:11:45.918069+00:00",
   "v1|178531161521|0": "2026-09-30T07:18:00.913744+00:00",
   "v1|178531656864|0": "2026-09-28T02:00:05.841727+00:00",
-  "v1|178532295910|0": "2026-09-27T08:30:49.876758+00:00",
   "v1|178533050682|0": "2026-09-27T14:16:40.301249+00:00",
   "v1|178533052189|0": "2026-09-27T14:37:05.627068+00:00",
   "v1|178533053093|0": "2026-09-27T14:37:05.627068+00:00",
@@ -4842,6 +4679,7 @@
   "v1|206591624404|0": "2026-09-30T04:13:09.361009+00:00",
   "v1|206591749852|0": "2026-09-30T05:14:55.105178+00:00",
   "v1|206591899048|0": "2026-09-30T06:37:20.964761+00:00",
+  "v1|206592125141|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|227538178198|0": "2026-09-28T04:04:14.634529+00:00",
   "v1|227541474086|0": "2026-09-27T12:14:05.202542+00:00",
   "v1|227541476113|0": "2026-09-27T12:34:24.120652+00:00",
@@ -5022,6 +4860,7 @@
   "v1|227545598268|0": "2026-09-30T06:57:44.297655+00:00",
   "v1|227545612636|0": "2026-09-30T07:18:00.913744+00:00",
   "v1|227545620209|0": "2026-09-30T07:18:00.913744+00:00",
+  "v1|227545715244|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|237084745588|0": "2026-09-28T05:46:55.082284+00:00",
   "v1|237092883545|0": "2026-09-27T16:19:55.811563+00:00",
   "v1|237093113025|0": "2026-09-27T08:51:00.401981+00:00",
@@ -8249,6 +8088,7 @@
   "v1|398445997583|0": "2026-09-30T06:17:01.329396+00:00",
   "v1|398446170891|0": "2026-09-30T07:18:00.913744+00:00",
   "v1|398446269413|0": "2026-09-30T07:38:19.461121+00:00",
+  "v1|398446435498|0": "2026-09-30T08:39:29.983719+00:00",
   "v1|407235760015|0": "2026-09-28T00:37:22.942872+00:00",
   "v1|407237830908|0": "2026-09-27T23:14:58.727669+00:00",
   "v1|407248401703|0": "2026-09-27T23:35:32.049612+00:00",
@@ -9188,7 +9028,7 @@
  },
  "usage": {
   "calls": 707,
-  "credit": 0.04890821665203848,
+  "credit": 0.7510358762265066,
   "month": "2026-09"
  }
 }
