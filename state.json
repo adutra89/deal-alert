@@ -291,17 +291,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 10:41:29] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 10:41:30] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 10:41:30] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 10:41:31] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 10:41:31] 1 new listings queued, 53 in queue",
-  "[2026-09-30 10:41:33] 14 auctions ending soon with <= 5 bids",
-  "[2026-09-30 10:41:34] pre-checked 1 on eBay; dropped 1 priced like everyone else",
-  "[2026-09-30 10:41:42] CardSight checks allowed this run: 1 (used 711/740 this month)",
-  "[2026-09-30 10:41:42] checking (36% of other asks): 2024 Topps Stadium Club - Shohei Ohtani #200 Red Foil  ->  q=\"2024 topps stadium club stadium Shohei Ohtani 200 red\"",
-  "[2026-09-30 10:41:52] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
-  "[2026-09-30 10:41:52] done: 0 deal alert(s) sent"
+  "[2026-09-30 10:42:49] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 10:42:49] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 10:42:50] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 10:42:50] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 10:42:50] 0 new listings queued, 52 in queue",
+  "[2026-09-30 10:42:52] 13 auctions ending soon with <= 5 bids",
+  "[2026-09-30 10:42:52] pre-checked 0 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-30 10:43:01] CardSight checks allowed this run: 0 (used 712/740 this month)",
+  "[2026-09-30 10:43:01] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -7959,7 +7957,7 @@
  },
  "usage": {
   "calls": 712,
-  "credit": 0.11143269557360824,
+  "credit": 0.8114326955736082,
   "month": "2026-09"
  }
 }
