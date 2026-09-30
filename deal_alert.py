@@ -420,11 +420,20 @@ SUBSET_PHRASES = [
 ]
 
 
+def _sing(w: str) -> str:
+    return w[:-1] if len(w) > 3 and w.endswith("s") else w
+
+
 def subsets_in(title: str) -> set[str]:
-    t = " " + " ".join(words(title.replace("-", " "))) + " "
-    found = {p for p in SUBSET_PHRASES if f" {p} " in t}
-    # treat singular/plural variants as the same subset
-    return {p.rstrip("s") for p in found}
+    # singularize so "Variations" matches "variation", "All-Rookies" matches "all rookie"
+    t = " " + " ".join(_sing(w) for w in words(title.replace("-", " "))) + " "
+    found = {" ".join(_sing(w) for w in p.split()) for p in SUBSET_PHRASES}
+    found = {p for p in found if f" {p} " in t}
+    # a second year in the title marks a retro/throwback design, e.g. "2008-09 Topps ... 1958-59 Variations"
+    years = re.findall(r"\b(19[3-9]\d|20[0-3]\d)\b", title)
+    if years:
+        found |= {f"design {y}" for y in years[1:] if abs(int(y) - int(years[0])) > 1}
+    return found
 
 
 def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -> bool:

@@ -165,3 +165,18 @@ def test_year_must_match():
     r = rec(3); r["matched_card"]["number"] = "453"
     r["matched_card"]["set"] = {"name": "Base Set", "release": "Upper Deck", "year": "1992-93"}
     assert not d.identity_ok(r, "1988 Upper Deck Michael Jordan #453", None, "453")
+
+
+def test_retro_variation_not_priced_as_base():
+    # real miss: 2008-09 Topps Kobe #24 1958-59 Variation (~$15) valued at $398 using the base #24 (w/ LeBron)
+    res = []
+    for p, t in [(398, "2008-09 Topps Kobe Bryant #24 Lakers"), (406, "2008-09 Topps Kobe Bryant #24 HOF"),
+                 (375, "2008-09 Topps Kobe Bryant #24 Lakers"), (13, "2008-09 Topps #24 Kobe Bryant 1958-59 Variations"),
+                 (16.5, "2008-09 Topps Kobe Bryant #24 1958-59 Variations LA Lakers"), (12, "2008-09 Topps #24 Kobe Bryant 1958-59 Variations"),
+                 (11, "Topps 2008-09 Kobe Bryant #24 1958-59 Variations")]:
+        r = rec(p); r["title"] = t; r["matched_card"]["number"] = "24"
+        r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps", "year": "2008-09"}
+        res.append(r)
+    mv = d.market_value("2008-09 Topps - Kobe Bryant #24 1958-59 Variations", res, CFG)
+    assert mv["median"] == 12.5
+    assert d.subsets_in("Fleer Ultra All-Rookies Kobe #3") == d.subsets_in("Ultra All Rookie Kobe #3")
