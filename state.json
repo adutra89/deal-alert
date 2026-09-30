@@ -100,6 +100,10 @@
     "median": 8.75
    }
   },
+  "2016 panini hoops Kobe Bryant 15": {
+   "at": "2026-09-30T16:16:10.116690+00:00",
+   "mv": null
+  },
   "2018 panini contenders draft Kobe Bryant 34": {
    "at": "2026-09-30T04:54:25.247269+00:00",
    "mv": {
@@ -267,16 +271,18 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 16:15:09] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 16:15:10] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 16:15:11] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 16:15:11] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 16:15:11] 29 new listings queued, 117 in queue",
-  "[2026-09-30 16:15:13] 65 auctions ending soon with <= 5 bids",
-  "[2026-09-30 16:15:32] pre-checked 29 on eBay; dropped 20 priced like everyone else",
-  "[2026-09-30 16:15:44] CardSight checks allowed this run: 1 (used 722/740 this month)",
-  "[2026-09-30 16:15:44] checking (13% of other asks): Upper Deck 1994-95 Michael Jordan Return of Excellence Insert #335 Bul  ->  q=\"1994 upper deck Michael Jordan 335\"",
-  "[2026-09-30 16:15:54] done: 0 deal alert(s) sent"
+  "[2026-09-30 16:16:10] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 16:16:11] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 16:16:12] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 16:16:12] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 16:16:12] 1 new listings queued, 98 in queue",
+  "[2026-09-30 16:16:14] 64 auctions ending soon with <= 5 bids",
+  "[2026-09-30 16:16:14] pre-checked 1 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-30 16:16:27] CardSight checks allowed this run: 1 (used 723/740 this month)",
+  "[2026-09-30 16:16:27] checking (15% of other asks): Panini NBA Hoops 2016-17 Kobe Bryant Los Angeles Lakers Insert #15 (35  ->  q=\"2016 panini hoops Kobe Bryant 15\"",
+  "[2026-09-30 16:16:32]   only 3 comps for matched card",
+  "[2026-09-30 16:16:32] no reliable comps: Panini NBA Hoops 2016-17 Kobe Bryant Los Angeles Lakers Insert #15 (35",
+  "[2026-09-30 16:16:33] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -1778,6 +1784,7 @@
   "a:v1|800702079871|0": "2026-09-30T00:24:53.292336+00:00",
   "a:v1|800704428125|0": "2026-09-30T12:45:23.547919+00:00",
   "a:v1|800704776182|0": "2026-09-30T14:31:02.646066+00:00",
+  "a:v1|800705090555|0": "2026-09-30T16:16:10.116690+00:00",
   "a:v1|800706753140|0": "2026-09-29T00:18:31.423026+00:00",
   "a:v1|800710665784|0": "2026-09-29T18:51:18.317041+00:00",
   "a:v1|820148021503|0": "2026-09-27T20:08:17.349964+00:00",
@@ -6086,6 +6093,7 @@
   "v1|307206856149|0": "2026-09-30T14:51:40.208945+00:00",
   "v1|307206883956|0": "2026-09-30T15:12:18.307377+00:00",
   "v1|307207054472|0": "2026-09-30T16:15:09.045148+00:00",
+  "v1|307207057196|0": "2026-09-30T16:16:10.116690+00:00",
   "v1|318925328844|0": "2026-09-27T16:40:30.492424+00:00",
   "v1|318925379056|0": "2026-09-27T16:40:30.492424+00:00",
   "v1|318925458230|0": "2026-09-27T17:01:40.395099+00:00",
@@ -8469,8 +8477,8 @@
   "v1|820190148874|0": "2026-09-30T16:15:09.045148+00:00"
  },
  "usage": {
-  "calls": 723,
-  "credit": 0.6589531554980848,
+  "calls": 724,
+  "credit": 0.367286488831418,
   "month": "2026-09"
  }
 }
