@@ -25,7 +25,7 @@ fee_rate: 0.13
 
 # CardSight API calls allowed per month. Free plan = 750, Pro = 5000.
 # Keep this a little under your plan's limit.
-monthly_budget: 740
+monthly_budget: 748
 
 # Listings older than this (hours) are dropped from the queue; good deals sell fast.
 max_listing_age_hours: 6
@@ -62,8 +62,8 @@ prechecks_per_run: 40
 
 # High-speed trial: until this time, price this many listings every run (still never
 # goes over monthly_budget). After it ends, the rest of the month's budget is spread evenly.
-burst_until: "2026-09-27T02:00:00+00:00"   # Sat 10pm ET (today's trial)
-burst_checks_per_run: 10
+burst_until: "2026-10-01T00:00:00+00:00"   # use the last September calls by 8pm ET
+burst_checks_per_run: 2
 
 # Auctions: also check auctions ending within this many minutes that have few bids.
 # Alerts tell you the most you can bid and still be discount_threshold under market.
