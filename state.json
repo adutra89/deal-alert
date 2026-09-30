@@ -291,15 +291,17 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 09:40:27] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 09:40:28] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 09:40:28] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 09:40:29] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 09:40:29] 7 new listings queued, 83 in queue",
-  "[2026-09-30 09:40:31] 3 auctions ending soon with <= 5 bids",
-  "[2026-09-30 09:40:36] pre-checked 7 on eBay; dropped 5 priced like everyone else",
-  "[2026-09-30 09:40:38] CardSight checks allowed this run: 0 (used 709/740 this month)",
-  "[2026-09-30 09:40:38] done: 0 deal alert(s) sent"
+  "[2026-09-30 10:00:42] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 10:00:42] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 10:00:43] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 10:00:43] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 10:00:43] 1 new listings queued, 68 in queue",
+  "[2026-09-30 10:00:45] 7 auctions ending soon with <= 5 bids",
+  "[2026-09-30 10:00:46] pre-checked 1 on eBay; dropped 1 priced like everyone else",
+  "[2026-09-30 10:00:51] CardSight checks allowed this run: 1 (used 709/740 this month)",
+  "[2026-09-30 10:00:51] checking (27% of other asks): 2022 Topps Chrome - Shohei Ohtani #1 Refractor  ->  q=\"2022 topps chrome Shohei Ohtani 1 refractor\"",
+  "[2026-09-30 10:01:01] CardSight error 500: {\"error\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}",
+  "[2026-09-30 10:01:01] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -340,32 +342,6 @@
    "shipping": 0.0,
    "title": "1988 Fleer Super Star Sticker - Michael Jordan #7 PSA 8",
    "url": "https://www.ebay.com/itm/298718641304?_skw=Michael+Jordan&hash=item458d04bc98:g:Yi8AAeSw90VqvJJD"
-  },
-  {
-   "ask_ratio": 0.5001250312578145,
-   "ask_ref": 199.95,
-   "found_at": "2026-09-30T03:52:28.789387+00:00",
-   "id": "v1|198676962388|0",
-   "image": "https://i.ebayimg.com/images/g/nd0AAeSwS8JqvIGc/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 100.0,
-   "query": "1996 fleer ultra Michael Jordan 16 PSA 8",
-   "shipping": 0.0,
-   "title": "Michael Jordan 1996-97 Fleer Ultra #16 PSA 8 Chicago Bulls",
-   "url": "https://www.ebay.com/itm/198676962388?_skw=Michael+Jordan&hash=item2e4211dc54:g:nd0AAeSwS8JqvIGc"
-  },
-  {
-   "ask_ratio": 0.5728135593220339,
-   "ask_ref": 295.0,
-   "found_at": "2026-09-30T03:52:28.789377+00:00",
-   "id": "v1|800736468803|0",
-   "image": "https://i.ebayimg.com/images/g/xeUAAeSwElZqvIOf/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 159.99,
-   "query": "1993 fleer Michael Jordan 7 PSA 9",
-   "shipping": 8.99,
-   "title": "Fleer 1993-94 NBA Superstars Michael Jordan Bulls #7 PSA 9 Cert 57081366",
-   "url": "https://www.ebay.com/itm/800736468803?_skw=Michael+Jordan&hash=itemba6f9cdf43:g:xeUAAeSwElZqvIOf"
   },
   {
    "ask_ratio": 0.6,
@@ -444,32 +420,6 @@
    "shipping": 0.0,
    "title": "Panini 2023-24 Prizm Victor Wembanyama Instant Impact #3 Silver Prizm RC PSA 10",
    "url": "https://www.ebay.com/itm/189015565406?_skw=Victor+Wembanyama&hash=item2c0234a45e:g:A0kAAeSwpEBqvIpy"
-  },
-  {
-   "ask_ratio": 0.6882692307692307,
-   "ask_ref": 260.0,
-   "found_at": "2026-09-30T03:52:29.346450+00:00",
-   "id": "v1|117439155931|0",
-   "image": "https://i.ebayimg.com/images/g/jigAAeSwuP5qvIOt/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 169.95,
-   "query": "2018 topps Shohei Ohtani 700 PSA 9",
-   "shipping": 9.0,
-   "title": "2018 Topps Shohei Ohtani Rookie RC Complete Set #700 PSA 9 ANGELS",
-   "url": "https://www.ebay.com/itm/117439155931?_skw=Shohei+Ohtani&hash=item1b57eb4edb:g:jigAAeSwuP5qvIOt"
-  },
-  {
-   "ask_ratio": 0.6882692307692307,
-   "ask_ref": 260.0,
-   "found_at": "2026-09-30T03:52:29.346435+00:00",
-   "id": "v1|117439164242|0",
-   "image": "https://i.ebayimg.com/images/g/5MEAAeSwmP5qvIZz/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 169.95,
-   "query": "2018 topps Shohei Ohtani 700 PSA 9",
-   "shipping": 9.0,
-   "title": "2018 Topps Shohei Ohtani Rookie RC Complete Set #700 PSA 9 ANGELS",
-   "url": "https://www.ebay.com/itm/117439164242?_skw=Shohei+Ohtani&hash=item1b57eb6f52:g:5MEAAeSwmP5qvIZz"
   },
   {
    "ask_ratio": 0.6882957036809108,
@@ -587,19 +537,6 @@
    "shipping": 0.0,
    "title": "2025 Topps Cosmic Chrome #56 Shohei Ohtani PSA 10",
    "url": "https://www.ebay.com/itm/377533184741?_skw=Shohei+Ohtani&hash=item57e6bb3ae5:g:80UAAeSw4r1qvKlj"
-  },
-  {
-   "ask_ratio": 0.7941176470588235,
-   "ask_ref": 68.0,
-   "found_at": "2026-09-30T03:52:29.737540+00:00",
-   "id": "v1|800736454683|0",
-   "image": "https://i.ebayimg.com/images/g/mmwAAeSw-UZqvILK/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 54.0,
-   "query": "2023 donruss optic Victor Wembanyama 225 PSA 9",
-   "shipping": 0.0,
-   "title": "2023 Donruss Optic Victor Wembanyama Rookie Card #225 PSA 9 Rated Rookie Spurs",
-   "url": "https://www.ebay.com/itm/800736454683?_skw=Victor+Wembanyama&hash=itemba6f9ca81b:g:mmwAAeSw-UZqvILK"
   },
   {
    "ask_ratio": 0.8,
@@ -1190,78 +1127,6 @@
    "shipping": 0.0,
    "title": "Fleer 1995 Michael Jordan Firm Foundation #323 PSA 9 Chicago Bulls",
    "url": "https://www.ebay.com/itm/158366618168?_skw=Michael+Jordan&hash=item24df62d238:g:Dp0AAeSwPGRqvIr8"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:30.157869+00:00",
-   "id": "v1|237098042147|0",
-   "image": "https://i.ebayimg.com/images/g/he8AAeSwgRpqvIHY/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 176.1,
-   "query": "2001 topps Kobe Bryant 103 BGS 9",
-   "shipping": 4.99,
-   "title": "2001-02 Topps High Topps Kobe Bryant #103 BGS 9 MINT HOF 0q3",
-   "url": "https://www.ebay.com/itm/237098042147?_skw=Kobe+Bryant&hash=item3734250323:g:he8AAeSwgRpqvIHY"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:30.157867+00:00",
-   "id": "v1|257774270601|0",
-   "image": "https://i.ebayimg.com/images/g/iiUAAeSweydqvILN/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 300.0,
-   "query": "1997 Kobe Bryant 1 PSA 10",
-   "shipping": 5.0,
-   "title": "1997 Pro Mags #1 Kobe Bryant Pro Magnets GRADED GEM MINT PSA 10 LOW POP 32",
-   "url": "https://www.ebay.com/itm/257774270601?_skw=Kobe+Bryant&hash=item3c048b3889:g:iiUAAeSweydqvILN"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:29.346482+00:00",
-   "id": "v1|267799352457|0",
-   "image": "https://i.ebayimg.com/images/g/ms4AAeSwNnNqvIP7/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 65.99,
-   "query": "2025 topps Shohei Ohtani GH23 PSA 10",
-   "shipping": 6.99,
-   "title": "2025 Topps 2024 Greatest Hits #GH23 Shohei Ohtani PSA 10 GEM MINT",
-   "url": "https://www.ebay.com/itm/267799352457?_skw=Shohei+Ohtani&hash=item3e5a15d489:g:ms4AAeSwNnNqvIP7"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:29.346465+00:00",
-   "id": "v1|398445625480|0",
-   "image": "https://i.ebayimg.com/images/g/yykAAOSwswNl7Obr/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 64.99,
-   "query": "2022 topps Shohei Ohtani US92 SGC 10",
-   "shipping": 0.0,
-   "title": "2022 Topps Mini Shohei Ohtani #US92  100 Career Home Runs SGC 10 Gem Mint Angels",
-   "url": "https://www.ebay.com/itm/398445625480?_skw=Shohei+Ohtani&hash=item5cc535c088:g:yykAAOSwswNl7Obr"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:29.346416+00:00",
-   "id": "v1|117439165302|0",
-   "image": "",
-   "player": "Shohei Ohtani",
-   "price": 50.0,
-   "query": "2023 best Shohei Ohtani 62 PSA 8",
-   "shipping": 5.99,
-   "title": "2023 BOWMAN'S BEST #62 SHOHEI OHTANI PSA 8",
-   "url": "https://www.ebay.com/itm/117439165302?_skw=Shohei+Ohtani&hash=item1b57eb7376:i:117439165302"
-  },
-  {
-   "ask_ratio": null,
-   "found_at": "2026-09-30T03:52:28.789384+00:00",
-   "id": "v1|336820017853|0",
-   "image": "https://i.ebayimg.com/images/g/UkMAAeSw2aZqrLfC/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 125.0,
-   "query": "2005 upper deck Michael Jordan LJMJ10",
-   "shipping": 0.0,
-   "title": "2005-06 Upper Deck Michael Jordan/LeBron James Dual MJ #LJMJ10",
-   "url": "https://www.ebay.com/itm/336820017853?_skw=Michael+Jordan&hash=item4e6c099abd:g:UkMAAeSw2aZqrLfC"
   }
  ],
  "seen": {
@@ -2087,6 +1952,7 @@
   "v1|128106415727|0": "2026-09-30T08:18:59.216766+00:00",
   "v1|128106525397|0": "2026-09-30T09:40:26.339657+00:00",
   "v1|128106536327|0": "2026-09-30T09:40:26.339657+00:00",
+  "v1|128106549168|0": "2026-09-30T10:00:40.795536+00:00",
   "v1|137782148337|0": "2026-09-28T21:11:44.916131+00:00",
   "v1|137784889720|0": "2026-09-27T10:11:52.308489+00:00",
   "v1|137784940754|0": "2026-09-27T10:32:11.042794+00:00",
@@ -3324,6 +3190,7 @@
   "v1|178541328777|0": "2026-09-30T07:18:00.913744+00:00",
   "v1|178541387563|0": "2026-09-30T07:38:19.461121+00:00",
   "v1|178541434950|0": "2026-09-30T07:58:38.271539+00:00",
+  "v1|178541708454|0": "2026-09-30T10:00:40.795536+00:00",
   "v1|188974676616|0": "2026-09-27T21:10:12.290747+00:00",
   "v1|188988627536|0": "2026-09-29T03:04:54.957615+00:00",
   "v1|188994129989|0": "2026-09-27T11:13:16.101504+00:00",
@@ -4459,7 +4326,6 @@
   "v1|257759668383|0": "2026-09-27T16:19:55.811563+00:00",
   "v1|257759668388|0": "2026-09-27T16:40:30.492424+00:00",
   "v1|257763375915|0": "2026-09-28T04:04:14.634529+00:00",
-  "v1|257768548598|0": "2026-09-27T09:51:41.391562+00:00",
   "v1|257768584776|0": "2026-09-27T10:11:52.308489+00:00",
   "v1|257768586969|0": "2026-09-27T10:11:52.308489+00:00",
   "v1|257768649266|0": "2026-09-27T10:52:25.148736+00:00",
@@ -6305,7 +6171,6 @@
   "v1|327380922954|0": "2026-09-30T05:56:24.092209+00:00",
   "v1|336812812779|0": "2026-09-28T03:22:30.298499+00:00",
   "v1|336813972880|0": "2026-09-27T17:01:40.395099+00:00",
-  "v1|336815206730|0": "2026-09-27T09:51:41.391562+00:00",
   "v1|336815276786|0": "2026-09-27T10:52:25.148736+00:00",
   "v1|336815333517|0": "2026-09-27T11:53:36.917072+00:00",
   "v1|336815380651|0": "2026-09-27T12:34:24.120652+00:00",
@@ -8280,8 +8145,8 @@
   "v1|820189139419|0": "2026-09-30T09:40:26.339657+00:00"
  },
  "usage": {
-  "calls": 709,
-  "credit": 0.9166301404051993,
+  "calls": 710,
+  "credit": 0.6547253785004374,
   "month": "2026-09"
  }
 }
