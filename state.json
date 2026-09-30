@@ -116,6 +116,10 @@
     "median": 6.5
    }
   },
+  "2005 upper deck Michael Jordan MJ17": {
+   "at": "2026-09-30T05:15:33.382455+00:00",
+   "mv": null
+  },
   "2009 topps Kobe Bryant 123": {
    "at": "2026-09-30T03:52:27.884588+00:00",
    "mv": {
@@ -311,15 +315,18 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 05:14:56] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 05:14:56] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 05:14:57] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 05:14:57] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 05:14:57] 13 new listings queued, 306 in queue",
-  "[2026-09-30 05:14:59] 33 auctions ending soon with <= 5 bids",
-  "[2026-09-30 05:15:06] pre-checked 13 on eBay; dropped 8 priced like everyone else",
-  "[2026-09-30 05:15:18] CardSight checks allowed this run: 0 (used 699/740 this month)",
-  "[2026-09-30 05:15:18] done: 0 deal alert(s) sent"
+  "[2026-09-30 05:15:34] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 05:15:35] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 05:15:36] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 05:15:36] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 05:15:36] 1 new listings queued, 299 in queue",
+  "[2026-09-30 05:15:39] 31 auctions ending soon with <= 5 bids",
+  "[2026-09-30 05:15:39] pre-checked 1 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-30 05:15:54] CardSight checks allowed this run: 1 (used 699/740 this month)",
+  "[2026-09-30 05:15:54] checking (35% of other asks): 2005-06 Upper Deck Michael Jordan/LeBron James - Michael Jordan #MJ17  ->  q=\"2005 upper deck Michael Jordan MJ17\"",
+  "[2026-09-30 05:15:55]   only 4 comps for matched card",
+  "[2026-09-30 05:15:55] no reliable comps: 2005-06 Upper Deck Michael Jordan/LeBron James - Michael Jordan #MJ17",
+  "[2026-09-30 05:15:55] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -1439,6 +1446,18 @@
    "shipping": 0.0,
    "title": "Panini 2023 Prizm Draft Picks Victor Wembanyama Spurs Red Cracked Ice #2 (RC)",
    "url": "https://www.ebay.com/itm/398445527702?_skw=Victor+Wembanyama&hash=item5cc5344296:g:Et8AAeSwevlqvHz3"
+  },
+  {
+   "ask_ratio": null,
+   "found_at": "2026-09-30T05:15:35.572677+00:00",
+   "id": "v1|307206161305|0",
+   "image": "https://i.ebayimg.com/images/g/0iAAAeSwgZ1qvJmL/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 150.0,
+   "query": "2013 bbm Shohei Ohtani 11",
+   "shipping": 0.0,
+   "title": "2013 BBM Shohei Ohtani Rookie Card #11 1st Version Nippon-Ham Fighters",
+   "url": "https://www.ebay.com/itm/307206161305?_skw=Shohei+Ohtani&hash=item4786ea0399:g:0iAAAeSwgZ1qvJmL"
   },
   {
    "ask_ratio": null,
@@ -4011,6 +4030,7 @@
   "a:v1|128096517723|0": "2026-09-27T14:37:05.627068+00:00",
   "a:v1|128096878351|0": "2026-09-30T02:08:46.431315+00:00",
   "a:v1|128096878553|0": "2026-09-30T02:08:46.431315+00:00",
+  "a:v1|137757793516|0": "2026-09-30T05:15:33.382455+00:00",
   "a:v1|137759889028|0": "2026-09-27T18:24:26.116741+00:00",
   "a:v1|137767534255|0": "2026-09-28T05:46:55.082284+00:00",
   "a:v1|137768582654|0": "2026-09-30T02:08:46.431315+00:00",
@@ -8544,6 +8564,7 @@
   "v1|307206113330|0": "2026-09-30T04:54:25.247269+00:00",
   "v1|307206119694|0": "2026-09-30T04:54:25.247269+00:00",
   "v1|307206149911|0": "2026-09-30T05:14:55.105178+00:00",
+  "v1|307206161305|0": "2026-09-30T05:15:33.382455+00:00",
   "v1|318923344306|0": "2026-09-27T05:26:41.109700+00:00",
   "v1|318923385379|0": "2026-09-27T05:26:41.109700+00:00",
   "v1|318923444169|0": "2026-09-27T06:08:46.234460+00:00",
@@ -10975,8 +10996,8 @@
   "v1|820188410377|0": "2026-09-30T04:13:09.361009+00:00"
  },
  "usage": {
-  "calls": 699,
-  "credit": 0.9255086497835188,
+  "calls": 700,
+  "credit": 0.6448068953975539,
   "month": "2026-09"
  }
 }
