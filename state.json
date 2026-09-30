@@ -111,19 +111,15 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-09-30 21:50:42] eBay: 50 listings for Michael Jordan",
-  "[2026-09-30 21:50:43] eBay: 50 listings for Shohei Ohtani",
-  "[2026-09-30 21:50:43] eBay: 50 listings for Victor Wembanyama",
-  "[2026-09-30 21:50:44] eBay: 50 listings for Kobe Bryant",
-  "[2026-09-30 21:50:44] 27 new listings queued, 251 in queue",
-  "[2026-09-30 21:50:46] 95 auctions ending soon with <= 5 bids",
-  "[2026-09-30 21:51:07] pre-checked 37 on eBay; dropped 20 priced like everyone else",
-  "[2026-09-30 21:51:20] CardSight checks allowed this run: 2 (used 746/748 this month)",
-  "[2026-09-30 21:51:20] checking (18% of other asks): Score Board 1997 Rookies '96-'97 All-Rookie Team Kobe Bryant Lakers #8  ->  q=\"1997 score Kobe Bryant 83\"",
-  "[2026-09-30 21:51:21]   only 1 comps for matched card",
-  "[2026-09-30 21:51:21] no reliable comps: Score Board 1997 Rookies '96-'97 All-Rookie Team Kobe Bryant Lakers #8",
-  "[2026-09-30 21:51:22] checking (61% of other asks): Upper Deck 2004-05 R-Class Kobe Bryant Los Angeles Lakers #37  ->  q=\"2004 upper deck Kobe Bryant 37\"",
-  "[2026-09-30 21:51:23] done: 0 deal alert(s) sent"
+  "[2026-09-30 21:51:41] eBay: 50 listings for Michael Jordan",
+  "[2026-09-30 21:51:41] eBay: 50 listings for Shohei Ohtani",
+  "[2026-09-30 21:51:42] eBay: 50 listings for Victor Wembanyama",
+  "[2026-09-30 21:51:42] eBay: 50 listings for Kobe Bryant",
+  "[2026-09-30 21:51:42] 1 new listings queued, 232 in queue",
+  "[2026-09-30 21:51:44] 94 auctions ending soon with <= 5 bids",
+  "[2026-09-30 21:51:45] pre-checked 1 on eBay; dropped 0 priced like everyone else",
+  "[2026-09-30 21:51:57] CardSight checks allowed this run: 0 (used 748/748 this month)",
+  "[2026-09-30 21:51:57] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -606,6 +602,19 @@
    "shipping": 5.48,
    "title": "2019-20 Panini Prizm Kobe Bryant NBA Finalists #9 PSA 10 GEM MINT Lakers",
    "url": "https://www.ebay.com/itm/800739542182?_skw=Kobe+Bryant&hash=itemba6fcbc4a6:g:R1sAAeSwExFqvVlV"
+  },
+  {
+   "ask_ratio": 0.7554591538311562,
+   "ask_ref": 205.16,
+   "found_at": "2026-09-30T21:51:42.177308+00:00",
+   "id": "v1|227546638574|0",
+   "image": "https://i.ebayimg.com/images/g/HNkAAeSwWMNqvYNU/s-l225.jpg",
+   "player": "Victor Wembanyama",
+   "price": 149.0,
+   "query": "2025 topps now sp Victor Wembanyama 315",
+   "shipping": 5.99,
+   "title": "2025-26 Topps Now Victor Wembanyama Image Variation #315-SP Spurs 51",
+   "url": "https://www.ebay.com/itm/227546638574?_skw=Victor+Wembanyama&hash=item34fad628ee:g:HNkAAeSwWMNqvYNU"
   },
   {
    "ask_ratio": 0.7563559322033898,
@@ -5787,6 +5796,7 @@
   "v1|227546542131|0": "2026-09-30T20:46:31.292250+00:00",
   "v1|227546544464|0": "2026-09-30T21:08:43.823868+00:00",
   "v1|227546557151|0": "2026-09-30T21:08:43.823868+00:00",
+  "v1|227546638574|0": "2026-09-30T21:51:40.471147+00:00",
   "v1|237084745588|0": "2026-09-28T05:46:55.082284+00:00",
   "v1|237093901609|0": "2026-09-28T02:00:05.841727+00:00",
   "v1|237093904151|0": "2026-09-28T02:00:05.841727+00:00",
