@@ -21,8 +21,8 @@ player_rules:
     min_year: 2019      # Jr's first cards; Sr pitched 1986-2001
 
 # Alert when (price + shipping) is at least this far under recent sold comps.
-# 0.35 = 35% under market.
-discount_threshold: 0.35
+# 0.30 = 30% under market.
+discount_threshold: 0.30
 
 # Only look at Buy It Now listings in this price range (USD, before shipping).
 min_price: 50
@@ -80,8 +80,8 @@ comp_cache_days: 7
 
 # High-speed trial: until this time, price this many listings every run (still never
 # goes over monthly_budget). After it ends, the rest of the month's budget is spread evenly.
-burst_until: ""   # no trial running
-burst_checks_per_run: 2
+burst_until: "2026-10-05T03:59:00+00:00"   # trial week: through Sun 11:59pm ET
+burst_checks_per_run: 1
 
 # Auctions: also check auctions ending within this many minutes that have few bids.
 # Alerts tell you the most you can bid and still be discount_threshold under market.
