@@ -585,7 +585,8 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     if len(prices) < int(cfg["min_comps"]):
         log(f"  only {len(prices)} comps after dropping outliers")
         return None
-    return {"median": statistics.median(prices), "count": len(prices), "label": label.strip()}
+    sample = [f"${float(r['price']):,.0f} {(r.get('title') or '')[:55]}" for r in recs[:2] if r.get("title")]
+    return {"median": statistics.median(prices), "count": len(prices), "label": label.strip(), "sample": sample}
 
 
 def evaluate(listing: dict, mv: dict, cfg: dict) -> dict | None:
@@ -622,6 +623,8 @@ def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> 
             f"Bid up to ${max_bid:,.2f} to stay {threshold:.0%} under market\n"
             f"Matched: {mv['label']}"
         )
+        if mv.get("sample"):
+            body += "\nSold examples:\n" + "\n".join(mv["sample"])
         return title, body
     title = f"{ev['discount']:.0%} under comps - {listing['player']}"
     body = (
@@ -631,6 +634,8 @@ def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> 
         f"Est. profit after fees: ${ev['profit']:,.2f}\n"
         f"Matched: {mv['label']}"
     )
+    if mv.get("sample"):
+        body += "\nSold examples:\n" + "\n".join(mv["sample"])
     if ev["discount"] >= 0.70:
         body += "\n\nWARNING: 70%+ under market. Check photos closely for reprint, damage or wrong card."
     return title, body
