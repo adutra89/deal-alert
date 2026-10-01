@@ -180,3 +180,13 @@ def test_retro_variation_not_priced_as_base():
     mv = d.market_value("2008-09 Topps - Kobe Bryant #24 1958-59 Variations", res, CFG)
     assert mv["median"] == 12.5
     assert d.subsets_in("Fleer Ultra All-Rookies Kobe #3") == d.subsets_in("Ultra All Rookie Kobe #3")
+
+
+def test_player_rules_keep_dads_out():
+    cfg = {"player_rules": {"Ken Griffey Jr": {"exclude": ["sr", "sr.", "senior"], "min_year": 1987},
+                            "Bobby Witt Jr": {"exclude": ["sr", "senior"], "min_year": 2019}}}
+    assert not d.player_rule_ok("1976 Topps Ken Griffey #400 Reds PSA 7", "Ken Griffey Jr", cfg)
+    assert not d.player_rule_ok("1991 Topps Ken Griffey Sr. #100 Mariners", "Ken Griffey Jr", cfg)
+    assert d.player_rule_ok("1989 Upper Deck Ken Griffey Jr. #1 RC PSA 8", "Ken Griffey Jr", cfg)
+    assert not d.player_rule_ok("1990 Topps Bobby Witt #19 Rangers", "Bobby Witt Jr", cfg)
+    assert d.player_rule_ok("2022 Topps Chrome Bobby Witt Jr. #USC50 RC", "Bobby Witt Jr", cfg)

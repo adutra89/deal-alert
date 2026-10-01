@@ -350,6 +350,17 @@ def search_name(player: str) -> str:
     return " ".join(w for w in player.split() if w.lower().strip(".") not in ("jr", "sr", "ii", "iii"))
 
 
+def player_rule_ok(title: str, player: str, cfg: dict) -> bool:
+    """Per-player filters, e.g. keep Ken Griffey Sr. cards out of a Ken Griffey Jr. search."""
+    rule = (cfg.get("player_rules") or {}).get(player) or {}
+    if rule.get("exclude") and title_has_excluded_word(title, rule["exclude"]):
+        return False
+    m = re.search(r"\b(19[3-9]\d|20[0-3]\d)\b", title)
+    if rule.get("min_year") and m and int(m.group(1)) < int(rule["min_year"]):
+        return False
+    return True
+
+
 def card_number(title: str) -> str | None:
     m = CARD_NO_RE.search(title)
     if m:
@@ -672,7 +683,7 @@ def run() -> int:
             state["seen"][it["id"]] = now.isoformat()
             if surname(player).lower() not in it["title"].lower():
                 continue
-            if title_has_excluded_word(it["title"], cfg["exclude_words"]):
+            if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not player_rule_ok(it["title"], player, cfg):
                 continue
             if not card_number(it["title"]):
                 continue  # no card # in the title: too easy to price the wrong card
@@ -692,6 +703,8 @@ def run() -> int:
                 if f"a:{it['id']}" in state["seen"] or surname(player).lower() not in it["title"].lower():
                     continue
                 if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not card_number(it["title"]):
+                    continue
+                if not player_rule_ok(it["title"], player, cfg):
                     continue
                 it["query"] = build_query(it["title"], player)
                 auctions.append(it)

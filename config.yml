@@ -11,6 +11,15 @@ players:
   - Ken Griffey Jr
   - Bobby Witt Jr
 
+# Per-player filters so a dad's cards don't show up in the son's search.
+player_rules:
+  Ken Griffey Jr:
+    exclude: [sr, "sr.", senior]
+    min_year: 1987      # Jr's first cards; Sr's are mostly 1970s-80s
+  Bobby Witt Jr:
+    exclude: [sr, "sr.", senior]
+    min_year: 2019      # Jr's first cards; Sr pitched 1986-2001
+
 # Alert when (price + shipping) is at least this far under recent sold comps.
 # 0.35 = 35% under market.
 discount_threshold: 0.35
