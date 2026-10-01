@@ -340,6 +340,16 @@ def words(text: str) -> list[str]:
 CODE_NO_RE = re.compile(r"\b([A-Z]{1,6}-[A-Z]{0,3}\d{1,4}[A-Z]?)\b")
 
 
+def surname(player: str) -> str:
+    parts = [w for w in player.split() if w.lower().strip(".") not in ("jr", "sr", "ii", "iii")]
+    return parts[-1]
+
+
+def search_name(player: str) -> str:
+    """Name without Jr./Sr. so titles like 'Ken Griffey 1989 Upper Deck' still match."""
+    return " ".join(w for w in player.split() if w.lower().strip(".") not in ("jr", "sr", "ii", "iii"))
+
+
 def card_number(title: str) -> str | None:
     m = CARD_NO_RE.search(title)
     if m:
@@ -365,7 +375,7 @@ def build_query(title: str, player: str) -> str:
         bw = " ".join(words(b))
         if re.search(rf"\b{re.escape(bw)}\b", t) and bw not in parts:
             parts.append(" ".join(w for w in b.split() if "'" not in w))
-    parts.append(player)
+    parts.append(search_name(player))
     num = card_number(title)
     if num:
         parts.append(num)
@@ -660,7 +670,7 @@ def run() -> int:
             if it["id"] in state["seen"]:
                 continue
             state["seen"][it["id"]] = now.isoformat()
-            if player.split()[-1].lower() not in it["title"].lower():
+            if surname(player).lower() not in it["title"].lower():
                 continue
             if title_has_excluded_word(it["title"], cfg["exclude_words"]):
                 continue
@@ -679,7 +689,7 @@ def run() -> int:
                 log(f"eBay auction search failed for {player}: {e}")
                 continue
             for it in found:
-                if f"a:{it['id']}" in state["seen"] or player.split()[-1].lower() not in it["title"].lower():
+                if f"a:{it['id']}" in state["seen"] or surname(player).lower() not in it["title"].lower():
                     continue
                 if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not card_number(it["title"]):
                     continue
