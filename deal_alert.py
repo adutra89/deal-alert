@@ -329,6 +329,8 @@ BRANDS = [
     "dynasty", "museum", "sterling", "inception", "archives", "big league", "opening day",
     "collector's choice", "sp authentic", "spx", "sp", "exquisite", "ultra", "flair", "metal",
     "e-x", "bowman's best", "draft", "cosmic", "stadium", "zenith", "illusions", "rookies & stars",
+    "co signers", "co signer", "triple threads", "five star", "luminaries", "tier one", "dynasty",
+    "gallery", "fire", "stars", "pristine", "high tek", "clearly authentic", "signature", "playoff",
 ]
 CARD_NO_RE = re.compile(r"#\s*([A-Za-z]{0,6}-?\d{1,4}[A-Za-z]?)\b|\bno\.?\s*(\d{1,4})\b", re.I)
 
@@ -447,6 +449,16 @@ def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
     return True
 
 
+MAKERS = {"topps", "panini", "fleer", "upper deck", "skybox", "bowman", "donruss", "leaf", "score", "hoops",
+          "bbm", "epoch", "sp", "black", "stars", "signature", "fire"}
+
+
+def sub_products(title: str) -> set[str]:
+    """Product lines beyond the maker, e.g. {'chrome'} for Topps Chrome, {'co signer'} for Topps Co-Signers."""
+    found = brands_in(title.replace("-", " ")) - MAKERS
+    return {f[:-1] if f.endswith("s") and len(f) > 4 else f for f in found}
+
+
 def brands_in(title: str) -> set[str]:
     t = " " + " ".join(words(title)) + " "
     return {b for b in BRANDS if f" {' '.join(words(b))} " in t}
@@ -517,11 +529,14 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     groups: dict[tuple, list[dict]] = {}
     unmatched: list[dict] = []
     listing_subsets = subsets_in(listing_title)
+    listing_products = sub_products(listing_title)
     for rec in results:
         if rec.get("listing_type", "auction") != "auction" or not rec.get("price"):
             continue
         if rec.get("title") and subsets_in(rec["title"]) != listing_subsets:
             continue  # e.g. "Fresh Faces #3" ($450) is a different card from "All-Rookies #3" ($50)
+        if rec.get("title") and sub_products(rec["title"]) != listing_products:
+            continue  # e.g. base 2008-09 Topps #23 ($275) vs 2008-09 Topps Co-Signers #23 ($3)
         if not rec.get("matched_card"):
             if title_match_ok(rec.get("title") or "", listing_title, title_grade, title_num):
                 unmatched.append(rec)

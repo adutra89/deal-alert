@@ -190,3 +190,18 @@ def test_player_rules_keep_dads_out():
     assert d.player_rule_ok("1989 Upper Deck Ken Griffey Jr. #1 RC PSA 8", "Ken Griffey Jr", cfg)
     assert not d.player_rule_ok("1990 Topps Bobby Witt #19 Rangers", "Bobby Witt Jr", cfg)
     assert d.player_rule_ok("2022 Topps Chrome Bobby Witt Jr. #USC50 RC", "Bobby Witt Jr", cfg)
+
+
+def test_sub_product_must_match():
+    # real miss: 2008-09 Topps Co-Signers LeBron #23 (~$3) valued at $274 using base 2008-09 Topps #23
+    res = []
+    for p, t in [(270, "2008-09 Topps LeBron James #23 Cavaliers"), (280, "2008 Topps LeBron James #23"),
+                 (274, "2008-09 Topps #23 LeBron James"), (3, "2008-09 Topps Co-Signers LeBron James #23"),
+                 (3.5, "2008-09 Topps Co-Signers - LeBron #23"), (2.3, "2008-09 Topps Co Signers LeBron James #23"),
+                 (5.4, "2008-09 Topps Co-Signers LeBron James #23")]:
+        r = rec(p); r["title"] = t; r["matched_card"]["number"] = "23"
+        r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps", "year": "2008-09"}
+        res.append(r)
+    mv = d.market_value("2008-09 Topps Co-Signers - LeBron James #23", res, CFG)
+    assert mv["median"] == 3.25
+    assert d.sub_products("2008 Topps Chrome Kobe #24") != d.sub_products("2008 Topps Kobe #24")
