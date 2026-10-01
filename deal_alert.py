@@ -81,6 +81,8 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     state["last_run_log"] = RUN_LOG[-80:]
+    if ASK_CACHE:
+        state["ask_cache"] = ASK_CACHE
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary:
         with open(summary, "a") as f:
@@ -150,7 +152,7 @@ def checks_allowed_this_run(state: dict, cfg: dict, now: datetime) -> int:
     if remaining == 0:
         return 0
     burst_until = cfg.get("burst_until")
-    if burst_until and now < datetime.fromisoformat(str(burst_until)):
+    if burst_until and str(burst_until).strip() and now < datetime.fromisoformat(str(burst_until)):
         return min(int(cfg.get("burst_checks_per_run", 5)), remaining)  # trial: spend faster, still capped
     usage["credit"] = min(usage["credit"] + remaining / runs_left_in_month(now), 25.0)
     return min(int(usage["credit"]), remaining)
@@ -283,6 +285,8 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
             continue
         if detect_grade(t) != grade or (num and card_number(t) != num) or looks_like_parallel(t) != par:
             continue
+        if subsets_in(t) != subsets_in(listing["title"]):
+            continue
         try:
             price = float(it["price"]["value"])
             ship = float(((it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}).get("value", 0))
@@ -295,6 +299,23 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
     low_quartile = asks[len(asks) // 4]  # asks run high; compare against the cheaper end
     listing["ask_ref"] = low_quartile
     return (listing["price"] + listing["shipping"]) / low_quartile
+
+
+ASK_CACHE: dict = {}  # filled from state at start of run
+
+
+def ask_ratio_cached(token: str, listing: dict, cfg: dict, now: datetime) -> float | None:
+    """Same as ebay_ask_ratio, but reuses what other sellers ask for this card for a few hours."""
+    key = listing["query"]
+    hit = ASK_CACHE.get(key)
+    if hit and now - datetime.fromisoformat(hit["at"]) < timedelta(hours=float(cfg.get("ask_cache_hours", 6))):
+        if hit["ref"] is None:
+            return None
+        listing["ask_ref"] = hit["ref"]
+        return (listing["price"] + listing["shipping"]) / hit["ref"]
+    ratio = ebay_ask_ratio(token, listing, key, cfg)
+    ASK_CACHE[key] = {"ref": listing.get("ask_ref") if ratio is not None else None, "at": now.isoformat()}
+    return ratio
 
 
 # ---------------------------------------------------------------- CardSight comps
@@ -670,8 +691,13 @@ def run() -> int:
     # 2. free pre-check: compare each new listing to other eBay asks for the same card
     ask_cutoff = float(cfg.get("precheck_max_ratio", 0.75))
     cache = state.setdefault("comp_cache", {})
-    for k in [k for k, v in cache.items() if now - datetime.fromisoformat(v["at"]) > timedelta(hours=24)]:
+    ttl = timedelta(days=float(cfg.get("comp_cache_days", 7)))  # sold prices barely move week to week
+    for k in [k for k, v in cache.items() if now - datetime.fromisoformat(v["at"]) > ttl]:
         del cache[k]
+    ASK_CACHE.clear()
+    ASK_CACHE.update(state.setdefault("ask_cache", {}))
+    for k in [k for k, v in ASK_CACHE.items() if now - datetime.fromisoformat(v["at"]) > timedelta(hours=24)]:
+        del ASK_CACHE[k]
     state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
     prechecked, ask_memo = 0, {}
     for q in state["queue"]:
@@ -679,7 +705,7 @@ def run() -> int:
         if "ask_ratio" in q or q["query"] in cache or prechecked >= int(cfg.get("prechecks_per_run", 40)):
             continue
         try:
-            q["ask_ratio"] = ebay_ask_ratio(token, q, q["query"], cfg)
+            q["ask_ratio"] = ask_ratio_cached(token, q, cfg, now)
         except Exception as e:  # noqa: BLE001
             log(f"pre-check failed: {e}")
             break
@@ -687,11 +713,11 @@ def run() -> int:
     before = len(state["queue"])
     state["queue"] = [q for q in state["queue"] if q.get("ask_ratio") is None or q["ask_ratio"] <= ask_cutoff]
     log(f"pre-checked {prechecked} on eBay; dropped {before - len(state['queue'])} priced like everyone else")
-    for a in auctions[:20]:
+    for a in auctions[:int(cfg.get("auction_prechecks_per_run", 20))]:
         if a["query"] in cache:
             continue
         try:
-            a["ask_ratio"] = ebay_ask_ratio(token, a, a["query"], cfg)
+            a["ask_ratio"] = ask_ratio_cached(token, a, cfg, now)
         except Exception as e:  # noqa: BLE001
             log(f"auction pre-check failed: {e}")
             break

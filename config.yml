@@ -5,6 +5,9 @@ players:
   - Shohei Ohtani
   - Victor Wembanyama
   - Kobe Bryant
+  - LeBron James
+  - Stephen Curry
+  - Tom Brady
 
 # Alert when (price + shipping) is at least this far under recent sold comps.
 # 0.35 = 35% under market.
@@ -56,13 +59,17 @@ exclude_words:
   - proxy
 
 # Free eBay pre-check: only spend a CardSight check on listings priced at or below
-# this fraction of the cheaper-end asks for the same card (0.8 = 20% below them).
-precheck_max_ratio: 0.8
-prechecks_per_run: 40
+# this fraction of the cheaper-end asks for the same card (0.7 = 30% below them).
+precheck_max_ratio: 0.7
+prechecks_per_run: 30
+auction_prechecks_per_run: 15
+# Reuse other sellers' asking prices for this many hours, and sold comps for this many days.
+ask_cache_hours: 6
+comp_cache_days: 7
 
 # High-speed trial: until this time, price this many listings every run (still never
 # goes over monthly_budget). After it ends, the rest of the month's budget is spread evenly.
-burst_until: "2026-10-01T00:00:00+00:00"   # use the last September calls by 8pm ET
+burst_until: ""   # no trial running
 burst_checks_per_run: 2
 
 # Auctions: also check auctions ending within this many minutes that have few bids.
