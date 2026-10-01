@@ -1532,6 +1532,10 @@
    "at": "2026-10-01T02:40:50.515883+00:00",
    "ref": 7.95
   },
+  "2000 upper deck Kobe Bryant 287": {
+   "at": "2026-10-01T14:21:57.514999+00:00",
+   "ref": 7.5
+  },
   "2000 upper deck Kobe Bryant 296": {
    "at": "2026-10-01T02:20:14.220412+00:00",
    "ref": 5.5
@@ -3864,6 +3868,10 @@
    "at": "2026-10-01T04:24:53.700868+00:00",
    "ref": null
   },
+  "2025 topps Bobby Witt H100": {
+   "at": "2026-10-01T14:21:57.514999+00:00",
+   "ref": 1.25
+  },
   "2025 topps Bobby Witt M-13": {
    "at": "2026-10-01T02:40:50.515883+00:00",
    "ref": null
@@ -4766,6 +4774,14 @@
    "at": "2026-10-01T03:43:37.715881+00:00",
    "mv": null
   },
+  "2002 topps Tom Brady RH-38": {
+   "at": "2026-10-01T14:21:57.514999+00:00",
+   "mv": {
+    "count": 6,
+    "label": "title match: 2002-12 Topps - Multi-Year Issue Ring of Honor Tom Brady #RH",
+    "median": 2.35
+   }
+  },
   "2002 topps chrome Tom Brady RH-38": {
    "at": "2026-10-01T07:10:02.124629+00:00",
    "mv": null
@@ -4893,21 +4909,21 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-10-01 14:21:09] eBay: 50 listings for Michael Jordan",
-  "[2026-10-01 14:21:10] eBay: 50 listings for Shohei Ohtani",
-  "[2026-10-01 14:21:11] eBay: 50 listings for Victor Wembanyama",
-  "[2026-10-01 14:21:11] eBay: 50 listings for Kobe Bryant",
-  "[2026-10-01 14:21:12] eBay: 50 listings for LeBron James",
-  "[2026-10-01 14:21:12] eBay: 50 listings for Stephen Curry",
-  "[2026-10-01 14:21:12] eBay: 50 listings for Tom Brady",
-  "[2026-10-01 14:21:13] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-10-01 14:21:14] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-10-01 14:21:14] 17 new listings queued, 122 in queue",
-  "[2026-10-01 14:21:17] 65 auctions ending soon with <= 5 bids",
-  "[2026-10-01 14:21:27] pre-checked 17 on eBay; dropped 11 priced like everyone else",
-  "[2026-10-01 14:21:35] CardSight checks allowed this run: 1 (used 37/748 this month)",
-  "[2026-10-01 14:21:35] checking (32% of other asks): 2022 Panini Prestige Tom Brady Tampa Bay Buccaneers #273 NFL Football   ->  q=\"2022 panini Tom Brady 273\"",
-  "[2026-10-01 14:21:41] done: 0 deal alert(s) sent"
+  "[2026-10-01 14:21:58] eBay: 50 listings for Michael Jordan",
+  "[2026-10-01 14:21:59] eBay: 50 listings for Shohei Ohtani",
+  "[2026-10-01 14:21:59] eBay: 50 listings for Victor Wembanyama",
+  "[2026-10-01 14:22:00] eBay: 50 listings for Kobe Bryant",
+  "[2026-10-01 14:22:00] eBay: 50 listings for LeBron James",
+  "[2026-10-01 14:22:01] eBay: 50 listings for Stephen Curry",
+  "[2026-10-01 14:22:01] eBay: 50 listings for Tom Brady",
+  "[2026-10-01 14:22:02] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-10-01 14:22:02] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-10-01 14:22:02] 0 new listings queued, 111 in queue",
+  "[2026-10-01 14:22:06] 65 auctions ending soon with <= 5 bids",
+  "[2026-10-01 14:22:06] pre-checked 0 on eBay; dropped 0 priced like everyone else",
+  "[2026-10-01 14:22:08] CardSight checks allowed this run: 1 (used 38/748 this month)",
+  "[2026-10-01 14:22:08] checking (40% of other asks): Topps 2002-12 Ring of Honor Tom Brady #RH-38 Insert New England Patrio  ->  q=\"2002 topps Tom Brady RH-38\"",
+  "[2026-10-01 14:22:09] done: 0 deal alert(s) sent"
  ],
  "queue": [
   {
@@ -6427,6 +6443,7 @@
   "a:v1|287603067898|0": "2026-09-30T04:33:50.321748+00:00",
   "a:v1|287603927297|0": "2026-09-28T16:20:56.858622+00:00",
   "a:v1|287604897670|0": "2026-10-01T03:22:15.846671+00:00",
+  "a:v1|287605748058|0": "2026-10-01T14:21:57.514999+00:00",
   "a:v1|298693630243|0": "2026-10-01T00:57:14.757071+00:00",
   "a:v1|298695352518|0": "2026-09-28T14:37:20.147529+00:00",
   "a:v1|298695913111|0": "2026-09-28T19:47:40.181108+00:00",
@@ -13893,7 +13910,7 @@
   "v1|820192990131|0": "2026-10-01T13:39:53.717906+00:00"
  },
  "usage": {
-  "calls": 38,
+  "calls": 39,
   "credit": 0.0,
   "month": "2026-10"
  }
