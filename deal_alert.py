@@ -719,18 +719,20 @@ def sold_search_url(listing: dict) -> str:
             "&LH_Sold=1&LH_Complete=1")
 
 
-def ask_alert_message(listing: dict, cfg: dict) -> tuple[str, str]:
+def ask_alert_message(listing: dict, cfg: dict, mv: dict | None = None) -> tuple[str, str]:
     ref, cost = listing["ask_ref"], listing["price"] + listing["shipping"]
     off = 1 - cost / ref
     n = listing.get("ask_n") or 0
     if listing.get("kind") == "auction":
         mins = max(0, int((datetime.fromisoformat(listing["ends_at"]) - datetime.now(timezone.utc)).total_seconds() // 60))
         max_bid = ref * (1 - float(cfg.get("ask_discount", 0.35))) - listing["shipping"]
+        if mv:  # real sold prices beat asking prices: stay 30% under what it actually sells for
+            max_bid = min(max_bid, mv["median"] * 0.7 - listing["shipping"])
         title = f"AUCTION ends in {mins} min - {listing['player']}"
         body = (f"{listing['title']}\n\n"
                 f"Current bid: ${listing['price']:,.2f} ({listing.get('bids', 0)} bids) + ${listing['shipping']:,.2f} ship\n"
                 f"Other sellers ask: ${ref:,.2f}+ (cheaper end of {n} listings)\n"
-                f"Bid up to ${max_bid:,.2f} to stay {float(cfg.get('ask_discount', 0.35)):.0%} under them\n"
+                f"Bid up to ${max_bid:,.2f} to leave room for profit\n"
                 f"Tap 'Sold comps' to check real sales before bidding.")
     else:
         title = f"{off:.0%} under other listings - {listing['player']}"
@@ -759,8 +761,34 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
     # Buy It Now first (that price is real; an auction bid will rise), then biggest dollar gap
     cands.sort(key=lambda q: (q.get("kind") == "auction", -(q["ask_ref"] - q["price"] - q["shipping"])))
     sent = 0
-    for q in cands[: int(cfg.get("max_alerts_per_run", 3))]:
-        t, body = ask_alert_message(q, cfg)
+    cache = state.setdefault("comp_cache", {})
+    checks = checks_allowed_this_run(state, cfg, now) if cfg.get("verify_with_cardsight", True) else 0
+    for q in cands:
+        if sent >= int(cfg.get("max_alerts_per_run", 3)):
+            break
+        q.setdefault("query", build_query(q["title"], q["player"]))
+        cost = q["price"] + q["shipping"]
+        mv = None
+        if cfg.get("verify_with_cardsight", True):
+            if q["query"] in cache:
+                mv = cache[q["query"]]["mv"]
+            elif checks > 0:
+                try:
+                    data = cardsight_comps(env["CARDSIGHT_API_KEY"], q["query"], cfg)
+                    mv = market_value(q["title"], data.get("results", []), cfg, q.get("player", ""))
+                    cache[q["query"]] = {"mv": mv, "at": now.isoformat()}
+                except Exception as e:  # noqa: BLE001
+                    log(f"CardSight check failed: {e}")
+                spend(state)
+                checks -= 1
+        # Veto only: if real sold prices show this is just market price, skip it.
+        if mv and cost > float(cfg.get("veto_if_over_sold", 0.8)) * mv["median"]:
+            alerted[f"x:{q['id']}"] = now.isoformat()
+            log(f"  vetoed by sold comps: ${cost:.2f} vs sold median ${mv['median']:.2f} ({mv['count']}): {q['title'][:60]}")
+            continue
+        t, body = ask_alert_message(q, cfg, mv)
+        if mv:
+            body += f"\nSold median: ${mv['median']:,.2f} ({mv['count']} sales)"
         try:
             notify(env["NTFY_TOPIC"], t, body, url=q["url"], sold_url=sold_search_url(q))
             alerted[f"x:{q['id']}"] = now.isoformat()

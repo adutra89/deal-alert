@@ -24,8 +24,12 @@ player_rules:
 #   asks  = alert when a listing is ask_discount below what other eBay sellers ask for the same card (free, no CardSight)
 #   comps = alert when below CardSight sold comps (uses CardSight calls)
 mode: asks
-ask_discount: 0.35
+ask_discount: 0.40
 max_alerts_per_run: 3
+# Before alerting, check real sold prices (CardSight) when calls are available. It can only veto:
+# skip the alert if price + shipping is more than this fraction of the sold median (0.8 = less than 20% under).
+verify_with_cardsight: true
+veto_if_over_sold: 0.8
 
 # (comps mode only) Alert when (price + shipping) is at least this far under recent sold comps.
 # 0.30 = 30% under market.
