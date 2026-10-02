@@ -202,6 +202,20 @@ def test_sub_product_must_match():
         r = rec(p); r["title"] = t; r["matched_card"]["number"] = "23"
         r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps", "year": "2008-09"}
         res.append(r)
-    mv = d.market_value("2008-09 Topps Co-Signers - LeBron James #23", res, CFG)
+    mv = d.market_value("2008-09 Topps Co-Signers - LeBron James #23", res, CFG, "LeBron James")
     assert mv["median"] == 3.25
     assert d.sub_products("2008 Topps Chrome Kobe #24") != d.sub_products("2008 Topps Kobe #24")
+
+
+def test_insert_named_in_sale_not_in_listing():
+    # real miss: 1993-94 Fleer Ultra All-NBA Team Jordan #2 PSA 6 valued at $510 using "Power in the Key #2" sales
+    res = [{"price": p, "listing_type": "auction", "title": t} for p, t in [
+        (510, "MICHAEL JORDAN PSA 6 1993-94 FLEER ULTRA #2 POWER IN THE KEY"),
+        (495, "1993 Fleer Ultra Power In The Key Michael Jordan #2 PSA 6"),
+        (530, "1993-94 Ultra Power in the Key #2 Michael Jordan PSA 6"),
+        (60, "1993-94 Fleer Ultra All-NBA Team Michael Jordan #2 PSA 6"),
+        (55, "1993 Fleer Ultra All NBA Michael Jordan #2 PSA 6"),
+        (65, "1993-94 Fleer Ultra All-NBA Jordan #2 PSA 6 Bulls"),
+    ]]
+    mv = d.market_value("1993-94 Fleer Ultra All-NBA Team Michael Jordan #2 PSA 6 HOF 00r7", res, CFG, "Michael Jordan")
+    assert mv["median"] == 60

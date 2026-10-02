@@ -507,6 +507,32 @@ def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -
     return brands_in(rec_title) - {"panini"} == brands_in(listing_title) - {"panini"}
 
 
+FILLER = set("""
+a an the of and in on with w by for to from x vs
+rc rookie rookies card cards hof goat mvp legend legends icon nba mlb nfl basketball baseball football sport sports
+psa bgs sgc cgc csg tag hga isa gma beckett graded grade gem mint mt nm ex vg pristine black label auth authentic
+raw ungraded slab slabbed sharp centered centering corners perfect clean nice beautiful wow look rare invest
+investment vintage hot new lot insert inserts base set sp ssp short print parallel numbered serial pop low
+team teams chicago los angeles la bulls lakers cavaliers cavs cleveland heat miami warriors golden state san antonio
+spurs dodgers angels mariners seattle reds royals kansas city patriots buccaneers tampa bay ny new york yankees
+houston rockets wizards washington bulls hornets charlotte philadelphia bos boston
+premier level class image photo variation variations retro design
+""".split())
+
+
+def distinctive(title: str, player: str = "") -> set[str]:
+    """Words that identify WHICH card it is (insert/subset names), after dropping filler, names, brands, numbers."""
+    drop = set(words(player)) | {w for b in BRANDS for w in words(b)} | FILLER
+    drop |= {_sing(w) for w in drop}
+    out = set()
+    for raw in words(title.replace("-", " ").replace("/", " ")):
+        w = _sing(raw)
+        if any(ch.isdigit() for ch in w) or len(w) < 3 or raw in drop or w in drop:
+            continue
+        out.add(w)
+    return out
+
+
 def trim(prices) -> list[float]:
     """Drop sales far from the middle (mislabeled cards, shill bids, damaged copies)."""
     p = sorted(prices)
@@ -516,7 +542,7 @@ def trim(prices) -> list[float]:
     return [x for x in p if 0.5 * m <= x <= 2 * m]
 
 
-def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | None:
+def market_value(listing_title: str, results: list[dict], cfg: dict, player: str = "") -> dict | None:
     """Find sold comps that are the same card, parallel and grade as the listing.
 
     Groups matching comps by exact identity and uses the biggest group. Returns None
@@ -530,6 +556,8 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
     unmatched: list[dict] = []
     listing_subsets = subsets_in(listing_title)
     listing_products = sub_products(listing_title)
+    player_hint = player or ""
+    listing_words = distinctive(listing_title, player_hint)
     for rec in results:
         if rec.get("listing_type", "auction") != "auction" or not rec.get("price"):
             continue
@@ -537,6 +565,10 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
             continue  # e.g. "Fresh Faces #3" ($450) is a different card from "All-Rookies #3" ($50)
         if rec.get("title") and sub_products(rec["title"]) != listing_products:
             continue  # e.g. base 2008-09 Topps #23 ($275) vs 2008-09 Topps Co-Signers #23 ($3)
+        if rec.get("title"):
+            cw = distinctive(rec["title"], player_hint)
+            if len(cw - listing_words) >= 2:
+                continue  # sale names an insert the listing doesn't: "Power in the Key #2" ($500) vs "All-NBA Team #2"
         if not rec.get("matched_card"):
             if title_match_ok(rec.get("title") or "", listing_title, title_grade, title_num):
                 unmatched.append(rec)
@@ -562,6 +594,11 @@ def market_value(listing_title: str, results: list[dict], cfg: dict) -> dict | N
         log(f"  no matching comps (grade {title_grade}, #{title_num}); {len(results)} results, top: {sample}")
         return None
     recs = max(groups.values(), key=len)
+    if listing_words:
+        # prefer sales that name the same insert/subset as the listing, when there are enough of them
+        strong = [r for r in recs if r.get("title") and listing_words <= distinctive(r["title"], player_hint)]
+        if len(strong) >= int(cfg["min_comps"]):
+            recs = strong
     if len(recs) < int(cfg["min_comps"]):
         log(f"  only {len(recs)} comps for matched card")
         return None
@@ -842,7 +879,7 @@ def run() -> int:
             break
         spend(state)
         allowed -= 1
-        mv = market_value(listing["title"], data.get("results", []), cfg)
+        mv = market_value(listing["title"], data.get("results", []), cfg, listing.get("player", ""))
         cache[query] = {"mv": mv, "at": now.isoformat()}
         if not mv:
             log(f"no reliable comps: {listing['title'][:70]}")
