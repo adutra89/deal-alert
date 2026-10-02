@@ -287,6 +287,8 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
             continue
         if subsets_in(t) != subsets_in(listing["title"]):
             continue
+        if parallel_hints(t) != parallel_hints(listing["title"]) or sub_products(t) != sub_products(listing["title"]):
+            continue  # a Blue parallel isn't compared with Gold ones; Chrome isn't compared with base
         try:
             price = float(it["price"]["value"])
             ship = float(((it.get("shippingOptions") or [{}])[0].get("shippingCost") or {}).get("value", 0))
@@ -491,6 +493,11 @@ def subsets_in(title: str) -> set[str]:
     if years:
         found |= {f"design {y}" for y in years[1:] if abs(int(y) - int(years[0])) > 1}
     return found
+
+
+def parallel_hints(title: str) -> set[str]:
+    t = title.lower()
+    return {w for w in PARALLEL_HINTS if re.search(rf"\b{w}\b", t)}
 
 
 def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -> bool:
