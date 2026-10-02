@@ -219,3 +219,14 @@ def test_insert_named_in_sale_not_in_listing():
     ]]
     mv = d.market_value("1993-94 Fleer Ultra All-NBA Team Michael Jordan #2 PSA 6 HOF 00r7", res, CFG, "Michael Jordan")
     assert mv["median"] == 60
+
+
+def test_members_only_and_finest_are_different_versions():
+    # real miss: 1996 Topps Stars Jordan #24 PSA 9 compared with Members Only / Finest asks and sold links
+    base = "1996 Topps Stars - Michael Jordan #24 PSA 9"
+    for other in ["1996 Topps Stars Michael Jordan #24 Members Only PSA 9", "1996 Topps Stars Finest #24 Jordan PSA 9"]:
+        assert d.subsets_in(other) != d.subsets_in(base) or d.sub_products(other) != d.sub_products(base)
+    l = {"title": base, "player": "Michael Jordan"}
+    l["query"] = d.build_query(base, "Michael Jordan")
+    url = d.sold_search_url(l)
+    assert "-finest" in url and "members+only" in url and "_sacat=261328" in url

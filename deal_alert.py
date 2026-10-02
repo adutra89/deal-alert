@@ -476,7 +476,14 @@ SUBSET_PHRASES = [
     "instant impact", "rated rookie", "future watch", "team leaders", "league leaders", "highlights",
     "checklist", "retro", "throwback", "anniversary", "variation", "sp variation", "ssp", "image variation",
     "photo variation", "fanatics", "game used", "jersey", "patch", "relic", "auto", "autograph",
+    "members only", "member only", "reprint", "finest", "golden season", "season's best", "power in the key",
+    "electric court", "gold medallion", "precious metal gems", "credential", "press proof",
 ]
+
+# Words that usually mean a different (often pricier) version of a card. Used to clean the sold-comps link.
+_TOP_VARIANTS = ["finest", "members only", "reprint", "refractor", "chrome", "auto", "patch", "parallel", "variation",
+                 "insert", "gold", "silver", "prizm", "lot", "custom", "rp", "sp", "ssp", "proof", "die cut"]
+VARIANT_TERMS = _TOP_VARIANTS + sorted(({p for p in SUBSET_PHRASES} | set(PARALLEL_HINTS)) - set(_TOP_VARIANTS))
 
 
 def _sing(w: str) -> str:
@@ -690,9 +697,26 @@ def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> 
 
 
 def sold_search_url(listing: dict) -> str:
+    """eBay sold search for this exact card, with other versions (Finest, Members Only, Refractor...) excluded."""
     from urllib.parse import quote_plus
-    return ("https://www.ebay.com/sch/i.html?_nkw=" + quote_plus(listing.get("query") or listing["title"][:80])
-            + "&LH_Sold=1&LH_Complete=1")
+    q = listing.get("query") or listing["title"][:80]
+    t = " " + " ".join(words(listing["title"].replace("-", " "))) + " "
+    minus = []
+    for term in VARIANT_TERMS:
+        if f" {' '.join(words(term))} " in t or term.lower() in q.lower():
+            continue  # the listing itself is this version, keep it
+        if term in ("parallel", "insert") and (looks_like_parallel(listing["title"]) or subsets_in(listing["title"])):
+            continue
+        minus.append(f'-"{term}"' if " " in term else f"-{term}")
+    if not detect_grade(listing["title"]):
+        minus += ["-psa", "-bgs", "-sgc", "-cgc", "-graded"]
+    full = q
+    for m in minus:  # eBay caps search length; keep the most important exclusions
+        if len(full) + len(m) + 1 > 300:
+            break
+        full += " " + m
+    return ("https://www.ebay.com/sch/i.html?_nkw=" + quote_plus(full) + f"&_sacat={EBAY_SPORTS_SINGLES_CATEGORY}"
+            "&LH_Sold=1&LH_Complete=1")
 
 
 def ask_alert_message(listing: dict, cfg: dict) -> tuple[str, str]:
