@@ -20,7 +20,14 @@ player_rules:
     exclude: [sr, "sr.", senior]
     min_year: 2019      # Jr's first cards; Sr pitched 1986-2001
 
-# Alert when (price + shipping) is at least this far under recent sold comps.
+# How alerts are decided:
+#   asks  = alert when a listing is ask_discount below what other eBay sellers ask for the same card (free, no CardSight)
+#   comps = alert when below CardSight sold comps (uses CardSight calls)
+mode: asks
+ask_discount: 0.35
+max_alerts_per_run: 3
+
+# (comps mode only) Alert when (price + shipping) is at least this far under recent sold comps.
 # 0.30 = 30% under market.
 discount_threshold: 0.30
 
@@ -72,7 +79,7 @@ exclude_words:
 # Free eBay pre-check: only spend a CardSight check on listings priced at or below
 # this fraction of the cheaper-end asks for the same card (0.7 = 30% below them).
 precheck_max_ratio: 0.7
-prechecks_per_run: 30
+prechecks_per_run: 35
 auction_prechecks_per_run: 15
 # Reuse other sellers' asking prices for this many hours, and sold comps for this many days.
 ask_cache_hours: 6

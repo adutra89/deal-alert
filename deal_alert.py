@@ -298,6 +298,7 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
     asks.sort()
     low_quartile = asks[len(asks) // 4]  # asks run high; compare against the cheaper end
     listing["ask_ref"] = low_quartile
+    listing["ask_n"] = len(asks)
     return (listing["price"] + listing["shipping"]) / low_quartile
 
 
@@ -312,9 +313,11 @@ def ask_ratio_cached(token: str, listing: dict, cfg: dict, now: datetime) -> flo
         if hit["ref"] is None:
             return None
         listing["ask_ref"] = hit["ref"]
+        listing["ask_n"] = hit.get("n", 0)
         return (listing["price"] + listing["shipping"]) / hit["ref"]
     ratio = ebay_ask_ratio(token, listing, key, cfg)
-    ASK_CACHE[key] = {"ref": listing.get("ask_ref") if ratio is not None else None, "at": now.isoformat()}
+    ASK_CACHE[key] = {"ref": listing.get("ask_ref") if ratio is not None else None, "n": listing.get("ask_n", 0),
+                      "at": now.isoformat()}
     return ratio
 
 
@@ -638,11 +641,12 @@ def evaluate(listing: dict, mv: dict, cfg: dict) -> dict | None:
 
 # ---------------------------------------------------------------- notifications
 
-def notify(topic: str, title: str, body: str, url: str = "", priority: str = "high", tags: str = "moneybag") -> None:
+def notify(topic: str, title: str, body: str, url: str = "", priority: str = "high", tags: str = "moneybag",
+           sold_url: str = "") -> None:
     headers = {"Title": title.encode("utf-8"), "Priority": priority, "Tags": tags}
     if url:
         headers["Click"] = url
-        headers["Actions"] = f"view, Open on eBay, {url}"
+        headers["Actions"] = f"view, Open listing, {url}" + (f"; view, Sold comps, {sold_url}" if sold_url else "")
     r = requests.post(NTFY_URL + topic, data=body.encode("utf-8"), headers=headers, timeout=30)
     r.raise_for_status()
 
@@ -676,6 +680,71 @@ def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> 
     if ev["discount"] >= 0.70:
         body += "\n\nWARNING: 70%+ under market. Check photos closely for reprint, damage or wrong card."
     return title, body
+
+
+def sold_search_url(listing: dict) -> str:
+    from urllib.parse import quote_plus
+    return ("https://www.ebay.com/sch/i.html?_nkw=" + quote_plus(listing.get("query") or listing["title"][:80])
+            + "&LH_Sold=1&LH_Complete=1")
+
+
+def ask_alert_message(listing: dict, cfg: dict) -> tuple[str, str]:
+    ref, cost = listing["ask_ref"], listing["price"] + listing["shipping"]
+    off = 1 - cost / ref
+    n = listing.get("ask_n") or 0
+    if listing.get("kind") == "auction":
+        mins = max(0, int((datetime.fromisoformat(listing["ends_at"]) - datetime.now(timezone.utc)).total_seconds() // 60))
+        max_bid = ref * (1 - float(cfg.get("ask_discount", 0.35))) - listing["shipping"]
+        title = f"AUCTION ends in {mins} min - {listing['player']}"
+        body = (f"{listing['title']}\n\n"
+                f"Current bid: ${listing['price']:,.2f} ({listing.get('bids', 0)} bids) + ${listing['shipping']:,.2f} ship\n"
+                f"Other sellers ask: ${ref:,.2f}+ (cheaper end of {n} listings)\n"
+                f"Bid up to ${max_bid:,.2f} to stay {float(cfg.get('ask_discount', 0.35)):.0%} under them\n"
+                f"Tap 'Sold comps' to check real sales before bidding.")
+    else:
+        title = f"{off:.0%} under other listings - {listing['player']}"
+        body = (f"{listing['title']}\n\n"
+                f"Price: ${listing['price']:,.2f} + ${listing['shipping']:,.2f} ship\n"
+                f"Other sellers ask: ${ref:,.2f}+ (cheaper end of {n} listings)\n"
+                f"Tap 'Sold comps' to check real sales before buying.")
+    if off >= 0.75 and listing.get("kind") != "auction":
+        body += "\n\nWARNING: far below everyone else. Check photos for reprint, damage or wrong card."
+    return title, body
+
+
+def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: list[dict]) -> int:
+    """Alert on listings priced well below what other sellers ask for the same card. No CardSight calls."""
+    cut = 1 - float(cfg.get("ask_discount", 0.35))
+    alerted = state.setdefault("alerted", {})
+    cands = []
+    for q in auctions + state["queue"]:
+        r = q.get("ask_ratio")
+        if r is None or r > cut or f"x:{q['id']}" in alerted:
+            continue
+        if q.get("kind") == "auction" and q["ask_ref"] < float(cfg["min_price"]):
+            continue  # cheap card: not worth the time
+        cands.append(q)
+    # biggest dollar gap first, capped so the phone doesn't get spammed
+    # Buy It Now first (that price is real; an auction bid will rise), then biggest dollar gap
+    cands.sort(key=lambda q: (q.get("kind") == "auction", -(q["ask_ref"] - q["price"] - q["shipping"])))
+    sent = 0
+    for q in cands[: int(cfg.get("max_alerts_per_run", 3))]:
+        t, body = ask_alert_message(q, cfg)
+        try:
+            notify(env["NTFY_TOPIC"], t, body, url=q["url"], sold_url=sold_search_url(q))
+            alerted[f"x:{q['id']}"] = now.isoformat()
+            sent += 1
+            log(f"ALERT {t}: {q['title'][:70]} (${q['price'] + q['shipping']:.2f} vs asks ${q['ask_ref']:.2f})")
+        except Exception as e:  # noqa: BLE001
+            log(f"notification failed: {e}")
+    for a in auctions:
+        if "ask_ratio" in a:
+            state["seen"][f"a:{a['id']}"] = now.isoformat()
+    # BIN listings that have been compared are done; keep only ones still waiting for a comparison
+    state["queue"] = [q for q in state["queue"] if "ask_ratio" not in q]
+    cutoff = now - timedelta(days=3)
+    state["alerted"] = {k: v for k, v in alerted.items() if datetime.fromisoformat(v) > cutoff}
+    return sent
 
 
 def error_alert(state: dict, topic: str, msg: str) -> None:
@@ -769,6 +838,7 @@ def run() -> int:
         log(f"{len(auctions)} auctions ending soon with <= {cfg.get('auction_max_bids', 5)} bids")
 
     # 2. free pre-check: compare each new listing to other eBay asks for the same card
+    ask_mode = cfg.get("mode", "comps") == "asks"
     ask_cutoff = float(cfg.get("precheck_max_ratio", 0.75))
     cache = state.setdefault("comp_cache", {})
     ttl = timedelta(days=float(cfg.get("comp_cache_days", 7)))  # sold prices barely move week to week
@@ -782,7 +852,7 @@ def run() -> int:
     prechecked, ask_memo = 0, {}
     for q in state["queue"]:
         q.setdefault("query", build_query(q["title"], q["player"]))
-        if "ask_ratio" in q or q["query"] in cache or prechecked >= int(cfg.get("prechecks_per_run", 40)):
+        if "ask_ratio" in q or (q["query"] in cache and not ask_mode) or prechecked >= int(cfg.get("prechecks_per_run", 40)):
             continue
         try:
             q["ask_ratio"] = ask_ratio_cached(token, q, cfg, now)
@@ -794,7 +864,7 @@ def run() -> int:
     state["queue"] = [q for q in state["queue"] if q.get("ask_ratio") is None or q["ask_ratio"] <= ask_cutoff]
     log(f"pre-checked {prechecked} on eBay; dropped {before - len(state['queue'])} priced like everyone else")
     for a in auctions[:int(cfg.get("auction_prechecks_per_run", 20))]:
-        if a["query"] in cache:
+        if a["query"] in cache and not ask_mode:
             continue
         try:
             a["ask_ratio"] = ask_ratio_cached(token, a, cfg, now)
@@ -802,6 +872,12 @@ def run() -> int:
             log(f"auction pre-check failed: {e}")
             break
     auctions = [a for a in auctions if a.get("ask_ratio") is None or a["ask_ratio"] <= ask_cutoff]
+
+    if ask_mode:
+        sent = ask_mode_alerts(state, cfg, env, now, auctions)
+        log(f"done: {sent} deal alert(s) sent (comparing to other eBay listings)")
+        save_state(state)
+        return 0
 
     allowed = checks_allowed_this_run(state, cfg, now)
     sample_mode = os.environ.get("SAMPLE_ALERT") == "true"
