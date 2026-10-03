@@ -762,7 +762,20 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
     cands.sort(key=lambda q: (q.get("kind") == "auction", -(q["ask_ref"] - q["price"] - q["shipping"])))
     sent = 0
     cache = state.setdefault("comp_cache", {})
-    checks = checks_allowed_this_run(state, cfg, now) if cfg.get("verify_with_cardsight", True) else 0
+    # Sold-price checks: spend the month's remaining CardSight calls at an even daily pace.
+    u = state["usage"]
+    month = now.strftime("%Y-%m")
+    if u.get("month") != month:
+        u.update(month=month, calls=0, credit=0.0)
+    today = now.strftime("%Y-%m-%d")
+    if u.get("day") != today:
+        u["day"], u["day_calls"] = today, 0
+    days_left = calendar.monthrange(now.year, now.month)[1] - now.day + 1
+    daily_cap = max(1, (int(cfg["monthly_budget"]) - u["calls"]) // days_left)
+    checks = max(0, min(daily_cap - u["day_calls"], int(cfg["monthly_budget"]) - u["calls"]))
+    if not cfg.get("verify_with_cardsight", True):
+        checks = 0
+    require = bool(cfg.get("require_sold_confirmation", True))
     for q in cands:
         if sent >= int(cfg.get("max_alerts_per_run", 3)):
             break
@@ -780,15 +793,25 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
                 except Exception as e:  # noqa: BLE001
                     log(f"CardSight check failed: {e}")
                 spend(state)
+                u["day_calls"] += 1
                 checks -= 1
-        # Veto only: if real sold prices show this is just market price, skip it.
-        if mv and cost > float(cfg.get("veto_if_over_sold", 0.8)) * mv["median"]:
+        if require and not mv:
+            if q["query"] in cache or checks <= 0 and q["query"] not in cache:
+                # no reliable sold prices (or no calls left today): don't alert on asking prices alone
+                if q["query"] in cache:
+                    alerted[f"x:{q['id']}"] = now.isoformat()
+                log(f"  no sold-price confirmation: {q['title'][:60]}")
+                continue
+        # If real sold prices show this is just market price, skip it.
+        if mv and cost > float(cfg.get("veto_if_over_sold", 0.8)) * mv["median"] and q.get("kind") != "auction":
             alerted[f"x:{q['id']}"] = now.isoformat()
             log(f"  vetoed by sold comps: ${cost:.2f} vs sold median ${mv['median']:.2f} ({mv['count']}): {q['title'][:60]}")
             continue
         t, body = ask_alert_message(q, cfg, mv)
         if mv:
             body += f"\nSold median: ${mv['median']:,.2f} ({mv['count']} sales)"
+            if mv.get("sample"):
+                body += "\nSold examples:\n" + "\n".join(mv["sample"])
         try:
             notify(env["NTFY_TOPIC"], t, body, url=q["url"], sold_url=sold_search_url(q))
             alerted[f"x:{q['id']}"] = now.isoformat()
