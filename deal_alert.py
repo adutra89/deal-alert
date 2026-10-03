@@ -944,7 +944,10 @@ def run() -> int:
                     continue
                 it["query"] = build_query(it["title"], player)
                 auctions.append(it)
-        auctions.sort(key=lambda a: a["ends_at"])
+        if cfg.get("precheck_priority") == "price":
+            auctions.sort(key=lambda a: -a["price"])
+        else:
+            auctions.sort(key=lambda a: a["ends_at"])
         log(f"{len(auctions)} auctions ending soon with <= {cfg.get('auction_max_bids', 5)} bids")
 
     # 2. free pre-check: compare each new listing to other eBay asks for the same card
@@ -958,7 +961,10 @@ def run() -> int:
     ASK_CACHE.update(state.setdefault("ask_cache", {}))
     for k in [k for k, v in ASK_CACHE.items() if now - datetime.fromisoformat(v["at"]) > timedelta(hours=24)]:
         del ASK_CACHE[k]
-    state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
+    if cfg.get("precheck_priority") == "price":  # bigger cards first (more dollars per deal)
+        state["queue"].sort(key=lambda q: q["price"] + q["shipping"], reverse=True)
+    else:
+        state["queue"].sort(key=lambda q: q["found_at"], reverse=True)  # newest first: real deals sell fast
     prechecked, ask_memo = 0, {}
     for q in state["queue"]:
         q.setdefault("query", build_query(q["title"], q["player"]))
