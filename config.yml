@@ -24,13 +24,16 @@ player_rules:
 #   asks  = alert when a listing is ask_discount below what other eBay sellers ask for the same card (free, no CardSight)
 #   comps = alert when below CardSight sold comps (uses CardSight calls)
 mode: asks
-ask_discount: 0.40
+ask_discount: 0.30
 max_alerts_per_run: 3
 # Before alerting, check real sold prices (CardSight). Alert only when BOTH agree it's cheap:
-# 40%+ under other sellers' asks AND price + shipping at most this fraction of the sold median (0.8 = 20%+ under).
+# 40%+ under other sellers' asks AND price + shipping at most this fraction of the sold median (0.85 = 15%+ under).
 verify_with_cardsight: true
+# Weekend show push: allow more sold-price checks per day until this time (then back to the even monthly pace).
+boost_until: "2026-10-05T04:00:00+00:00"   # through Sun 11:59pm ET
+boost_daily_checks: 130
 require_sold_confirmation: true
-veto_if_over_sold: 0.8
+veto_if_over_sold: 0.85
 
 # (comps mode only) Alert when (price + shipping) is at least this far under recent sold comps.
 # 0.30 = 30% under market.
@@ -38,7 +41,7 @@ discount_threshold: 0.30
 
 # Only look at Buy It Now listings in this price range (USD, before shipping).
 min_price: 50
-max_price: 500
+max_price: 1000
 
 # Need at least this many recent sold comps before trusting the market value.
 min_comps: 5
@@ -84,7 +87,7 @@ exclude_words:
 # Free eBay pre-check: only spend a CardSight check on listings priced at or below
 # this fraction of the cheaper-end asks for the same card (0.7 = 30% below them).
 precheck_max_ratio: 0.7
-prechecks_per_run: 35
+prechecks_per_run: 45
 auction_prechecks_per_run: 15
 # Reuse other sellers' asking prices for this many hours, and sold comps for this many days.
 ask_cache_hours: 6

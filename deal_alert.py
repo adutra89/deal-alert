@@ -772,6 +772,9 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
         u["day"], u["day_calls"] = today, 0
     days_left = calendar.monthrange(now.year, now.month)[1] - now.day + 1
     daily_cap = max(1, (int(cfg["monthly_budget"]) - u["calls"]) // days_left)
+    boost_until = str(cfg.get("boost_until") or "").strip()
+    if boost_until and now < datetime.fromisoformat(boost_until):
+        daily_cap = int(cfg.get("boost_daily_checks", daily_cap))  # e.g. a weekend push for more alerts
     checks = max(0, min(daily_cap - u["day_calls"], int(cfg["monthly_budget"]) - u["calls"]))
     if not cfg.get("verify_with_cardsight", True):
         checks = 0
@@ -808,6 +811,8 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
             log(f"  vetoed by sold comps: ${cost:.2f} vs sold median ${mv['median']:.2f} ({mv['count']}): {q['title'][:60]}")
             continue
         t, body = ask_alert_message(q, cfg, mv)
+        if mv and q.get("kind") != "auction":
+            t = f"{1 - cost / mv['median']:.0%} under sold - {q['player']}"
         if mv:
             body += f"\nSold median: ${mv['median']:,.2f} ({mv['count']} sales)"
             if mv.get("sample"):
