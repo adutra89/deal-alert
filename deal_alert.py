@@ -699,22 +699,7 @@ def deal_message(listing: dict, mv: dict, ev: dict, cfg: dict | None = None) -> 
 def sold_search_url(listing: dict) -> str:
     """eBay sold search for this exact card, with other versions (Finest, Members Only, Refractor...) excluded."""
     from urllib.parse import quote_plus
-    q = listing.get("query") or listing["title"][:80]
-    t = " " + " ".join(words(listing["title"].replace("-", " "))) + " "
-    minus = []
-    for term in VARIANT_TERMS:
-        if f" {' '.join(words(term))} " in t or term.lower() in q.lower():
-            continue  # the listing itself is this version, keep it
-        if term in ("parallel", "insert") and (looks_like_parallel(listing["title"]) or subsets_in(listing["title"])):
-            continue
-        minus.append(f'-"{term}"' if " " in term else f"-{term}")
-    if not detect_grade(listing["title"]):
-        minus += ["-psa", "-bgs", "-sgc", "-cgc", "-graded"]
-    full = q
-    for m in minus:  # eBay caps search length; keep the most important exclusions
-        if len(full) + len(m) + 1 > 300:
-            break
-        full += " " + m
+    full = listing.get("query") or listing["title"][:80]  # plain search; you judge the versions yourself
     return ("https://www.ebay.com/sch/i.html?_nkw=" + quote_plus(full) + f"&_sacat={EBAY_SPORTS_SINGLES_CATEGORY}"
             "&LH_Sold=1&LH_Complete=1")
 
@@ -799,12 +784,11 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
                 u["day_calls"] += 1
                 checks -= 1
         if require and not mv:
-            if q["query"] in cache or checks <= 0 and q["query"] not in cache:
-                # no reliable sold prices (or no calls left today): don't alert on asking prices alone
-                if q["query"] in cache:
-                    alerted[f"x:{q['id']}"] = now.isoformat()
-                log(f"  no sold-price confirmation: {q['title'][:60]}")
-                continue
+            # no reliable sold prices (CardSight found none, errored, or no calls left): never alert on asks alone
+            if q["query"] in cache:
+                alerted[f"x:{q['id']}"] = now.isoformat()
+            log(f"  no sold-price confirmation: {q['title'][:60]}")
+            continue
         # If real sold prices show this is just market price, skip it.
         if mv and cost > float(cfg.get("veto_if_over_sold", 0.8)) * mv["median"] and q.get("kind") != "auction":
             alerted[f"x:{q['id']}"] = now.isoformat()

@@ -229,4 +229,4 @@ def test_members_only_and_finest_are_different_versions():
     l = {"title": base, "player": "Michael Jordan"}
     l["query"] = d.build_query(base, "Michael Jordan")
     url = d.sold_search_url(l)
-    assert "-finest" in url and "members+only" in url and "_sacat=261328" in url
+    assert "_sacat=261328" in url and "-finest" not in url
