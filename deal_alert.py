@@ -97,12 +97,36 @@ def title_has_excluded_word(title: str, words: list[str]) -> bool:
     return any(f" {w.lower()} " in t for w in words)
 
 
+GRADE_BY_RE = re.compile(r"\b(10|[1-9](?:\.5)?)\s*(?:by|from)\s*(" + "|".join(GRADERS) + r")\b", re.I)
+SLAB_WORDS = re.compile(r"\b(graded|slab|slabbed|" + "|".join(GRADERS) + r")\b", re.I)
+RAW_HINTS = re.compile(r"\b(ungraded|not graded|raw|psa ready|psa candidate|gem candidate|grade it|send (?:it )?in)\b", re.I)
+
+
 def detect_grade(title: str) -> tuple[str, str] | None:
     """Return (company, grade) if the title says the card is slabbed."""
     m = GRADE_RE.search(title)
-    if not m:
-        return None
-    return norm_grade(m.group(1), m.group(2))
+    if m:
+        return norm_grade(m.group(1), m.group(2))
+    m = GRADE_BY_RE.search(title)  # e.g. "Graded 8 by SGC"
+    if m:
+        return norm_grade(m.group(2), m.group(1))
+    return None
+
+
+def is_graded(title: str, condition: str = "") -> bool | None:
+    """True = slabbed, False = raw, None = can't tell. eBay's own condition field wins over the title."""
+    c = (condition or "").lower()
+    if c.startswith("graded"):
+        return True
+    if c.startswith("ungraded"):
+        return False
+    if detect_grade(title):
+        return True
+    if RAW_HINTS.search(title):
+        return False
+    if SLAB_WORDS.search(title):
+        return None  # mentions grading but no grade we can read: don't guess
+    return False
 
 
 def norm_grade(company: str, value) -> tuple[str, str]:
@@ -213,6 +237,7 @@ def ebay_new_listings(token: str, player: str, cfg: dict) -> list[dict]:
             "shipping": ship,
             "url": it.get("itemWebUrl", ""),
             "image": (it.get("image") or {}).get("imageUrl", ""),
+            "condition": it.get("condition", ""),
             "player": player,
             "found_at": datetime.now(timezone.utc).isoformat(),
         })
@@ -257,6 +282,7 @@ def ebay_ending_auctions(token: str, player: str, cfg: dict) -> list[dict]:
                 pass
         items.append({
             "id": it["itemId"], "kind": "auction", "title": it.get("title", ""), "price": bid,
+            "condition": it.get("condition", ""),
             "shipping": ship, "bids": bids, "ends_at": end_at.isoformat(), "url": it.get("itemWebUrl", ""),
             "player": player, "found_at": now.isoformat(),
         })
@@ -283,6 +309,8 @@ def ebay_ask_ratio(token: str, listing: dict, query: str, cfg: dict) -> float | 
         t = it.get("title", "")
         if it.get("itemId") == listing["id"] or title_has_excluded_word(t, cfg["exclude_words"]):
             continue
+        if is_graded(t, it.get("condition", "")) != is_graded(listing["title"], listing.get("condition", "")):
+            continue  # raw only vs raw, slabs only vs slabs
         if detect_grade(t) != grade or (num and card_number(t) != num) or looks_like_parallel(t) != par:
             continue
         if subsets_in(t) != subsets_in(listing["title"]):
@@ -357,6 +385,12 @@ def search_name(player: str) -> str:
     return " ".join(w for w in player.split() if w.lower().strip(".") not in ("jr", "sr", "ii", "iii"))
 
 
+def grade_clear(item: dict) -> bool:
+    """Skip listings where we can't tell raw vs graded, or it's graded but the grade isn't readable."""
+    g = is_graded(item["title"], item.get("condition", ""))
+    return g is False or (g is True and detect_grade(item["title"]) is not None)
+
+
 def player_rule_ok(title: str, player: str, cfg: dict) -> bool:
     """Per-player filters, e.g. keep Ken Griffey Sr. cards out of a Ken Griffey Jr. search."""
     rule = (cfg.get("player_rules") or {}).get(player) or {}
@@ -424,7 +458,8 @@ def identity_ok(rec: dict, listing_title: str, title_grade, title_num) -> bool:
     g = rec.get("grade")
     if (norm_grade(g["company_name"], g["grade_value"]) if g else None) != title_grade:
         return False  # raw vs slab (or different grade) must line up with the listing
-    if rec.get("title") and detect_grade(rec["title"]) != title_grade:
+    if rec.get("title") and (detect_grade(rec["title"]) != title_grade
+                             or (title_grade is None and is_graded(rec["title"]) is not False)):
         return False  # CardSight sometimes misses the grade; trust the sale title too
     lyr = (re.search(r"\b(19[5-9]\d|20[0-3]\d)\b", listing_title) or [None])[0]
     cyr = str((card.get("set") or {}).get("year") or "")[:4]
@@ -512,6 +547,8 @@ def title_match_ok(rec_title: str, listing_title: str, title_grade, title_num) -
     if not title_num or card_number(rec_title) != title_num:
         return False
     if detect_grade(rec_title) != title_grade:
+        return False
+    if title_grade is None and is_graded(rec_title) is not False:
         return False
     if looks_like_parallel(rec_title) != looks_like_parallel(listing_title):
         return False
@@ -882,6 +919,8 @@ def run() -> int:
                 continue
             if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not player_rule_ok(it["title"], player, cfg):
                 continue
+            if not grade_clear(it):
+                continue
             if not card_number(it["title"]):
                 continue  # no card # in the title: too easy to price the wrong card
             state["queue"].append(it)
@@ -901,7 +940,7 @@ def run() -> int:
                     continue
                 if title_has_excluded_word(it["title"], cfg["exclude_words"]) or not card_number(it["title"]):
                     continue
-                if not player_rule_ok(it["title"], player, cfg):
+                if not player_rule_ok(it["title"], player, cfg) or not grade_clear(it):
                     continue
                 it["query"] = build_query(it["title"], player)
                 auctions.append(it)

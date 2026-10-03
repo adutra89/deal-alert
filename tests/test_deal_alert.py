@@ -230,3 +230,16 @@ def test_members_only_and_finest_are_different_versions():
     l["query"] = d.build_query(base, "Michael Jordan")
     url = d.sold_search_url(l)
     assert "_sacat=261328" in url and "-finest" not in url
+
+
+def test_raw_vs_graded():
+    assert d.detect_grade("2002 Bowman Chrome Tom Brady #99 Graded 8 by SGC") == ("SGC", "8")
+    assert d.is_graded("2007-08 Topps Chrome LeBron James #23", "Ungraded") is False
+    assert d.is_graded("2007-08 Topps Chrome LeBron James #23 PSA ready", "") is False
+    assert d.is_graded("2007-08 Topps Chrome LeBron James #23 graded slab", "") is None
+    assert d.is_graded("Wemby #221 Topps Chrome", "Graded") is True
+    assert not d.grade_clear({"title": "Wemby #221 Topps Chrome", "condition": "Graded"})  # graded but grade unreadable
+    # raw listing must not use a sale that's described as graded
+    r = rec(120); r["title"] = "2007-08 Topps Chrome LeBron James #23 Graded"; r["matched_card"]["number"] = "23"
+    r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps Chrome", "year": "2007-08"}
+    assert not d.identity_ok(r, "2007-08 Topps Chrome - LeBron James #23", None, "23")
