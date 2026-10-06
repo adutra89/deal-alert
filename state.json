@@ -50,6 +50,7 @@
   "x:v1|188976235933|0": "2026-10-03T21:52:00.912240+00:00",
   "x:v1|188987559792|0": "2026-10-03T09:27:37.454035+00:00",
   "x:v1|189006644094|0": "2026-10-03T20:48:10.577802+00:00",
+  "x:v1|189007972477|0": "2026-10-06T04:43:47.732849+00:00",
   "x:v1|189039585968|0": "2026-10-04T02:42:01.317721+00:00",
   "x:v1|189041675457|0": "2026-10-04T16:07:47.756855+00:00",
   "x:v1|198669027804|0": "2026-10-03T16:39:36.716129+00:00",
@@ -65,7 +66,6 @@
   "x:v1|206586298188|0": "2026-10-04T22:42:54.260879+00:00",
   "x:v1|206586629244|0": "2026-10-05T01:50:21.055724+00:00",
   "x:v1|206588765968|0": "2026-10-03T21:30:32.972560+00:00",
-  "x:v1|206598638239|0": "2026-10-03T04:37:12.385564+00:00",
   "x:v1|206599827146|0": "2026-10-03T16:18:54.328506+00:00",
   "x:v1|206600819572|0": "2026-10-04T03:44:54.894296+00:00",
   "x:v1|206601921586|0": "2026-10-04T15:05:39.925371+00:00",
@@ -120,7 +120,6 @@
   "x:v1|278423522510|0": "2026-10-03T17:41:34.598954+00:00",
   "x:v1|278430066497|0": "2026-10-03T04:59:22.582940+00:00",
   "x:v1|278430122815|0": "2026-10-03T04:59:22.582940+00:00",
-  "x:v1|278430123460|0": "2026-10-03T04:37:12.385564+00:00",
   "x:v1|278433743007|0": "2026-10-04T15:05:39.925371+00:00",
   "x:v1|287619163359|0": "2026-10-04T03:03:34.832970+00:00",
   "x:v1|287626027875|0": "2026-10-04T13:41:50.286927+00:00",
@@ -137,7 +136,6 @@
   "x:v1|298733260463|0": "2026-10-04T23:45:16.020244+00:00",
   "x:v1|307202111385|0": "2026-10-06T01:16:18.948970+00:00",
   "x:v1|307202503633|0": "2026-10-04T23:03:46.528411+00:00",
-  "x:v1|307211149720|0": "2026-10-03T04:37:12.385564+00:00",
   "x:v1|307212142793|0": "2026-10-03T18:23:00.204304+00:00",
   "x:v1|307212558850|0": "2026-10-04T00:37:37.067028+00:00",
   "x:v1|307212709972|0": "2026-10-04T02:21:05.533159+00:00",
@@ -331,20 +329,10 @@
    "n": 30,
    "ref": 150.0
   },
-  "1988 fleer Michael Jordan 7 SGC 5": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "1989 Ken Griffey 1 BGS 8": {
    "at": "2026-10-06T01:57:45.855836+00:00",
    "n": 20,
    "ref": 189.99
-  },
-  "1989 Ken Griffey 11 blue": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 9,
-   "ref": 40.980000000000004
   },
   "1989 Ken Griffey 2": {
    "at": "2026-10-06T04:02:38.739907+00:00",
@@ -531,11 +519,6 @@
    "n": 21,
    "ref": 14.49
   },
-  "1989 topps Ken Griffey 336": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 23,
-   "ref": 3.0
-  },
   "1989 topps Ken Griffey 41 BGS 10": {
    "at": "2026-10-06T01:16:18.948970+00:00",
    "n": 0,
@@ -596,6 +579,11 @@
    "n": 36,
    "ref": 530.99
   },
+  "1990 Michael Jordan 23 PSA 8": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
+  },
   "1990 Michael Jordan 364": {
    "at": "2026-10-05T16:36:10.695166+00:00",
    "n": 0,
@@ -603,11 +591,6 @@
   },
   "1990 Michael Jordan 89 PSA 10": {
    "at": "2026-10-05T06:19:19.127543+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "1990 bowman Ken Griffey 481 PSA 7": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -795,11 +778,6 @@
    "at": "2026-10-06T00:34:59.324291+00:00",
    "n": 0,
    "ref": null
-  },
-  "1990 upper deck Ken Griffey 24 PSA 8": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 12,
-   "ref": 25.0
   },
   "1991 Ken Griffey 24 gold PSA 8": {
    "at": "2026-10-06T00:14:14.234315+00:00",
@@ -1001,11 +979,6 @@
    "n": 3,
    "ref": 250.0
   },
-  "1991 score Ken Griffey 892 PSA 8": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 8,
-   "ref": 20.990000000000002
-  },
   "1991 skybox Michael Jordan 307 PSA 8": {
    "at": "2026-10-05T08:23:25.980698+00:00",
    "n": 13,
@@ -1100,6 +1073,11 @@
    "at": "2026-10-05T07:01:11.039810+00:00",
    "n": 39,
    "ref": 68.5
+  },
+  "1991 upper deck Michael Jordan 69 BGS 9": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "1991 upper deck Michael Jordan 69 GMA 8.5": {
    "at": "2026-10-05T12:27:58.352715+00:00",
@@ -1241,11 +1219,6 @@
    "n": 17,
    "ref": 86.49
   },
-  "1992 fleer stars Michael Jordan 6 PSA 7": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 5,
-   "ref": 180.0
-  },
   "1992 fleer stars Michael Jordan 6 SGC 8.5": {
    "at": "2026-10-05T23:53:35.942538+00:00",
    "n": 0,
@@ -1356,11 +1329,6 @@
    "n": 28,
    "ref": 66.98
   },
-  "1992 topps Michael Jordan 205 gold PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 12,
-   "ref": 132.0
-  },
   "1992 topps archives Michael Jordan 52": {
    "at": "2026-10-05T20:45:28.819779+00:00",
    "n": 25,
@@ -1401,6 +1369,11 @@
    "n": 21,
    "ref": 275.0
   },
+  "1992 topps stadium club stadium Michael Jordan 210": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 19,
+   "ref": 8.98
+  },
   "1992 topps stadium club stadium Michael Jordan 210 PSA 9": {
    "at": "2026-10-05T23:12:19.350197+00:00",
    "n": 22,
@@ -1425,11 +1398,6 @@
    "at": "2026-10-05T16:56:51.370387+00:00",
    "n": 7,
    "ref": 5.0
-  },
-  "1992 upper deck Michael Jordan 453 PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 19,
-   "ref": 175.0
   },
   "1992 upper deck Michael Jordan 506 SGC 9.5": {
    "at": "2026-10-05T06:39:54.052737+00:00",
@@ -1486,11 +1454,6 @@
    "n": 10,
    "ref": 60.0
   },
-  "1993 donruss Ken Griffey DK-1 PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "1993 finest Michael Jordan 1": {
    "at": "2026-10-06T02:59:44.122033+00:00",
    "n": 13,
@@ -1500,11 +1463,6 @@
    "at": "2026-10-05T08:02:52.794930+00:00",
    "n": 5,
    "ref": 60.0
-  },
-  "1993 fleer Michael Jordan 28": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 36,
-   "ref": 4.49
   },
   "1993 fleer Michael Jordan 28 PSA 10": {
    "at": "2026-10-06T02:59:44.122033+00:00",
@@ -1901,11 +1859,6 @@
    "n": 0,
    "ref": null
   },
-  "1994 topps stadium club stadium Michael Jordan 1": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 27,
-   "ref": 9.99
-  },
   "1994 upper deck Michael Jordan 16 PSA 10": {
    "at": "2026-10-06T04:23:14.505592+00:00",
    "n": 0,
@@ -1960,6 +1913,11 @@
    "at": "2026-10-06T04:23:14.505592+00:00",
    "n": 5,
    "ref": 403.95
+  },
+  "1994 upper deck Michael Jordan J7 PSA 7": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "1994 upper deck choice Michael Jordan 204": {
    "at": "2026-10-05T04:56:54.781109+00:00",
@@ -2341,11 +2299,6 @@
    "n": 3,
    "ref": 110.0
   },
-  "1995 topps stadium club stadium Ken Griffey 14": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 11,
-   "ref": 120.0
-  },
   "1995 topps stadium club stadium Michael Jordan 1 PSA 9": {
    "at": "2026-10-06T03:20:19.944047+00:00",
    "n": 8,
@@ -2376,6 +2329,11 @@
    "n": 32,
    "ref": 2.07
   },
+  "1995 upper deck Michael Jordan JC12": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 17,
+   "ref": 5.0
+  },
   "1995 upper deck Michael Jordan R5 BGS 8.5": {
    "at": "2026-10-05T07:42:18.428568+00:00",
    "n": 0,
@@ -2385,6 +2343,11 @@
    "at": "2026-10-05T07:42:18.428568+00:00",
    "n": 25,
    "ref": 5.0
+  },
+  "1995 upper deck choice Michael Jordan 45": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 37,
+   "ref": 3.99
   },
   "1995 upper deck choice Michael Jordan 500": {
    "at": "2026-10-05T09:04:05.641592+00:00",
@@ -2410,6 +2373,11 @@
    "at": "2026-10-06T02:18:25.368527+00:00",
    "n": 27,
    "ref": 1.75
+  },
+  "1996 Ken Griffey HP-11": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 5,
+   "ref": 38.489999999999995
   },
   "1996 Kobe Bryant 13": {
    "at": "2026-10-05T13:50:24.139214+00:00",
@@ -2600,6 +2568,11 @@
    "at": "2026-10-05T20:04:06.657809+00:00",
    "n": 0,
    "ref": null
+  },
+  "1996 fleer metal Kobe Bryant 137 PSA 7": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 8,
+   "ref": 125.47
   },
   "1996 fleer metal Kobe Bryant 181": {
    "at": "2026-10-06T00:34:59.324291+00:00",
@@ -2866,6 +2839,11 @@
    "n": 20,
    "ref": 125.0
   },
+  "1996 skybox Kobe Bryant 203 PSA 9": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 43,
+   "ref": 275.0
+  },
   "1996 skybox Kobe Bryant 30": {
    "at": "2026-10-06T01:16:18.948970+00:00",
    "n": 3,
@@ -2981,15 +2959,15 @@
    "n": 4,
    "ref": 20.73
   },
-  "1996 sp Kobe Bryant 134 BGS 7.5": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "1996 sp Kobe Bryant 134 BGS 9": {
    "at": "2026-10-05T05:58:42.798666+00:00",
    "n": 10,
    "ref": 178.0
+  },
+  "1996 spx Ken Griffey KG1 PSA 9": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "1996 spx Michael Jordan 8 BGS 8.5": {
    "at": "2026-10-05T17:59:53.223525+00:00",
@@ -3195,6 +3173,11 @@
    "at": "2026-10-05T19:01:57.694559+00:00",
    "n": 0,
    "ref": null
+  },
+  "1996 upper deck Michael Jordan CA8": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 7,
+   "ref": 5.0
   },
   "1996 upper deck Michael Jordan M1": {
    "at": "2026-10-05T15:34:03.437413+00:00",
@@ -4121,11 +4104,6 @@
    "n": 0,
    "ref": null
   },
-  "1998 skybox Michael Jordan 106": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 34,
-   "ref": 30.0
-  },
   "1998 skybox Michael Jordan 23 BGS 9": {
    "at": "2026-10-06T03:41:05.679334+00:00",
    "n": 0,
@@ -4558,11 +4536,6 @@
   },
   "1999 topps chrome stadium club stadium Ken Griffey SCC20 refractor PSA 8": {
    "at": "2026-10-06T03:41:05.679334+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "1999 topps finest Ken Griffey 101 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -5396,11 +5369,6 @@
    "n": 0,
    "ref": null
   },
-  "2003 tribute sp Michael Jordan 99": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2003 ultra Tom Brady 114 gold PSA 9": {
    "at": "2026-10-05T22:31:02.792090+00:00",
    "n": 0,
@@ -5526,11 +5494,6 @@
    "n": 17,
    "ref": 15.95
   },
-  "2003 upper deck LeBron James LJ2 PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 9,
-   "ref": 78.0
-  },
   "2003 upper deck LeBron James PA7": {
    "at": "2026-10-05T23:53:35.942538+00:00",
    "n": 15,
@@ -5573,11 +5536,6 @@
   },
   "2004 bowman Kobe Bryant 8 gold BGS 9": {
    "at": "2026-10-05T15:34:03.437413+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2004 donruss Ken Griffey C-5 PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -5635,6 +5593,11 @@
    "at": "2026-10-06T02:59:44.122033+00:00",
    "n": 0,
    "ref": null
+  },
+  "2004 spx Kobe Bryant 37": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 16,
+   "ref": 30.0
   },
   "2004 topps chrome Kobe Bryant 8": {
    "at": "2026-10-05T20:04:06.657809+00:00",
@@ -5855,6 +5818,11 @@
    "at": "2026-10-05T17:39:18.498465+00:00",
    "n": 35,
    "ref": 5.99
+  },
+  "2006 upper deck LeBron James GF-16": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2006 upper deck LeBron James GF-22": {
    "at": "2026-10-06T01:16:18.948970+00:00",
@@ -6251,10 +6219,25 @@
    "n": 0,
    "ref": null
   },
+  "2009 upper deck Michael Jordan 11 gold PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2009 upper deck Michael Jordan 114 PSA 10": {
    "at": "2026-10-05T17:17:33.911961+00:00",
    "n": 3,
    "ref": 608.99
+  },
+  "2009 upper deck Michael Jordan 12 gold PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 3,
+   "ref": 255.99
+  },
+  "2009 upper deck Michael Jordan 26 gold PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2009 upper deck Michael Jordan 29 gold PSA 10": {
    "at": "2026-10-06T04:23:14.505592+00:00",
@@ -6286,6 +6269,11 @@
    "n": 0,
    "ref": null
   },
+  "2009 upper deck Michael Jordan 38 gold BCCG 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 9,
+   "ref": 40.95
+  },
   "2009 upper deck Michael Jordan 47 BGS 9.5": {
    "at": "2026-10-05T18:20:32.987449+00:00",
    "n": 0,
@@ -6305,6 +6293,11 @@
    "at": "2026-10-06T04:23:14.505592+00:00",
    "n": 0,
    "ref": null
+  },
+  "2009 upper deck Michael Jordan 62 gold PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 3,
+   "ref": 150.17
   },
   "2009 upper deck Michael Jordan 63 gold PSA 10": {
    "at": "2026-10-05T19:43:22.668000+00:00",
@@ -6451,16 +6444,6 @@
    "n": 0,
    "ref": null
   },
-  "2011 panini Stephen Curry 15 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2011 panini Stephen Curry 27": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 24,
-   "ref": 14.44
-  },
   "2011 panini Tom Brady 90 PSA 10": {
    "at": "2026-10-05T15:34:03.437413+00:00",
    "n": 0,
@@ -6473,6 +6456,11 @@
   },
   "2011 upper deck Michael Jordan UNC-13": {
    "at": "2026-10-05T17:38:17.147009+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2012 LeBron James 1": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -6721,8 +6709,8 @@
    "n": 0,
    "ref": null
   },
-  "2014 panini prizm LeBron James 4 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
+  "2014 panini prizm LeBron James 48 red blue BGS 9.5": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -6775,6 +6763,11 @@
    "at": "2026-10-06T01:16:18.948970+00:00",
    "n": 0,
    "ref": null
+  },
+  "2014 topps finest Tom Brady 97 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 3,
+   "ref": 279.0
   },
   "2014 topps finest Tom Brady 97 refractor": {
    "at": "2026-10-05T18:20:32.987449+00:00",
@@ -7371,6 +7364,11 @@
    "n": 0,
    "ref": null
   },
+  "2018 panini donruss optic Shohei Ohtani RR1 PSA 9": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2018 panini donruss optic sp Shohei Ohtani 56": {
    "at": "2026-10-05T09:04:05.641592+00:00",
    "n": 0,
@@ -7605,6 +7603,11 @@
    "at": "2026-10-05T23:53:35.942538+00:00",
    "n": 5,
    "ref": 305.98
+  },
+  "2018 topps Shohei Ohtani LITM-21 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2018 topps Shohei Ohtani S-39": {
    "at": "2026-10-05T20:04:06.657809+00:00",
@@ -7877,8 +7880,8 @@
    "ref": 125.0
   },
   "2018 topps now Shohei Ohtani ST-4 PSA 10": {
-   "at": "2026-10-05T19:01:57.694559+00:00",
-   "n": 20,
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 21,
    "ref": 344.0
   },
   "2018 topps now Shohei Ohtani ST-7 PSA 9": {
@@ -8332,8 +8335,8 @@
    "ref": 104.0
   },
   "2019 topps chrome Shohei Ohtani 1 refractor": {
-   "at": "2026-10-05T17:17:33.911961+00:00",
-   "n": 9,
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 10,
    "ref": 170.98000000000002
   },
   "2019 topps chrome Shohei Ohtani 1 refractor PSA 9": {
@@ -8418,11 +8421,6 @@
   },
   "2020 bbm Shohei Ohtani 235 PSA 9": {
    "at": "2026-10-05T13:09:03.169139+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2020 best Shohei Ohtani 22 refractor blue PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -8651,11 +8649,6 @@
    "n": 5,
    "ref": 29.99
   },
-  "2020 panini obsidian Stephen Curry 3 red": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2020 panini phoenix Tom Brady 35 PSA 10": {
    "at": "2026-10-05T15:54:48.455699+00:00",
    "n": 18,
@@ -8668,11 +8661,6 @@
   },
   "2020 panini prizm LeBron James 17 silver CGC 10": {
    "at": "2026-10-05T15:13:22.464426+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2020 panini prizm Shohei Ohtani 162 pink": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -8740,11 +8728,6 @@
    "at": "2026-10-05T23:53:35.942538+00:00",
    "n": 0,
    "ref": null
-  },
-  "2020 panini revolution LeBron James 74 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 3,
-   "ref": 104.99
   },
   "2020 panini score chronicles tribute Tom Brady TB-2017 PSA 9": {
    "at": "2026-10-05T17:39:18.498465+00:00",
@@ -8845,6 +8828,11 @@
    "at": "2026-10-05T10:04:52.546049+00:00",
    "n": 6,
    "ref": 19.99
+  },
+  "2020 topps chrome allen ginter sp Shohei Ohtani 24 refractor green": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2020 topps chrome stadium club stadium Shohei Ohtani 145": {
    "at": "2026-10-06T01:37:02.168331+00:00",
@@ -9061,11 +9049,6 @@
    "n": 0,
    "ref": null
   },
-  "2021 panini score chronicles Shohei Ohtani 2 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2021 panini score tribute Tom Brady TBT-296": {
    "at": "2026-10-06T04:01:41.524163+00:00",
    "n": 0,
@@ -9130,11 +9113,6 @@
    "at": "2026-10-05T08:43:50.438803+00:00",
    "n": 25,
    "ref": 30.0
-  },
-  "2021 topps chrome Shohei Ohtani 159 refractor pink PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
   },
   "2021 topps chrome Shohei Ohtani 159 refractor purple PSA 9": {
    "at": "2026-10-05T16:15:28.933174+00:00",
@@ -9248,6 +9226,11 @@
   },
   "2022 bowman sterling Bobby Witt 13 refractor PSA 10": {
    "at": "2026-10-05T23:12:19.350197+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2022 donruss Shohei Ohtani BS3 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -9376,11 +9359,6 @@
    "n": 0,
    "ref": null
   },
-  "2022 panini prizm LeBron James 40": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2022 panini prizm Shohei Ohtani SG-3": {
    "at": "2026-10-05T16:15:28.933174+00:00",
    "n": 15,
@@ -9418,6 +9396,11 @@
   },
   "2022 panini prizm Stephen Curry 10 green": {
    "at": "2026-10-05T20:24:46.676238+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2022 panini prizm Stephen Curry 101 blue PSA 8": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -9526,6 +9509,11 @@
    "n": 0,
    "ref": null
   },
+  "2022 topps Shohei Ohtani 220 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 5,
+   "ref": 136.48000000000002
+  },
   "2022 topps Shohei Ohtani 23": {
    "at": "2026-10-05T14:52:38.246396+00:00",
    "n": 3,
@@ -9576,6 +9564,11 @@
    "n": 0,
    "ref": null
   },
+  "2022 topps chrome Shohei Ohtani 1 refractor": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2022 topps chrome Shohei Ohtani 1 refractor PSA 10": {
    "at": "2026-10-05T20:24:46.676238+00:00",
    "n": 6,
@@ -9615,6 +9608,11 @@
    "at": "2026-10-05T14:31:56.654217+00:00",
    "n": 3,
    "ref": 204.99
+  },
+  "2022 topps chrome stadium club stadium Bobby Witt 2 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2022 topps chrome update Bobby Witt USC35 refractor purple SGC 10": {
    "at": "2026-10-05T20:45:28.819779+00:00",
@@ -9771,11 +9769,6 @@
    "n": 3,
    "ref": 59.99
   },
-  "2023 mosaic Victor Wembanyama 238 green PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 4,
-   "ref": 155.68
-  },
   "2023 panini LeBron James 86 purple holo": {
    "at": "2026-10-05T07:42:18.428568+00:00",
    "n": 0,
@@ -9813,6 +9806,11 @@
   },
   "2023 panini Victor Wembanyama 434 PSA 9": {
    "at": "2026-10-05T18:20:32.987449+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2023 panini Victor Wembanyama 465 PSA 9": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -9925,11 +9923,6 @@
    "at": "2026-10-05T19:22:39.029760+00:00",
    "n": 4,
    "ref": 400.0
-  },
-  "2023 panini donruss optic Victor Wembanyama 225 pink hyper": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
   },
   "2023 panini donruss optic Victor Wembanyama 6": {
    "at": "2026-10-05T05:38:08.193389+00:00",
@@ -10141,11 +10134,6 @@
    "n": 0,
    "ref": null
   },
-  "2023 panini prizm Ken Griffey MGA1 SGC 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2023 panini prizm LeBron James 40 CGC 10": {
    "at": "2026-10-05T11:46:35.266695+00:00",
    "n": 0,
@@ -10251,11 +10239,6 @@
    "n": 8,
    "ref": 180.0
   },
-  "2023 panini prizm draft Victor Wembanyama 1 SGC 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 6,
-   "ref": 86.97999999999999
-  },
   "2023 panini prizm draft Victor Wembanyama 1 red PSA 10": {
    "at": "2026-10-05T22:51:43.234535+00:00",
    "n": 0,
@@ -10347,8 +10330,8 @@
    "ref": 32.0
   },
   "2023 panini prizm select Victor Wembanyama 87 blue PSA 10": {
-   "at": "2026-10-05T16:15:28.933174+00:00",
-   "n": 17,
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 19,
    "ref": 250.0
   },
   "2023 panini prizm select Victor Wembanyama 87 silver": {
@@ -10460,6 +10443,11 @@
    "at": "2026-10-05T23:32:57.352342+00:00",
    "n": 23,
    "ref": 304.99
+  },
+  "2023 prizm mosaic Victor Wembanyama 257 SGC 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2023 prizm select Stephen Curry 145 purple SGC 9.5": {
    "at": "2026-10-05T17:39:18.498465+00:00",
@@ -10622,8 +10610,8 @@
    "ref": null
   },
   "2023 topps chrome Victor Wembanyama 1 PSA 9": {
-   "at": "2026-10-05T10:45:29.573259+00:00",
-   "n": 13,
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 14,
    "ref": 135.98000000000002
   },
   "2023 topps chrome Victor Wembanyama 1 SGC 9": {
@@ -10640,6 +10628,11 @@
    "at": "2026-10-05T17:39:18.498465+00:00",
    "n": 4,
    "ref": 999.95
+  },
+  "2023 topps chrome Victor Wembanyama 151": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "2023 topps chrome cosmic LeBron James 59": {
    "at": "2026-10-05T11:05:49.185644+00:00",
@@ -10756,11 +10749,6 @@
    "n": 0,
    "ref": null
   },
-  "2023 topps now Shohei Ohtani WBC-53 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2023 topps now Shohei Ohtani WBC-73": {
    "at": "2026-10-05T12:27:58.352715+00:00",
    "n": 12,
@@ -10866,11 +10854,6 @@
    "n": 0,
    "ref": null
   },
-  "2024 donruss optic illusions LeBron James 2 purple PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2024 donruss prizm optic illusions Stephen Curry 5 purple": {
    "at": "2026-10-05T07:21:42.723546+00:00",
    "n": 7,
@@ -10941,6 +10924,11 @@
    "n": 25,
    "ref": 2.0
   },
+  "2024 panini donruss Victor Wembanyama 6 green holo": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 39,
+   "ref": 10.0
+  },
   "2024 panini donruss optic LeBron James 13 PSA 10": {
    "at": "2026-10-06T03:20:19.944047+00:00",
    "n": 0,
@@ -10973,6 +10961,11 @@
   },
   "2024 panini hoops LeBron James 2 PSA 10": {
    "at": "2026-10-05T20:24:46.676238+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2024 panini hoops Stephen Curry 11": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -11071,11 +11064,6 @@
    "n": 8,
    "ref": 1.25
   },
-  "2024 panini prizm LeBron James 5 silver": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 32,
-   "ref": 3.0
-  },
   "2024 panini prizm Stephen Curry 134": {
    "at": "2026-10-05T05:58:42.798666+00:00",
    "n": 0,
@@ -11101,6 +11089,11 @@
    "n": 5,
    "ref": 150.29000000000002
   },
+  "2024 panini prizm Victor Wembanyama 172 silver": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 28,
+   "ref": 22.99
+  },
   "2024 panini prizm Victor Wembanyama 2 blue": {
    "at": "2026-10-06T04:01:41.524163+00:00",
    "n": 0,
@@ -11125,11 +11118,6 @@
    "at": "2026-10-05T17:17:33.911961+00:00",
    "n": 0,
    "ref": null
-  },
-  "2024 panini prizm black Stephen Curry 7 black": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 6,
-   "ref": 1.99
   },
   "2024 panini prizm draft Stephen Curry 19 PSA 10": {
    "at": "2026-10-05T22:51:43.234535+00:00",
@@ -11407,9 +11395,9 @@
    "ref": null
   },
   "2024 topps chrome Shohei Ohtani 1": {
-   "at": "2026-10-05T14:52:38.246396+00:00",
-   "n": 7,
-   "ref": 13.0
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 8,
+   "ref": 13.99
   },
   "2024 topps chrome Shohei Ohtani 1 PSA 10": {
    "at": "2026-10-05T20:45:28.819779+00:00",
@@ -11696,10 +11684,10 @@
    "n": 13,
    "ref": 369.99
   },
-  "2024 topps now Stephen Curry 27 gold PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
+  "2024 topps now Stephen Curry 27 SGC 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 3,
+   "ref": 199.99
   },
   "2024 topps now Tom Brady TB1 blue PSA 10": {
    "at": "2026-10-05T05:58:42.798666+00:00",
@@ -11931,11 +11919,6 @@
    "n": 7,
    "ref": 65.0
   },
-  "2025 now Shohei Ohtani 7 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 16,
-   "ref": 75.0
-  },
   "2025 origins Victor Wembanyama 14": {
    "at": "2026-10-06T02:18:25.368527+00:00",
    "n": 0,
@@ -12013,11 +11996,6 @@
   },
   "2025 topps Ken Griffey BR-15 pink": {
    "at": "2026-10-05T13:29:42.363736+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2025 topps LeBron James 40": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
    "n": 0,
    "ref": null
   },
@@ -12108,6 +12086,11 @@
   },
   "2025 topps Shohei Ohtani 9 blue PSA 8": {
    "at": "2026-10-05T07:21:42.723546+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2025 topps Shohei Ohtani ATT-3 gold": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 0,
    "ref": null
   },
@@ -12271,6 +12254,11 @@
    "n": 0,
    "ref": null
   },
+  "2025 topps chrome LeBron James 127": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2025 topps chrome LeBron James 127 PSA 10": {
    "at": "2026-10-05T23:12:19.350197+00:00",
    "n": 4,
@@ -12330,11 +12318,6 @@
    "at": "2026-10-05T19:22:39.029760+00:00",
    "n": 24,
    "ref": 140.0
-  },
-  "2025 topps chrome Shohei Ohtani PP25 PSA 10": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 19,
-   "ref": 131.24
   },
   "2025 topps chrome Shohei Ohtani SE-1": {
    "at": "2026-10-06T04:02:38.739907+00:00",
@@ -12621,11 +12604,6 @@
    "n": 0,
    "ref": null
   },
-  "2025 topps finest Shohei Ohtani 190 refractor PSA 9": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2025 topps finest Shohei Ohtani 208 refractor blue": {
    "at": "2026-10-05T23:32:57.352342+00:00",
    "n": 0,
@@ -12791,11 +12769,6 @@
    "n": 0,
    "ref": null
   },
-  "2025 topps pristine Shohei Ohtani 160 refractor purple": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2025 topps pristine Shohei Ohtani 281 PSA 10": {
    "at": "2026-10-05T16:56:51.370387+00:00",
    "n": 3,
@@ -12860,6 +12833,11 @@
    "at": "2026-10-06T00:34:59.324291+00:00",
    "n": 0,
    "ref": null
+  },
+  "2025 topps sp Stephen Curry 135 purple": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 6,
+   "ref": 49.99
   },
   "2025 topps sp Victor Wembanyama 116 purple holo": {
    "at": "2026-10-05T06:39:54.052737+00:00",
@@ -13092,9 +13070,9 @@
    "ref": 1.99
   },
   "2026 topps Shohei Ohtani 500": {
-   "at": "2026-10-05T13:09:03.169139+00:00",
-   "n": 0,
-   "ref": null
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 31,
+   "ref": 1.0
   },
   "2026 topps Shohei Ohtani 642": {
    "at": "2026-10-05T08:02:52.794930+00:00",
@@ -13197,9 +13175,9 @@
    "ref": 6.0
   },
   "2026 topps chrome Shohei Ohtani 1": {
-   "at": "2026-10-05T18:41:12.009129+00:00",
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 29,
-   "ref": 4.5
+   "ref": 5.0
   },
   "2026 topps chrome Shohei Ohtani 1 refractor": {
    "at": "2026-10-06T04:23:14.505592+00:00",
@@ -13571,10 +13549,15 @@
    "n": 0,
    "ref": null
   },
-  "panini Victor Wembanyama 1": {
-   "at": "2026-10-05T04:36:18.253353+00:00",
+  "hoops LeBron James 42 gold": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
    "n": 4,
-   "ref": 10.8
+   "ref": 607.95
+  },
+  "leaf sp Stephen Curry 1": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 0,
+   "ref": null
   },
   "panini Victor Wembanyama 3": {
    "at": "2026-10-06T01:16:18.948970+00:00",
@@ -13605,6 +13588,11 @@
    "at": "2026-10-06T03:20:19.944047+00:00",
    "n": 3,
    "ref": 395.0
+  },
+  "panini prizm Victor Wembanyama 136 PSA 10": {
+   "at": "2026-10-06T04:43:47.732849+00:00",
+   "n": 17,
+   "ref": 405.49
   },
   "panini prizm draft Victor Wembanyama 1 PSA 9": {
    "at": "2026-10-06T03:41:05.679334+00:00",
@@ -15339,333 +15327,23 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-10-06 04:23:15] eBay: 50 listings for Michael Jordan",
-  "[2026-10-06 04:23:15] eBay: 50 listings for Shohei Ohtani",
-  "[2026-10-06 04:23:15] eBay: 50 listings for Victor Wembanyama",
-  "[2026-10-06 04:23:16] eBay: 50 listings for Kobe Bryant",
-  "[2026-10-06 04:23:16] eBay: 50 listings for LeBron James",
-  "[2026-10-06 04:23:16] eBay: 50 listings for Stephen Curry",
-  "[2026-10-06 04:23:17] eBay: 50 listings for Tom Brady",
-  "[2026-10-06 04:23:17] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-10-06 04:23:18] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-10-06 04:23:18] 125 new listings queued, 981 in queue",
-  "[2026-10-06 04:23:21] 71 auctions ending soon with <= 5 bids",
-  "[2026-10-06 04:23:37] pre-checked 35 on eBay; dropped 10 priced like everyone else",
-  "[2026-10-06 04:23:45] done: 0 deal alert(s) sent (comparing to other eBay listings)"
+  "[2026-10-06 04:43:48] eBay: 50 listings for Michael Jordan",
+  "[2026-10-06 04:43:49] eBay: 50 listings for Shohei Ohtani",
+  "[2026-10-06 04:43:49] eBay: 50 listings for Victor Wembanyama",
+  "[2026-10-06 04:43:50] eBay: 50 listings for Kobe Bryant",
+  "[2026-10-06 04:43:50] eBay: 50 listings for LeBron James",
+  "[2026-10-06 04:43:50] eBay: 50 listings for Stephen Curry",
+  "[2026-10-06 04:43:51] eBay: 50 listings for Tom Brady",
+  "[2026-10-06 04:43:51] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-10-06 04:43:52] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-10-06 04:43:52] 22 new listings queued, 816 in queue",
+  "[2026-10-06 04:43:55] 62 auctions ending soon with <= 5 bids",
+  "[2026-10-06 04:44:14] pre-checked 35 on eBay; dropped 14 priced like everyone else",
+  "[2026-10-06 04:44:22]   no sold-price confirmation: NBA HOOPS LEBRON JAMES TEAL AND GOLD #42/70",
+  "[2026-10-06 04:44:22] ALERT AUCTION ends in 10 min - LeBron James: Topps 2008-09 LeBron James #23 Chalk Toss Cleveland Cavaliers NBA Card ($199.99 vs asks $300.00)",
+  "[2026-10-06 04:44:22] done: 1 deal alert(s) sent (comparing to other eBay listings)"
  ],
  "queue": [
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T04:23:15.099674+00:00",
-   "id": "v1|147620848862|0",
-   "image": "https://i.ebayimg.com/images/g/OqUAAeSwzZpqxHOo/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 220.0,
-   "query": "2009 upper deck Michael Jordan 62 gold PSA 10",
-   "shipping": 5.0,
-   "title": "2009 Upper Deck Jordan Legacy Gold #62 Michael Jordan Gold PSA 10",
-   "url": "https://www.ebay.com/itm/147620848862?_skw=Michael+Jordan&hash=item225ee364de:g:OqUAAeSwzZpqxHOo"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T04:23:15.099677+00:00",
-   "id": "v1|147620848865|0",
-   "image": "https://i.ebayimg.com/images/g/DUMAAeSwp7tqxHOm/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 220.0,
-   "query": "2009 upper deck Michael Jordan 11 gold PSA 10",
-   "shipping": 5.0,
-   "title": "2009 Upper Deck Jordan Legacy Gold #11 Michael Jordan Gold PSA 10",
-   "url": "https://www.ebay.com/itm/147620848865?_skw=Michael+Jordan&hash=item225ee364e1:g:DUMAAeSwp7tqxHOm"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T04:23:15.099679+00:00",
-   "id": "v1|147620848867|0",
-   "image": "https://i.ebayimg.com/images/g/k10AAeSwoWtqxHOm/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 220.0,
-   "query": "2009 upper deck Michael Jordan 12 gold PSA 10",
-   "shipping": 5.0,
-   "title": "2009 Upper Deck Jordan Legacy Gold #12 Michael Jordan Gold PSA 10",
-   "url": "https://www.ebay.com/itm/147620848867?_skw=Michael+Jordan&hash=item225ee364e3:g:k10AAeSwoWtqxHOm"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T04:23:15.099684+00:00",
-   "id": "v1|147620848869|0",
-   "image": "https://i.ebayimg.com/images/g/HwIAAeSwejZqxHOn/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 220.0,
-   "query": "2009 upper deck Michael Jordan 26 gold PSA 10",
-   "shipping": 5.0,
-   "title": "2009 Upper Deck Jordan Legacy Gold #26 Michael Jordan Gold PSA 10",
-   "url": "https://www.ebay.com/itm/147620848869?_skw=Michael+Jordan&hash=item225ee364e5:g:HwIAAeSwejZqxHOn"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T04:23:15.463639+00:00",
-   "id": "v1|287629932483|0",
-   "image": "https://i.ebayimg.com/images/g/GrcAAeSwiVpqxHLv/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 205.0,
-   "query": "2025 topps Shohei Ohtani ATT-3 gold",
-   "shipping": 0.0,
-   "title": "Topps 2025 Series 1 Shohei Ohtani 2024 All Topps Team ATT-3 Gold /50",
-   "url": "https://www.ebay.com/itm/287629932483?_skw=Shohei+Ohtani&hash=item42f81477c3:g:GrcAAeSwiVpqxHLv"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T04:23:18.159671+00:00",
-   "id": "v1|960021858506|0",
-   "image": "https://i.ebayimg.com/images/g/bf0AAeSwG1ZqxHOQ/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 200.0,
-   "query": "2022 topps chrome stadium club stadium Bobby Witt 2 PSA 10",
-   "shipping": 0.0,
-   "title": "2022 Topps Stadium Club Chrome - Bobby Witt Jr. #2 X-Fractor (RC) PSA 10 Rookie",
-   "url": "https://www.ebay.com/itm/960021858506?_skw=Bobby+Witt+Jr&hash=itemdf85c308ca:g:bf0AAeSwG1ZqxHOQ"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T01:16:19.821135+00:00",
-   "id": "v1|147620354490|0",
-   "image": "https://i.ebayimg.com/images/g/9KUAAeSwEK9qxB8E/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 189.99,
-   "query": "1994 upper deck Michael Jordan J7 PSA 7",
-   "shipping": 6.15,
-   "title": "1994 Upper Deck Mj Rare Air Decade Of Dominance #J7 Michael Jordan PSA 7",
-   "url": "https://www.ebay.com/itm/147620354490?_skw=Michael+Jordan&hash=item225edbd9ba:g:9KUAAeSwEK9qxB8E"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T23:12:22.716345+00:00",
-   "id": "v1|117449568291|0",
-   "image": "https://i.ebayimg.com/images/g/Q0wAAeSwoW5qxCtr/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 189.99,
-   "query": "2022 panini prizm Stephen Curry 101 blue PSA 8",
-   "shipping": 5.99,
-   "title": "2022 PANINI PRIZM BLUE ICE #101 STEPHEN CURRY 9/125 PSA 8",
-   "url": "https://www.ebay.com/itm/117449568291?_skw=Stephen+Curry&hash=item1b588a3023:g:Q0wAAeSwoW5qxCtr"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T02:39:11.593267+00:00",
-   "id": "v1|366714137479|0",
-   "image": "https://i.ebayimg.com/images/g/u94AAOSwichgkFQQ/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 195.0,
-   "query": "leaf sp Stephen Curry 1",
-   "shipping": 0.0,
-   "title": "Stephen Curry 1/1 SP SSP (1 of 1) Prismatic Leaf Set #1 Basketball Card Game SP",
-   "url": "https://www.ebay.com/itm/366714137479?_skw=Stephen+Curry&hash=item5561ddab87:g:u94AAOSwichgkFQQ"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T03:20:22.819185+00:00",
-   "id": "v1|147620772577|0",
-   "image": "https://i.ebayimg.com/images/g/lRoAAeSwUeRqxGam/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 195.0,
-   "query": "2024 panini hoops Stephen Curry 11",
-   "shipping": 0.0,
-   "title": "2024-25 Panini Hoops Stephen Curry #11 Dreamcatchers Warriors",
-   "url": "https://www.ebay.com/itm/147620772577?_skw=Stephen+Curry&hash=item225ee23ae1:g:lRoAAeSwUeRqxGam"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T01:37:04.217149+00:00",
-   "id": "v1|117449819503|0",
-   "image": "https://i.ebayimg.com/images/g/v80AAeSwVHBqxE9k/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 189.0,
-   "query": "2023 topps chrome Victor Wembanyama 1 PSA 9",
-   "shipping": 5.99,
-   "title": "2023 TOPPS CHROME #1 VICTOR WEMBANYAMA PSA 9",
-   "url": "https://www.ebay.com/itm/117449819503?_skw=Victor+Wembanyama&hash=item1b588e056f:g:v80AAeSwVHBqxE9k"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T00:55:43.934640+00:00",
-   "id": "v1|237108701995|0",
-   "image": "https://i.ebayimg.com/images/g/IU0AAeSw7tFqxETM/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 189.96,
-   "query": "2012 LeBron James 1",
-   "shipping": 4.99,
-   "title": "2012 Preferred Steals Material Booklet /199 LeBron James Andre Iguodala #1 1u6",
-   "url": "https://www.ebay.com/itm/237108701995?_skw=LeBron+James&hash=item3734c7ab2b:g:IU0AAeSw7tFqxETM"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T01:16:20.541592+00:00",
-   "id": "v1|800762116443|0",
-   "image": "https://i.ebayimg.com/images/g/GcYAAeSwXUBqxEsa/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 180.0,
-   "query": "2019 topps chrome Shohei Ohtani 1 refractor",
-   "shipping": 12.0,
-   "title": "2019 Topps Chrome Shohei Ohtani #1 Refractor",
-   "url": "https://www.ebay.com/itm/800762116443?_skw=Shohei+Ohtani&hash=itemba7124395b:g:GcYAAeSwXUBqxEsa"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:51:45.800551+00:00",
-   "id": "v1|147620394331|0",
-   "image": "https://i.ebayimg.com/images/g/Y9MAAeSwqcpqxCQm/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 190.0,
-   "query": "2025 topps chrome LeBron James 127",
-   "shipping": 0.0,
-   "title": "Topps 2025-26 Chrome Image Variation LeBron James Los Angeles Lakers #127",
-   "url": "https://www.ebay.com/itm/147620394331?_skw=LeBron+James&hash=item225edc755b:g:Y9MAAeSwqcpqxCQm"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T23:53:37.257841+00:00",
-   "id": "v1|189047850904|0",
-   "image": "https://i.ebayimg.com/images/g/ziQAAeSw6clqxDY6/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 179.99,
-   "query": "2022 topps Shohei Ohtani 220 PSA 10",
-   "shipping": 9.95,
-   "title": "2022 Topps Japan Edition Shohei Ohtani #220 PSA 10 GEM MINT Angels Japan",
-   "url": "https://www.ebay.com/itm/189047850904?_skw=Shohei+Ohtani&hash=item2c04214798:g:ziQAAeSw6clqxDY6"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T23:32:59.271462+00:00",
-   "id": "v1|189047793417|0",
-   "image": "https://i.ebayimg.com/images/g/6~gAAeSw8tlqxDBK/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 189.0,
-   "query": "2023 panini Victor Wembanyama 465 PSA 9",
-   "shipping": 0.0,
-   "title": "2023 Panini Stickers Victor Wembanyama Foil #465 PSA 9 Mint Spurs RC Rookie Card",
-   "url": "https://www.ebay.com/itm/189047793417?_skw=Victor+Wembanyama&hash=item2c04206709:g:6~gAAeSw8tlqxDBK"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T02:59:45.067742+00:00",
-   "id": "v1|336830108614|0",
-   "image": "https://i.ebayimg.com/images/g/HWUAAeSwevlqxF71/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 182.7,
-   "query": "1991 upper deck Michael Jordan 69 BGS 9",
-   "shipping": 4.99,
-   "title": "1991-92 Upper Deck All-Star Michael Jordan #69 BGS 9 MINT HOF 0o9z",
-   "url": "https://www.ebay.com/itm/336830108614?_skw=Michael+Jordan&hash=item4e6ca393c6:g:HWUAAeSwevlqxF71"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T01:16:21.056591+00:00",
-   "id": "v1|800762114626|0",
-   "image": "",
-   "player": "Victor Wembanyama",
-   "price": 175.0,
-   "query": "2023 topps chrome Victor Wembanyama 151",
-   "shipping": 12.0,
-   "title": "2023 Topps Chrome Basketball Victor Wembanyama #151 RC",
-   "url": "https://www.ebay.com/itm/800762114626?_skw=Victor+Wembanyama&hash=itemba71243242:i:800762114626"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T01:37:03.727832+00:00",
-   "id": "v1|287629623529|0",
-   "image": "https://i.ebayimg.com/images/g/nmEAAeSw9HBqxEsB/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 179.99,
-   "query": "2026 topps Shohei Ohtani 500",
-   "shipping": 6.5,
-   "title": "2026 Topps Series 2 Shohei Ohtani #500 Team Color Border Dodgers",
-   "url": "https://www.ebay.com/itm/287629623529?_skw=Shohei+Ohtani&hash=item42f80fc0e9:g:nmEAAeSw9HBqxEsB"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:51:44.918424+00:00",
-   "id": "v1|128117067150|0",
-   "image": "https://i.ebayimg.com/images/g/4LIAAeSw-4Nqc8nc/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 186.29,
-   "query": "2023 panini prizm select Victor Wembanyama 87 blue PSA 10",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Select - Concourse Victor Wembanyama #87 Blue Prizm ROOKIE PSA 10",
-   "url": "https://www.ebay.com/itm/128117067150?_skw=Victor+Wembanyama&hash=item1dd45f4d8e:g:4LIAAeSw-4Nqc8nc"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537382+00:00",
-   "id": "v1|307216102118|0",
-   "image": "https://i.ebayimg.com/images/g/u10AAeSw3GJqxCIh/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 185.0,
-   "query": "1997 best Michael Jordan 60 PSA 9",
-   "shipping": 0.0,
-   "title": "1997 Bowman's Best Michael Jordan #60 PSA 9 MINT Chicago Bulls NEW LABEL GOAT",
-   "url": "https://www.ebay.com/itm/307216102118?_skw=Michael+Jordan&hash=item478781b2e6:g:u10AAeSw3GJqxCIh"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-06T01:57:48.126783+00:00",
-   "id": "v1|336829985891|0",
-   "image": "https://i.ebayimg.com/images/g/ry4AAeSw0T5qxFAu/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 185.0,
-   "query": "1996 fleer metal Kobe Bryant 137 PSA 7",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Metal - Fresh Foundation Kobe Bryant #137 (RC) PSA 7",
-   "url": "https://www.ebay.com/itm/336829985891?_skw=Kobe+Bryant&hash=item4e6ca1b463:g:ry4AAeSw0T5qxFAu"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T23:53:39.807308+00:00",
-   "id": "v1|800761851875|0",
-   "image": "https://i.ebayimg.com/images/g/2~UAAeSw585qxDWr/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 184.99,
-   "query": "1996 spx Ken Griffey KG1 PSA 9",
-   "shipping": 0.0,
-   "title": "1996 SPx KEN GRIFFEY JR Commemorative PSA 9 #KG1 Mariners",
-   "url": "https://www.ebay.com/itm/800761851875?_skw=Ken+Griffey+Jr&hash=itemba71202fe3:g:2~UAAeSw585qxDWr"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-06T04:01:42.628710+00:00",
-   "id": "v1|147620837346|0",
-   "image": "https://i.ebayimg.com/images/g/Ze4AAeSwYa5qxG~r/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 175.0,
-   "query": "2022 topps chrome Shohei Ohtani 1 refractor",
-   "shipping": 8.5,
-   "title": "2022 Topps Chrome Shohei Ohtani Image Variation Refractor #1 Angels",
-   "url": "https://www.ebay.com/itm/147620837346?_skw=Shohei+Ohtani&hash=item225ee337e2:g:Ze4AAeSwYa5qxG~r"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T23:53:36.781953+00:00",
-   "id": "v1|117449627061|0",
-   "image": "https://i.ebayimg.com/images/g/MCAAAeSwclBqxC9P/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 182.0,
-   "query": "1990 Michael Jordan 23 PSA 8",
-   "shipping": 0.0,
-   "title": "\ud83d\udd25Kenner 1990-91 Starting Lineup Michael Jordan #23 Brown Border PSA 8",
-   "url": "https://www.ebay.com/itm/117449627061?_skw=Michael+Jordan&hash=item1b588b15b5:g:MCAAAeSwclBqxC9P"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061576+00:00",
-   "id": "v1|257784103730|0",
-   "image": "https://i.ebayimg.com/images/g/-iEAAeSwJYJqxCJQ/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 176.1,
-   "query": "2018 topps update Shohei Ohtani S-39",
-   "shipping": 4.99,
-   "title": "2018 Topps Update Salute Game Changers Shohei Ohtani #S-39 Rookie RC u0h",
-   "url": "https://www.ebay.com/itm/257784103730?_skw=Shohei+Ohtani&hash=item3c05214332:g:-iEAAeSwJYJqxCJQ"
-  },
   {
    "condition": "Graded",
    "found_at": "2026-10-06T00:14:18.038643+00:00",
@@ -15800,18 +15478,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061672+00:00",
-   "id": "v1|278437369554|0",
-   "image": "https://i.ebayimg.com/images/g/oEkAAeSwSaZqxB30/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 180.8,
-   "query": "2026 topps chrome Shohei Ohtani 1",
-   "shipping": 0.0,
-   "title": "2026 Topps Chrome Shohei Ohtani #1 Aqua X-Fractor",
-   "url": "https://www.ebay.com/itm/278437369554?_skw=Shohei+Ohtani&hash=item40d42916d2:g:oEkAAeSwSaZqxB30"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:00.661050+00:00",
    "id": "v1|920011872815|0",
    "image": "https://i.ebayimg.com/images/g/L-gAAeSwoWtqxEDK/s-l225.jpg",
@@ -15845,42 +15511,6 @@
    "shipping": 4.99,
    "title": "2019 Leaf Best of Baseball Pink 17/20 Ken Griffey Jr #BB-07 HOF 6fs",
    "url": "https://www.ebay.com/itm/336829997432?_skw=Ken+Griffey+Jr&hash=item4e6ca1e178:i:336829997432"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061567+00:00",
-   "id": "v1|960020455949|0",
-   "image": "https://i.ebayimg.com/images/g/8K0AAeSwZPtqxCHq/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 180.0,
-   "query": "2018 topps heritage Shohei Ohtani H-26",
-   "shipping": 0.0,
-   "title": "Topps 2018 Heritage Shohei Ohtani Rookie Insert H-26 Los Angeles Angels",
-   "url": "https://www.ebay.com/itm/960020455949?_skw=Shohei+Ohtani&hash=itemdf85ada20d:g:8K0AAeSwZPtqxCHq"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518853+00:00",
-   "id": "v1|178558631827|0",
-   "image": "https://i.ebayimg.com/images/g/HOYAAeSwgyBqxCFX/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 180.0,
-   "query": "2023 topps chrome cosmic Victor Wembanyama 151",
-   "shipping": 0.0,
-   "title": "2023-24 TOPPS COSMIC CHROME VICTOR WEMBANYAMA RC ROOKIE #151",
-   "url": "https://www.ebay.com/itm/178558631827?_skw=Victor+Wembanyama&hash=item2992ec7f93:g:HOYAAeSwgyBqxCFX"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:06.499062+00:00",
-   "id": "v1|287629062176|0",
-   "image": "https://i.ebayimg.com/images/g/UbAAAeSwGNdqxBAC/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 180.0,
-   "query": "2000 Tom Brady 37 PSA 8",
-   "shipping": 0.0,
-   "title": "Tom Brady 2000 Press Pass #37  Rookie Card Michigan Wolverines PSA 8 NM-MT",
-   "url": "https://www.ebay.com/itm/287629062176?_skw=Tom+Brady&hash=item42f8073020:g:UbAAAeSwGNdqxBAC"
   },
   {
    "condition": "Ungraded",
@@ -15929,30 +15559,6 @@
    "shipping": 5.0,
    "title": "1994 Upper Deck Mj Rare Air #53 Michael Jordan Rare Air PSA 10",
    "url": "https://www.ebay.com/itm/147620848777?_skw=Michael+Jordan&hash=item225ee36489:g:JuwAAeSwG8ZqxHOg"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537445+00:00",
-   "id": "v1|920011510995|0",
-   "image": "https://i.ebayimg.com/images/g/K1AAAeSwtY1qxBp3/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 179.99,
-   "query": "1994 Michael Jordan 89 PSA 7",
-   "shipping": 0.0,
-   "title": "1994 UD MJ RARE AIR #89 MICHAEL JORDAN PSA 7 Menendez Brothers VERY NICE",
-   "url": "https://www.ebay.com/itm/920011510995?_skw=Michael+Jordan&hash=itemd634f594d3:g:K1AAAeSwtY1qxBp3"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464211+00:00",
-   "id": "v1|800761538945|0",
-   "image": "https://i.ebayimg.com/images/g/3ugAAeSwU9tqxBmV/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 179.99,
-   "query": "2018 panini prizm select LeBron James 11 blue PSA 9",
-   "shipping": 0.0,
-   "title": "2018 Lebron James Panini Select Light Blue Prizm #11  /299 PSA 9 1st Year Jersey",
-   "url": "https://www.ebay.com/itm/800761538945?_skw=LeBron+James&hash=itemba711b6981:g:3ugAAeSwU9tqxBmV"
   },
   {
    "condition": "Graded",
@@ -16111,18 +15717,6 @@
    "url": "https://www.ebay.com/itm/168765865987?_skw=Shohei+Ohtani&hash=item274b3ac003:g:ZZ8AAeSwwSlqxD0l"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953206+00:00",
-   "id": "v1|307216094967|0",
-   "image": "https://i.ebayimg.com/images/g/1-0AAeSw6clqxCC7/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 175.0,
-   "query": "1996 fleer metal Kobe Bryant 181 PSA 8",
-   "shipping": 0.0,
-   "title": "1996-97 Fleer Metal - Kobe Bryant #181 (RC) PSA 8 Lakers Rookie HOF",
-   "url": "https://www.ebay.com/itm/307216094967?_skw=Kobe+Bryant&hash=item47878196f7:g:1-0AAeSw6clqxCC7"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T23:53:36.781893+00:00",
    "id": "v1|128117158782|0",
@@ -16268,18 +15862,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061590+00:00",
-   "id": "v1|137816054427|0",
-   "image": "https://i.ebayimg.com/images/g/GFUAAeSwf9tqqEx8/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 174.99,
-   "query": "2018 topps Shohei Ohtani 700 PSA 8",
-   "shipping": 0.0,
-   "title": "2018 TOPPS  SHOHEI OHTANI ROOKIE PITCHING #700 RC PSA 8 ANGELS",
-   "url": "https://www.ebay.com/itm/137816054427?_skw=Shohei+Ohtani&hash=item20167a1a9b:g:GFUAAeSwf9tqqEx8"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-05T23:53:36.781896+00:00",
    "id": "v1|267804844615|0",
    "image": "https://i.ebayimg.com/images/g/sEEAAeSw7PpqxDVB/s-l225.jpg",
@@ -16339,18 +15921,6 @@
    "url": "https://www.ebay.com/itm/287629366698?_skw=Michael+Jordan&hash=item42f80bd5aa:g:LFcAAeSwAUVqxC4i"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537455+00:00",
-   "id": "v1|117449449116|0",
-   "image": "https://i.ebayimg.com/images/g/UdoAAeSwAJ5qxBoV/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 170.0,
-   "query": "1995 sp Michael Jordan 23 PSA 9",
-   "shipping": 0.0,
-   "title": "1995 Sp #23 Michael Jordan PSA 9",
-   "url": "https://www.ebay.com/itm/117449449116?_skw=Michael+Jordan&hash=item1b58885e9c:g:UdoAAeSwAJ5qxBoV"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T02:18:26.876239+00:00",
    "id": "v1|287629720929|0",
@@ -16361,30 +15931,6 @@
    "shipping": 0.0,
    "title": "2018 Topps Heritage High Number - Shohei Ohtani #600 (RC)",
    "url": "https://www.ebay.com/itm/287629720929?_skw=Shohei+Ohtani&hash=item42f8113d61:g:u3sAAeSwzZpqxFYT"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537389+00:00",
-   "id": "v1|137816054886|0",
-   "image": "https://i.ebayimg.com/images/g/kU0AAeSwiuJqghwQ/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 169.99,
-   "query": "1994 flair Michael Jordan 326 SGC 9",
-   "shipping": 0.0,
-   "title": "1994-95 Flair Michael Jordan #326 SGC 9 Mint Chicago Bulls #45 Comeback Card",
-   "url": "https://www.ebay.com/itm/137816054886?_skw=Michael+Jordan&hash=item20167a1c66:g:kU0AAeSwiuJqghwQ"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537391+00:00",
-   "id": "v1|137816054887|0",
-   "image": "https://i.ebayimg.com/images/g/ZsoAAeSwVhJqghyh/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 169.99,
-   "query": "1994 flair Michael Jordan 326 SGC 9",
-   "shipping": 0.0,
-   "title": "1994-95 Flair Michael Jordan #326 SGC 9 Mint Chicago Bulls #45 Comeback Card",
-   "url": "https://www.ebay.com/itm/137816054887?_skw=Michael+Jordan&hash=item20167a1c67:g:ZsoAAeSwVhJqghyh"
   },
   {
    "condition": "Ungraded",
@@ -16424,18 +15970,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641849+00:00",
-   "id": "v1|860012386930|0",
-   "image": "https://i.ebayimg.com/images/g/RrcAAeSwzF9qxAt5/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 168.0,
-   "query": "2021 bowman chrome Bobby Witt BCP-1",
-   "shipping": 0.0,
-   "title": "2021 Bowman - Chrome Prospects Bobby Witt Jr. #BCP-1 (RC) - Raw IP Auto - NO COA",
-   "url": "https://www.ebay.com/itm/860012386930?_skw=Bobby+Witt+Jr&hash=itemc83cbb9a72:g:RrcAAeSwzF9qxAt5"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T01:57:50.471418+00:00",
    "id": "v1|820208186496|0",
    "image": "https://i.ebayimg.com/images/g/KWsAAeSwfndqxFBP/s-l225.jpg",
@@ -16471,30 +16005,6 @@
    "url": "https://www.ebay.com/itm/298736214306?_skw=Victor+Wembanyama&hash=item458e10e122:g:fmgAAeSwfKVqxFM6"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464235+00:00",
-   "id": "v1|820207590562|0",
-   "image": "https://i.ebayimg.com/images/g/5h4AAeSwfTxqxBeM/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 160.0,
-   "query": "2020 mosaic LeBron James 247 gold wave PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 GOLD WAVE",
-   "url": "https://www.ebay.com/itm/820207590562?_skw=LeBron+James&hash=itembef82e9ca2:g:5h4AAeSwfTxqxBeM"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464258+00:00",
-   "id": "v1|820207577726|0",
-   "image": "https://i.ebayimg.com/images/g/Cd4AAeSwVI5qxBYi/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 160.0,
-   "query": "2020 mosaic LeBron James 247 blue PSA 10",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE #247 LAKERS PSA 10 REACTIVE BLUE",
-   "url": "https://www.ebay.com/itm/820207577726?_skw=LeBron+James&hash=itembef82e6a7e:g:Cd4AAeSwVI5qxBYi"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:01.626983+00:00",
    "id": "v1|407269013470|0",
@@ -16517,18 +16027,6 @@
    "shipping": 9.99,
    "title": "Upper Deck 1989 Ken Griffey Jr Star Rookie RC #1 PSA 7 Seattle Mariners HOF",
    "url": "https://www.ebay.com/itm/366714056260?_skw=Ken+Griffey+Jr&hash=item5561dc6e44:g:GnQAAeSwG9dqxFIl"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641842+00:00",
-   "id": "v1|860012419840|0",
-   "image": "https://i.ebayimg.com/images/g/lqAAAeSwkXNqxA4q/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 165.0,
-   "query": "2025 bowman chrome Bobby Witt 7 refractor mojo",
-   "shipping": 0.0,
-   "title": "2025 Bowman Chrome - Bobby Witt Jr. #7 Mojo Refractor - Raw IP Auto - NO COA",
-   "url": "https://www.ebay.com/itm/860012419840?_skw=Bobby+Witt+Jr&hash=itemc83cbc1b00:g:lqAAAeSwkXNqxA4q"
   },
   {
    "condition": "Graded",
@@ -16603,42 +16101,6 @@
    "url": "https://www.ebay.com/itm/128117476976?_skw=LeBron+James&hash=item1dd4658e70:g:YqsAAeSwu9pqxGVC"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953197+00:00",
-   "id": "v1|128117030594|0",
-   "image": "https://i.ebayimg.com/images/g/bq0AAeSwVWZqxCFl/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 160.0,
-   "query": "1996 topps Kobe Bryant 138",
-   "shipping": 0.0,
-   "title": "1996-97 Topps - Kobe Bryant #138 (RC)",
-   "url": "https://www.ebay.com/itm/128117030594?_skw=Kobe+Bryant&hash=item1dd45ebec2:g:bq0AAeSwVWZqxCFl"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464162+00:00",
-   "id": "v1|366713586466|0",
-   "image": "https://i.ebayimg.com/images/g/0-UAAeSwoWtqxCKH/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 160.0,
-   "query": "2003 upper deck LeBron James 201 PSA 7",
-   "shipping": 0.0,
-   "title": "2003-04 Upper Deck MVP - Rookie LeBron James #201 (RC) PSA 7",
-   "url": "https://www.ebay.com/itm/366713586466?_skw=LeBron+James&hash=item5561d54322:g:0-UAAeSwoWtqxCKH"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641844+00:00",
-   "id": "v1|860012395580|0",
-   "image": "https://i.ebayimg.com/images/g/CmoAAeSwt-dqxAy1/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 160.0,
-   "query": "2023 topps Bobby Witt 7",
-   "shipping": 0.0,
-   "title": "2023 Topps Series 1 - Bobby Witt Jr. #7 - Raw IP Auto - NO COA",
-   "url": "https://www.ebay.com/itm/860012395580?_skw=Bobby+Witt+Jr&hash=itemc83cbbbc3c:g:CmoAAeSwt-dqxAy1"
-  },
-  {
    "condition": "Graded",
    "found_at": "2026-10-05T22:51:45.339950+00:00",
    "id": "v1|287629280105|0",
@@ -16673,18 +16135,6 @@
    "shipping": 0.0,
    "title": "1997 SP Authentic Profiles #P32 Kobe Bryant PSA 8",
    "url": "https://www.ebay.com/itm/168766229773?_skw=Kobe+Bryant&hash=item274b404d0d:g:DbIAAeSw4tZqxGWA"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061648+00:00",
-   "id": "v1|189047591929|0",
-   "image": "https://i.ebayimg.com/images/g/xhYAAeSwu1JqxB5G/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 149.99,
-   "query": "2021 topps heritage Shohei Ohtani 246 PSA 10",
-   "shipping": 9.95,
-   "title": "2021 Topps Heritage Shohei Ohtani In Action #246 PSA 10 GEM MINT Angels",
-   "url": "https://www.ebay.com/itm/189047591929?_skw=Shohei+Ohtani&hash=item2c041d53f9:g:xhYAAeSwu1JqxB5G"
   },
   {
    "condition": "Graded",
@@ -16736,18 +16186,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:03.537453+00:00",
-   "id": "v1|257784050658|0",
-   "image": "https://i.ebayimg.com/images/g/NuwAAeSwMeZqxBo3/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 150.0,
-   "query": "1995 skybox Michael Jordan 10 blue",
-   "shipping": 6.95,
-   "title": "MICHAEL JORDAN 1995 SKYBOX E-XL BLUE BORDER #10 || CHICAGO BULLS",
-   "url": "https://www.ebay.com/itm/257784050658?_skw=Michael+Jordan&hash=item3c052073e2:g:NuwAAeSwMeZqxBo3"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T01:16:23.004355+00:00",
    "id": "v1|860013004847|0",
    "image": "https://i.ebayimg.com/images/g/e1sAAeSw16hqxEkW/s-l225.jpg",
@@ -16757,18 +16195,6 @@
    "shipping": 7.85,
    "title": "Tom Brady 2022 Panini Prizm NFL Red Sparkle Prizm, Buccaneers Color Match #273",
    "url": "https://www.ebay.com/itm/860013004847?_skw=Tom+Brady&hash=itemc83cc5082f:g:e1sAAeSw16hqxEkW"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464215+00:00",
-   "id": "v1|820207599560|0",
-   "image": "https://i.ebayimg.com/images/g/MBgAAeSwt7tqxBlk/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 150.0,
-   "query": "2020 mosaic LeBron James 247 PSA 10",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 10 BASE * GEM",
-   "url": "https://www.ebay.com/itm/820207599560?_skw=LeBron+James&hash=itembef82ebfc8:g:MBgAAeSwt7tqxBlk"
   },
   {
    "condition": "Graded",
@@ -16904,18 +16330,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518879+00:00",
-   "id": "v1|237108444960|0",
-   "image": "https://i.ebayimg.com/images/g/g9IAAeSw~yNqxBiM/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 149.99,
-   "query": "2023 topps Victor Wembanyama 13",
-   "shipping": 4.99,
-   "title": "2023-24 Topps Mercury Victor Wembanyama #13 Rookie RC",
-   "url": "https://www.ebay.com/itm/237108444960?_skw=Victor+Wembanyama&hash=item3734c3bf20:g:g9IAAeSw~yNqxBiM"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T03:41:09.457705+00:00",
    "id": "v1|117449690032|0",
    "image": "https://i.ebayimg.com/images/g/tpgAAeSwQJpqKxF0/s-l225.jpg",
@@ -16925,18 +16339,6 @@
    "shipping": 5.95,
    "title": "1999 Topps Gold Label CLASS 2 BLACK #100 Ken Griffey Jr Mariners Refractor RARE",
    "url": "https://www.ebay.com/itm/117449690032?_skw=Ken+Griffey+Jr&hash=item1b588c0bb0:g:tpgAAeSwQJpqKxF0"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061637+00:00",
-   "id": "v1|257784080428|0",
-   "image": "https://i.ebayimg.com/images/g/IuwAAeSwyIdqxB7U/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 149.0,
-   "query": "2025 topps Shohei Ohtani 25 PSA 8",
-   "shipping": 5.0,
-   "title": "2025 Topps Murakami Tokyo Series #25 Shohei Ohtani Dodgers PSA 8 NM-MT",
-   "url": "https://www.ebay.com/itm/257784080428?_skw=Shohei+Ohtani&hash=item3c0520e82c:g:IuwAAeSwyIdqxB7U"
   },
   {
    "condition": "Ungraded",
@@ -16961,54 +16363,6 @@
    "shipping": 4.99,
    "title": "2021-22 Panini Donruss Optic Express Lane Gold Wave Prizm LeBron James #6 0m0g",
    "url": "https://www.ebay.com/itm/336829866833?_skw=LeBron+James&hash=item4e6c9fe351:g:p7YAAeSwHeFqxD59"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:06.499017+00:00",
-   "id": "v1|237108475183|0",
-   "image": "https://i.ebayimg.com/images/g/tzYAAeSwButqxCMu/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 147.49,
-   "query": "2002 topps Tom Brady OG7",
-   "shipping": 4.99,
-   "title": "2002 Topps Own the Game Tom Brady #OG7 8i8",
-   "url": "https://www.ebay.com/itm/237108475183?_skw=Tom+Brady&hash=item3734c4352f:g:tzYAAeSwButqxCMu"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934262+00:00",
-   "id": "v1|800761587597|0",
-   "image": "https://i.ebayimg.com/images/g/J98AAeSwRWxqxB47/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 150.0,
-   "query": "hoops Stephen Curry 275",
-   "shipping": 0.0,
-   "title": "NBA Hoops 26 Stephen Curry No275 7/275",
-   "url": "https://www.ebay.com/itm/800761587597?_skw=Stephen+Curry&hash=itemba711c278d:g:J98AAeSwRWxqxB47"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:06.499023+00:00",
-   "id": "v1|407268819659|0",
-   "image": "https://i.ebayimg.com/images/g/uEkAAeSw0VpqxCB8/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 150.0,
-   "query": "2018 panini prizm optic contenders pristine Tom Brady 34 red",
-   "shipping": 0.0,
-   "title": "Pristine!!  2018 Panini Contenders Optic - Tom Brady #34 Red Prizm 174/199",
-   "url": "https://www.ebay.com/itm/407268819659?_skw=Tom+Brady&hash=item5ed31d02cb:g:uEkAAeSw0VpqxCB8"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140135+00:00",
-   "id": "v1|366713410587|0",
-   "image": "https://i.ebayimg.com/images/g/DPcAAeSwq-JqxA3M/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 150.0,
-   "query": "1989 upper deck Ken Griffey 1 PSA 4",
-   "shipping": 0.0,
-   "title": "1989 Upper Deck - Star Rookie Ken Griffey Jr #1 (RC)-PSA 4.. See Description!",
-   "url": "https://www.ebay.com/itm/366713410587?_skw=Ken+Griffey+Jr&hash=item5561d2941b:g:DPcAAeSwq-JqxA3M"
   },
   {
    "condition": "Graded",
@@ -17240,30 +16594,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953246+00:00",
-   "id": "v1|800761571876|0",
-   "image": "https://i.ebayimg.com/images/g/m9MAAeSwxE9qxB14/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 149.99,
-   "query": "2000 fleer Kobe Bryant 2",
-   "shipping": 0.0,
-   "title": "2000-01 Fleer Futures - Characteristics Kobe Bryant #2 C Die-Cut",
-   "url": "https://www.ebay.com/itm/800761571876?_skw=Kobe+Bryant&hash=itemba711bea24:g:m9MAAeSwxE9qxB14"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641798+00:00",
-   "id": "v1|137816054569|0",
-   "image": "https://i.ebayimg.com/images/g/2-gAAeSwu5VqqXlw/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 149.99,
-   "query": "2022 bowman chrome Bobby Witt 77 refractor",
-   "shipping": 0.0,
-   "title": "2022 Bowman Chrome Bobby Witt Jr. Aqua RayWave Refractor Rookie #/199 Royals #77",
-   "url": "https://www.ebay.com/itm/137816054569?_skw=Bobby+Witt+Jr&hash=item20167a1b29:g:2-gAAeSwu5VqqXlw"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T23:12:24.359309+00:00",
    "id": "v1|860012686587|0",
    "image": "https://i.ebayimg.com/images/g/At0AAeSwjjpqxCxh/s-l225.jpg",
@@ -17371,18 +16701,6 @@
    "url": "https://www.ebay.com/itm/237108511381?_skw=Michael+Jordan&hash=item3734c4c295:g:DDwAAeSw0T5qxCoZ"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061635+00:00",
-   "id": "v1|189047597627|0",
-   "image": "https://i.ebayimg.com/images/g/E88AAeSwZ2hqxB7O/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 139.99,
-   "query": "2018 Shohei Ohtani 76 PSA 9",
-   "shipping": 9.95,
-   "title": "2018 Diamond Kings Shohei Ohtani Facing Right RC PSA 9 #76 Rookie Angels",
-   "url": "https://www.ebay.com/itm/189047597627?_skw=Shohei+Ohtani&hash=item2c041d6a3b:g:E88AAeSwZ2hqxB7O"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T23:53:38.503915+00:00",
    "id": "v1|257784231939|0",
@@ -17443,6 +16761,18 @@
    "url": "https://www.ebay.com/itm/820207623078?_skw=Shohei+Ohtani&hash=itembef82f1ba6:g:MS4AAeSwTPNqxBx-"
   },
   {
+   "condition": "Graded",
+   "found_at": "2026-10-06T04:43:49.316026+00:00",
+   "id": "v1|257784687209|0",
+   "image": "https://i.ebayimg.com/images/g/e3QAAeSwSohqxHc8/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 141.99,
+   "query": "2024 topps Shohei Ohtani 86 PSA 10",
+   "shipping": 4.99,
+   "title": "2024 Topps 50/50: Shohei Ohtani Shohei Ohtani #86 PSA 10 GEM MT 0wv1",
+   "url": "https://www.ebay.com/itm/257784687209?_skw=Shohei+Ohtani&hash=item3c052a2a69:g:e3QAAeSwSohqxHc8"
+  },
+  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:00.661064+00:00",
    "id": "v1|860012908916|0",
@@ -17453,18 +16783,6 @@
    "shipping": 6.49,
    "title": "2018 Topps Complete Set Shohei Ohtani #700 Retail Variation Rookie RC Angels",
    "url": "https://www.ebay.com/itm/860012908916?_skw=Shohei+Ohtani&hash=itemc83cc39174:g:f9gAAeSwGGJqmuBU"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:03.537471+00:00",
-   "id": "v1|206605203810|0",
-   "image": "https://i.ebayimg.com/images/g/~P0AAeSw0VpqwxWY/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 140.0,
-   "query": "1993 fleer ultra Michael Jordan 7",
-   "shipping": 5.99,
-   "title": "1993-94 Fleer Ultra Famous Nicknames Michael Jordan #7 EX",
-   "url": "https://www.ebay.com/itm/206605203810?_skw=Michael+Jordan&hash=item301aa13962:g:~P0AAeSw0VpqwxWY"
   },
   {
    "condition": "Graded",
@@ -17624,18 +16942,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934298+00:00",
-   "id": "v1|960020209019|0",
-   "image": "https://i.ebayimg.com/images/g/BbMAAeSwbd5qw-WS/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 129.95,
-   "query": "2025 topps chrome Stephen Curry 201 blue",
-   "shipping": 6.99,
-   "title": "2025-26 Topps Chrome - Stephen Curry #201 Blue X-Fractor",
-   "url": "https://www.ebay.com/itm/960020209019?_skw=Stephen+Curry&hash=itemdf85a9dd7b:g:BbMAAeSwbd5qw-WS"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T23:53:39.807336+00:00",
    "id": "v1|257784229848|0",
    "image": "https://i.ebayimg.com/images/g/huwAAeSwSihqxDYo/s-l225.jpg",
@@ -17657,18 +16963,6 @@
    "shipping": 6.5,
    "title": "2018 Topps Update Shohei Ohtani #US285 Rookie",
    "url": "https://www.ebay.com/itm/377547252272?_skw=Shohei+Ohtani&hash=item57e791e230:g:czcAAeSwtjZqxGIG"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.518871+00:00",
-   "id": "v1|298735742069|0",
-   "image": "https://i.ebayimg.com/images/g/NWEAAeSwc~RqxB8W/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 130.0,
-   "query": "2025 topps Victor Wembanyama 116 PSA 10",
-   "shipping": 5.99,
-   "title": "2025 TOPPS MATCH ATTAX UNCOMMON #116 VICTOR WEMBANYAMA PSA 10",
-   "url": "https://www.ebay.com/itm/298735742069?_skw=Victor+Wembanyama&hash=item458e09ac75:g:NWEAAeSwc~RqxB8W"
   },
   {
    "condition": "Ungraded",
@@ -17708,18 +17002,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061663+00:00",
-   "id": "v1|287629151375|0",
-   "image": "https://i.ebayimg.com/images/g/xoMAAeSwq-JqxB35/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 135.6,
-   "query": "2024 topps now sp Shohei Ohtani 47",
-   "shipping": 0.0,
-   "title": "2024 Topps Now Shohei Ohtani HR#47 KANJI VARIATION SP",
-   "url": "https://www.ebay.com/itm/287629151375?_skw=Shohei+Ohtani&hash=item42f8088c8f:g:xoMAAeSwq-JqxB35"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:00.661048+00:00",
    "id": "v1|336829886319|0",
    "image": "https://i.ebayimg.com/images/g/XmgAAeSw6HJqxEDP/s-l225.jpg",
@@ -17756,30 +17038,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953289+00:00",
-   "id": "v1|920011469632|0",
-   "image": "https://i.ebayimg.com/images/g/v9AAAeSwH1FqxBWu/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 130.0,
-   "query": "1996 skybox Kobe Bryant 55 PSA 8",
-   "shipping": 4.0,
-   "title": "1996-97 Skybox Premium - Kobe Bryant #55 (RC) Rookie PSA 8 LA Lakers Rookie Card",
-   "url": "https://www.ebay.com/itm/920011469632?_skw=Kobe+Bryant&hash=itemd634f4f340:g:v9AAAeSwH1FqxBWu"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537386+00:00",
-   "id": "v1|307216100910|0",
-   "image": "https://i.ebayimg.com/images/g/rfEAAeSwYa5qxCGz/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 125.0,
-   "query": "1998 Michael Jordan 3 PSA 9",
-   "shipping": 8.75,
-   "title": "1998 UD Choice Preview NBA Finals Shot #3 Michael Jordan NBA Finals Shots PSA 9",
-   "url": "https://www.ebay.com/itm/307216100910?_skw=Michael+Jordan&hash=item478781ae2e:g:rfEAAeSwYa5qxCGz"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-05T22:51:43.993079+00:00",
    "id": "v1|960020516477|0",
    "image": "https://i.ebayimg.com/images/g/s4YAAeSwFd5p-oYU/s-l225.jpg",
@@ -17804,18 +17062,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518915+00:00",
-   "id": "v1|377546644890|0",
-   "image": "https://i.ebayimg.com/images/g/jYsAAeSwwoNqxBLD/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 125.0,
-   "query": "2025 topps sp pristine Victor Wembanyama FE-8",
-   "shipping": 6.0,
-   "title": "2025-26 Topps Pristine Victor Wembanyama Forever SP Insert Card # FE-8 Spurs",
-   "url": "https://www.ebay.com/itm/377546644890?_skw=Victor+Wembanyama&hash=item57e7889d9a:g:jYsAAeSwwoNqxBLD"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T02:59:45.982677+00:00",
    "id": "v1|227554240934|0",
    "image": "https://i.ebayimg.com/images/g/KYgAAeSwSk9qxF5M/s-l225.jpg",
@@ -17825,18 +17071,6 @@
    "shipping": 6.0,
    "title": "2026 Topps Pristine Victor Wembanyama Spurs Precision Series Green /150 #PR-28",
    "url": "https://www.ebay.com/itm/227554240934?_skw=Victor+Wembanyama&hash=item34fb4a29a6:g:KYgAAeSwSk9qxF5M"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:06.499020+00:00",
-   "id": "v1|117449504281|0",
-   "image": "https://i.ebayimg.com/images/g/iG8AAeSwGgtqxCIa/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 125.0,
-   "query": "2008 topps chrome Tom Brady TC121 PSA 9",
-   "shipping": 5.99,
-   "title": "2008 TOPPS CHROME #TC121 TOM BRADY PSA 9",
-   "url": "https://www.ebay.com/itm/117449504281?_skw=Tom+Brady&hash=item1b58893619:g:iG8AAeSwGgtqxCIa"
   },
   {
    "condition": "Graded",
@@ -17924,30 +17158,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537435+00:00",
-   "id": "v1|377546717321|0",
-   "image": "https://i.ebayimg.com/images/g/uCEAAeSw~yNqxB2H/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 125.0,
-   "query": "upper deck Michael Jordan 335 SGC 8.5",
-   "shipping": 5.0,
-   "title": "95-96 Upper Deck Images of 95 Michael Jordan #335 Electric Court SGC 8.5 NM-MT+",
-   "url": "https://www.ebay.com/itm/377546717321?_skw=Michael+Jordan&hash=item57e789b889:g:uCEAAeSw~yNqxB2H"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140051+00:00",
-   "id": "v1|377546755637|0",
-   "image": "https://i.ebayimg.com/images/g/EdsAAeSw7sxqxCC6/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 125.0,
-   "query": "1989 upper deck Ken Griffey 1 SGC 7.5",
-   "shipping": 5.0,
-   "title": "1989 Upper Deck #1 Ken Griffey Jr. Rookie Card SGC 7.5 NM+",
-   "url": "https://www.ebay.com/itm/377546755637?_skw=Ken+Griffey+Jr&hash=item57e78a4e35:g:EdsAAeSw7sxqxCC6"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-06T00:55:42.204799+00:00",
    "id": "v1|128117261349|0",
    "image": "https://i.ebayimg.com/images/g/S20AAeSw9HBqxEJv/s-l225.jpg",
@@ -18031,18 +17241,6 @@
    "url": "https://www.ebay.com/itm/147620848799?_skw=Michael+Jordan&hash=item225ee3649f:g:PpoAAeSwGNRqxHQc"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.934278+00:00",
-   "id": "v1|860012557529|0",
-   "image": "https://i.ebayimg.com/images/g/-f0AAeSwXUBqxBr6/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 129.99,
-   "query": "2010 panini draft rookies & stars stars Stephen Curry 1 PSA 8",
-   "shipping": 0.0,
-   "title": "STEPHEN CURRY 2010 Panini Rookies & Stars #1 Draft Pick PSA 8 Near Mint - MINT",
-   "url": "https://www.ebay.com/itm/860012557529?_skw=Stephen+Curry&hash=itemc83cbe34d9:g:-f0AAeSwXUBqxBr6"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T22:51:44.437665+00:00",
    "id": "v1|800761683220|0",
@@ -18113,18 +17311,6 @@
    "shipping": 0.0,
    "title": "1998 UD CHOICE STARQUEST BLUE #SQ30 MICHAEL JORDAN PSA 7",
    "url": "https://www.ebay.com/itm/920012381185?_skw=Michael+Jordan&hash=itemd63502dc01:g:p4kAAeSwoYdqxG-O"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061674+00:00",
-   "id": "v1|287629151305|0",
-   "image": "https://i.ebayimg.com/images/g/on0AAeSwOHZqxB3x/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 129.95,
-   "query": "2018 topps now Shohei Ohtani 136",
-   "shipping": 0.0,
-   "title": "2018 Topps Now Shohei Ohtani #136 RC",
-   "url": "https://www.ebay.com/itm/287629151305?_skw=Shohei+Ohtani&hash=item42f8088c49:g:on0AAeSwOHZqxB3x"
   },
   {
    "condition": "Ungraded",
@@ -18281,30 +17467,6 @@
    "shipping": 4.99,
    "title": "2002-03 Upper Deck Finite 32/1999 Kobe Bryant #40 HOF 0d8v",
    "url": "https://www.ebay.com/itm/336830012079?_skw=Kobe+Bryant&hash=item4e6ca21aaf:g:EFgAAeSweCtqxFTc"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:06.499074+00:00",
-   "id": "v1|178558391613|0",
-   "image": "https://i.ebayimg.com/images/g/jAIAAeSwAUVqxAmb/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 120.0,
-   "query": "2004 fleer Tom Brady 51 PSA 10",
-   "shipping": 5.0,
-   "title": "2004 FLEER GENUINE TOM BRADY #51 NEW ENGLAND PATRIOTS PSA 10 GEM MT",
-   "url": "https://www.ebay.com/itm/178558391613?_skw=Tom+Brady&hash=item2992e8d53d:g:jAIAAeSwAUVqxAmb"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140034+00:00",
-   "id": "v1|147620392604|0",
-   "image": "https://i.ebayimg.com/images/g/VGwAAeSwO9VqxBd0/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 125.0,
-   "query": "1998 topps Ken Griffey ES3",
-   "shipping": 0.0,
-   "title": "1998 Topps Ken Griffey Jr. #ES3 Etch A Sketch Mariners",
-   "url": "https://www.ebay.com/itm/147620392604?_skw=Ken+Griffey+Jr&hash=item225edc6e9c:g:VGwAAeSwO9VqxBd0"
   },
   {
    "condition": "Graded",
@@ -18571,42 +17733,6 @@
    "url": "https://www.ebay.com/itm/147620849061?_skw=Kobe+Bryant&hash=item225ee365a5:g:tbEAAeSwbd5qxHO8"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061624+00:00",
-   "id": "v1|257784086707|0",
-   "image": "https://i.ebayimg.com/images/g/fNsAAeSwHmBqxB-g/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 124.99,
-   "query": "2018 topps Shohei Ohtani A-17",
-   "shipping": 0.0,
-   "title": "2018 Topps Shohei Ohtani Rookie Card RC Angels Team Set #A-17",
-   "url": "https://www.ebay.com/itm/257784086707?_skw=Shohei+Ohtani&hash=item3c052100b3:g:fNsAAeSwHmBqxB-g"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061651+00:00",
-   "id": "v1|237108451656|0",
-   "image": "https://i.ebayimg.com/images/g/qjUAAeSwpG5qxB7C/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 120.0,
-   "query": "2021 panini donruss Shohei Ohtani 199 red",
-   "shipping": 4.99,
-   "title": "2021 Panini Donruss Red /2021 Shohei Ohtani #199 00am",
-   "url": "https://www.ebay.com/itm/237108451656?_skw=Shohei+Ohtani&hash=item3734c3d948:g:qjUAAeSwpG5qxB7C"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:06.499051+00:00",
-   "id": "v1|257784007925|0",
-   "image": "https://i.ebayimg.com/images/g/za4AAeSwNrpqxBTp/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 120.0,
-   "query": "2002 topps gallery Tom Brady 50 SGC 9",
-   "shipping": 4.99,
-   "title": "2002 Topps Gallery Tom Brady #50 SGC 9 MINT 03rx",
-   "url": "https://www.ebay.com/itm/257784007925?_skw=Tom+Brady&hash=item3c051fccf5:g:za4AAeSwNrpqxBTp"
-  },
-  {
    "condition": "Graded",
    "found_at": "2026-10-05T22:51:43.993091+00:00",
    "id": "v1|407268840882|0",
@@ -18716,6 +17842,18 @@
   },
   {
    "condition": "Ungraded",
+   "found_at": "2026-10-06T04:43:50.514003+00:00",
+   "id": "v1|189048669518|0",
+   "image": "https://i.ebayimg.com/images/g/EsYAAOSwSr1n6tv0/s-l225.jpg",
+   "player": "LeBron James",
+   "price": 124.99,
+   "query": "2024 panini LeBron James 25",
+   "shipping": 0.0,
+   "title": "(4) 2024-25 Panini Instant Bronny James Jr. ROOKIE CARDS Lakers #25-26-56-455 RC",
+   "url": "https://www.ebay.com/itm/189048669518?_skw=LeBron+James&hash=item2c042dc54e:g:EsYAAOSwSr1n6tv0"
+  },
+  {
+   "condition": "Ungraded",
    "found_at": "2026-10-05T23:33:00.673652+00:00",
    "id": "v1|307216153366|0",
    "image": "https://i.ebayimg.com/images/g/tG8AAeSwimhqxC5l/s-l225.jpg",
@@ -18821,42 +17959,6 @@
    "shipping": 4.99,
    "title": "2020 Panini Absolute Introductions Blue Shohei Ohtani #INT13 08nc",
    "url": "https://www.ebay.com/itm/237109046198?_skw=Shohei+Ohtani&hash=item3734ccebb6:g:OxQAAeSwYgpqxHJd"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140131+00:00",
-   "id": "v1|336829603749|0",
-   "image": "https://i.ebayimg.com/images/g/OGAAAeSwznhqxA9f/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 115.22,
-   "query": "2025 topps allen ginter Ken Griffey 9 PSA 10",
-   "shipping": 4.99,
-   "title": "2025 Topps Allen & Ginter Mini A&G Back Ken Griffey Jr #9 PSA 10 GEM MT HOF 1w3",
-   "url": "https://www.ebay.com/itm/336829603749?_skw=Ken+Griffey+Jr&hash=item4e6c9bdfa5:g:OGAAAeSwznhqxA9f"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953291+00:00",
-   "id": "v1|307216037320|0",
-   "image": "https://i.ebayimg.com/images/g/QMwAAeSwD3ZqxBUq/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 115.0,
-   "query": "2014 panini prizm Kobe Bryant 136 PSA 8",
-   "shipping": 5.0,
-   "title": "2014-15 Panini Prizm - Kobe Bryant #136 PSA 8",
-   "url": "https://www.ebay.com/itm/307216037320?_skw=Kobe+Bryant&hash=item478780b5c8:g:QMwAAeSwD3ZqxBUq"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464238+00:00",
-   "id": "v1|407268763162|0",
-   "image": "https://i.ebayimg.com/images/g/kIUAAeSwt~tqxBdj/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 120.0,
-   "query": "2025 topps chrome LeBron James 127 blue",
-   "shipping": 0.0,
-   "title": "2025-26 Topps Chrome - LeBron James #127 Blue X-Fractor",
-   "url": "https://www.ebay.com/itm/407268763162?_skw=LeBron+James&hash=item5ed31c261a:g:kIUAAeSwt~tqxBdj"
   },
   {
    "condition": "Graded",
@@ -19001,30 +18103,6 @@
    "shipping": 0.0,
    "title": "Topps 2019 Fire Shohei Ohtani Los Angeles Angels #1 Gold Minted Parallel",
    "url": "https://www.ebay.com/itm/860013043836?_skw=Shohei+Ohtani&hash=itemc83cc5a07c:g:atsAAeSwYgpqxE3o"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464181+00:00",
-   "id": "v1|237108454182|0",
-   "image": "https://i.ebayimg.com/images/g/rsoAAeSw1uFqxB9M/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 114.68,
-   "query": "2021 panini national treasures LeBron James 19",
-   "shipping": 4.99,
-   "title": "2021-22 Panini National Treasures 13/99 LeBron James #19 1ti6",
-   "url": "https://www.ebay.com/itm/237108454182?_skw=LeBron+James&hash=item3734c3e326:g:rsoAAeSw1uFqxB9M"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140110+00:00",
-   "id": "v1|336829624683|0",
-   "image": "https://i.ebayimg.com/images/g/81oAAeSwjdRqxBNA/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 114.68,
-   "query": "1994 leaf stars Ken Griffey 11 gold",
-   "shipping": 4.99,
-   "title": "1994 Leaf Limited Gold All-Stars 1391/10000 Ken Griffey Jr #11 HOF 1sl6",
-   "url": "https://www.ebay.com/itm/336829624683?_skw=Ken+Griffey+Jr&hash=item4e6c9c316b:g:81oAAeSwjdRqxBNA"
   },
   {
    "condition": "Ungraded",
@@ -19183,30 +18261,6 @@
    "url": "https://www.ebay.com/itm/960020516473?_skw=Tom+Brady&hash=itemdf85ae8e79:g:NxAAAeSwAwdqrlzr"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464164+00:00",
-   "id": "v1|820207674575|0",
-   "image": "https://i.ebayimg.com/images/g/x~AAAeSw0VpqxCHu/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 110.0,
-   "query": "2020 mosaic LeBron James 247 red PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 RED MOSAIC",
-   "url": "https://www.ebay.com/itm/820207674575?_skw=LeBron+James&hash=itembef82fe4cf:g:x~AAAeSw0VpqxCHu"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464173+00:00",
-   "id": "v1|820207660866|0",
-   "image": "https://i.ebayimg.com/images/g/kVwAAeSw~C5qxCCb/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 110.0,
-   "query": "2020 mosaic LeBron James 247 silver PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 SILVER MINT",
-   "url": "https://www.ebay.com/itm/820207660866?_skw=LeBron+James&hash=itembef82faf42:g:kVwAAeSw~C5qxCCb"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T04:01:42.628722+00:00",
    "id": "v1|267805065324|0",
@@ -19265,30 +18319,6 @@
    "shipping": 5.27,
    "title": "shohei ohtani rated rookie donruss 2018 panini No.281",
    "url": "https://www.ebay.com/itm/800762123656?_skw=Shohei+Ohtani&hash=itemba71245588:g:NdcAAeSwTXBqxEt1"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061633+00:00",
-   "id": "v1|237108454183|0",
-   "image": "https://i.ebayimg.com/images/g/kaEAAeSw7odqxB9M/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 110.08,
-   "query": "2025 bowman Shohei Ohtani 17",
-   "shipping": 4.99,
-   "title": "2025 Bowman Fuchsia /299 Shohei Ohtani #17 0d94",
-   "url": "https://www.ebay.com/itm/237108454183?_skw=Shohei+Ohtani&hash=item3734c3e327:g:kaEAAeSw7odqxB9M"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140118+00:00",
-   "id": "v1|407268716467|0",
-   "image": "https://i.ebayimg.com/images/g/vCgAAeSwDhRqxA7m/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 115.0,
-   "query": "1989 upper deck Ken Griffey 1 PSA 6",
-   "shipping": 0.0,
-   "title": "1989 Ken Griffey Jr. Rookie Star #1 PSA 6 Upper Deck Seattle Mariners Card",
-   "url": "https://www.ebay.com/itm/407268716467?_skw=Ken+Griffey+Jr&hash=item5ed31b6fb3:g:vCgAAeSwDhRqxA7m"
   },
   {
    "condition": "Ungraded",
@@ -19412,30 +18442,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518873+00:00",
-   "id": "v1|407268803568|0",
-   "image": "https://i.ebayimg.com/images/g/rMcAAeSw95NqxB6L/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 114.99,
-   "query": "2023 panini prizm Victor Wembanyama 136",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Prizm RC Victor Wembanyama Base Rookie Card San Antonio Spur #136",
-   "url": "https://www.ebay.com/itm/407268803568?_skw=Victor+Wembanyama&hash=item5ed31cc3f0:g:rMcAAeSw95NqxB6L"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518887+00:00",
-   "id": "v1|128116987393|0",
-   "image": "https://i.ebayimg.com/images/g/JroAAeSwKwRqxBtM/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 114.99,
-   "query": "topps chrome update Victor Wembanyama 22 refractor",
-   "shipping": 0.0,
-   "title": "Topps Chrome Update Series - Victor Wembanyama #22 Aqua Refractor Numbered /199",
-   "url": "https://www.ebay.com/itm/128116987393?_skw=Victor+Wembanyama&hash=item1dd45e1601:g:JroAAeSwKwRqxBtM"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T02:39:10.787446+00:00",
    "id": "v1|257784507617|0",
    "image": "https://i.ebayimg.com/images/g/BkEAAeSwXUBqxF4r/s-l225.jpg",
@@ -19460,18 +18466,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464177+00:00",
-   "id": "v1|820207647747|0",
-   "image": "https://i.ebayimg.com/images/g/I8wAAeSwIMdqxB9r/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 105.0,
-   "query": "2020 mosaic LeBron James 247 red PSA 9",
-   "shipping": 6.45,
-   "title": "LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 REACTIVE RED",
-   "url": "https://www.ebay.com/itm/820207647747?_skw=LeBron+James&hash=itembef82f7c03:g:I8wAAeSwIMdqxB9r"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-05T22:51:45.800538+00:00",
    "id": "v1|336829721377|0",
    "image": "https://i.ebayimg.com/images/g/cW4AAeSw2VhqxCZE/s-l225.jpg",
@@ -19493,42 +18487,6 @@
    "shipping": 4.99,
    "title": "2015 Panini Donruss Elite Series Tom Brady #1 SGC 10 GEM 0b2",
    "url": "https://www.ebay.com/itm/257784602126?_skw=Tom+Brady&hash=item3c0528de0e:g:GFMAAeSwAJ5qxGus"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518885+00:00",
-   "id": "v1|137816014907|0",
-   "image": "https://i.ebayimg.com/images/g/wocAAeSwG9dqxBx1/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 110.0,
-   "query": "2023 panini prizm mosaic Victor Wembanyama 238",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Mosaic Victor Wembanyama RC Reactive Yellow Prizm #238 Spurs",
-   "url": "https://www.ebay.com/itm/137816014907?_skw=Victor+Wembanyama&hash=item201679803b:g:wocAAeSwG9dqxBx1"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464213+00:00",
-   "id": "v1|117449449120|0",
-   "image": "https://i.ebayimg.com/images/g/lSgAAeSwTRhqxBoW/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 110.0,
-   "query": "2019 panini mosaic LeBron James 7 PSA 10",
-   "shipping": 0.0,
-   "title": "2019 Panini Mosaic Got Game? #7 Lebron James Got Game?-Mosaic PSA 10",
-   "url": "https://www.ebay.com/itm/117449449120?_skw=LeBron+James&hash=item1b58885ea0:g:lSgAAeSwTRhqxBoW"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140102+00:00",
-   "id": "v1|407268739526|0",
-   "image": "https://i.ebayimg.com/images/g/TVIAAeSwkkdqxBK2/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 110.0,
-   "query": "1996 donruss Ken Griffey 1710",
-   "shipping": 0.0,
-   "title": "Ken Griffey Jr - 1996 Donruss - Armed and Dangerous - #1710/5000  - Mint",
-   "url": "https://www.ebay.com/itm/407268739526?_skw=Ken+Griffey+Jr&hash=item5ed31bc9c6:g:TVIAAeSwkkdqxBK2"
   },
   {
    "condition": "Graded",
@@ -19628,18 +18586,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518838+00:00",
-   "id": "v1|189047644035|0",
-   "image": "https://i.ebayimg.com/images/g/IZwAAeSwAUNqxCLX/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 109.99,
-   "query": "2023 panini prizm mosaic Victor Wembanyama 238 silver",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Mosaic - Rookies Victor Wembanyama #238 Silver Prizm (RC)",
-   "url": "https://www.ebay.com/itm/189047644035?_skw=Victor+Wembanyama&hash=item2c041e1f83:g:IZwAAeSwAUNqxCLX"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T23:32:58.780465+00:00",
    "id": "v1|147620443726|0",
    "image": "https://i.ebayimg.com/images/g/zeoAAeSwJxpqxDAF/s-l225.jpg",
@@ -19721,18 +18667,6 @@
    "shipping": 4.99,
    "title": "2021-22 Panini NBA Hoops Slam Holo LeBron James #SLAM#93 0rd2",
    "url": "https://www.ebay.com/itm/237108999549?_skw=LeBron+James&hash=item3734cc357d:g:lxAAAeSw9eBqxGqU"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.641811+00:00",
-   "id": "v1|237108439477|0",
-   "image": "https://i.ebayimg.com/images/g/7nsAAeSw~XZqxBwO/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 103.75,
-   "query": "2022 topps Bobby Witt 130 PSA 10",
-   "shipping": 4.99,
-   "title": "2022 Topps Japan Edition Bobby Witt Jr #130 PSA 10 GEM MT Rookie RC 0gu6",
-   "url": "https://www.ebay.com/itm/237108439477?_skw=Bobby+Witt+Jr&hash=item3734c3a9b5:g:7nsAAeSw~XZqxBwO"
   },
   {
    "condition": "Ungraded",
@@ -19867,30 +18801,6 @@
    "url": "https://www.ebay.com/itm/227554317926?_skw=Michael+Jordan&hash=item34fb4b5666:g:IbQAAeSwoyJqxG3t"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464190+00:00",
-   "id": "v1|820207636015|0",
-   "image": "https://i.ebayimg.com/images/g/VCwAAeSwfCZqxB4Y/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 100.0,
-   "query": "2020 mosaic LeBron James 247 PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 MOSAIC MINT",
-   "url": "https://www.ebay.com/itm/820207636015?_skw=LeBron+James&hash=itembef82f4e2f:g:VCwAAeSwfCZqxB4Y"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464199+00:00",
-   "id": "v1|820207630759|0",
-   "image": "https://i.ebayimg.com/images/g/1LYAAeSwoYdqxBzP/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 100.0,
-   "query": "2020 mosaic LeBron James 247 red wave PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 RED WAVE",
-   "url": "https://www.ebay.com/itm/820207630759?_skw=LeBron+James&hash=itembef82f39a7:g:1LYAAeSwoYdqxBzP"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T01:37:04.217186+00:00",
    "id": "v1|147620600246|0",
@@ -19901,66 +18811,6 @@
    "shipping": 6.0,
    "title": "Topps 2023-24 Midnight Victor Wembanyama #50 RC San Antonio Spurs",
    "url": "https://www.ebay.com/itm/147620600246?_skw=Victor+Wembanyama&hash=item225edf99b6:g:cOEAAeSwjvhqxEv-"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061607+00:00",
-   "id": "v1|307216093448|0",
-   "image": "https://i.ebayimg.com/images/g/bMMAAeSwJUJqxCDQ/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 100.0,
-   "query": "2019 topps now Shohei Ohtani TN-3 PSA 10",
-   "shipping": 5.99,
-   "title": "2019 TOPPS 2018 TOPPS NOW REVIEW #TN-3 SHOHEI OHTANI PSA 10",
-   "url": "https://www.ebay.com/itm/307216093448?_skw=Shohei+Ohtani&hash=item4787819108:g:bMMAAeSwJUJqxCDQ"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464234+00:00",
-   "id": "v1|307216046568|0",
-   "image": "https://i.ebayimg.com/images/g/7KAAAeSwoDtqxBge/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 100.0,
-   "query": "2025 topps chrome LeBron James 127 refractor PSA 9",
-   "shipping": 5.99,
-   "title": "2025 TOPPS CHROME PRISM REFRACTOR #127 LEBRON JAMES PSA 9",
-   "url": "https://www.ebay.com/itm/307216046568?_skw=LeBron+James&hash=item478780d9e8:g:7KAAAeSwoDtqxBge"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.934264+00:00",
-   "id": "v1|307216080326|0",
-   "image": "https://i.ebayimg.com/images/g/MfgAAeSwevlqxB80/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 100.0,
-   "query": "2025 topps chrome Stephen Curry SF-1 PSA 10",
-   "shipping": 5.99,
-   "title": "2025 TOPPS CHROME SLEEK FINISHERS #SF-1 STEPHEN CURRY PSA 10",
-   "url": "https://www.ebay.com/itm/307216080326?_skw=Stephen+Curry&hash=item4787815dc6:g:MfgAAeSwevlqxB80"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.934269+00:00",
-   "id": "v1|307216076849|0",
-   "image": "https://i.ebayimg.com/images/g/vusAAeSw7Z5qxB7n/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 100.0,
-   "query": "2024 panini prizm Stephen Curry 134 PSA 10",
-   "shipping": 5.99,
-   "title": "2024 PANINI PRIZM #134 STEPHEN CURRY PSA 10",
-   "url": "https://www.ebay.com/itm/307216076849?_skw=Stephen+Curry&hash=item4787815031:g:vusAAeSw7Z5qxB7n"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934294+00:00",
-   "id": "v1|147620292320|0",
-   "image": "https://i.ebayimg.com/images/g/-BQAAeSwAJ5qxBKL/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 100.0,
-   "query": "2026 topps pristine Stephen Curry 28 green",
-   "shipping": 5.99,
-   "title": "2026 Topps Pristine Stephen Curry #28 Green /150",
-   "url": "https://www.ebay.com/itm/147620292320?_skw=Stephen+Curry&hash=item225edae6e0:g:-BQAAeSwAJ5qxBKL"
   },
   {
    "condition": "Graded",
@@ -20060,18 +18910,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953229+00:00",
-   "id": "v1|377546720771|0",
-   "image": "https://i.ebayimg.com/images/g/H9oAAeSw9KxqxB7O/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 99.99,
-   "query": "1996 Kobe Bryant 185 gold BGS 8.5",
-   "shipping": 5.99,
-   "title": "1996 All Sport PPF Gold #185 Kobe Bryant Rookie RC Lakers - BGS 8.5",
-   "url": "https://www.ebay.com/itm/377546720771?_skw=Kobe+Bryant&hash=item57e789c603:g:H9oAAeSw9KxqxB7O"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-06T00:55:43.545947+00:00",
    "id": "v1|820208014846|0",
    "image": "https://i.ebayimg.com/images/g/PCcAAeSwNG5qxEKO/s-l225.jpg",
@@ -20155,6 +18993,18 @@
    "url": "https://www.ebay.com/itm/237108819857?_skw=LeBron+James&hash=item3734c97791:g:arsAAeSwqcpqxFYc"
   },
   {
+   "condition": "Graded",
+   "found_at": "2026-10-06T04:43:49.315990+00:00",
+   "id": "v1|336830289630|0",
+   "image": "https://i.ebayimg.com/images/g/lbUAAeSwlspqxHni/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 100.3,
+   "query": "2024 topps now Shohei Ohtani 106 PSA 10",
+   "shipping": 4.99,
+   "title": "2024 Topps Now /34423 Shohei Ohtani #106 PSA 10 GEM MT 0w48",
+   "url": "https://www.ebay.com/itm/336830289630?_skw=Shohei+Ohtani&hash=item4e6ca656de:g:lbUAAeSwlspqxHni"
+  },
+  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:00.048989+00:00",
    "id": "v1|178558899586|0",
@@ -20165,18 +19015,6 @@
    "shipping": 0.0,
    "title": "Upper Deck Michael Jordan Career Collection Decade of Dominance #38 Bulls",
    "url": "https://www.ebay.com/itm/178558899586?_skw=Michael+Jordan&hash=item2992f09582:g:5bsAAeSwButqxDzx"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464260+00:00",
-   "id": "v1|307216038989|0",
-   "image": "https://i.ebayimg.com/images/g/8i4AAeSwAOdqxBW8/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 100.0,
-   "query": "2014 panini LeBron James 30 PSA 8",
-   "shipping": 5.0,
-   "title": "2014-15 Panini Excalibur - Knight Court LeBron James #30 PSA 8",
-   "url": "https://www.ebay.com/itm/307216038989?_skw=LeBron+James&hash=item478780bc4d:g:8i4AAeSwAOdqxBW8"
   },
   {
    "condition": "Ungraded",
@@ -20311,18 +19149,6 @@
    "url": "https://www.ebay.com/itm/147620849059?_skw=Kobe+Bryant&hash=item225ee365a3:g:HC0AAeSwJfJqxHO4"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518922+00:00",
-   "id": "v1|237108366392|0",
-   "image": "https://i.ebayimg.com/images/g/2loAAeSwaH1qxBF4/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2023 panini hoops Victor Wembanyama 277 blue",
-   "shipping": 5.0,
-   "title": "Panini 2023-24 NBA Hoops Rookies Victor Wembanyama #277 Blue RC Spurs",
-   "url": "https://www.ebay.com/itm/237108366392?_skw=Victor+Wembanyama&hash=item3734c28c38:g:2loAAeSwaH1qxBF4"
-  },
-  {
    "condition": "Graded",
    "found_at": "2026-10-06T02:39:08.656642+00:00",
    "id": "v1|407269184326|0",
@@ -20396,18 +19222,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934307+00:00",
-   "id": "v1|257783963072|0",
-   "image": "https://i.ebayimg.com/images/g/fSgAAeSwVIxqxA~D/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 98.58,
-   "query": "2023 panini prizm select Stephen Curry 145 green",
-   "shipping": 4.99,
-   "title": "2023-24 Panini Select Premier Level Green Shock Prizm Stephen Curry #145 0f7h",
-   "url": "https://www.ebay.com/itm/257783963072?_skw=Stephen+Curry&hash=item3c051f1dc0:g:fSgAAeSwVIxqxA~D"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T01:57:48.613090+00:00",
    "id": "v1|237108785811|0",
    "image": "https://i.ebayimg.com/images/g/jl8AAeSwtjZqxFGG/s-l225.jpg",
@@ -20465,54 +19279,6 @@
    "shipping": 4.99,
    "title": "2022 Topps Series 2 Orange Foilboard 267/299 Shohei Ohtani #660 b5f",
    "url": "https://www.ebay.com/itm/237109017962?_skw=Shohei+Ohtani&hash=item3734cc7d6a:g:4vMAAeSw8z5qxG0Z"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518866+00:00",
-   "id": "v1|920011555167|0",
-   "image": "https://i.ebayimg.com/images/g/RVcAAeSwG8ZqxB8x/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 98.0,
-   "query": "2025 topps pristine Victor Wembanyama 79 refractor",
-   "shipping": 4.98,
-   "title": "2025-26 Topps Pristine Aqua Refractor #79 Victor Wembanyama /199 SPURS",
-   "url": "https://www.ebay.com/itm/920011555167?_skw=Victor+Wembanyama&hash=itemd634f6415f:g:RVcAAeSwG8ZqxB8x"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061644+00:00",
-   "id": "v1|800761585863|0",
-   "image": "https://i.ebayimg.com/images/g/Cv4AAeSwzF9qxBzW/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 100.0,
-   "query": "2018 topps Shohei Ohtani 8",
-   "shipping": 0.0,
-   "title": "Topps 2018 National Baseball Card Day Shohei Ohtani #8 Rookie Base Angels",
-   "url": "https://www.ebay.com/itm/800761585863?_skw=Shohei+Ohtani&hash=itemba711c20c7:g:Cv4AAeSwzF9qxBzW"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464166+00:00",
-   "id": "v1|920011576892|0",
-   "image": "https://i.ebayimg.com/images/g/anwAAeSwKwRqxCE-/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 100.0,
-   "query": "2023 panini phoenix LeBron James 211 green SGC 10",
-   "shipping": 0.0,
-   "title": "Panini 2023-24 Phoenix LeBron James Green Lazer #211 50/175 SGC 10 Lakers",
-   "url": "https://www.ebay.com/itm/920011576892?_skw=LeBron+James&hash=itemd634f6963c:g:anwAAeSwKwRqxCE-"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140069+00:00",
-   "id": "v1|178558576169|0",
-   "image": "https://i.ebayimg.com/images/g/pdsAAeSw8P5p-LEl/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 100.0,
-   "query": "1995 Ken Griffey 128",
-   "shipping": 0.0,
-   "title": "1995 Pinnacle - Ken Griffey Jr #128",
-   "url": "https://www.ebay.com/itm/178558576169?_skw=Ken+Griffey+Jr&hash=item2992eba629:g:pdsAAeSw8P5p-LEl"
   },
   {
    "condition": "Ungraded",
@@ -20719,76 +19485,16 @@
    "url": "https://www.ebay.com/itm/237109031759?_skw=Shohei+Ohtani&hash=item3734ccb34f:g:WyUAAeSw3GJqxG8J"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518860+00:00",
-   "id": "v1|327390184835|0",
-   "image": "https://i.ebayimg.com/images/g/kVoAAeSw0jZqxCCU/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2025 topps pristine Victor Wembanyama PR-28 blue",
-   "shipping": 0.0,
-   "title": "2025-26 Topps Pristine Victor Wembanyama precisionaries Blue /75 #PR-28",
-   "url": "https://www.ebay.com/itm/327390184835?_skw=Victor+Wembanyama&hash=item4c39f9c583:g:kVoAAeSw0jZqxCCU"
-  },
-  {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.518940+00:00",
-   "id": "v1|800761364365|0",
-   "image": "https://i.ebayimg.com/images/g/vXAAAeSwFtBqxAvo/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 99.99,
-   "query": "2023 panini prizm Victor Wembanyama 136 BGS 8.5",
-   "shipping": 0.0,
-   "title": "Panini Prizm 2023-24 Victor Wembanyama Spurs RC Base #136 BGS 8.5",
-   "url": "https://www.ebay.com/itm/800761364365?_skw=Victor+Wembanyama&hash=itemba7118bf8d:g:vXAAAeSwFtBqxAvo"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464266+00:00",
-   "id": "v1|960020263383|0",
-   "image": "https://i.ebayimg.com/images/g/kAYAAeSwZztqxBYH/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 99.99,
-   "query": "2024 panini mosaic LeBron James 5 PSA 9",
-   "shipping": 0.0,
-   "title": "2024-25 Panini Mosaic LeBron James Full Capacity Lakers #5 PSA 9",
-   "url": "https://www.ebay.com/itm/960020263383?_skw=LeBron+James&hash=itemdf85aab1d7:g:kAYAAeSwZztqxBYH"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.934276+00:00",
-   "id": "v1|287629149123|0",
-   "image": "https://i.ebayimg.com/images/g/cUAAAeSwCCpqxBzK/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 99.99,
-   "query": "2024 revolution Stephen Curry 24 blue PSA 10",
-   "shipping": 0.0,
-   "title": "2024-25 Revolution Stephen Curry Vortex Blue Cosmo /285 PSA 10 #24",
-   "url": "https://www.ebay.com/itm/287629149123?_skw=Stephen+Curry&hash=item42f80883c3:g:cUAAAeSwCCpqxBzK"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140148+00:00",
-   "id": "v1|298735600190|0",
-   "image": "https://i.ebayimg.com/images/g/MZEAAeSwu9pqxAtB/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 99.99,
-   "query": "2023 topps black Ken Griffey LG-4 black",
-   "shipping": 0.0,
-   "title": "Topps 2023 Series 2 Ken Griffey Jr Legends of the Game Black #LG-4 134/299",
-   "url": "https://www.ebay.com/itm/298735600190?_skw=Ken+Griffey+Jr&hash=item458e07823e:g:MZEAAeSwu9pqxAtB"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641781+00:00",
-   "id": "v1|137816054568|0",
-   "image": "https://i.ebayimg.com/images/g/NgUAAeSw1M5qHirY/s-l225.jpg",
+   "found_at": "2026-10-06T04:43:52.068332+00:00",
+   "id": "v1|960021923816|0",
+   "image": "https://i.ebayimg.com/images/g/HPkAAeSwU9tqxHd5/s-l225.jpg",
    "player": "Bobby Witt Jr",
-   "price": 99.99,
-   "query": "2022 topps Bobby Witt 61",
+   "price": 100.0,
+   "query": "2022 topps chrome sapphire update Bobby Witt US113 sapphire PSA 9",
    "shipping": 0.0,
-   "title": "2022 Topps Project 100 Bobby Witt Jr.  Rookie Royals #61 RC",
-   "url": "https://www.ebay.com/itm/137816054568?_skw=Bobby+Witt+Jr&hash=item20167a1b28:g:NgUAAeSw1M5qHirY"
+   "title": "Bobby Witt Jr. Rookie Debut - 2022 Topps Chrome Update Sapphire #US113 - PSA 9",
+   "url": "https://www.ebay.com/itm/960021923816?_skw=Bobby+Witt+Jr&hash=itemdf85c407e8:g:HPkAAeSwU9tqxHd5"
   },
   {
    "condition": "Graded",
@@ -20911,18 +19617,6 @@
    "url": "https://www.ebay.com/itm/178558816259?_skw=Victor+Wembanyama&hash=item2992ef5003:g:VFUAAeSweHNqxDZB"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:03.537413+00:00",
-   "id": "v1|800761604743|0",
-   "image": "https://i.ebayimg.com/images/g/KncAAeSw1N1qxCBr/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 99.0,
-   "query": "1989 hoops Michael Jordan 200 SGC 9.5",
-   "shipping": 0.0,
-   "title": "1989-90 NBA Hoops Michael Jordan #200 SGC 9.5 Chicago Bulls\ud83d\udd25\ud83c\udfc0\ud83d\udd25",
-   "url": "https://www.ebay.com/itm/800761604743?_skw=Michael+Jordan&hash=itemba711c6a87:g:KncAAeSw1N1qxCBr"
-  },
-  {
    "condition": "Graded",
    "found_at": "2026-10-05T23:53:37.681301+00:00",
    "id": "v1|920011783684|0",
@@ -20957,18 +19651,6 @@
    "shipping": 4.99,
    "title": "2003 Fleer Platinum Platinum Finish 69/100 Ken Griffey Jr #44 HOF 14mg",
    "url": "https://www.ebay.com/itm/257784395364?_skw=Ken+Griffey+Jr&hash=item3c0525b664:g:NoIAAeSwSEpqxEyT"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953190+00:00",
-   "id": "v1|407268836069|0",
-   "image": "https://i.ebayimg.com/images/g/GTUAAeSwtChqxCOD/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 98.89,
-   "query": "2000 upper deck Kobe Bryant 26 ISA 8.5",
-   "shipping": 0.0,
-   "title": "Upper Deck 2000 Hardcourt #26 Kobe Bryant Lakers ISA 8.5 Graded Card",
-   "url": "https://www.ebay.com/itm/407268836069?_skw=Kobe+Bryant&hash=item5ed31d42e5:g:GTUAAeSwtChqxCOD"
   },
   {
    "condition": "Graded",
@@ -21067,18 +19749,6 @@
    "url": "https://www.ebay.com/itm/960020508433?_skw=Victor+Wembanyama&hash=itemdf85ae6f11:g:kXoAAeSw2DJqrelP"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464264+00:00",
-   "id": "v1|820207569133|0",
-   "image": "https://i.ebayimg.com/images/g/pfUAAeSwihBqxBWF/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 90.0,
-   "query": "2020 mosaic LeBron James 247 blue PSA 9",
-   "shipping": 6.45,
-   "title": "LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 REACTIVE BLUE",
-   "url": "https://www.ebay.com/itm/820207569133?_skw=LeBron+James&hash=itembef82e48ed:g:pfUAAeSwihBqxBWF"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T02:39:10.787476+00:00",
    "id": "v1|336830058477|0",
@@ -21137,42 +19807,6 @@
    "shipping": 5.5,
    "title": "2015 Panini Certified Stars Tom Brady #S32 Mirror Blue /99 PSA 9",
    "url": "https://www.ebay.com/itm/800762019412?_skw=Tom+Brady&hash=itemba7122be54:g:BHgAAeSwqrZqxEO~"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.518896+00:00",
-   "id": "v1|117449449141|0",
-   "image": "https://i.ebayimg.com/images/g/3uQAAeSwu9pqxBoX/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 95.0,
-   "query": "2023 panini donruss Victor Wembanyama 220 green holo PSA 9",
-   "shipping": 0.0,
-   "title": "2023 Panini Donruss #220 Victor Wembanyama Holo Green Laser PSA 9",
-   "url": "https://www.ebay.com/itm/117449449141?_skw=Victor+Wembanyama&hash=item1b58885eb5:g:3uQAAeSwu9pqxBoX"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140085+00:00",
-   "id": "v1|128116977546|0",
-   "image": "https://i.ebayimg.com/images/g/D0IAAeSwQR5qrJm9/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 95.0,
-   "query": "2021 topps Ken Griffey 50 gold",
-   "shipping": 0.0,
-   "title": "Ken Griffey Jr #50 Gold Foil /50 2021 Topps All-Star Rookie Cup Photo Variation ",
-   "url": "https://www.ebay.com/itm/128116977546?_skw=Ken+Griffey+Jr&hash=item1dd45def8a:g:D0IAAeSwQR5qrJm9"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140127+00:00",
-   "id": "v1|336829604755|0",
-   "image": "https://i.ebayimg.com/images/g/FlkAAeSw7PpqxA6Q/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 95.0,
-   "query": "2023 leaf Ken Griffey WA-19 red",
-   "shipping": 0.0,
-   "title": "Ken Griffey Jr Leaf 2023 Art of Sport Work of Art #WA-19 Red TRIPLE Relic SSP /8",
-   "url": "https://www.ebay.com/itm/336829604755?_skw=Ken+Griffey+Jr&hash=item4e6c9be393:g:FlkAAeSw7PpqxA6Q"
   },
   {
    "condition": "Ungraded",
@@ -21379,18 +20013,6 @@
    "url": "https://www.ebay.com/itm/920011765055?_skw=Kobe+Bryant&hash=itemd634f9753f:g:8IoAAeSw5ahqxDVe"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:06.499026+00:00",
-   "id": "v1|257784094865|0",
-   "image": "https://i.ebayimg.com/images/g/DX0AAeSwAUNqxCDY/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 88.8,
-   "query": "2020 panini absolute Tom Brady 42 red",
-   "shipping": 4.99,
-   "title": "2020 Panini Absolute Spectrum Red 91/100 Tom Brady #42 0s27",
-   "url": "https://www.ebay.com/itm/257784094865?_skw=Tom+Brady&hash=item3c05212091:g:DX0AAeSwAUNqxCDY"
-  },
-  {
    "condition": "Graded",
    "found_at": "2026-10-06T02:18:29.229648+00:00",
    "id": "v1|257784467447|0",
@@ -21401,18 +20023,6 @@
    "shipping": 4.99,
    "title": "2007 Upper Deck Tom Brady #111 PSA 8 03rx",
    "url": "https://www.ebay.com/itm/257784467447?_skw=Tom+Brady&hash=item3c0526cff7:g:I00AAeSwOBxqxFik"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537377+00:00",
-   "id": "v1|307216102546|0",
-   "image": "https://i.ebayimg.com/images/g/JTsAAeSwEWlqxCJP/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 85.0,
-   "query": "1995 upper deck Michael Jordan 352 PSA 9",
-   "shipping": 8.75,
-   "title": "1995-96 Upper Deck Slams & Jams Michael Jordan #352 PSA 9 Mint Chicago Bulls HOF",
-   "url": "https://www.ebay.com/itm/307216102546?_skw=Michael+Jordan&hash=item478781b492:g:JTsAAeSwEWlqxCJP"
   },
   {
    "condition": "Graded",
@@ -21500,30 +20110,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464156+00:00",
-   "id": "v1|257784108852|0",
-   "image": "https://i.ebayimg.com/images/g/rUQAAeSwqWZqxCOc/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 86.5,
-   "query": "2014 panini prizm LeBron James 9",
-   "shipping": 4.99,
-   "title": "2014-15 Panini Prizm Representatives LeBron James #9 iw0",
-   "url": "https://www.ebay.com/itm/257784108852?_skw=LeBron+James&hash=item3c05215734:g:rUQAAeSwqWZqxCOc"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061626+00:00",
-   "id": "v1|237108457946|0",
-   "image": "https://i.ebayimg.com/images/g/usUAAeSwG~dqxCAl/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 86.49,
-   "query": "2020 topps black Shohei Ohtani 3 gold black",
-   "shipping": 4.99,
-   "title": "2020 Topps Gold Label Class 1 Black Shohei Ohtani #3 08nc",
-   "url": "https://www.ebay.com/itm/237108457946?_skw=Shohei+Ohtani&hash=item3734c3f1da:g:usUAAeSwG~dqxCAl"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T03:41:06.925174+00:00",
    "id": "v1|257784595249|0",
    "image": "https://i.ebayimg.com/images/g/~gwAAeSwSohqxGs6/s-l225.jpg",
@@ -21533,6 +20119,18 @@
    "shipping": 4.99,
    "title": "2022 Topps Japan Edition MVP Shohei Ohtani #MVP-8 08nc",
    "url": "https://www.ebay.com/itm/257784595249?_skw=Shohei+Ohtani&hash=item3c0528c331:g:~gwAAeSwSohqxGs6"
+  },
+  {
+   "condition": "Ungraded",
+   "found_at": "2026-10-06T04:43:49.315980+00:00",
+   "id": "v1|257784724538|0",
+   "image": "",
+   "player": "Shohei Ohtani",
+   "price": 86.49,
+   "query": "2019 panini chronicles certified Shohei Ohtani 5 green",
+   "shipping": 4.99,
+   "title": "2019 Panini Chronicles Certified Green Shohei Ohtani #5 08nc",
+   "url": "https://www.ebay.com/itm/257784724538?_skw=Shohei+Ohtani&hash=item3c052abc3a:i:257784724538"
   },
   {
    "condition": "Ungraded",
@@ -21583,16 +20181,16 @@
    "url": "https://www.ebay.com/itm/128117419051?_skw=LeBron+James&hash=item1dd464ac2b:g:SgYAAeSw0jZqxF0b"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953300+00:00",
-   "id": "v1|820207541182|0",
-   "image": "https://i.ebayimg.com/images/g/6~AAAeSwjjpqxBPk/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 90.0,
-   "query": "1997 upper deck choice Kobe Bryant 64",
-   "shipping": 0.0,
-   "title": "1997-98 Upper Deck Collector's Choice - #64 Kobe Bryant",
-   "url": "https://www.ebay.com/itm/820207541182?_skw=Kobe+Bryant&hash=itembef82ddbbe:g:6~AAAeSwjjpqxBPk"
+   "condition": "Graded",
+   "found_at": "2026-10-06T04:43:49.315993+00:00",
+   "id": "v1|336830289621|0",
+   "image": "https://i.ebayimg.com/images/g/Y-oAAeSwHKpqxHni/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 85.35,
+   "query": "2024 topps now Shohei Ohtani 113 PSA 10",
+   "shipping": 4.99,
+   "title": "2024 Topps Now /8673 Shohei Ohtani #113 PSA 10 GEM MT 0w48",
+   "url": "https://www.ebay.com/itm/336830289621?_skw=Shohei+Ohtani&hash=item4e6ca656d5:g:Y-oAAeSwHKpqxHni"
   },
   {
    "condition": "Ungraded",
@@ -21715,30 +20313,6 @@
    "url": "https://www.ebay.com/itm/147620848822?_skw=Michael+Jordan&hash=item225ee364b6:g:hkoAAeSw2VhqxHOk"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.518855+00:00",
-   "id": "v1|257784101945|0",
-   "image": "https://i.ebayimg.com/images/g/EjgAAeSwiGpqxCFP/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 89.99,
-   "query": "2023 panini donruss Victor Wembanyama 220 PSA 9",
-   "shipping": 0.0,
-   "title": "Victor Wembanyama 2023 Panini Donruss #220 Rated Rookie RC Wemby Spurs PSA 9",
-   "url": "https://www.ebay.com/itm/257784101945?_skw=Victor+Wembanyama&hash=item3c05213c39:g:EjgAAeSwiGpqxCFP"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140125+00:00",
-   "id": "v1|336829604947|0",
-   "image": "https://i.ebayimg.com/images/g/JJUAAeSwRbVqxA5m/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 89.99,
-   "query": "1997 topps Ken Griffey HM1",
-   "shipping": 0.0,
-   "title": "1997 Topps - Hobby Masters Ken Griffey Jr #HM1",
-   "url": "https://www.ebay.com/itm/336829604947?_skw=Ken+Griffey+Jr&hash=item4e6c9be453:g:JJUAAeSwRbVqxA5m"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T22:51:46.159533+00:00",
    "id": "v1|198690961852|0",
@@ -21809,18 +20383,6 @@
    "shipping": 0.0,
    "title": "2023-24 Panini Donruss  Rated Rookie Victor Wembanyama Spurs #220 RC Base CGC 10",
    "url": "https://www.ebay.com/itm/336829865744?_skw=Victor+Wembanyama&hash=item4e6c9fdf10:g:d~MAAeSwu9pqxD15"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953250+00:00",
-   "id": "v1|800761562966|0",
-   "image": "https://i.ebayimg.com/images/g/CFkAAeSw3P1qxBzU/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 88.24,
-   "query": "1997 fleer ultra Kobe Bryant 252G gold",
-   "shipping": 0.0,
-   "title": "1997-98 Fleer Ultra - '98 Greats Kobe Bryant #252G Gold Medallion Edition",
-   "url": "https://www.ebay.com/itm/800761562966?_skw=Kobe+Bryant&hash=itemba711bc756:g:CFkAAeSw3P1qxBzU"
   },
   {
    "condition": "Graded",
@@ -21905,18 +20467,6 @@
    "shipping": 6.99,
    "title": "2014-15 Panini Prestige - Stephen Curry #81 Bonus Shots Purple /49",
    "url": "https://www.ebay.com/itm/298736202554?_skw=Stephen+Curry&hash=item458e10b33a:g:pZwAAeSwG7pqxFEm"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464221+00:00",
-   "id": "v1|820207597302|0",
-   "image": "https://i.ebayimg.com/images/g/vLUAAeSwgyBqxBix/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 80.0,
-   "query": "2020 mosaic LeBron James 247 PSA 9",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 9 BASE **",
-   "url": "https://www.ebay.com/itm/820207597302?_skw=LeBron+James&hash=itembef82eb6f6:g:vLUAAeSwgyBqxBix"
   },
   {
    "condition": "Ungraded",
@@ -22339,6 +20889,18 @@
    "url": "https://www.ebay.com/itm/198691671108?_skw=LeBron+James&hash=item2e42f24c44:g:cgUAAeSw~hNqxHJh"
   },
   {
+   "condition": "Ungraded",
+   "found_at": "2026-10-06T04:43:49.316003+00:00",
+   "id": "v1|920012459312|0",
+   "image": "https://i.ebayimg.com/images/g/GlgAAeSwgyBqxHkD/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 85.0,
+   "query": "2022 panini donruss Shohei Ohtani BS-3",
+   "shipping": 0.0,
+   "title": "2022 Panini Donruss - Bomb Squad Shohei Ohtani #BS-3 Diamond",
+   "url": "https://www.ebay.com/itm/920012459312?_skw=Shohei+Ohtani&hash=itemd635040d30:g:GlgAAeSwgyBqxHkD"
+  },
+  {
    "condition": "Graded",
    "found_at": "2026-10-05T23:53:36.781943+00:00",
    "id": "v1|128117149786|0",
@@ -22373,30 +20935,6 @@
    "shipping": 0.0,
    "title": "Michael Jordan  1993-94 Fleer Ultra - All-Nba Team #2 PSA 6",
    "url": "https://www.ebay.com/itm/407269260617?_skw=Michael+Jordan&hash=item5ed323bd49:g:XIMAAeSwdcdqxGdU"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518921+00:00",
-   "id": "v1|237108368864|0",
-   "image": "https://i.ebayimg.com/images/g/1OEAAeSwG7pqxBH0/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 79.03,
-   "query": "2025 topps chrome Victor Wembanyama 59",
-   "shipping": 4.99,
-   "title": "2025-26 Topps Chrome Cactus Jack LogoFractor Victor Wembanyama #59 g7s",
-   "url": "https://www.ebay.com/itm/237108368864?_skw=Victor+Wembanyama&hash=item3734c295e0:g:1OEAAeSwG7pqxBH0"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:06.499032+00:00",
-   "id": "v1|407268808416|0",
-   "image": "https://i.ebayimg.com/images/g/h2AAAeSwcjxqxB95/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 75.0,
-   "query": "2022 panini certified Tom Brady GT-12 gold red PSA 9",
-   "shipping": 9.0,
-   "title": "2022 Panini Certified Gold Team TOM BRADY #GT-12 Mirror Red /99 PSA 9",
-   "url": "https://www.ebay.com/itm/407268808416?_skw=Tom+Brady&hash=item5ed31cd6e0:g:h2AAAeSwcjxqxB95"
   },
   {
    "condition": "Ungraded",
@@ -22448,42 +20986,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140100+00:00",
-   "id": "v1|298735672739|0",
-   "image": "https://i.ebayimg.com/images/g/0t8AAeSwwRFqxBJ1/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 82.0,
-   "query": "1997 topps chrome stars Ken Griffey AS13",
-   "shipping": 0.0,
-   "title": "1997 Topps Chrome - All-Stars Ken Griffey Jr, Kenny Lofton, Tony Phillips #AS13",
-   "url": "https://www.ebay.com/itm/298735672739?_skw=Ken+Griffey+Jr&hash=item458e089da3:g:0t8AAeSwwRFqxBJ1"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.953293+00:00",
-   "id": "v1|237108392822|0",
-   "image": "https://i.ebayimg.com/images/g/Rm0AAeSwUbVqxBW5/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 76.53,
-   "query": "2012 panini Kobe Bryant 3 PSA 9",
-   "shipping": 4.99,
-   "title": "2012-13 Panini Kobe Anthology Kobe Bryant #3 PSA 9 MINT HOF s6i",
-   "url": "https://www.ebay.com/itm/237108392822?_skw=Kobe+Bryant&hash=item3734c2f376:g:Rm0AAeSwUbVqxBW5"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464240+00:00",
-   "id": "v1|820207588246|0",
-   "image": "https://i.ebayimg.com/images/g/vzoAAeSw1N1qxBbJ/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 75.0,
-   "query": "2020 mosaic LeBron James 247 gold wave PSA 4",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 4 GOLD WAVE",
-   "url": "https://www.ebay.com/itm/820207588246?_skw=LeBron+James&hash=itembef82e9396:g:vzoAAeSw1N1qxBbJ"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:00.661086+00:00",
    "id": "v1|336829880261|0",
    "image": "https://i.ebayimg.com/images/g/72QAAeSwOApqxEAJ/s-l225.jpg",
@@ -22493,18 +20995,6 @@
    "shipping": 1.49,
    "title": "Shohei Ohtani 2020 Topps Rip #37 RIPPED Green #/15 075550",
    "url": "https://www.ebay.com/itm/336829880261?_skw=Shohei+Ohtani&hash=item4e6ca017c5:g:72QAAeSwOApqxEAJ"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464243+00:00",
-   "id": "v1|257784024075|0",
-   "image": "https://i.ebayimg.com/images/g/3XoAAeSwk7BqxBc8/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 76.15,
-   "query": "2022 upper deck LeBron James F-10",
-   "shipping": 4.99,
-   "title": "2022 Upper Deck Goodwin Champions Fanimation LeBron James #F-10 a8r",
-   "url": "https://www.ebay.com/itm/257784024075?_skw=LeBron+James&hash=item3c05200c0b:g:3XoAAeSwk7BqxBc8"
   },
   {
    "condition": "Ungraded",
@@ -22567,18 +21057,6 @@
    "url": "https://www.ebay.com/itm/336830198219?_skw=Ken+Griffey+Jr&hash=item4e6ca4f1cb:g:sg8AAeSwoHJqxGmH"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537427+00:00",
-   "id": "v1|800761587674|0",
-   "image": "https://i.ebayimg.com/images/g/tgYAAeSw5oZqxB8R/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 74.99,
-   "query": "1989 hoops Michael Jordan 21 PSA 9",
-   "shipping": 5.99,
-   "title": "1989-90 Hoops All-Star #21 Michael Jordan Bulls - PSA 9",
-   "url": "https://www.ebay.com/itm/800761587674?_skw=Michael+Jordan&hash=itemba711c27da:g:tgYAAeSw5oZqxB8R"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T01:37:03.727842+00:00",
    "id": "v1|267804936979|0",
@@ -22637,30 +21115,6 @@
    "shipping": 5.65,
    "title": "1989 Ken Griffey Jr. Upper Deck FlagshipBase RC PSA 5 #1",
    "url": "https://www.ebay.com/itm/278438081609?_skw=Ken+Griffey+Jr&hash=item40d433f449:g:ezkAAeSwVYVqxGdu"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934305+00:00",
-   "id": "v1|189047439651|0",
-   "image": "https://i.ebayimg.com/images/g/j2oAAeSwEhdqxA9n/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 80.0,
-   "query": "Stephen Curry 1",
-   "shipping": 0.0,
-   "title": "Canvas Marketing Pocket Mountz To Be Continued Curry Vengeance #1/4",
-   "url": "https://www.ebay.com/itm/189047439651?_skw=Stephen+Curry&hash=item2c041b0123:g:j2oAAeSwEhdqxA9n"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140094+00:00",
-   "id": "v1|189047504444|0",
-   "image": "https://i.ebayimg.com/images/g/u74AAeSwueVqxBVh/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 80.0,
-   "query": "2026 topps Ken Griffey 24",
-   "shipping": 0.0,
-   "title": "2026 Topps x Kaws Ken Griffey Jr. Base Limited Edition #24 Seattle Mariners",
-   "url": "https://www.ebay.com/itm/189047504444?_skw=Ken+Griffey+Jr&hash=item2c041bfe3c:g:u74AAeSwueVqxBVh"
   },
   {
    "condition": "Ungraded",
@@ -22796,18 +21250,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.934252+00:00",
-   "id": "v1|820207672757|0",
-   "image": "https://i.ebayimg.com/images/g/mG0AAeSwHmBqxCHg/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 79.99,
-   "query": "2023 topps chrome Stephen Curry PB-6 pink PSA 9",
-   "shipping": 0.0,
-   "title": "Topps 2023-24 Chrome Stephen Curry Warriors Power Boosters #PB-6 Pink PSA 9 POP1",
-   "url": "https://www.ebay.com/itm/820207672757?_skw=Stephen+Curry&hash=itembef82fddb5:g:mG0AAeSwHmBqxCHg"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-05T22:51:45.800525+00:00",
    "id": "v1|227553917975|0",
    "image": "https://i.ebayimg.com/images/g/Aq0AAeSwUMdqxChx/s-l225.jpg",
@@ -22829,18 +21271,6 @@
    "shipping": 0.0,
    "title": "1998-99 Fleer Ultra Kobe Bryant #61 Los Angeles Lakers HOF PSA 6",
    "url": "https://www.ebay.com/itm/267804899237?_skw=Kobe+Bryant&hash=item3e5a6a77a5:g:J5IAAeSwmZdqxEJ7"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140106+00:00",
-   "id": "v1|237108385684|0",
-   "image": "https://i.ebayimg.com/images/g/x-wAAeSwSWNqvUNZ/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 78.99,
-   "query": "1989 donruss Ken Griffey 33 PSA 9",
-   "shipping": 0.0,
-   "title": "1989 Donruss  Ken Griffey Jr. Rated Rookie Card #33 PSA 9 Mint!",
-   "url": "https://www.ebay.com/itm/237108385684?_skw=Ken+Griffey+Jr&hash=item3734c2d794:g:x-wAAeSwSWNqvUNZ"
   },
   {
    "condition": "Ungraded",
@@ -22925,6 +21355,18 @@
    "shipping": 6.99,
    "title": "2015-16 Panini Prizm - All-Star Team Stephen Curry #364 Silver Prizm",
    "url": "https://www.ebay.com/itm/298736207206?_skw=Stephen+Curry&hash=item458e10c566:g:jm8AAeSwCFxqxFH1"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-10-06T04:43:49.315962+00:00",
+   "id": "v1|227554383318|0",
+   "image": "https://i.ebayimg.com/images/g/8rgAAeSw8TtqxHls/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 69.99,
+   "query": "2023 topps heritage Shohei Ohtani 20 SGC 10",
+   "shipping": 6.99,
+   "title": "2023 Topps Heritage #20 Shohei Ohtani SGC 10 GEM MINT Dodgers GRADED ANGELS MVP",
+   "url": "https://www.ebay.com/itm/227554383318?_skw=Shohei+Ohtani&hash=item34fb4c55d6:g:8rgAAeSw8TtqxHls"
   },
   {
    "condition": "Ungraded",
@@ -23360,30 +21802,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140129+00:00",
-   "id": "v1|257783962059|0",
-   "image": "https://i.ebayimg.com/images/g/CKkAAeSw1uFqxA9g/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 69.83,
-   "query": "2008 upper deck Ken Griffey 54 green",
-   "shipping": 4.99,
-   "title": "2008 Upper Deck Goudey Mini Green Back 39/88 Ken Griffey Jr #54 HOF 0rs9",
-   "url": "https://www.ebay.com/itm/257783962059?_skw=Ken+Griffey+Jr&hash=item3c051f19cb:g:CKkAAeSw1uFqxA9g"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140137+00:00",
-   "id": "v1|237108352774|0",
-   "image": "https://i.ebayimg.com/images/g/TjkAAeSwEK9qxA9I/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 69.83,
-   "query": "1995 Ken Griffey 5 gold",
-   "shipping": 4.99,
-   "title": "1995 Studio Gold Plastic Stock Ken Griffey Jr #5 HOF 1sl6",
-   "url": "https://www.ebay.com/itm/237108352774?_skw=Ken+Griffey+Jr&hash=item3734c25706:g:TjkAAeSwEK9qxA9I"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-06T00:14:18.498361+00:00",
    "id": "v1|257784248316|0",
    "image": "https://i.ebayimg.com/images/g/AK0AAeSwVABqxDkY/s-l225.jpg",
@@ -23441,18 +21859,6 @@
    "shipping": 5.5,
    "title": "Shohei Ohtani Shoebox Treasures 50/50 Season 2025 Topps #95 Dodgers",
    "url": "https://www.ebay.com/itm/147620419142?_skw=Shohei+Ohtani&hash=item225edcd646:g:jIYAAeSwFY1qxCr8"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518857+00:00",
-   "id": "v1|336829693501|0",
-   "image": "https://i.ebayimg.com/images/g/PMYAAeSwr9JqxCFE/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 69.25,
-   "query": "2023 panini prizm draft Victor Wembanyama 2 green",
-   "shipping": 4.99,
-   "title": "2023-24 Panini Prizm Draft Picks Green Prizm Victor Wembanyama #2 Rookie RC ix8",
-   "url": "https://www.ebay.com/itm/336829693501?_skw=Victor+Wembanyama&hash=item4e6c9d3e3d:g:PMYAAeSwr9JqxCFE"
   },
   {
    "condition": "Graded",
@@ -23623,18 +22029,6 @@
    "url": "https://www.ebay.com/itm/366714160895?_skw=Victor+Wembanyama&hash=item5561de06ff:g:UroAAeSwvCRqxGBj"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140112+00:00",
-   "id": "v1|377546631716|0",
-   "image": "https://i.ebayimg.com/images/g/WfwAAeSwbItqxBKb/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 64.99,
-   "query": "1990 topps Ken Griffey 11 PSA 9",
-   "shipping": 5.99,
-   "title": "1990 Topps Glossy Rookies #11 Ken Griffey Jr. Mariners - PSA 9",
-   "url": "https://www.ebay.com/itm/377546631716?_skw=Ken+Griffey+Jr&hash=item57e7886a24:g:WfwAAeSwbItqxBKb"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T01:16:23.435450+00:00",
    "id": "v1|800758731274|0",
@@ -23659,16 +22053,16 @@
    "url": "https://www.ebay.com/itm/257784353464?_skw=LeBron+James&hash=item3c052512b8:g:ds0AAeSwED5qxEiG"
   },
   {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:06.499041+00:00",
-   "id": "v1|407268783354|0",
-   "image": "https://i.ebayimg.com/images/g/kIMAAeSw7PpqxBnb/s-l225.jpg",
-   "player": "Tom Brady",
-   "price": 70.0,
-   "query": "2002 bowman chrome Tom Brady 99",
-   "shipping": 0.0,
-   "title": "2002 Bowman Chrome - Tom Brady #99",
-   "url": "https://www.ebay.com/itm/407268783354?_skw=Tom+Brady&hash=item5ed31c74fa:g:kIMAAeSw7PpqxBnb"
+   "condition": "Graded",
+   "found_at": "2026-10-06T04:43:49.315995+00:00",
+   "id": "v1|336830289626|0",
+   "image": "https://i.ebayimg.com/images/g/ld8AAeSwWyBqxHni/s-l225.jpg",
+   "player": "Shohei Ohtani",
+   "price": 65.8,
+   "query": "2025 now Shohei Ohtani 7 PSA 8",
+   "shipping": 4.99,
+   "title": "2025 Now Tokyo Series Shohei Ohtani Yoshinobu Yamamoto #7 PSA 8 Rookie RC 0w48",
+   "url": "https://www.ebay.com/itm/336830289626?_skw=Shohei+Ohtani&hash=item4e6ca656da:g:ld8AAeSwWyBqxHni"
   },
   {
    "condition": "Ungraded",
@@ -23791,66 +22185,6 @@
    "url": "https://www.ebay.com/itm/920012344369?_skw=Michael+Jordan&hash=itemd635024c31:g:aoIAAeSwWLdqxGtH"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061581+00:00",
-   "id": "v1|800761616818|0",
-   "image": "https://i.ebayimg.com/images/g/QtsAAeSwzF9qxCG-/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 69.99,
-   "query": "2025 topps now Shohei Ohtani 7 PSA 10",
-   "shipping": 0.0,
-   "title": "2025 Topps Now #7 Ohtani Yamamoto Sasaki PSA 10 Gem Mint Tokyo Series Dodgers",
-   "url": "https://www.ebay.com/itm/800761616818?_skw=Shohei+Ohtani&hash=itemba711c99b2:g:QtsAAeSwzF9qxCG-"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518818+00:00",
-   "id": "v1|189047649238|0",
-   "image": "https://i.ebayimg.com/images/g/D6YAAeSw8TtqxCPG/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 69.99,
-   "query": "2025 bowman Victor Wembanyama YK-8 refractor",
-   "shipping": 0.0,
-   "title": "2025-26 Bowman - Young Kings Victor Wembanyama #YK-8 Refractor",
-   "url": "https://www.ebay.com/itm/189047649238?_skw=Victor+Wembanyama&hash=item2c041e33d6:g:D6YAAeSw8TtqxCPG"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518836+00:00",
-   "id": "v1|189047645334|0",
-   "image": "https://i.ebayimg.com/images/g/VPQAAeSwXUBqxCMq/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 69.99,
-   "query": "2023 panini phoenix Victor Wembanyama 13 silver",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Phoenix - Instant Phenom Victor Wembanyama #13 Silver (RC)",
-   "url": "https://www.ebay.com/itm/189047645334?_skw=Victor+Wembanyama&hash=item2c041e2496:g:VPQAAeSwXUBqxCMq"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953252+00:00",
-   "id": "v1|800761558283|0",
-   "image": "https://i.ebayimg.com/images/g/fd8AAeSwttBqxBw-/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 69.99,
-   "query": "1997 spx Kobe Bryant 21",
-   "shipping": 0.0,
-   "title": "1997-98 SPx - Kobe Bryant #21 Bronze Die-Cut *NM/Mint*",
-   "url": "https://www.ebay.com/itm/800761558283?_skw=Kobe+Bryant&hash=itemba711bb50b:g:fd8AAeSwttBqxBw-"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464225+00:00",
-   "id": "v1|128116974676|0",
-   "image": "https://i.ebayimg.com/images/g/Mo0AAeSwhKZqfzsJ/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 69.99,
-   "query": "2003 upper deck LeBron James 5 CSG 9.5",
-   "shipping": 0.0,
-   "title": "2003-04 Upper Deck LeBron James Phenomenal Beginning #5 CSG 9.5 Gem Mint RC",
-   "url": "https://www.ebay.com/itm/128116974676?_skw=LeBron+James&hash=item1dd45de454:g:Mo0AAeSwhKZqfzsJ"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T23:12:20.305795+00:00",
    "id": "v1|128117090960|0",
@@ -23885,54 +22219,6 @@
    "shipping": 8.99,
    "title": "Topps 50/50 2024 Shohei Ohtani Los Angeles Dodgers #31 CGC 10 Graded",
    "url": "https://www.ebay.com/itm/237108557989?_skw=Shohei+Ohtani&hash=item3734c578a5:g:UEcAAeSwzWBqxDGy"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:03.537379+00:00",
-   "id": "v1|860012600234|0",
-   "image": "https://i.ebayimg.com/images/g/N6EAAeSwZ2hqxCHq/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 64.99,
-   "query": "1995 fleer metal Michael Jordan 212",
-   "shipping": 1.6,
-   "title": "1995-96 Fleer Metal - Nuts & Bolts Michael Jordan #212",
-   "url": "https://www.ebay.com/itm/860012600234?_skw=Michael+Jordan&hash=itemc83cbedbaa:g:N6EAAeSwZ2hqxCHq"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518926+00:00",
-   "id": "v1|407268713646|0",
-   "image": "https://i.ebayimg.com/images/g/yk4AAeSwGgtqxBCQ/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 60.0,
-   "query": "2025 topps pristine Victor Wembanyama 79 refractor",
-   "shipping": 6.25,
-   "title": "2025-26 Topps Pristine Basketball Refractor Victor Wembanyama #79 - Spurs Alien",
-   "url": "https://www.ebay.com/itm/407268713646?_skw=Victor+Wembanyama&hash=item5ed31b64ae:g:yk4AAeSwGgtqxBCQ"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518930+00:00",
-   "id": "v1|407268713639|0",
-   "image": "https://i.ebayimg.com/images/g/Jo8AAeSws4FqxBCO/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 60.0,
-   "query": "2025 topps pristine Victor Wembanyama 79 refractor",
-   "shipping": 6.25,
-   "title": "2025-26 Topps Pristine Basketball Refractor Victor Wembanyama #79 - Spurs Alien",
-   "url": "https://www.ebay.com/itm/407268713639?_skw=Victor+Wembanyama&hash=item5ed31b64a7:g:Jo8AAeSws4FqxBCO"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518928+00:00",
-   "id": "v1|407268713649|0",
-   "image": "https://i.ebayimg.com/images/g/BnsAAeSwG~dqxBCN/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 59.99,
-   "query": "2025 topps pristine Victor Wembanyama 79 refractor",
-   "shipping": 6.25,
-   "title": "2025-26 Topps Pristine Basketball Refractor Victor Wembanyama #79 - Spurs Alien",
-   "url": "https://www.ebay.com/itm/407268713649?_skw=Victor+Wembanyama&hash=item5ed31b64b1:g:BnsAAeSwG~dqxBCN"
   },
   {
    "condition": "Ungraded",
@@ -24077,30 +22363,6 @@
    "shipping": 4.99,
    "title": "2017-18 Panini Donruss Optic Court Kings LeBron James #5 SGC 9.5 Mint+ 06yt",
    "url": "https://www.ebay.com/itm/237108709005?_skw=LeBron+James&hash=item3734c7c68d:g:7zMAAeSwHeFqxEXT"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:03.537458+00:00",
-   "id": "v1|366713504938|0",
-   "image": "https://i.ebayimg.com/images/g/Q0YAAeSw0jZqxBl0/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 65.0,
-   "query": "2003 sp authentic sp Michael Jordan 131",
-   "shipping": 0.0,
-   "title": "2003-04 SP Authentic - SP Spectaculars Michael Jordan #131 /3999",
-   "url": "https://www.ebay.com/itm/366713504938?_skw=Michael+Jordan&hash=item5561d404aa:g:Q0YAAeSw0jZqxBl0"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140083+00:00",
-   "id": "v1|298735705742|0",
-   "image": "https://i.ebayimg.com/images/g/03QAAeSwwSlqxBm3/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 65.0,
-   "query": "2025 topps chrome update Ken Griffey NT-7 PSA 10",
-   "shipping": 0.0,
-   "title": "Topps 2025 Chrome Update Night Terrors NT-7 Ken Griffey Jr Reds PSA 10",
-   "url": "https://www.ebay.com/itm/298735705742?_skw=Ken+Griffey+Jr&hash=item458e091e8e:g:03QAAeSwwSlqxBm3"
   },
   {
    "condition": "Graded",
@@ -24464,18 +22726,6 @@
   },
   {
    "condition": "Graded",
-   "found_at": "2026-10-05T22:31:07.140096+00:00",
-   "id": "v1|860012493930|0",
-   "image": "https://i.ebayimg.com/images/g/45gAAeSwz1tqvUSZ/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 64.99,
-   "query": "1989 bowman Ken Griffey 220 PSA 9",
-   "shipping": 0.0,
-   "title": "1989 Bowman  Ken Griffey Jr. Rookie Card #220 PSA 9 Mint!",
-   "url": "https://www.ebay.com/itm/860012493930?_skw=Ken+Griffey+Jr&hash=itemc83cbd3c6a:g:45gAAeSwz1tqvUSZ"
-  },
-  {
-   "condition": "Graded",
    "found_at": "2026-10-06T01:16:20.541628+00:00",
    "id": "v1|257784377703|0",
    "image": "https://i.ebayimg.com/images/g/Lm8AAeSwdhJqxEo8/s-l225.jpg",
@@ -24620,18 +22870,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140121+00:00",
-   "id": "v1|257783968641|0",
-   "image": "https://i.ebayimg.com/images/g/h1QAAeSwf-1qxBCn/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 58.33,
-   "query": "1996 spx Ken Griffey 1",
-   "shipping": 4.99,
-   "title": "1996 SPx Bound for Glory Ken Griffey Jr #1 HOF 1sl6",
-   "url": "https://www.ebay.com/itm/257783968641?_skw=Ken+Griffey+Jr&hash=item3c051f3381:g:h1QAAeSwf-1qxBCn"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T23:33:00.155866+00:00",
    "id": "v1|237108543586|0",
    "image": "https://i.ebayimg.com/images/g/qsIAAeSwX9NqxC~m/s-l225.jpg",
@@ -24701,18 +22939,6 @@
    "shipping": 4.99,
    "title": "2019 Panini Prizm Draft Stained Glass Tom Brady #100 02x3",
    "url": "https://www.ebay.com/itm/237108647905?_skw=Tom+Brady&hash=item3734c6d7e1:g:z-QAAeSwclBqxDz-"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140077+00:00",
-   "id": "v1|237108436020|0",
-   "image": "https://i.ebayimg.com/images/g/kYIAAeSwrdxqxBvR/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 58.04,
-   "query": "2023 skybox metal Ken Griffey 3",
-   "shipping": 4.99,
-   "title": "2023 Skybox Metal Universe Champions Spectrum Ken Griffey Jr #003 HOF READ 00am",
-   "url": "https://www.ebay.com/itm/237108436020?_skw=Ken+Griffey+Jr&hash=item3734c39c34:g:kYIAAeSwrdxqxBvR"
   },
   {
    "condition": "Ungraded",
@@ -24809,18 +23035,6 @@
    "shipping": 4.99,
    "title": "2025 Topps Now #884 Shohei Ohtani LA Dodgers - Game for the Ages - PSA 10",
    "url": "https://www.ebay.com/itm/298736499862?_skw=Shohei+Ohtani&hash=item458e153c96:g:wigAAeSwjSVqxHOh"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061579+00:00",
-   "id": "v1|178558633328|0",
-   "image": "https://i.ebayimg.com/images/g/R0gAAeSwH1FqxCHb/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 62.95,
-   "query": "2019 topps chrome Shohei Ohtani 1 gold",
-   "shipping": 0.0,
-   "title": "2019 Topps Chrome Shohei Ohtani #1 Angels All-Star Rookie Gold Cup MLB SG1",
-   "url": "https://www.ebay.com/itm/178558633328?_skw=Shohei+Ohtani&hash=item2992ec8570:g:R0gAAeSwH1FqxCHb"
   },
   {
    "condition": "Ungraded",
@@ -24943,30 +23157,6 @@
    "url": "https://www.ebay.com/itm/336830087145?_skw=Michael+Jordan&hash=item4e6ca33fe9:g:UxMAAeSwiVpqxFzJ"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464183+00:00",
-   "id": "v1|336829682681|0",
-   "image": "https://i.ebayimg.com/images/g/UX0AAeSwSk9qxB9N/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 57.74,
-   "query": "2025 topps now LeBron James 269 CGC 10",
-   "shipping": 4.99,
-   "title": "2025-26 Topps Now /5036 LeBron James #269 CGC 10 Gem Mint 1q9u",
-   "url": "https://www.ebay.com/itm/336829682681?_skw=LeBron+James&hash=item4e6c9d13f9:g:UX0AAeSwSk9qxB9N"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.641820+00:00",
-   "id": "v1|336829636041|0",
-   "image": "https://i.ebayimg.com/images/g/gu0AAeSwkNpqxBWp/s-l225.jpg",
-   "player": "Bobby Witt Jr",
-   "price": 57.74,
-   "query": "2022 topps heritage Bobby Witt 520",
-   "shipping": 4.99,
-   "title": "2022 Topps Heritage High Number Bobby Witt Jr #520 Rookie RC oc2",
-   "url": "https://www.ebay.com/itm/336829636041?_skw=Bobby+Witt+Jr&hash=item4e6c9c5dc9:g:gu0AAeSwkNpqxBWp"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-06T00:35:02.495311+00:00",
    "id": "v1|336829885049|0",
@@ -25064,18 +23254,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464232+00:00",
-   "id": "v1|257784033068|0",
-   "image": "https://i.ebayimg.com/images/g/8B4AAeSwO2lqxBfz/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 56.03,
-   "query": "2022 panini court kings LeBron James 35",
-   "shipping": 4.99,
-   "title": "2022-23 Panini Court Kings Stealth LeBron James #35 0t9q",
-   "url": "https://www.ebay.com/itm/257784033068?_skw=LeBron+James&hash=item3c05202f2c:g:8B4AAeSwO2lqxBfz"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T23:12:22.160218+00:00",
    "id": "v1|237108520273|0",
    "image": "https://i.ebayimg.com/images/g/F7sAAeSwAUVqxCxA/s-l225.jpg",
@@ -25169,42 +23347,6 @@
    "shipping": 5.17,
    "title": "2023-24 Donruss Optic Victor Wembanyama Rising Suns #11 RC SGC 9 MINT Wemby",
    "url": "https://www.ebay.com/itm/366714157551?_skw=Victor+Wembanyama&hash=item5561ddf9ef:g:FggAAeSwniBqxF8J"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061629+00:00",
-   "id": "v1|407268810842|0",
-   "image": "https://i.ebayimg.com/images/g/ZJwAAeSwwRFqxB9y/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 60.0,
-   "query": "2022 panini donruss prizm optic Shohei Ohtani BS-3 holo",
-   "shipping": 0.0,
-   "title": "2022 Panini Donruss Optic - Bomb Squad Shohei Ohtani #BS-3 Holo Prizm",
-   "url": "https://www.ebay.com/itm/407268810842?_skw=Shohei+Ohtani&hash=item5ed31ce05a:g:ZJwAAeSwwRFqxB9y"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953298+00:00",
-   "id": "v1|820207551840|0",
-   "image": "https://i.ebayimg.com/images/g/TUYAAeSw6clqxBSD/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 60.0,
-   "query": "1998 skybox Kobe Bryant 44",
-   "shipping": 0.0,
-   "title": "1998-99 Skybox Premium - #44 Kobe Bryant",
-   "url": "https://www.ebay.com/itm/820207551840?_skw=Kobe+Bryant&hash=itembef82e0560:g:TUYAAeSw6clqxBSD"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464219+00:00",
-   "id": "v1|820207597336|0",
-   "image": "https://i.ebayimg.com/images/g/rmUAAeSwZztqxBjr/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 60.0,
-   "query": "2024 panini prizm LeBron James 130 pink",
-   "shipping": 0.0,
-   "title": "Panini 2024-25 Prizm LeBron James #130 Lakers Pink Ice Prizm Parallel",
-   "url": "https://www.ebay.com/itm/820207597336?_skw=LeBron+James&hash=itembef82eb718:g:rmUAAeSwZztqxBjr"
   },
   {
    "condition": "Ungraded",
@@ -25472,30 +23614,6 @@
   },
   {
    "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.518833+00:00",
-   "id": "v1|189047646198|0",
-   "image": "https://i.ebayimg.com/images/g/ViEAAeSwzF9qxCOE/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 59.99,
-   "query": "2023 panini prizm mosaic Victor Wembanyama 257 silver",
-   "shipping": 0.0,
-   "title": "2023-24 Panini Mosaic - NBA Debut Victor Wembanyama #257 Silver Prizm (RC)",
-   "url": "https://www.ebay.com/itm/189047646198?_skw=Victor+Wembanyama&hash=item2c041e27f6:g:ViEAAeSwzF9qxCOE"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.953209+00:00",
-   "id": "v1|800761605534|0",
-   "image": "https://i.ebayimg.com/images/g/28gAAeSw8wtqxCCI/s-l225.jpg",
-   "player": "Kobe Bryant",
-   "price": 59.99,
-   "query": "1997 skybox metal Kobe Bryant 86",
-   "shipping": 0.0,
-   "title": "1997-98 Skybox Metal Universe Championship Preview - Kobe Bryant #86 *NM/Mint*",
-   "url": "https://www.ebay.com/itm/800761605534?_skw=Kobe+Bryant&hash=itemba711c6d9e:g:28gAAeSw8wtqxCCI"
-  },
-  {
-   "condition": "Ungraded",
    "found_at": "2026-10-05T22:51:44.918442+00:00",
    "id": "v1|189047650873|0",
    "image": "https://i.ebayimg.com/images/g/hB0AAeSwPV5qxCQT/s-l225.jpg",
@@ -25603,28 +23721,16 @@
    "url": "https://www.ebay.com/itm/407269265306?_skw=Tom+Brady&hash=item5ed323cf9a:g:52EAAeSwG~dqxGQd"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.061599+00:00",
-   "id": "v1|336829693705|0",
-   "image": "https://i.ebayimg.com/images/g/FdcAAeSwjQZqxCBH/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 59.95,
-   "query": "2019 topps Shohei Ohtani 250 SGC 9.5",
+   "condition": "Ungraded",
+   "found_at": "2026-10-06T04:43:50.514007+00:00",
+   "id": "v1|178559621484|0",
+   "image": "https://i.ebayimg.com/images/g/oV4AAOSw2bJn6tty/s-l225.jpg",
+   "player": "LeBron James",
+   "price": 59.99,
+   "query": "2024 panini sp LeBron James 25",
    "shipping": 0.0,
-   "title": "2019 Topps - Shohei Ohtani #250 Post-Swing SGC 9.5 (Newly Graded)",
-   "url": "https://www.ebay.com/itm/336829693705?_skw=Shohei+Ohtani&hash=item4e6c9d3f09:g:FdcAAeSwjQZqxCBH"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:04.518909+00:00",
-   "id": "v1|206605220919|0",
-   "image": "https://i.ebayimg.com/images/g/MNoAAeSwX4hqxBdl/s-l225.jpg",
-   "player": "Victor Wembanyama",
-   "price": 59.35,
-   "query": "2024 donruss Victor Wembanyama 6 SGC 10",
-   "shipping": 0.0,
-   "title": "2024-25 Donruss #6 - Victor Wembanyama - SGC 10",
-   "url": "https://www.ebay.com/itm/206605220919?_skw=Victor+Wembanyama&hash=item301aa17c37:g:MNoAAeSwX4hqxBdl"
+   "title": "(2) 2024-25 Panini Instant Bronny James Jr. ROOKIE CARDS SP Lakers #25 & #455 RC",
+   "url": "https://www.ebay.com/itm/178559621484?_skw=LeBron+James&hash=item2992fb996c:g:oV4AAOSw2bJn6tty"
   },
   {
    "condition": "Graded",
@@ -25697,18 +23803,6 @@
    "shipping": 0.0,
    "title": "2025-26 Topps - Victor Wembanyama #195 Diamante - PSA 9",
    "url": "https://www.ebay.com/itm/800761810911?_skw=Victor+Wembanyama&hash=itemba711f8fdf:g:J9gAAeSwGNRqxDKV"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.464153+00:00",
-   "id": "v1|237108477522|0",
-   "image": "https://i.ebayimg.com/images/g/S0oAAeSwgRpqxCO0/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 52.58,
-   "query": "2023 topps LeBron James 65 purple",
-   "shipping": 4.99,
-   "title": "2023-24 Topps Royalty Purple 26/50 LeBron James #65 0j5i",
-   "url": "https://www.ebay.com/itm/237108477522?_skw=LeBron+James&hash=item3734c43e52:g:S0oAAeSwgRpqxCO0"
   },
   {
    "condition": "Ungraded",
@@ -25867,30 +23961,6 @@
    "url": "https://www.ebay.com/itm/257784613749?_skw=Ken+Griffey+Jr&hash=item3c05290b75:g:4lUAAeSwVIxqxG7B"
   },
   {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:05.464201+00:00",
-   "id": "v1|820207625863|0",
-   "image": "https://i.ebayimg.com/images/g/a80AAeSwGhFqxBwh/s-l225.jpg",
-   "player": "LeBron James",
-   "price": 50.0,
-   "query": "2020 mosaic LeBron James 247 red wave PSA 6",
-   "shipping": 6.45,
-   "title": "* LEBRON JAMES 2020 2021 MOSAIC NATIONAL PRIDE USA #247 LAKERS PSA 6 RED WAVE",
-   "url": "https://www.ebay.com/itm/820207625863?_skw=LeBron+James&hash=itembef82f2687:g:a80AAeSwGhFqxBwh"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934280+00:00",
-   "id": "v1|257784055355|0",
-   "image": "https://i.ebayimg.com/images/g/KFAAAeSwTPNqxBuw/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 51.43,
-   "query": "2019 panini chronicles Stephen Curry 151 purple",
-   "shipping": 4.99,
-   "title": "2019-20 Panini Chronicles Luminance Purple 41/49 Stephen Curry #151 13c1",
-   "url": "https://www.ebay.com/itm/257784055355?_skw=Stephen+Curry&hash=item3c0520863b:g:KFAAAeSwTPNqxBuw"
-  },
-  {
    "condition": "Ungraded",
    "found_at": "2026-10-05T23:32:59.760230+00:00",
    "id": "v1|307216169894|0",
@@ -25901,18 +23971,6 @@
    "shipping": 6.0,
    "title": "1997-98 Skybox Z-Force - Kobe Bryant #88",
    "url": "https://www.ebay.com/itm/307216169894?_skw=Kobe+Bryant&hash=item478782bba6:g:s8AAAeSwSrpqxDHW"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934289+00:00",
-   "id": "v1|147620300486|0",
-   "image": "https://i.ebayimg.com/images/g/SIcAAeSw7Z5qxBQ2/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 50.0,
-   "query": "2026 topps pristine Stephen Curry 28 refractor",
-   "shipping": 5.99,
-   "title": "2026 Topps Pristine Stephen Curry #28 Refractor",
-   "url": "https://www.ebay.com/itm/147620300486?_skw=Stephen+Curry&hash=item225edb06c6:g:SIcAAeSw7Z5qxBQ2"
   },
   {
    "condition": "Ungraded",
@@ -25949,18 +24007,6 @@
    "shipping": 4.99,
    "title": "1989 Bowman Ken Griffey Ken Griffey Jr Jr #259 PSA 9 MINT Rookie RC HOF za5",
    "url": "https://www.ebay.com/itm/237108997344?_skw=Ken+Griffey+Jr&hash=item3734cc2ce0:g:CEsAAeSwVg1qxGof"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061646+00:00",
-   "id": "v1|189047594365|0",
-   "image": "https://i.ebayimg.com/images/g/bPUAAeSwCAxqxB6e/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 50.0,
-   "query": "2022 topps fire Shohei Ohtani EF-1 gold",
-   "shipping": 5.5,
-   "title": "2022 Topps Fire - En Fuego Shohei Ohtani #EF-1 Gold Minted",
-   "url": "https://www.ebay.com/itm/189047594365?_skw=Shohei+Ohtani&hash=item2c041d5d7d:g:bPUAAeSwCAxqxB6e"
   },
   {
    "condition": "Ungraded",
@@ -26009,42 +24055,6 @@
    "shipping": 5.35,
    "title": "Panini Prizm 2019-20 Stephen Curry Red White & Blue Prizm #98 PSA 9 Warriors",
    "url": "https://www.ebay.com/itm/117449921877?_skw=Stephen+Curry&hash=item1b588f9555:i:117449921877"
-  },
-  {
-   "condition": "Graded",
-   "found_at": "2026-10-05T22:31:03.537475+00:00",
-   "id": "v1|178558495779|0",
-   "image": "https://i.ebayimg.com/images/g/xHwAAeSwWsdqxBX0/s-l225.jpg",
-   "player": "Michael Jordan",
-   "price": 50.0,
-   "query": "1991 upper deck Michael Jordan 44 PSA 9",
-   "shipping": 5.0,
-   "title": "1991 Upper Deck Michael Jordan #44 PSA 9",
-   "url": "https://www.ebay.com/itm/178558495779?_skw=Michael+Jordan&hash=item2992ea6c23:g:xHwAAeSwWsdqxBX0"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:04.061574+00:00",
-   "id": "v1|920011580480|0",
-   "image": "https://i.ebayimg.com/images/g/uGEAAeSwADBqxCDu/s-l225.jpg",
-   "player": "Shohei Ohtani",
-   "price": 55.0,
-   "query": "2018 Shohei Ohtani 735",
-   "shipping": 0.0,
-   "title": "2018 Shohei Ohtani Rookie Card Sports Illustrated for Kids #735 RC SIFK Baseball",
-   "url": "https://www.ebay.com/itm/920011580480?_skw=Shohei+Ohtani&hash=itemd634f6a440:g:uGEAAeSwADBqxCDu"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:05.934267+00:00",
-   "id": "v1|860012570163|0",
-   "image": "https://i.ebayimg.com/images/g/iNIAAeSw7odqxB58/s-l225.jpg",
-   "player": "Stephen Curry",
-   "price": 55.0,
-   "query": "2025 bowman chrome Stephen Curry BCV-115 refractor",
-   "shipping": 0.0,
-   "title": "2025-26 Bowman Chrome Stephen Curry Refractor /499 BCV-115 Warriors",
-   "url": "https://www.ebay.com/itm/860012570163?_skw=Stephen+Curry&hash=itemc83cbe6633:g:iNIAAeSw7odqxB58"
   },
   {
    "condition": "Ungraded",
@@ -26252,6 +24262,18 @@
   },
   {
    "condition": "Ungraded",
+   "found_at": "2026-10-06T04:43:49.680731+00:00",
+   "id": "v1|237109076611|0",
+   "image": "https://i.ebayimg.com/images/g/1boAAeSw7Z5qxHjJ/s-l225.jpg",
+   "player": "Victor Wembanyama",
+   "price": 55.0,
+   "query": "2025 topps chrome Victor Wembanyama 221 refractor",
+   "shipping": 0.0,
+   "title": "\ud83d\udd25 2025 Topps Chrome Victor Wembanyama Refractor #221 Spurs NBA Star \ud83d\udd25",
+   "url": "https://www.ebay.com/itm/237109076611?_skw=Victor+Wembanyama&hash=item3734cd6283:g:1boAAeSw7Z5qxHjJ"
+  },
+  {
+   "condition": "Ungraded",
    "found_at": "2026-10-05T23:32:59.271437+00:00",
    "id": "v1|860012761638|0",
    "image": "https://i.ebayimg.com/images/g/4xcAAeSwgyBqxDK9/s-l225.jpg",
@@ -26297,18 +24319,6 @@
    "shipping": 0.0,
    "title": "2025 Topps Museum Collection - Shohei Ohtani #1 PSA 9",
    "url": "https://www.ebay.com/itm/960021616637?_skw=Shohei+Ohtani&hash=itemdf85bf57fd:g:1ksAAeSwmcFqxGZi"
-  },
-  {
-   "condition": "Ungraded",
-   "found_at": "2026-10-05T22:31:07.140146+00:00",
-   "id": "v1|820207444796|0",
-   "image": "https://i.ebayimg.com/images/g/X2cAAeSwk7BqxAtY/s-l225.jpg",
-   "player": "Ken Griffey Jr",
-   "price": 50.0,
-   "query": "2003 topps opening day Ken Griffey 390 gold",
-   "shipping": 0.0,
-   "title": "Topps 2003 GOLD Opening Day Ken Griffey Jr. Reds #390 Serial #1584/2003",
-   "url": "https://www.ebay.com/itm/820207444796?_skw=Ken+Griffey+Jr&hash=itembef82c633c:g:X2cAAeSwk7BqxAtY"
   },
   {
    "condition": "Ungraded",
@@ -26743,6 +24753,7 @@
   "a:v1|117436950296|0": "2026-10-06T02:39:07.621412+00:00",
   "a:v1|117437034820|0": "2026-10-06T03:41:05.679334+00:00",
   "a:v1|117442569181|0": "2026-10-05T04:15:41.089216+00:00",
+  "a:v1|117444362388|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|128097260122|0": "2026-10-04T23:03:46.528411+00:00",
   "a:v1|128097356241|0": "2026-10-05T00:26:47.877483+00:00",
   "a:v1|128099096854|0": "2026-10-06T00:34:59.324291+00:00",
@@ -26918,8 +24929,6 @@
   "a:v1|147607978162|0": "2026-10-05T03:34:06.400662+00:00",
   "a:v1|147612626878|0": "2026-10-04T15:26:25.476735+00:00",
   "a:v1|158331945359|0": "2026-10-04T03:44:54.894296+00:00",
-  "a:v1|158340054759|0": "2026-10-03T04:37:12.385564+00:00",
-  "a:v1|158340061285|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|158340164874|0": "2026-10-03T05:20:02.186001+00:00",
   "a:v1|158340698598|0": "2026-10-03T07:45:29.488194+00:00",
   "a:v1|158342068466|0": "2026-10-03T10:28:31.061568+00:00",
@@ -26968,6 +24977,7 @@
   "a:v1|158358973466|0": "2026-10-05T22:31:02.792090+00:00",
   "a:v1|158359315460|0": "2026-10-04T00:37:37.067028+00:00",
   "a:v1|158359505423|0": "2026-10-06T01:57:45.855836+00:00",
+  "a:v1|158359906118|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|158359948382|0": "2026-10-04T04:47:00.186043+00:00",
   "a:v1|158363720537|0": "2026-10-05T03:34:06.400662+00:00",
   "a:v1|158365133365|0": "2026-10-05T03:34:06.400662+00:00",
@@ -27027,7 +25037,6 @@
   "a:v1|178525622630|0": "2026-10-03T22:12:47.500707+00:00",
   "a:v1|178527611807|0": "2026-10-05T14:11:03.811459+00:00",
   "a:v1|178528389944|0": "2026-10-06T02:39:07.621412+00:00",
-  "a:v1|178529230362|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|178529273003|0": "2026-10-03T04:58:20.658452+00:00",
   "a:v1|178529331059|0": "2026-10-03T05:20:02.186001+00:00",
   "a:v1|178529530714|0": "2026-10-03T07:04:15.390870+00:00",
@@ -27122,6 +25131,7 @@
   "a:v1|189006644094|0": "2026-10-03T20:48:10.577802+00:00",
   "a:v1|189007360096|0": "2026-10-06T01:16:18.948970+00:00",
   "a:v1|189007530443|0": "2026-10-06T01:57:45.855836+00:00",
+  "a:v1|189007972477|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|189016494726|0": "2026-10-05T08:02:52.794930+00:00",
   "a:v1|189020122277|0": "2026-10-05T17:59:53.223525+00:00",
   "a:v1|189021616117|0": "2026-10-06T01:16:18.948970+00:00",
@@ -27187,6 +25197,7 @@
   "a:v1|198674169627|0": "2026-10-06T00:55:41.575428+00:00",
   "a:v1|198674229602|0": "2026-10-06T00:55:41.575428+00:00",
   "a:v1|198674235576|0": "2026-10-06T00:55:41.575428+00:00",
+  "a:v1|198674698208|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|198674742935|0": "2026-10-04T05:07:39.159191+00:00",
   "a:v1|198674755045|0": "2026-10-04T05:28:29.084991+00:00",
   "a:v1|198674810900|0": "2026-10-04T06:09:48.723345+00:00",
@@ -27258,6 +25269,7 @@
   "a:v1|227538040171|0": "2026-10-05T00:26:47.877483+00:00",
   "a:v1|227539561679|0": "2026-10-06T00:34:59.324291+00:00",
   "a:v1|227539562589|0": "2026-10-06T00:34:59.324291+00:00",
+  "a:v1|227539811849|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|227539935319|0": "2026-10-03T07:04:15.390870+00:00",
   "a:v1|227540014205|0": "2026-10-03T08:05:55.831346+00:00",
   "a:v1|227540173165|0": "2026-10-03T10:49:10.865158+00:00",
@@ -27335,7 +25347,6 @@
   "a:v1|237094115439|0": "2026-10-04T23:24:32.543522+00:00",
   "a:v1|237094144894|0": "2026-10-05T00:06:12.492671+00:00",
   "a:v1|237094427229|0": "2026-10-05T04:15:41.089216+00:00",
-  "a:v1|237094447443|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|237094880565|0": "2026-10-05T09:44:34.062351+00:00",
   "a:v1|237094975887|0": "2026-10-05T10:45:29.573259+00:00",
   "a:v1|237095030398|0": "2026-10-05T11:26:12.928684+00:00",
@@ -27506,8 +25517,6 @@
   "a:v1|278421542995|0": "2026-10-05T01:29:36.104510+00:00",
   "a:v1|278421570676|0": "2026-10-05T02:10:59.536274+00:00",
   "a:v1|278423522510|0": "2026-10-03T17:41:34.598954+00:00",
-  "a:v1|287609449341|0": "2026-10-03T04:37:12.385564+00:00",
-  "a:v1|287609451583|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|287609599202|0": "2026-10-03T06:43:38.332247+00:00",
   "a:v1|287609611135|0": "2026-10-03T06:43:38.332247+00:00",
   "a:v1|287609847575|0": "2026-10-03T09:07:20.295890+00:00",
@@ -27561,7 +25570,6 @@
   "a:v1|298702089083|0": "2026-10-04T00:58:20.900213+00:00",
   "a:v1|298702089777|0": "2026-10-04T00:58:20.900213+00:00",
   "a:v1|298707102824|0": "2026-10-03T15:37:08.504593+00:00",
-  "a:v1|298707961815|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|298708044786|0": "2026-10-03T05:20:02.186001+00:00",
   "a:v1|298708045318|0": "2026-10-03T05:20:02.186001+00:00",
   "a:v1|298708345596|0": "2026-10-03T08:05:55.831346+00:00",
@@ -27695,7 +25703,6 @@
   "a:v1|318907755994|0": "2026-10-03T10:49:10.865158+00:00",
   "a:v1|318908246133|0": "2026-10-03T13:33:27.619043+00:00",
   "a:v1|318918426725|0": "2026-10-04T23:45:16.020244+00:00",
-  "a:v1|318919469449|0": "2026-10-03T04:37:12.385564+00:00",
   "a:v1|318919612282|0": "2026-10-03T05:20:02.186001+00:00",
   "a:v1|318919665981|0": "2026-10-03T05:41:15.267397+00:00",
   "a:v1|318920690223|0": "2026-10-03T12:11:16.134030+00:00",
@@ -28097,6 +26104,7 @@
   "a:v1|407257390577|0": "2026-10-05T13:09:03.169139+00:00",
   "a:v1|407258002968|0": "2026-10-05T20:45:28.819779+00:00",
   "a:v1|407258205694|0": "2026-10-05T23:12:19.350197+00:00",
+  "a:v1|407258591547|0": "2026-10-06T04:43:47.732849+00:00",
   "a:v1|800708656469|0": "2026-10-04T09:35:53.852796+00:00",
   "a:v1|800710885905|0": "2026-10-04T00:16:57.955773+00:00",
   "a:v1|800714615283|0": "2026-10-05T16:15:28.933174+00:00",
@@ -28270,9 +26278,6 @@
   "a:v1|860009717780|0": "2026-10-06T03:20:19.944047+00:00",
   "a:v1|920000993024|0": "2026-10-05T12:48:25.840803+00:00",
   "v1|117443177311|0": "2026-10-04T00:58:20.900213+00:00",
-  "v1|117444309407|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|117444312440|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|117444312709|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|117444327933|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|117444336774|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|117444336776|0": "2026-10-03T04:58:20.658452+00:00",
@@ -28799,7 +26804,9 @@
   "v1|117449952133|0": "2026-10-06T03:41:05.679334+00:00",
   "v1|117449955006|0": "2026-10-06T03:41:05.679334+00:00",
   "v1|117450029480|0": "2026-10-06T04:23:14.505592+00:00",
-  "v1|128111932262|0": "2026-10-03T04:37:12.385564+00:00",
+  "v1|117450032569|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|117450038796|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|117450043694|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|128111952197|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|128111956425|0": "2026-10-03T07:24:53.249229+00:00",
   "v1|128111956523|0": "2026-10-03T07:24:53.249229+00:00",
@@ -29195,6 +27202,7 @@
   "v1|128117536416|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|128117539275|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|128117544924|0": "2026-10-06T04:01:41.524163+00:00",
+  "v1|128117576560|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|137807258607|0": "2026-10-03T06:22:49.835053+00:00",
   "v1|137807265806|0": "2026-10-03T06:43:38.332247+00:00",
   "v1|137807388152|0": "2026-10-03T07:24:53.249229+00:00",
@@ -29486,7 +27494,6 @@
   "v1|137816815827|0": "2026-10-06T03:41:05.679334+00:00",
   "v1|147606149509|0": "2026-10-03T14:14:28.557020+00:00",
   "v1|147615044973|0": "2026-10-03T17:00:17.578196+00:00",
-  "v1|147616309266|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|147616404424|0": "2026-10-03T05:41:15.267397+00:00",
   "v1|147616513266|0": "2026-10-03T07:04:15.390870+00:00",
   "v1|147616557362|0": "2026-10-03T07:24:53.249229+00:00",
@@ -30316,10 +28323,6 @@
   "v1|168766390171|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|178540529415|0": "2026-10-03T17:41:34.598954+00:00",
   "v1|178540607305|0": "2026-10-04T19:35:20.104540+00:00",
-  "v1|178550012206|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|178550012577|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|178550017309|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|178550034661|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|178550036651|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|178550038486|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|178550041104|0": "2026-10-03T04:58:20.658452+00:00",
@@ -30676,16 +28679,11 @@
   "v1|178559528204|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|178559536472|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|178559544086|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|178559620786|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|178559621484|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|178559649477|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|189013307369|0": "2026-10-06T00:34:59.324291+00:00",
   "v1|189033623137|0": "2026-10-04T18:12:12.045729+00:00",
-  "v1|189035858086|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035859857|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035861772|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035864085|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035864504|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035865344|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035866166|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|189035890845|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|189035916550|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|189035983469|0": "2026-10-03T05:20:02.186001+00:00",
   "v1|189035996929|0": "2026-10-03T05:20:02.186001+00:00",
@@ -31098,6 +29096,8 @@
   "v1|189048556274|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|189048576269|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|189048618998|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|189048640910|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|189048669518|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|198680743228|0": "2026-10-04T02:21:05.533159+00:00",
   "v1|198683256938|0": "2026-10-04T03:02:42.669935+00:00",
   "v1|198684348886|0": "2026-10-03T04:58:20.658452+00:00",
@@ -31353,11 +29353,6 @@
   "v1|206589300664|0": "2026-10-05T03:34:06.400662+00:00",
   "v1|206595556724|0": "2026-10-06T00:14:14.234315+00:00",
   "v1|206598162987|0": "2026-10-04T09:56:19.714791+00:00",
-  "v1|206598636803|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|206598638239|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|206598640031|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|206598640167|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|206598642934|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|206598661901|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|206598667717|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|206598691714|0": "2026-10-03T05:20:02.186001+00:00",
@@ -31670,9 +29665,6 @@
   "v1|206605806671|0": "2026-10-06T03:20:19.944047+00:00",
   "v1|227543874291|0": "2026-10-04T01:39:47.555928+00:00",
   "v1|227543906848|0": "2026-10-05T01:08:08.759847+00:00",
-  "v1|227549913240|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|227549914266|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|227549918839|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|227549931362|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|227549933267|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|227549936536|0": "2026-10-03T04:58:20.658452+00:00",
@@ -32103,6 +30095,9 @@
   "v1|227554340054|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|227554347065|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|227554352990|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|227554354659|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|227554366545|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|227554383318|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|236692539047|0": "2026-10-04T01:39:47.555928+00:00",
   "v1|236692540764|0": "2026-10-04T01:19:07.404862+00:00",
   "v1|236724620176|0": "2026-10-04T01:19:07.404862+00:00",
@@ -32203,10 +30198,6 @@
   "v1|237102864791|0": "2026-10-05T13:09:03.169139+00:00",
   "v1|237102864794|0": "2026-10-05T13:09:03.169139+00:00",
   "v1|237102864798|0": "2026-10-05T13:09:03.169139+00:00",
-  "v1|237103032506|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|237103035953|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|237103041235|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|237103042655|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|237103046022|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|237103052990|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|237103053478|0": "2026-10-03T04:58:20.658452+00:00",
@@ -33052,13 +31043,11 @@
   "v1|237109055529|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|237109064068|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|237109065786|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|237109070433|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|237109072358|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|237109076611|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|257779133976|0": "2026-10-03T14:14:28.557020+00:00",
-  "v1|257779134096|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|257779136299|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|257779137184|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|257779145266|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|257779148166|0": "2026-10-03T04:58:20.658452+00:00",
-  "v1|257779148287|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|257779149545|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|257779156138|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|257779167834|0": "2026-10-03T04:58:20.658452+00:00",
@@ -33852,6 +31841,9 @@
   "v1|257784613793|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|257784624969|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|257784675938|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|257784687209|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|257784714245|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|257784724538|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|267800402842|0": "2026-10-03T16:18:54.328506+00:00",
   "v1|267800402893|0": "2026-10-03T16:18:54.328506+00:00",
   "v1|267800402901|0": "2026-10-03T16:18:54.328506+00:00",
@@ -34144,12 +32136,6 @@
   "v1|267805076503|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|267805089002|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|267805110007|0": "2026-10-06T04:23:14.505592+00:00",
-  "v1|278430120489|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|278430121926|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|278430122815|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|278430123460|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|278430124835|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|278430131503|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|278430245863|0": "2026-10-03T06:02:13.159960+00:00",
   "v1|278430260420|0": "2026-10-03T06:02:13.159960+00:00",
   "v1|278430693230|0": "2026-10-03T16:18:54.328506+00:00",
@@ -34333,8 +32319,6 @@
   "v1|287619163359|0": "2026-10-04T00:16:57.955773+00:00",
   "v1|287622985406|0": "2026-10-04T01:19:07.404862+00:00",
   "v1|287623189895|0": "2026-10-04T11:18:01.690356+00:00",
-  "v1|287623294060|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|287623302774|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|287623302847|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|287623303499|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|287623304219|0": "2026-10-03T04:58:20.658452+00:00",
@@ -34696,11 +32680,10 @@
   "v1|287629918578|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|287629926836|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|287629932483|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|287629962037|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|287629977722|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|298721311427|0": "2026-10-05T02:10:59.536274+00:00",
   "v1|298727468070|0": "2026-10-06T00:14:14.234315+00:00",
-  "v1|298728616796|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|298728623382|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|298728633424|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|298728655901|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|298728705026|0": "2026-10-03T05:20:02.186001+00:00",
   "v1|298728778149|0": "2026-10-03T06:22:49.835053+00:00",
@@ -35139,11 +33122,6 @@
   "v1|298736449338|0": "2026-10-06T03:41:05.679334+00:00",
   "v1|298736499862|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|298736504399|0": "2026-10-06T04:23:14.505592+00:00",
-  "v1|307211148236|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|307211148338|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|307211149720|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|307211157118|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|307211161231|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|307211163987|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|307211164466|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|307211184127|0": "2026-10-03T05:20:02.186001+00:00",
@@ -35621,6 +33599,7 @@
   "v1|307216470781|0": "2026-10-06T03:20:19.944047+00:00",
   "v1|307216498874|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|307216518628|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|307216539362|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|318891153854|0": "2026-10-05T16:15:28.933174+00:00",
   "v1|318932741576|0": "2026-10-04T20:17:58.475911+00:00",
   "v1|318941242530|0": "2026-10-03T18:43:44.445641+00:00",
@@ -35886,8 +33865,6 @@
   "v1|336822264682|0": "2026-10-03T11:09:35.436707+00:00",
   "v1|336822264683|0": "2026-10-03T11:09:35.436707+00:00",
   "v1|336824308267|0": "2026-10-03T23:15:06.250972+00:00",
-  "v1|336824753977|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|336824757348|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|336824760549|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|336824760760|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|336824760822|0": "2026-10-03T04:58:20.658452+00:00",
@@ -36633,8 +34610,10 @@
   "v1|336830220731|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|336830223777|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|336830239978|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|336830289621|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|336830289626|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|336830289630|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|366707077349|0": "2026-10-03T15:16:24.263563+00:00",
-  "v1|366707524454|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|366707548838|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|366707558576|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|366707606860|0": "2026-10-03T05:41:15.267397+00:00",
@@ -36989,6 +34968,7 @@
   "v1|366714317175|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|366714336225|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|366714352790|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|366714359138|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|377539404745|0": "2026-10-04T01:19:07.404862+00:00",
   "v1|377540227778|0": "2026-10-03T05:20:02.186001+00:00",
   "v1|377540255837|0": "2026-10-03T06:02:13.159960+00:00",
@@ -37806,6 +35786,7 @@
   "v1|407269317193|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|407269318414|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|407269337170|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|407269348002|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|800725801755|0": "2026-10-03T17:41:34.598954+00:00",
   "v1|800736896110|0": "2026-10-04T03:24:14.009250+00:00",
   "v1|800749465070|0": "2026-10-03T17:00:17.578196+00:00",
@@ -38356,14 +36337,12 @@
   "v1|800762600408|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|800762627759|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|800762643460|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|800762688436|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|820190601078|0": "2026-10-03T21:30:32.972560+00:00",
   "v1|820190601083|0": "2026-10-04T01:39:47.555928+00:00",
   "v1|820190601109|0": "2026-10-05T00:47:23.339958+00:00",
   "v1|820190616873|0": "2026-10-04T16:49:09.216360+00:00",
   "v1|820190618784|0": "2026-10-05T22:51:43.234535+00:00",
-  "v1|820198149310|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|820198153355|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|820198173830|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|820198192507|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|820198211089|0": "2026-10-03T05:20:02.186001+00:00",
   "v1|820198237905|0": "2026-10-03T05:41:15.267397+00:00",
@@ -39026,12 +37005,13 @@
   "v1|820208519998|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|820208522825|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|820208525657|0": "2026-10-06T04:01:41.524163+00:00",
+  "v1|820208625973|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|820208629089|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|860001205264|0": "2026-10-04T00:16:57.955773+00:00",
   "v1|860001595121|0": "2026-10-04T00:37:37.067028+00:00",
   "v1|860001614653|0": "2026-10-04T02:42:01.317721+00:00",
   "v1|860002782816|0": "2026-10-03T12:11:16.134030+00:00",
   "v1|860002821413|0": "2026-10-03T05:20:02.186001+00:00",
-  "v1|860003056988|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|860003082734|0": "2026-10-03T06:02:13.159960+00:00",
   "v1|860003084333|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|860003180964|0": "2026-10-03T05:41:15.267397+00:00",
@@ -39633,7 +37613,6 @@
   "v1|860013506170|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|860013515701|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|920002358290|0": "2026-10-03T12:52:23.605493+00:00",
-  "v1|920002874297|0": "2026-10-03T04:37:12.385564+00:00",
   "v1|920002881168|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|920002885702|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|920002914652|0": "2026-10-03T05:20:02.186001+00:00",
@@ -40239,9 +38218,7 @@
   "v1|920012381185|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|920012388375|0": "2026-10-06T04:01:41.524163+00:00",
   "v1|920012391210|0": "2026-10-06T04:01:41.524163+00:00",
-  "v1|960006191036|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|960006198595|0": "2026-10-03T04:37:12.385564+00:00",
-  "v1|960006217005|0": "2026-10-03T04:37:12.385564+00:00",
+  "v1|920012459312|0": "2026-10-06T04:43:47.732849+00:00",
   "v1|960006229462|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|960006244169|0": "2026-10-03T04:58:20.658452+00:00",
   "v1|960006552091|0": "2026-10-03T06:43:38.332247+00:00",
@@ -40686,7 +38663,9 @@
   "v1|960021842009|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|960021850108|0": "2026-10-06T04:23:14.505592+00:00",
   "v1|960021858506|0": "2026-10-06T04:23:14.505592+00:00",
-  "v1|960021898854|0": "2026-10-06T04:23:14.505592+00:00"
+  "v1|960021898854|0": "2026-10-06T04:23:14.505592+00:00",
+  "v1|960021923816|0": "2026-10-06T04:43:47.732849+00:00",
+  "v1|960021931408|0": "2026-10-06T04:43:47.732849+00:00"
  },
  "usage": {
   "calls": 370,
