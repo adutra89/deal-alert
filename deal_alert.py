@@ -742,29 +742,30 @@ def sold_search_url(listing: dict) -> str:
 
 
 def ask_alert_message(listing: dict, cfg: dict, mv: dict | None = None) -> tuple[str, str]:
-    ref, cost = listing["ask_ref"], listing["price"] + listing["shipping"]
-    off = 1 - cost / ref
-    n = listing.get("ask_n") or 0
+    """Alert text built around real sold prices (what the card actually sells for)."""
+    cost = listing["price"] + listing["shipping"]
+    sold = mv["median"] if mv else None
+    lines = [listing["title"], ""]
     if listing.get("kind") == "auction":
         mins = max(0, int((datetime.fromisoformat(listing["ends_at"]) - datetime.now(timezone.utc)).total_seconds() // 60))
-        max_bid = ref * (1 - float(cfg.get("ask_discount", 0.35))) - listing["shipping"]
-        if mv:  # real sold prices beat asking prices: stay 30% under what it actually sells for
-            max_bid = min(max_bid, mv["median"] * 0.7 - listing["shipping"])
         title = f"AUCTION ends in {mins} min - {listing['player']}"
-        body = (f"{listing['title']}\n\n"
-                f"Current bid: ${listing['price']:,.2f} ({listing.get('bids', 0)} bids) + ${listing['shipping']:,.2f} ship\n"
-                f"Other sellers ask: ${ref:,.2f}+ (cheaper end of {n} listings)\n"
-                f"Bid up to ${max_bid:,.2f} to leave room for profit\n"
-                f"Tap 'Sold comps' to check real sales before bidding.")
+        lines.append(f"Current bid: ${listing['price']:,.2f} ({listing.get('bids', 0)} bids) + ${listing['shipping']:,.2f} ship")
+        if sold:
+            lines.append(f"Bid up to ${sold * 0.7 - listing['shipping']:,.2f} to stay 30% under sold")
     else:
-        title = f"{off:.0%} under other listings - {listing['player']}"
-        body = (f"{listing['title']}\n\n"
-                f"Price: ${listing['price']:,.2f} + ${listing['shipping']:,.2f} ship\n"
-                f"Other sellers ask: ${ref:,.2f}+ (cheaper end of {n} listings)\n"
-                f"Tap 'Sold comps' to check real sales before buying.")
-    if off >= 0.75 and listing.get("kind") != "auction":
-        body += "\n\nWARNING: far below everyone else. Check photos for reprint, damage or wrong card."
-    return title, body
+        title = (f"{1 - cost / sold:.0%} under sold - {listing['player']}" if sold
+                 else f"Possible deal - {listing['player']}")
+        lines.append(f"Price: ${listing['price']:,.2f} + ${listing['shipping']:,.2f} ship")
+        if sold:
+            fee = float(cfg.get("fee_rate", 0.13))
+            lines.append(f"Est. profit if it sells at median: ${sold * (1 - fee) - cost:,.2f}")
+    if sold:
+        lines.append(f"Sold median: ${sold:,.2f} ({mv['count']} sales, last {cfg.get('comp_period', '3m')})")
+        if mv.get("sample"):
+            lines.append("Sold examples:")
+            lines += mv["sample"]
+    lines.append("Tap 'Sold comps' to double-check.")
+    return title, "\n".join(lines)
 
 
 def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: list[dict]) -> int:
@@ -774,14 +775,20 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
     cands = []
     for q in auctions + state["queue"]:
         r = q.get("ask_ratio")
-        if r is None or r > cut or f"x:{q['id']}" in alerted:
+        if f"x:{q['id']}" in alerted:
+            continue
+        if r is None:
+            if not (cfg.get("allow_no_asks") and "ask_ratio" in q):
+                continue  # not compared yet, or no other listings to compare and we don't want those
+        elif r > cut:
             continue
         if q.get("kind") == "auction" and q["ask_ref"] < float(cfg["min_price"]):
             continue  # cheap card: not worth the time
         cands.append(q)
     # biggest dollar gap first, capped so the phone doesn't get spammed
     # Buy It Now first (that price is real; an auction bid will rise), then biggest dollar gap
-    cands.sort(key=lambda q: (q.get("kind") == "auction", -(q["ask_ref"] - q["price"] - q["shipping"])))
+    cands.sort(key=lambda q: (q.get("kind") == "auction", q.get("ask_ratio") is None,
+                              -((q.get("ask_ref") or 0) - q["price"] - q["shipping"]), -q["price"]))
     sent = 0
     cache = state.setdefault("comp_cache", {})
     # Sold-price checks: spend the month's remaining CardSight calls at an even daily pace.
@@ -827,22 +834,19 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
             log(f"  no sold-price confirmation: {q['title'][:60]}")
             continue
         # If real sold prices show this is just market price, skip it.
+        if mv and q.get("kind") == "auction" and cost > float(cfg.get("auction_max_of_sold", 0.6)) * mv["median"]:
+            log(f"  auction bid already near sold: ${cost:.2f} vs ${mv['median']:.2f}: {q['title'][:60]}")
+            continue  # bid may still drop off later; don't mark, it'll be re-seen if still cheap
         if mv and cost > float(cfg.get("veto_if_over_sold", 0.8)) * mv["median"] and q.get("kind") != "auction":
             alerted[f"x:{q['id']}"] = now.isoformat()
             log(f"  vetoed by sold comps: ${cost:.2f} vs sold median ${mv['median']:.2f} ({mv['count']}): {q['title'][:60]}")
             continue
         t, body = ask_alert_message(q, cfg, mv)
-        if mv and q.get("kind") != "auction":
-            t = f"{1 - cost / mv['median']:.0%} under sold - {q['player']}"
-        if mv:
-            body += f"\nSold median: ${mv['median']:,.2f} ({mv['count']} sales)"
-            if mv.get("sample"):
-                body += "\nSold examples:\n" + "\n".join(mv["sample"])
         try:
             notify(env["NTFY_TOPIC"], t, body, url=q["url"], sold_url=sold_search_url(q))
             alerted[f"x:{q['id']}"] = now.isoformat()
             sent += 1
-            log(f"ALERT {t}: {q['title'][:70]} (${q['price'] + q['shipping']:.2f} vs asks ${q['ask_ref']:.2f})")
+            log(f"ALERT {t}: {q['title'][:70]} (${q['price'] + q['shipping']:.2f} vs sold ${mv['median'] if mv else 0:.2f})")
         except Exception as e:  # noqa: BLE001
             log(f"notification failed: {e}")
     for a in auctions:
