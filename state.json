@@ -2004,6 +2004,11 @@
    "n": 30,
    "ref": 2.29
   },
+  "1995 upper deck spx Michael Jordan 8": {
+   "at": "2026-10-07T18:26:58.952524+00:00",
+   "n": 4,
+   "ref": 145.0
+  },
   "1996 Ken Griffey 1 PSA 9": {
    "at": "2026-10-07T07:09:28.309776+00:00",
    "n": 0,
@@ -7454,6 +7459,11 @@
    "n": 3,
    "ref": 4.99
   },
+  "2023 topps chrome Shohei Ohtani 17 BGS 9": {
+   "at": "2026-10-07T18:26:58.952524+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2023 topps chrome Shohei Ohtani 17 refractor": {
    "at": "2026-10-07T09:13:50.467929+00:00",
    "n": 14,
@@ -8988,6 +8998,11 @@
    "at": "2026-10-07T04:06:31.030263+00:00",
    "n": 29,
    "ref": 3.0
+  },
+  "2025 topps hoops Victor Wembanyama 30": {
+   "at": "2026-10-07T18:26:58.952524+00:00",
+   "n": 28,
+   "ref": 2.25
   },
   "2025 topps hoops stars Stephen Curry 275": {
    "at": "2026-10-07T02:03:21.906587+00:00",
@@ -11789,19 +11804,19 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-10-07 18:26:21] eBay: 50 listings for Michael Jordan",
-  "[2026-10-07 18:26:22] eBay: 50 listings for Shohei Ohtani",
-  "[2026-10-07 18:26:22] eBay: 50 listings for Victor Wembanyama",
-  "[2026-10-07 18:26:23] eBay: 50 listings for Kobe Bryant",
-  "[2026-10-07 18:26:23] eBay: 50 listings for LeBron James",
-  "[2026-10-07 18:26:24] eBay: 50 listings for Stephen Curry",
-  "[2026-10-07 18:26:25] eBay: 50 listings for Tom Brady",
-  "[2026-10-07 18:26:25] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-10-07 18:26:26] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-10-07 18:26:26] 289 new listings queued, 289 in queue",
-  "[2026-10-07 18:26:31] 117 auctions ending soon with <= 5 bids",
-  "[2026-10-07 18:26:33] pre-checked 35 on eBay; dropped 8 priced like everyone else",
-  "[2026-10-07 18:26:45] CRASH: Traceback (most recent call last):\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 1107, in <module>\n    sys.exit(run())\n             ^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 997, in run\n    sent = ask_mode_alerts(state, cfg, env, now, auctions)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 785, in ask_mode_alerts\n    if q.get(\"kind\") == \"auction\" and q[\"ask_ref\"] < float(cfg[\"min_price\"]):\n                                      ~^^^^^^^^^^^\nKeyError: 'ask_ref'\n"
+  "[2026-10-07 18:26:59] eBay: 50 listings for Michael Jordan",
+  "[2026-10-07 18:27:00] eBay: 50 listings for Shohei Ohtani",
+  "[2026-10-07 18:27:01] eBay: 50 listings for Victor Wembanyama",
+  "[2026-10-07 18:27:01] eBay: 50 listings for Kobe Bryant",
+  "[2026-10-07 18:27:02] eBay: 50 listings for LeBron James",
+  "[2026-10-07 18:27:02] eBay: 50 listings for Stephen Curry",
+  "[2026-10-07 18:27:03] eBay: 50 listings for Tom Brady",
+  "[2026-10-07 18:27:04] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-10-07 18:27:04] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-10-07 18:27:04] 288 new listings queued, 288 in queue",
+  "[2026-10-07 18:27:09] 115 auctions ending soon with <= 5 bids",
+  "[2026-10-07 18:27:09] pre-checked 35 on eBay; dropped 8 priced like everyone else",
+  "[2026-10-07 18:27:11] CRASH: Traceback (most recent call last):\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 1107, in <module>\n    sys.exit(run())\n             ^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 997, in run\n    sent = ask_mode_alerts(state, cfg, env, now, auctions)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 785, in ask_mode_alerts\n    if q.get(\"kind\") == \"auction\" and q[\"ask_ref\"] < float(cfg[\"min_price\"]):\n                                      ~^^^^^^^^^^^\nKeyError: 'ask_ref'\n"
  ],
  "queue": [
   {
