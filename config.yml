@@ -31,9 +31,9 @@ allow_no_asks: true        # also check listings with no other listings to compa
 max_alerts_per_run: 3
 # Sold prices come from CardSight (completed sales). No reliable sales = no alert.
 verify_with_cardsight: true
-# Weekend show push: allow more sold-price checks per day until this time (then back to the even monthly pace).
-boost_until: "2026-10-05T04:00:00+00:00"   # through Sun 11:59pm ET
-boost_daily_checks: 130
+# Pro-pace trial: allow Pro-level sold-price checks per day until this time (still stops at monthly_budget).
+boost_until: "2026-10-09T04:00:00+00:00"   # Pro-pace trial: Wed + Thu (through Thu 11:59pm ET)
+boost_daily_checks: 165   # what Pro (5000/month) allows per day
 require_sold_confirmation: true
 veto_if_over_sold: 0.75   # alert only when 25%+ under the sold median
 auction_max_of_sold: 0.6  # auctions: alert only while the current bid is 40%+ under sold
