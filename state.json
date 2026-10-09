@@ -10917,19 +10917,19 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-10-09 08:42:14] eBay: 50 listings for Michael Jordan",
-  "[2026-10-09 08:42:14] eBay: 50 listings for Shohei Ohtani",
-  "[2026-10-09 08:42:15] eBay: 50 listings for Victor Wembanyama",
-  "[2026-10-09 08:42:15] eBay: 50 listings for Kobe Bryant",
-  "[2026-10-09 08:42:17] eBay: 50 listings for LeBron James",
-  "[2026-10-09 08:42:17] eBay: 50 listings for Stephen Curry",
-  "[2026-10-09 08:42:18] eBay: 50 listings for Tom Brady",
-  "[2026-10-09 08:42:18] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-10-09 08:42:19] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-10-09 08:42:19] 10 new listings queued, 428 in queue",
-  "[2026-10-09 08:42:22] 20 auctions ending soon with <= 5 bids",
-  "[2026-10-09 08:42:26] pre-checked 35 on eBay; dropped 23 priced like everyone else",
-  "[2026-10-09 08:42:36] CRASH: Traceback (most recent call last):\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 1107, in <module>\n    sys.exit(run())\n             ^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 997, in run\n    sent = ask_mode_alerts(state, cfg, env, now, auctions)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 785, in ask_mode_alerts\n    if q.get(\"kind\") == \"auction\" and q[\"ask_ref\"] < float(cfg[\"min_price\"]):\n                                      ~^^^^^^^^^^^\nKeyError: 'ask_ref'\n"
+  "[2026-10-09 08:42:52] eBay: 50 listings for Michael Jordan",
+  "[2026-10-09 08:42:52] eBay: 50 listings for Shohei Ohtani",
+  "[2026-10-09 08:42:53] eBay: 50 listings for Victor Wembanyama",
+  "[2026-10-09 08:42:53] eBay: 50 listings for Kobe Bryant",
+  "[2026-10-09 08:42:54] eBay: 50 listings for LeBron James",
+  "[2026-10-09 08:42:54] eBay: 50 listings for Stephen Curry",
+  "[2026-10-09 08:42:55] eBay: 50 listings for Tom Brady",
+  "[2026-10-09 08:42:56] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-10-09 08:42:56] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-10-09 08:42:56] 10 new listings queued, 428 in queue",
+  "[2026-10-09 08:43:00] 19 auctions ending soon with <= 5 bids",
+  "[2026-10-09 08:43:00] pre-checked 35 on eBay; dropped 23 priced like everyone else",
+  "[2026-10-09 08:43:00] CRASH: Traceback (most recent call last):\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 1107, in <module>\n    sys.exit(run())\n             ^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 997, in run\n    sent = ask_mode_alerts(state, cfg, env, now, auctions)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/deal-alert/deal-alert/deal_alert.py\", line 785, in ask_mode_alerts\n    if q.get(\"kind\") == \"auction\" and q[\"ask_ref\"] < float(cfg[\"min_price\"]):\n                                      ~^^^^^^^^^^^\nKeyError: 'ask_ref'\n"
  ],
  "queue": [
   {
