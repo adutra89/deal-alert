@@ -243,3 +243,16 @@ def test_raw_vs_graded():
     r = rec(120); r["title"] = "2007-08 Topps Chrome LeBron James #23 Graded"; r["matched_card"]["number"] = "23"
     r["matched_card"]["set"] = {"name": "Base Set", "release": "Topps Chrome", "year": "2007-08"}
     assert not d.identity_ok(r, "2007-08 Topps Chrome - LeBron James #23", None, "23")
+
+
+def test_candidates_without_asks_do_not_crash():
+    # real crash: auctions with no comparable listings had no ask_ref (Oct 7-9)
+    from datetime import datetime, timedelta, timezone
+    now = datetime.now(timezone.utc)
+    a = {"id": "A9", "kind": "auction", "title": "1996 Topps Kobe Bryant #138 PSA 8", "player": "Kobe Bryant",
+         "price": 20.0, "shipping": 5.0, "bids": 1, "ends_at": (now + timedelta(minutes=10)).isoformat(),
+         "url": "u", "ask_ratio": None, "query": "q-none"}
+    state = {"queue": [], "seen": {}, "usage": {"month": now.strftime("%Y-%m"), "calls": 0}}
+    cfg = {"ask_discount": 0.1, "allow_no_asks": True, "min_price": 50, "monthly_budget": 0,
+           "verify_with_cardsight": True, "require_sold_confirmation": True, "max_alerts_per_run": 3}
+    assert d.ask_mode_alerts(state, cfg, {"NTFY_TOPIC": "t", "CARDSIGHT_API_KEY": "k"}, now, [a]) == 0

@@ -782,7 +782,7 @@ def ask_mode_alerts(state: dict, cfg: dict, env: dict, now: datetime, auctions: 
                 continue  # not compared yet, or no other listings to compare and we don't want those
         elif r > cut:
             continue
-        if q.get("kind") == "auction" and q["ask_ref"] < float(cfg["min_price"]):
+        if q.get("kind") == "auction" and (q.get("ask_ref") or 0) and q["ask_ref"] < float(cfg["min_price"]):
             continue  # cheap card: not worth the time
         cands.append(q)
     # biggest dollar gap first, capped so the phone doesn't get spammed
@@ -1110,6 +1110,8 @@ if __name__ == "__main__":
         log("CRASH: " + traceback.format_exc()[-1500:])
         try:
             st = load_state()
+            # tell Alex once a day so a broken scanner never goes unnoticed for days
+            error_alert(st, os.environ.get("NTFY_TOPIC", ""), "The deal alert hit an error and isn't scanning properly. Claude needs to take a look.")
             save_state(st)  # keeps the crash message in state.json so it can be diagnosed
         except Exception:  # noqa: BLE001
             pass
