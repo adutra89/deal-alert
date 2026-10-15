@@ -710,8 +710,8 @@
    "ref": 69.83
   },
   "1991 score Ken Griffey 2": {
-   "at": "2026-10-14T14:26:23.301646+00:00",
-   "n": 35,
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 36,
    "ref": 1.49
   },
   "1991 score Ken Griffey 396": {
@@ -2210,7 +2210,7 @@
    "ref": 3.0
   },
   "1995 upper deck choice Michael Jordan 169": {
-   "at": "2026-10-15T06:03:29.474032+00:00",
+   "at": "2026-10-15T13:57:15.333992+00:00",
    "n": 32,
    "ref": 1.75
   },
@@ -4209,6 +4209,11 @@
    "n": 0,
    "ref": null
   },
+  "1999 upper deck Ken Griffey F4": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 12,
+   "ref": 30.0
+  },
   "1999 upper deck Ken Griffey L2": {
    "at": "2026-10-14T15:28:43.486463+00:00",
    "n": 31,
@@ -5008,6 +5013,11 @@
    "at": "2026-10-14T21:44:29.227576+00:00",
    "n": 0,
    "ref": null
+  },
+  "2003 upper deck LeBron James 20": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 10,
+   "ref": 15.3
   },
   "2003 upper deck LeBron James 201 BCCG 10": {
    "at": "2026-10-15T11:52:27.450815+00:00",
@@ -8810,9 +8820,9 @@
    "ref": null
   },
   "2022 topps Shohei Ohtani 660": {
-   "at": "2026-10-14T18:36:09.709867+00:00",
-   "n": 3,
-   "ref": 170.0
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 0,
+   "ref": null
   },
   "2022 topps Shohei Ohtani 93 PSA 10": {
    "at": "2026-10-15T05:01:11.477039+00:00",
@@ -8833,6 +8843,11 @@
    "at": "2026-10-15T13:14:55.608935+00:00",
    "n": 0,
    "ref": null
+  },
+  "2022 topps archives Bobby Witt 89": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 9,
+   "ref": 5.0
   },
   "2022 topps archives Shohei Ohtani 1": {
    "at": "2026-10-15T09:29:15.457329+00:00",
@@ -9138,6 +9153,11 @@
    "at": "2026-10-14T21:02:06.783819+00:00",
    "n": 6,
    "ref": 254.98000000000002
+  },
+  "2023 hoops Victor Wembanyama 277 BGS 9": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 0,
+   "ref": null
   },
   "2023 hoops Victor Wembanyama 282 PSA 8": {
    "at": "2026-10-14T22:25:53.563082+00:00",
@@ -9518,6 +9538,11 @@
    "at": "2026-10-15T06:44:50.945030+00:00",
    "n": 0,
    "ref": null
+  },
+  "2023 panini mosaic Victor Wembanyama 12": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 14,
+   "ref": 9.45
   },
   "2023 panini mosaic Victor Wembanyama 238 silver": {
    "at": "2026-10-14T14:26:23.301646+00:00",
@@ -11378,6 +11403,11 @@
    "at": "2026-10-15T06:03:29.474032+00:00",
    "n": 7,
    "ref": 39.99
+  },
+  "2024 topps chrome allen ginter Shohei Ohtani 97": {
+   "at": "2026-10-15T13:57:15.333992+00:00",
+   "n": 0,
+   "ref": null
   },
   "2024 topps chrome cosmic Shohei Ohtani 196 refractor PSA 10": {
    "at": "2026-10-14T20:20:34.560300+00:00",
@@ -14755,33 +14785,22 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-10-15 13:56:22] eBay: 50 listings for Michael Jordan",
-  "[2026-10-15 13:56:22] eBay: 50 listings for Shohei Ohtani",
-  "[2026-10-15 13:56:23] eBay: 50 listings for Victor Wembanyama",
-  "[2026-10-15 13:56:23] eBay: 50 listings for Kobe Bryant",
-  "[2026-10-15 13:56:24] eBay: 50 listings for LeBron James",
-  "[2026-10-15 13:56:25] eBay: 50 listings for Stephen Curry",
-  "[2026-10-15 13:56:25] eBay: 50 listings for Tom Brady",
-  "[2026-10-15 13:56:26] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-10-15 13:56:26] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-10-15 13:56:26] 19 new listings queued, 19 in queue",
-  "[2026-10-15 13:56:31] 49 auctions ending soon with <= 5 bids",
-  "[2026-10-15 13:56:43] pre-checked 19 on eBay; dropped 10 priced like everyone else",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 1992 Hoops Michael Jordan USA #341 Basketball Tournament of ",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: SkyBox 1997-98 Metal Universe Championship Michael Jordan #2",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2022 Topps Black & White - Shohei Ohtani #39",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: Stephen Curry 2025 Topps Chrome Cosmic #ET-5 Extraterrestria",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: Canvas Marketing 2026 Stephen Curry Warriors #88 Serial Numb",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2022 Topps Update Series - Image Variation Bobby Witt Jr. #U",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2021 Topps Allen & Ginter X Mini #51 Ken Griffey Jr Red 5/5 ",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2017 PANINI SELECT FIELD LEVEL COPPER PRIZM /75 #286 TOM BRA",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2005 BOWMAN DRAFT & PROSPECTS CHROME #23 LEBRON JAMES PSA 10",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: LEBRON JAMES 2021-22 PANINI SELECT #100 TRI-COLOR PRIZM LAKE",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: Leaf 2018 Premier Rookie Shohei Ohtani Angels Rookie #PR-04 ",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 2024-25 Panini Revolution - Prime Time Performers LeBron Jam",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: 1996 Upper Deck Kobe Bryant #R10 RC Rookie Exclusives PSA 6 ",
-  "[2026-10-15 13:56:57]   no sold-price confirmation: Panini 2024-25 Haunted Hoops Holo Webs Victor Wembanyama Spu",
-  "[2026-10-15 13:56:57] done: 0 deal alert(s) sent (comparing to other eBay listings)"
+  "[2026-10-15 13:57:16] eBay: 50 listings for Michael Jordan",
+  "[2026-10-15 13:57:16] eBay: 50 listings for Shohei Ohtani",
+  "[2026-10-15 13:57:17] eBay: 50 listings for Victor Wembanyama",
+  "[2026-10-15 13:57:17] eBay: 50 listings for Kobe Bryant",
+  "[2026-10-15 13:57:18] eBay: 50 listings for LeBron James",
+  "[2026-10-15 13:57:18] eBay: 50 listings for Stephen Curry",
+  "[2026-10-15 13:57:19] eBay: 50 listings for Tom Brady",
+  "[2026-10-15 13:57:19] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-10-15 13:57:20] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-10-15 13:57:20] 0 new listings queued, 0 in queue",
+  "[2026-10-15 13:57:24] 39 auctions ending soon with <= 5 bids",
+  "[2026-10-15 13:57:24] pre-checked 0 on eBay; dropped 0 priced like everyone else",
+  "[2026-10-15 13:57:31]   no sold-price confirmation: Topps 2024 Allen & Ginter Chrome Insert Shohei Ohtani #97 Do",
+  "[2026-10-15 13:57:31]   no sold-price confirmation: 2022 Topps Series 2 Shohei Ohtani #660 RETAIL FOILBOARD PARA",
+  "[2026-10-15 13:57:31]   no sold-price confirmation: 2023-24 Hoops #277 Victor Wembanyama RC BGS 9 Mint ",
+  "[2026-10-15 13:57:31] done: 0 deal alert(s) sent (comparing to other eBay listings)"
  ],
  "queue": [],
  "seen": {
@@ -15220,6 +15239,7 @@
   "a:v1|189059397839|0": "2026-10-15T07:05:35.224990+00:00",
   "a:v1|189060981571|0": "2026-10-15T12:33:34.114272+00:00",
   "a:v1|189061045631|0": "2026-10-15T12:54:12.877748+00:00",
+  "a:v1|189061597022|0": "2026-10-15T13:57:15.333992+00:00",
   "a:v1|189062604669|0": "2026-10-13T21:11:40.953578+00:00",
   "a:v1|189062606871|0": "2026-10-13T21:11:40.953578+00:00",
   "a:v1|198686423239|0": "2026-10-14T01:22:34.764432+00:00",
@@ -15506,6 +15526,8 @@
   "a:v1|257788877487|0": "2026-10-15T11:31:51.571754+00:00",
   "a:v1|257788882391|0": "2026-10-15T11:31:51.571754+00:00",
   "a:v1|257788903546|0": "2026-10-15T11:52:27.450815+00:00",
+  "a:v1|257789070775|0": "2026-10-15T13:57:15.333992+00:00",
+  "a:v1|257789070854|0": "2026-10-15T13:57:15.333992+00:00",
   "a:v1|257789296663|0": "2026-10-13T17:21:18.618341+00:00",
   "a:v1|257789888138|0": "2026-10-14T04:28:55.195204+00:00",
   "a:v1|257790035171|0": "2026-10-14T06:54:34.910587+00:00",
@@ -15553,6 +15575,7 @@
   "a:v1|267807316764|0": "2026-10-12T22:25:58.066933+00:00",
   "a:v1|267807493244|0": "2026-10-15T03:59:06.318886+00:00",
   "a:v1|267807540137|0": "2026-10-15T05:42:48.305263+00:00",
+  "a:v1|267807887443|0": "2026-10-15T13:57:15.333992+00:00",
   "a:v1|267807892342|0": "2026-10-13T14:14:53.369367+00:00",
   "a:v1|267808153262|0": "2026-10-13T19:47:45.004819+00:00",
   "a:v1|267808153267|0": "2026-10-13T19:47:45.004819+00:00",
@@ -24563,6 +24586,7 @@
   "v1|800797865254|0": "2026-10-15T13:35:38.011966+00:00",
   "v1|800797940529|0": "2026-10-15T13:56:21.208149+00:00",
   "v1|800797955112|0": "2026-10-15T13:56:21.208149+00:00",
+  "v1|800797967804|0": "2026-10-15T13:57:15.333992+00:00",
   "v1|820218755384|0": "2026-10-14T04:28:55.195204+00:00",
   "v1|820224650593|0": "2026-10-14T00:19:38.699995+00:00",
   "v1|820229441157|0": "2026-10-12T18:14:04.407359+00:00",
