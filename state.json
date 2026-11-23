@@ -25,7 +25,6 @@
   "x:v1|206718718481|0": "2026-11-22T00:19:26.114338+00:00",
   "x:v1|206721120320|0": "2026-11-23T00:05:20.185891+00:00",
   "x:v1|206721122764|0": "2026-11-23T00:05:20.185891+00:00",
-  "x:v1|227613337577|0": "2026-11-20T23:51:36.233937+00:00",
   "x:v1|227616215688|0": "2026-11-23T00:05:20.185891+00:00",
   "x:v1|227623826151|0": "2026-11-21T00:13:07.650093+00:00",
   "x:v1|227623910535|0": "2026-11-22T00:19:26.114338+00:00",
@@ -109,6 +108,7 @@
   "x:v1|900112666753|0": "2026-11-22T16:07:29.746390+00:00",
   "x:v1|900113527871|0": "2026-11-23T00:05:20.185891+00:00",
   "x:v1|900113527977|0": "2026-11-23T00:05:20.185891+00:00",
+  "x:v1|900116252050|0": "2026-11-23T23:53:53.883506+00:00",
   "x:v1|920169757111|0": "2026-11-22T00:19:26.114338+00:00",
   "x:v1|920169786292|0": "2026-11-22T00:19:26.114338+00:00",
   "x:v1|920173523025|0": "2026-11-23T02:11:29.729419+00:00",
@@ -208,6 +208,11 @@
    "at": "2026-11-23T07:01:51.719885+00:00",
    "n": 6,
    "ref": 575.0
+  },
+  "1988 fleer Michael Jordan 7": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 7,
+   "ref": 49.0
   },
   "1988 fleer Michael Jordan 7 BGS 6.5": {
    "at": "2026-11-23T13:10:20.863815+00:00",
@@ -361,11 +366,6 @@
   },
   "1989 panini Michael Jordan 254 PSA 4": {
    "at": "2026-11-23T06:41:08.353752+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "1989 score Ken Griffey 100T BGS 9.5": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
    "n": 0,
    "ref": null
   },
@@ -739,10 +739,25 @@
    "n": 13,
    "ref": 13.36
   },
+  "1991 Michael Jordan 2 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 5,
+   "ref": 199.97
+  },
   "1991 Michael Jordan 452 PSA 10": {
    "at": "2026-11-23T07:23:23.716921+00:00",
    "n": 7,
    "ref": 245.0
+  },
+  "1991 Michael Jordan 5 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 4,
+   "ref": 99.95
+  },
+  "1991 Michael Jordan 6 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 12,
+   "ref": 199.97
   },
   "1991 donruss Ken Griffey 49": {
    "at": "2026-11-23T06:20:24.187323+00:00",
@@ -1065,9 +1080,9 @@
    "ref": 74.88
   },
   "1991 upper deck Michael Jordan SP1 PSA 9": {
-   "at": "2026-11-23T06:41:08.353752+00:00",
+   "at": "2026-11-23T23:53:53.883506+00:00",
    "n": 32,
-   "ref": 165.0
+   "ref": 165.99
   },
   "1991 upper deck Michael Jordan SP1 SGC 9": {
    "at": "2026-11-23T13:10:20.863815+00:00",
@@ -1254,11 +1269,6 @@
    "n": 30,
    "ref": 3.51
   },
-  "1992 topps Michael Jordan 205": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 17,
-   "ref": 2.99
-  },
   "1992 topps Michael Jordan 205 gold PSA 9": {
    "at": "2026-11-23T06:41:08.353752+00:00",
    "n": 17,
@@ -1315,9 +1325,9 @@
    "ref": null
   },
   "1992 topps stadium club stadium Michael Jordan 1 PSA 8": {
-   "at": "2026-11-23T05:38:58.690868+00:00",
-   "n": 7,
-   "ref": 475.0
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 26,
+   "ref": 84.19
   },
   "1992 topps stadium club stadium Michael Jordan 210": {
    "at": "2026-11-23T13:30:51.851017+00:00",
@@ -1689,6 +1699,11 @@
    "n": 22,
    "ref": 375.0
   },
+  "1993 upper deck Michael Jordan 7": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "1993 upper deck Michael Jordan 98": {
    "at": "2026-11-23T13:30:51.851017+00:00",
    "n": 0,
@@ -1934,11 +1949,6 @@
    "n": 6,
    "ref": 2.25
   },
-  "1994 upper deck sp Michael Jordan 41 GMA 8": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "1995 Ken Griffey 128 BGS 8.5": {
    "at": "2026-11-23T20:46:17.993271+00:00",
    "n": 0,
@@ -1989,6 +1999,11 @@
    "n": 16,
    "ref": 420.0
   },
+  "1995 flair Michael Jordan 15 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 26,
+   "ref": 320.99
+  },
   "1995 fleer Ken Griffey 11": {
    "at": "2026-11-23T01:50:44.218723+00:00",
    "n": 0,
@@ -1998,6 +2013,11 @@
    "at": "2026-11-23T00:47:26.763216+00:00",
    "n": 39,
    "ref": 2.0
+  },
+  "1995 fleer Ken Griffey 6 PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
   },
   "1995 fleer Michael Jordan 13": {
    "at": "2026-11-23T23:32:16.963542+00:00",
@@ -2083,6 +2103,11 @@
    "at": "2026-11-23T01:08:11.216629+00:00",
    "n": 13,
    "ref": 19.99
+  },
+  "1995 metal Michael Jordan 212 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 37,
+   "ref": 243.99
   },
   "1995 museum Ken Griffey 128": {
    "at": "2026-11-23T05:38:58.690868+00:00",
@@ -2619,6 +2644,16 @@
    "n": 13,
    "ref": 110.0
   },
+  "1996 metal Kobe Bryant 5 PSA 8": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 11,
+   "ref": 655.99
+  },
+  "1996 metal Michael Jordan 11 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 40,
+   "ref": 404.98
+  },
   "1996 metal Michael Jordan 241 PSA 5": {
    "at": "2026-11-23T17:59:47.856981+00:00",
    "n": 0,
@@ -2974,6 +3009,11 @@
    "n": 4,
    "ref": 106.97999999999999
   },
+  "1996 upper deck choice Kobe Bryant 361": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 22,
+   "ref": 5.0
+  },
   "1996 upper deck choice Michael Jordan 23 PSA 9": {
    "at": "2026-11-23T16:36:06.478959+00:00",
    "n": 8,
@@ -3119,11 +3159,6 @@
    "n": 21,
    "ref": 255.98000000000002
   },
-  "1997 flair Kobe Bryant 18 PSA 8": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 16,
-   "ref": 155.98000000000002
-  },
   "1997 fleer Ken Griffey 4": {
    "at": "2026-11-23T22:50:49.751363+00:00",
    "n": 0,
@@ -3233,11 +3268,6 @@
    "at": "2026-11-23T18:20:31.889576+00:00",
    "n": 5,
    "ref": 25.0
-  },
-  "1997 skybox Ken Griffey 40 CSG 8.5": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "1997 skybox Kobe Bryant 195 PSA 8": {
    "at": "2026-11-23T00:26:41.720171+00:00",
@@ -3363,11 +3393,6 @@
    "at": "2026-11-23T06:20:24.187323+00:00",
    "n": 31,
    "ref": 9.99
-  },
-  "1997 topps Michael Jordan 123": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 26,
-   "ref": 4.99
   },
   "1997 topps certified Michael Jordan 123 PSA 10": {
    "at": "2026-11-23T06:20:24.187323+00:00",
@@ -3573,6 +3598,11 @@
    "at": "2026-11-23T04:16:00.610313+00:00",
    "n": 6,
    "ref": 2019.98
+  },
+  "1997 upper deck sp Michael Jordan 16": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 28,
+   "ref": 14.5
   },
   "1997 upper deck sp authentic sp Kobe Bryant P32 PSA 7": {
    "at": "2026-11-23T10:47:08.476634+00:00",
@@ -3903,11 +3933,6 @@
    "at": "2026-11-23T03:13:45.371514+00:00",
    "n": 30,
    "ref": 3.1
-  },
-  "1998 upper deck Ken Griffey AG1": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "1998 upper deck Kobe Bryant 13": {
    "at": "2026-11-23T00:26:41.720171+00:00",
@@ -4449,11 +4474,6 @@
    "n": 0,
    "ref": null
   },
-  "2000 topps finest Ken Griffey 283": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 5,
-   "ref": 13.98
-  },
   "2000 topps finest Kobe Bryant 8": {
    "at": "2026-11-23T13:51:23.210140+00:00",
    "n": 7,
@@ -4488,6 +4508,11 @@
    "at": "2026-11-23T11:27:49.753127+00:00",
    "n": 30,
    "ref": 1.98
+  },
+  "2000 upper deck Ken Griffey 86": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 34,
+   "ref": 1.85
   },
   "2000 upper deck Kobe Bryant 26": {
    "at": "2026-11-23T01:29:55.887918+00:00",
@@ -4569,11 +4594,6 @@
    "n": 0,
    "ref": null
   },
-  "2001 topps finest stars Ken Griffey FAS10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 14,
-   "ref": 7.99
-  },
   "2001 upper deck Ken Griffey 30": {
    "at": "2026-11-23T15:13:34.968739+00:00",
    "n": 20,
@@ -4584,15 +4604,15 @@
    "n": 30,
    "ref": 6.49
   },
+  "2001 upper deck Michael Jordan 403 PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 5,
+   "ref": 1314.0
+  },
   "2001 upper deck Michael Jordan 90 PSA 9": {
    "at": "2026-11-23T07:44:01.453068+00:00",
    "n": 7,
    "ref": 54.150000000000006
-  },
-  "2001 upper deck Michael Jordan MJ-B3": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2002 donruss Tom Brady 30 BGS 8": {
    "at": "2026-11-23T20:46:17.993271+00:00",
@@ -4609,10 +4629,10 @@
    "n": 0,
    "ref": null
   },
-  "2002 fleer Michael Jordan 72": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 10,
-   "ref": 20.0
+  "2002 sp authentic sp Tom Brady 140 BGS 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
   },
   "2002 topps Ken Griffey 550": {
    "at": "2026-11-23T16:36:06.478959+00:00",
@@ -4661,6 +4681,11 @@
   },
   "2002 upper deck Michael Jordan J2 PSA 8": {
    "at": "2026-11-23T01:29:55.887918+00:00",
+   "n": 0,
+   "ref": null
+  },
+  "2002 upper deck Michael Jordan N-15 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
    "n": 0,
    "ref": null
   },
@@ -4940,8 +4965,8 @@
    "ref": null
   },
   "2003 upper deck LeBron James 201": {
-   "at": "2026-11-23T16:56:48.469096+00:00",
-   "n": 7,
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 8,
    "ref": 179.99
   },
   "2003 upper deck LeBron James 201 PSA 10": {
@@ -5199,6 +5224,11 @@
    "n": 0,
    "ref": null
   },
+  "2005 hoops LeBron James LBJ19 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2005 sp authentic sp LeBron James 14": {
    "at": "2026-11-23T15:54:48.582403+00:00",
    "n": 34,
@@ -5353,11 +5383,6 @@
    "at": "2026-11-23T23:32:16.963542+00:00",
    "n": 8,
    "ref": 2.99
-  },
-  "2006 topps stars Kobe Bryant CCS13": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 6,
-   "ref": 16.0
   },
   "2006 upper deck Ken Griffey EM3": {
    "at": "2026-11-23T00:26:41.720171+00:00",
@@ -5523,6 +5548,11 @@
    "at": "2026-11-23T11:27:49.753127+00:00",
    "n": 6,
    "ref": 53.0
+  },
+  "2008 fleer draft Kobe Bryant 94 blue": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 12,
+   "ref": 29.99
   },
   "2008 sp authentic sp LeBron James 58 PSA 8": {
    "at": "2026-11-23T12:28:59.851028+00:00",
@@ -5964,6 +5994,11 @@
    "n": 6,
    "ref": 9.0
   },
+  "2012 panini prizm Kobe Bryant 24 BGS 9.5": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 4,
+   "ref": 749.99
+  },
   "2012 panini prizm LeBron James 9": {
    "at": "2026-11-23T19:02:06.815639+00:00",
    "n": 0,
@@ -6068,11 +6103,6 @@
    "at": "2026-11-23T05:18:14.746465+00:00",
    "n": 0,
    "ref": null
-  },
-  "2013 panini score Tom Brady 123": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 30,
-   "ref": 2.0
   },
   "2013 panini select LeBron James 7": {
    "at": "2026-11-23T01:28:57.019133+00:00",
@@ -6404,11 +6434,6 @@
    "n": 0,
    "ref": null
   },
-  "2017 panini Tom Brady 16": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 3,
-   "ref": 2.5
-  },
   "2017 panini donruss LeBron James 27 PSA 10": {
    "at": "2026-11-23T03:34:30.783867+00:00",
    "n": 0,
@@ -6734,16 +6759,6 @@
    "n": 0,
    "ref": null
   },
-  "2018 panini donruss sp Shohei Ohtani D9": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2018 panini donruss sp Shohei Ohtani MM3 blue": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2018 panini draft Tom Brady 94": {
    "at": "2026-11-23T11:48:14.766162+00:00",
    "n": 5,
@@ -6768,6 +6783,11 @@
    "at": "2026-11-23T22:50:49.751363+00:00",
    "n": 0,
    "ref": null
+  },
+  "2018 panini prizm Kobe Bryant 15 silver PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 3,
+   "ref": 231.98
   },
   "2018 panini prizm LeBron James 59": {
    "at": "2026-11-23T21:07:03.828630+00:00",
@@ -7045,9 +7065,9 @@
    "ref": 243.74
   },
   "2018 topps chrome update Shohei Ohtani HMT1 PSA 10": {
-   "at": "2026-11-23T14:11:51.672347+00:00",
-   "n": 28,
-   "ref": 776.24
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 29,
+   "ref": 775.0
   },
   "2018 topps chrome update Shohei Ohtani HMT1 PSA 9": {
    "at": "2026-11-23T22:50:49.751363+00:00",
@@ -7134,6 +7154,11 @@
    "n": 5,
    "ref": 126.97999999999999
   },
+  "2018 topps now Shohei Ohtani 23J PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 16,
+   "ref": 450.0
+  },
   "2018 topps now Shohei Ohtani 36 PSA 10": {
    "at": "2026-11-23T01:29:55.887918+00:00",
    "n": 4,
@@ -7160,9 +7185,9 @@
    "ref": 119.99
   },
   "2018 topps now Shohei Ohtani ST-4 PSA 10": {
-   "at": "2026-11-23T16:56:48.469096+00:00",
-   "n": 24,
-   "ref": 340.9
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 25,
+   "ref": 319.99
   },
   "2018 topps now Shohei Ohtani ST-7": {
    "at": "2026-11-23T05:59:41.714465+00:00",
@@ -7754,11 +7779,6 @@
    "n": 0,
    "ref": null
   },
-  "2020 panini illusions LeBron James 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 8,
-   "ref": 8.99
-  },
   "2020 panini illusions Tom Brady 1": {
    "at": "2026-11-23T21:48:32.616961+00:00",
    "n": 25,
@@ -7818,6 +7838,11 @@
    "at": "2026-11-23T04:57:33.485265+00:00",
    "n": 0,
    "ref": null
+  },
+  "2020 panini prizm mosaic LeBron James 11": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 3,
+   "ref": 6.29
   },
   "2020 panini prizm mosaic LeBron James 247": {
    "at": "2026-11-23T20:04:42.276720+00:00",
@@ -7974,11 +7999,6 @@
    "n": 14,
    "ref": 5.1
   },
-  "2021 Stephen Curry 17": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2021 bowman chrome Bobby Witt BCP-1 refractor mojo SGC 9.5": {
    "at": "2026-11-23T16:56:48.469096+00:00",
    "n": 0,
@@ -8043,11 +8063,6 @@
    "at": "2026-11-23T10:47:08.476634+00:00",
    "n": 17,
    "ref": 1.29
-  },
-  "2021 panini chronicles LeBron James 397 SGC 9.5": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2021 panini chronicles LeBron James 4": {
    "at": "2026-11-23T00:47:26.763216+00:00",
@@ -8239,11 +8254,6 @@
    "n": 23,
    "ref": 8.99
   },
-  "2021 panini playoff Tom Brady TL-4 PSA 9": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2021 panini prizm LeBron James 6": {
    "at": "2026-11-23T07:23:23.716921+00:00",
    "n": 12,
@@ -8263,11 +8273,6 @@
    "at": "2026-11-23T21:48:32.616961+00:00",
    "n": 4,
    "ref": 1.85
-  },
-  "2021 panini prizm Tom Brady 294 PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2021 panini prizm Tom Brady 70 pink camo PSA 8": {
    "at": "2026-11-23T13:51:23.210140+00:00",
@@ -8331,11 +8336,6 @@
   },
   "2021 topps Ken Griffey 339": {
    "at": "2026-11-23T04:16:00.610313+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2021 topps Ken Griffey 769 silver": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
    "n": 0,
    "ref": null
   },
@@ -8468,11 +8468,6 @@
    "at": "2026-11-23T18:20:31.889576+00:00",
    "n": 10,
    "ref": 90.99
-  },
-  "2021 topps heritage Shohei Ohtani T65": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2021 topps luminaries Ken Griffey 4": {
    "at": "2026-11-23T02:11:29.729419+00:00",
@@ -8660,7 +8655,7 @@
    "ref": null
   },
   "2022 panini donruss Shohei Ohtani 147": {
-   "at": "2026-11-23T16:36:06.478959+00:00",
+   "at": "2026-11-23T23:53:53.883506+00:00",
    "n": 6,
    "ref": 1.49
   },
@@ -8674,11 +8669,6 @@
    "n": 0,
    "ref": null
   },
-  "2022 panini donruss Shohei Ohtani BS-3": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 15,
-   "ref": 70.0
-  },
   "2022 panini donruss Shohei Ohtani M-9": {
    "at": "2026-11-23T07:01:51.719885+00:00",
    "n": 15,
@@ -8688,6 +8678,11 @@
    "at": "2026-11-23T03:55:16.742209+00:00",
    "n": 6,
    "ref": 148.0
+  },
+  "2022 panini donruss Shohei Ohtani M9 PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 15,
+   "ref": 308.0
   },
   "2022 panini donruss Tom Brady 53 holo PSA 10": {
    "at": "2026-11-23T00:26:41.720171+00:00",
@@ -8830,9 +8825,9 @@
    "ref": 4.0
   },
   "2022 panini prizm Shohei Ohtani SG-3": {
-   "at": "2026-11-23T15:13:34.968739+00:00",
-   "n": 7,
-   "ref": 105.0
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
   },
   "2022 panini prizm Shohei Ohtani SG-3 PSA 10": {
    "at": "2026-11-23T21:48:32.616961+00:00",
@@ -8873,6 +8868,11 @@
    "at": "2026-11-23T15:54:48.582403+00:00",
    "n": 19,
    "ref": 13.5
+  },
+  "2022 panini prizm mosaic Shohei Ohtani A-2 green PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 6,
+   "ref": 495.0
   },
   "2022 panini prizm mosaic Shohei Ohtani LM-2": {
    "at": "2026-11-23T13:10:20.863815+00:00",
@@ -8918,6 +8918,11 @@
    "at": "2026-11-23T01:50:44.218723+00:00",
    "n": 0,
    "ref": null
+  },
+  "2022 panini score Tom Brady 68": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 29,
+   "ref": 1.69
   },
   "2022 panini select LeBron James 7 PSA 10": {
    "at": "2026-11-23T07:23:23.716921+00:00",
@@ -8975,8 +8980,8 @@
    "ref": null
   },
   "2022 topps Shohei Ohtani 1": {
-   "at": "2026-11-23T15:34:13.130618+00:00",
-   "n": 4,
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 6,
    "ref": 1.94
   },
   "2022 topps Shohei Ohtani 21 wave": {
@@ -9585,9 +9590,9 @@
    "ref": 15.0
   },
   "2023 panini donruss optic Victor Wembanyama 6 PSA 10": {
-   "at": "2026-11-23T16:56:48.469096+00:00",
-   "n": 12,
-   "ref": 139.99
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 15,
+   "ref": 137.0
   },
   "2023 panini donruss optic Victor Wembanyama 6 SGC 10": {
    "at": "2026-11-23T07:02:49.462839+00:00",
@@ -9719,6 +9724,11 @@
    "n": 11,
    "ref": 65.99
   },
+  "2023 panini hoops prizm LeBron James 149 pink PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2023 panini hoops prizm Stephen Curry 3 silver": {
    "at": "2026-11-23T07:01:51.719885+00:00",
    "n": 10,
@@ -9748,11 +9758,6 @@
    "at": "2026-11-23T16:15:22.428404+00:00",
    "n": 10,
    "ref": 50.0
-  },
-  "2023 panini hoops prizm Victor Wembanyama 282": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 10,
-   "ref": 14.5
   },
   "2023 panini hoops prizm Victor Wembanyama 282 silver PSA 10": {
    "at": "2026-11-23T19:43:54.746690+00:00",
@@ -9934,6 +9939,11 @@
    "n": 0,
    "ref": null
   },
+  "2023 panini prizm LeBron James 63 silver PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2023 panini prizm Stephen Curry 119 cracked ice": {
    "at": "2026-11-23T01:08:11.216629+00:00",
    "n": 0,
@@ -10054,6 +10064,11 @@
    "n": 5,
    "ref": 259.99
   },
+  "2023 panini prizm Victor Wembanyama S8 SGC 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2023 panini prizm draft Victor Wembanyama 1": {
    "at": "2026-11-23T14:32:26.530734+00:00",
    "n": 18,
@@ -10164,11 +10179,6 @@
    "n": 16,
    "ref": 45.0
   },
-  "2023 panini prizm select Victor Wembanyama 87 blue PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 23,
-   "ref": 199.99
-  },
   "2023 panini prizm select Victor Wembanyama 87 cracked ice": {
    "at": "2026-11-23T04:36:47.200079+00:00",
    "n": 0,
@@ -10218,11 +10228,6 @@
    "at": "2026-11-23T03:55:16.742209+00:00",
    "n": 16,
    "ref": 201.01
-  },
-  "2023 panini select Victor Wembanyama 288": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2023 panini select Victor Wembanyama 311 orange": {
    "at": "2026-11-23T01:28:57.019133+00:00",
@@ -10904,11 +10909,6 @@
    "n": 30,
    "ref": 1.49
   },
-  "2024 panini donruss Victor Wembanyama 1 red": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2024 panini donruss Victor Wembanyama 6": {
    "at": "2026-11-23T20:25:31.255203+00:00",
    "n": 18,
@@ -10938,11 +10938,6 @@
    "at": "2026-11-23T02:52:58.778526+00:00",
    "n": 30,
    "ref": 6.98
-  },
-  "2024 panini donruss prizm optic LeBron James 5 orange": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2024 panini donruss prizm optic Stephen Curry 155 pink PSA 10": {
    "at": "2026-11-23T20:46:17.993271+00:00",
@@ -10994,11 +10989,6 @@
    "n": 0,
    "ref": null
   },
-  "2024 panini mosaic Victor Wembanyama 15 PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2024 panini mosaic Victor Wembanyama 288": {
    "at": "2026-11-23T12:29:38.666342+00:00",
    "n": 15,
@@ -11026,11 +11016,6 @@
   },
   "2024 panini optic Victor Wembanyama 95 gold red": {
    "at": "2026-11-23T06:20:24.187323+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2024 panini prizm LeBron James 130 pink SGC 9.5": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
    "n": 0,
    "ref": null
   },
@@ -11564,6 +11549,11 @@
    "n": 0,
    "ref": null
   },
+  "2024 topps black update Shohei Ohtani MYS-1 black PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2024 topps black update Shohei Ohtani US76 black": {
    "at": "2026-11-23T07:23:23.716921+00:00",
    "n": 0,
@@ -12054,11 +12044,6 @@
    "n": 0,
    "ref": null
   },
-  "2025 finest Victor Wembanyama 98 purple PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2025 hoops sp Victor Wembanyama NTN-28 silver": {
    "at": "2026-11-23T00:05:20.185891+00:00",
    "n": 0,
@@ -12154,10 +12139,10 @@
    "n": 24,
    "ref": 1.99
   },
-  "2025 topps LeBron James HCA-1": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
+  "2025 topps LeBron James NO-1 PSA 9": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 3,
+   "ref": 279.99
   },
   "2025 topps Shohei Ohtani 1": {
    "at": "2026-11-23T10:47:08.476634+00:00",
@@ -12351,11 +12336,6 @@
   },
   "2025 topps black Shohei Ohtani 1 black": {
    "at": "2026-11-23T17:17:28.961882+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2025 topps black Shohei Ohtani 50 black": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
    "n": 0,
    "ref": null
   },
@@ -12599,11 +12579,6 @@
    "n": 0,
    "ref": null
   },
-  "2025 topps chrome Victor Wembanyama 221 refractor red blue PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 14,
-   "ref": 299.0
-  },
   "2025 topps chrome Victor Wembanyama 9": {
    "at": "2026-11-23T02:52:58.778526+00:00",
    "n": 0,
@@ -12630,7 +12605,7 @@
    "ref": null
   },
   "2025 topps chrome Victor Wembanyama GC-10 PSA 8": {
-   "at": "2026-11-23T00:05:20.185891+00:00",
+   "at": "2026-11-23T23:53:53.883506+00:00",
    "n": 0,
    "ref": null
   },
@@ -12663,11 +12638,6 @@
    "at": "2026-11-23T00:26:41.720171+00:00",
    "n": 0,
    "ref": null
-  },
-  "2025 topps chrome black Shohei Ohtani 50 black PSA 9": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 3,
-   "ref": 44.95
   },
   "2025 topps chrome black sp LeBron James BL13 black BGS 8": {
    "at": "2026-11-23T06:41:08.353752+00:00",
@@ -12708,6 +12678,11 @@
    "at": "2026-11-23T08:24:55.742677+00:00",
    "n": 8,
    "ref": 39.99
+  },
+  "2025 topps chrome cosmic Shohei Ohtani PPS-2": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
   },
   "2025 topps chrome cosmic Stephen Curry 18 refractor": {
    "at": "2026-11-23T15:54:48.582403+00:00",
@@ -13009,6 +12984,11 @@
    "n": 0,
    "ref": null
   },
+  "2025 topps now Shohei Ohtani 721 CGC 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 14,
+   "ref": 55.0
+  },
   "2025 topps now Shohei Ohtani 721 PSA 10": {
    "at": "2026-11-23T11:07:25.730468+00:00",
    "n": 25,
@@ -13028,6 +13008,11 @@
    "at": "2026-11-23T11:07:25.730468+00:00",
    "n": 12,
    "ref": 77.24
+  },
+  "2025 topps now Shohei Ohtani 95 PSA 10": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
   },
   "2025 topps now Shohei Ohtani OS-7 PSA 10": {
    "at": "2026-11-23T23:11:31.671927+00:00",
@@ -13083,11 +13068,6 @@
    "at": "2026-11-23T22:50:49.751363+00:00",
    "n": 4,
    "ref": 69.99
-  },
-  "2025 topps signature Victor Wembanyama MOTG-8 PSA 10": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "2025 topps sp Shohei Ohtani H200": {
    "at": "2026-11-23T21:27:47.170363+00:00",
@@ -13304,11 +13284,6 @@
    "n": 19,
    "ref": 1.99
   },
-  "2026 panini prizm Ken Griffey 13": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2026 panini prizm Ken Griffey 15": {
    "at": "2026-11-23T05:59:41.714465+00:00",
    "n": 29,
@@ -13351,11 +13326,6 @@
   },
   "2026 skybox metal e-x Michael Jordan EX-1": {
    "at": "2026-11-23T19:43:54.746690+00:00",
-   "n": 0,
-   "ref": null
-  },
-  "2026 topps Bobby Witt 2": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
    "n": 0,
    "ref": null
   },
@@ -13500,9 +13470,9 @@
    "ref": 85.97999999999999
   },
   "2026 topps Shohei Ohtani 500": {
-   "at": "2026-11-23T15:54:48.582403+00:00",
-   "n": 18,
-   "ref": 2.25
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 20,
+   "ref": 2.15
   },
   "2026 topps Shohei Ohtani 642": {
    "at": "2026-11-23T22:09:15.162704+00:00",
@@ -13545,19 +13515,14 @@
    "ref": null
   },
   "2026 topps Shohei Ohtani H100": {
-   "at": "2026-11-23T15:54:48.582403+00:00",
-   "n": 15,
-   "ref": 2.57
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 16,
+   "ref": 2.49
   },
   "2026 topps Shohei Ohtani H100 CGC 10": {
    "at": "2026-11-23T02:52:58.778526+00:00",
    "n": 0,
    "ref": null
-  },
-  "2026 topps Shohei Ohtani H100 green": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 31,
-   "ref": 3.0
   },
   "2026 topps Shohei Ohtani H100 red": {
    "at": "2026-11-23T13:30:51.851017+00:00",
@@ -13964,11 +13929,6 @@
    "n": 0,
    "ref": null
   },
-  "2026 topps chrome Victor Wembanyama ET-7": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "2026 topps chrome Victor Wembanyama PP-5": {
    "at": "2026-11-23T01:28:57.019133+00:00",
    "n": 15,
@@ -14189,6 +14149,11 @@
    "n": 25,
    "ref": 97.97999999999999
   },
+  "2026 topps pristine Stephen Curry ST-15 orange": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "2026 topps sapphire museum Shohei Ohtani 17 sapphire": {
    "at": "2026-11-23T23:33:11.660182+00:00",
    "n": 0,
@@ -14208,11 +14173,6 @@
    "at": "2026-11-23T20:04:42.276720+00:00",
    "n": 8,
    "ref": 3.5
-  },
-  "2026 topps stars Bobby Witt SMLB-5": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 35,
-   "ref": 1.25
   },
   "2026 topps stars Bobby Witt SS-10": {
    "at": "2026-11-23T22:30:02.705466+00:00",
@@ -14299,11 +14259,6 @@
    "n": 32,
    "ref": 2.49
   },
-  "2026 tribute Kobe Bryant 23": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
-  },
   "Michael Jordan LW5": {
    "at": "2026-11-23T14:11:51.672347+00:00",
    "n": 0,
@@ -14318,11 +14273,6 @@
    "at": "2026-11-23T04:16:00.610313+00:00",
    "n": 5,
    "ref": 607.5
-  },
-  "Tom Brady 1 PSA 7": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 0,
-   "ref": null
   },
   "choice Michael Jordan 420 silver": {
    "at": "2026-11-23T02:32:15.532286+00:00",
@@ -14414,6 +14364,11 @@
    "n": 17,
    "ref": 2.25
   },
+  "topps Shohei Ohtani 89B gold": {
+   "at": "2026-11-23T23:53:53.883506+00:00",
+   "n": 0,
+   "ref": null
+  },
   "topps chrome LeBron James 98": {
    "at": "2026-11-23T14:11:51.672347+00:00",
    "n": 17,
@@ -14428,11 +14383,6 @@
    "at": "2026-11-23T18:41:19.001536+00:00",
    "n": 13,
    "ref": 20.5
-  },
-  "topps signature Victor Wembanyama 55": {
-   "at": "2026-11-22T23:44:34.460915+00:00",
-   "n": 29,
-   "ref": 1.99
   },
   "topps stars Bobby Witt SMLB-5": {
    "at": "2026-11-23T19:22:58.839767+00:00",
@@ -15375,42 +15325,120 @@
  },
  "last_error_alert": "",
  "last_run_log": [
-  "[2026-11-23 23:33:12] eBay: 50 listings for Michael Jordan",
-  "[2026-11-23 23:33:12] eBay: 50 listings for Shohei Ohtani",
-  "[2026-11-23 23:33:13] eBay: 50 listings for Victor Wembanyama",
-  "[2026-11-23 23:33:13] eBay: 50 listings for Kobe Bryant",
-  "[2026-11-23 23:33:14] eBay: 50 listings for LeBron James",
-  "[2026-11-23 23:33:14] eBay: 50 listings for Stephen Curry",
-  "[2026-11-23 23:33:15] eBay: 50 listings for Tom Brady",
-  "[2026-11-23 23:33:15] eBay: 50 listings for Ken Griffey Jr",
-  "[2026-11-23 23:33:16] eBay: 50 listings for Bobby Witt Jr",
-  "[2026-11-23 23:33:16] 1 new listings queued, 166 in queue",
-  "[2026-11-23 23:33:21] 190 auctions ending soon with <= 5 bids",
-  "[2026-11-23 23:33:44] pre-checked 35 on eBay; dropped 17 priced like everyone else",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 1995 Ultra Michael Jordan Gold Medallion #25 PSA 7",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 1995 SKYBOX PREMIUM #278 MICHAEL JORDAN PSA 9",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 1997 FLEER SOARING STARS #9 MICHAEL JORDAN PSA 9",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: SHOHEI OHTANI 2018 TOPPS  (PITCHING) ROOKIE RC #700  LOS ANG",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: Fleer 1995-96 Metal Nuts & Bolts Michael Jordan #212 PSA 6 B",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2018 Bowman Shohei Ohtani #49 RC PSA 8",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2026 Bowman Shohei Ohtani Pink /175 Los Angeles Dodgers Pape",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 1989-90 Fleer Stickers Michael Jordan '89 All-Stars Sticker ",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: Michael Jordan 2009 Upper Deck Jordan Legacy Gold #11 Gold P",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 1995 Collector's Choice SE Silver Signature #238 Michael Jor",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: Topps Series 1 2024 Shohei Ohtani Los Angeles Angels #TMS-2 ",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2026 Topps Museum Collection #17 Shohei Ohtani Sapphire #/15",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2021 Topps Baseball Chrome Sapphire Shohei Ohtani #150 Los A",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: Topps 2023 Holiday Countdown Shohei Ohtani Dodgers #1 PSA 10",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: Panini 2022 Donruss Optic Baseball Shohei Ohtani Angels #141",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: RARE 2015 Panini Prizm Tom Brady #12 Green Prizm Refractor S",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: SHOHEI OHTANI 2026 TOPPS Spring Training Gold 10/50 #200 PSA",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2024 Topps Chrome Update Shohei Ohtani Major League Minis #M",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2024 Topps Finest - Field Generals Tom Brady #FG-8 Sky Blue ",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2020 Panini Contenders #WT3 TOM BRADY Winning Ticket Ruby SG",
-  "[2026-11-23 23:33:51]   no sold-price confirmation: 2023 Topps Composite - Modern Artists Tom Brady #MA-5 Blue /",
-  "[2026-11-23 23:33:51] done: 0 deal alert(s) sent (comparing to other eBay listings)"
+  "[2026-11-23 23:53:54] eBay: 50 listings for Michael Jordan",
+  "[2026-11-23 23:53:55] eBay: 50 listings for Shohei Ohtani",
+  "[2026-11-23 23:53:55] eBay: 50 listings for Victor Wembanyama",
+  "[2026-11-23 23:53:56] eBay: 50 listings for Kobe Bryant",
+  "[2026-11-23 23:53:56] eBay: 50 listings for LeBron James",
+  "[2026-11-23 23:53:57] eBay: 50 listings for Stephen Curry",
+  "[2026-11-23 23:53:57] eBay: 50 listings for Tom Brady",
+  "[2026-11-23 23:53:58] eBay: 50 listings for Ken Griffey Jr",
+  "[2026-11-23 23:53:58] eBay: 50 listings for Bobby Witt Jr",
+  "[2026-11-23 23:53:58] 41 new listings queued, 172 in queue",
+  "[2026-11-23 23:54:03] 241 auctions ending soon with <= 5 bids",
+  "[2026-11-23 23:54:23] pre-checked 35 on eBay; dropped 12 priced like everyone else",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2001-02 Upper Deck Michael Jordan #403 Wizards PSA 10",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: Kobe Bryant 2012-13 Panini Prizm #24 Lakers 1st Year BGS 9.5",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 1996 METAL #11 MICHAEL JORDAN PSA 9",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2022 Panini Mosaic - Aces Shohei Ohtani #A-2 Green Mosaic Pr",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2018 Topps Now Spring Training: #ST-4 Shohei Ohtani PSA 10 G",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 1995 FLAIR #15 MICHAEL JORDAN PSA 9",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 1995 METAL #212 MICHAEL JORDAN PSA 9",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 1991 NIKE MICHAEL JORDAN/SPIKE LEE #2 HIGH FLYING 1989 PSA 9",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2018-19 Panini Prizm Kobe Bryant Lakers #15 Silver Prizm PSA",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2003-04 Upper Deck MVP Rookie LeBron James #201 Rookie RC**M",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2025 TOPPS CHROME REFRACTOR #221 VICTOR WEMBANYAMA PSA 9 SAN",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2005 NBA Hoops LJ Profiles LeBron James #LBJ19 PSA 9 MINT IN",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2022 Panini Prizm Shohei Ohtani #SG-3 STAINED GLASS SSP-Ange",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2002 Upper Deck Spokesman Michael Jordan N-15 23rd National ",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: Topps Pristine 2026 Stephen Curry Stacked Insert Orange /25 ",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2025 Topps Shoebox Treasures - 2024 Topps Now Shohei Ohtani ",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2002 SP Authentic #140 Tom Brady /1150 BGS 9",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: Topps Shohei Ohtani Gold Parallel /50 Serial #89B-16 Los Ang",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2025 Topps Cosmic Chrome - Planetary Pursuit Shohei Ohtani #",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2024 Topps Update Shohei Ohtani Mystical - Black /299 #MYS-1",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: KEN GRIFFEY JR 1995 FLEER #6 LUMBER COMPANY INSERT PSA 10 GE",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2023 PANINI HOOPS PREMIUM STOCK #149 LeBRON JAMES PINK ICE P",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2025 TOPPS CHROME GLASS CANVAS #GC-10 VICTOR WEMBANYAMA PSA ",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: Upper Deck 1993 Upper Deck Michael Jordan 1987 Highlights Ba",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: Topps 2026 Holiday Bobby Witt Jr. #H1 Kansas City Royals Bas",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2023-24 Panini Prizm Monopoly - Starter Deck Victor Wembanya",
+  "[2026-11-23 23:54:34]   no sold-price confirmation: 2023 PANINI PRIZM SILVER PRIZM #63 LEBRON JAMES PSA 10",
+  "[2026-11-23 23:54:34] done: 0 deal alert(s) sent (comparing to other eBay listings)"
  ],
  "queue": [
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772879+00:00",
+   "id": "v1|117538781155|0",
+   "image": "https://i.ebayimg.com/images/g/WgsAAeSwiXNrBM7B/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 150.0,
+   "query": "1991 Michael Jordan 2 PSA 9",
+   "shipping": 5.99,
+   "title": "1991 NIKE MICHAEL JORDAN/SPIKE LEE #2 HIGH FLYING 1989 PSA 9",
+   "url": "https://www.ebay.com/itm/117538781155?_skw=Michael+Jordan&hash=item1b5ddb77e3:g:WgsAAeSwiXNrBM7B"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772878+00:00",
+   "id": "v1|377671466273|0",
+   "image": "https://i.ebayimg.com/images/g/QB0AAeSwaoFrBM4k/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 349.99,
+   "query": "1995 skybox Michael Jordan 278 PSA 8",
+   "shipping": 4.5,
+   "title": "1995-96 skybox Premium Michael Jordan Electrified Card PSA 8 NM-MT #278",
+   "url": "https://www.ebay.com/itm/377671466273?_skw=Michael+Jordan&hash=item57eef93d21:g:QB0AAeSwaoFrBM4k"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772873+00:00",
+   "id": "v1|900116252477|0",
+   "image": "https://i.ebayimg.com/images/g/R2EAAeSwv0lrBM8u/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 199.0,
+   "query": "1997 best Michael Jordan T2 PSA 9",
+   "shipping": 0.0,
+   "title": "1997 Michael Jordan Bowman's Best Techniques #T2 PSA 9 Mint",
+   "url": "https://www.ebay.com/itm/900116252477?_skw=Michael+Jordan&hash=itemd1931c073d:g:R2EAAeSwv0lrBM8u"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772871+00:00",
+   "id": "v1|900116252928|0",
+   "image": "https://i.ebayimg.com/images/g/L38AAeSwKwxrBM-O/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 149.99,
+   "query": "1997 finest Michael Jordan 271 PSA 9",
+   "shipping": 0.0,
+   "title": "1997 FINEST #271 MICHAEL JORDAN PSA 9",
+   "url": "https://www.ebay.com/itm/900116252928?_skw=Michael+Jordan&hash=itemd1931c0900:g:L38AAeSwKwxrBM-O"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772868+00:00",
+   "id": "v1|900116254119|0",
+   "image": "https://i.ebayimg.com/images/g/lDMAAeSwlqdrBM~l/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 79.0,
+   "query": "1992 upper deck Michael Jordan 453 PSA 9",
+   "shipping": 0.0,
+   "title": "1992 UPPER DECK #453 MICHAEL JORDAN BULLS HOF CORRECT CHAMP IN 87 & 88 PSA 9",
+   "url": "https://www.ebay.com/itm/900116254119?_skw=Michael+Jordan&hash=itemd1931c0da7:g:lDMAAeSwlqdrBM~l"
+  },
+  {
+   "condition": "Graded",
+   "found_at": "2026-11-23T23:53:54.772854+00:00",
+   "id": "v1|900116257948|0",
+   "image": "https://i.ebayimg.com/images/g/aDAAAeSw3sprBNAc/s-l225.jpg",
+   "player": "Michael Jordan",
+   "price": 950.0,
+   "query": "1997 skybox metal Michael Jordan 23 SGC 8.5",
+   "shipping": 0.0,
+   "title": "1997-98 Skybox Metal Universe - Michael Jordan #23 SGC 8.5",
+   "url": "https://www.ebay.com/itm/900116257948?_skw=Michael+Jordan&hash=itemd1931c1c9c:g:aDAAAeSw3sprBNAc"
+  },
   {
    "condition": "Graded",
    "found_at": "2026-11-23T22:50:50.579495+00:00",
@@ -16994,7 +17022,6 @@
   "a:v1|117518130386|0": "2026-11-22T02:03:32.648430+00:00",
   "a:v1|117518427504|0": "2026-11-23T21:27:47.170363+00:00",
   "a:v1|117518683923|0": "2026-11-23T05:59:41.714465+00:00",
-  "a:v1|117519797187|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|117520135732|0": "2026-11-22T02:24:17.198675+00:00",
   "a:v1|117520386444|0": "2026-11-21T06:06:46.123018+00:00",
   "a:v1|117520407476|0": "2026-11-21T06:27:29.220452+00:00",
@@ -17125,6 +17152,8 @@
   "a:v1|128199068180|0": "2026-11-23T21:07:03.828630+00:00",
   "a:v1|128199185508|0": "2026-11-23T22:30:02.705466+00:00",
   "a:v1|128199306110|0": "2026-11-23T23:33:11.660182+00:00",
+  "a:v1|128199385101|0": "2026-11-23T23:53:53.883506+00:00",
+  "a:v1|128199385205|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|128200608018|0": "2026-11-23T01:28:57.019133+00:00",
   "a:v1|128200671135|0": "2026-11-23T02:11:29.729419+00:00",
   "a:v1|128201104644|0": "2026-11-23T01:29:55.887918+00:00",
@@ -17134,7 +17163,6 @@
   "a:v1|137919705380|0": "2026-11-21T06:48:10.768291+00:00",
   "a:v1|137926587822|0": "2026-11-23T06:20:24.187323+00:00",
   "a:v1|137927069748|0": "2026-11-23T09:05:43.435785+00:00",
-  "a:v1|137928860110|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|137929594387|0": "2026-11-21T06:27:29.220452+00:00",
   "a:v1|137930073844|0": "2026-11-21T10:52:47.872253+00:00",
   "a:v1|137930300478|0": "2026-11-21T12:34:48.947579+00:00",
@@ -17254,6 +17282,7 @@
   "a:v1|147683395593|0": "2026-11-23T15:34:13.130618+00:00",
   "a:v1|147683485515|0": "2026-11-23T17:17:28.961882+00:00",
   "a:v1|147683559824|0": "2026-11-23T18:41:19.001536+00:00",
+  "a:v1|147683858019|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|147684099429|0": "2026-11-22T03:27:20.753617+00:00",
   "a:v1|147685097754|0": "2026-11-22T17:30:28.690560+00:00",
   "a:v1|147685376089|0": "2026-11-22T21:19:29.422719+00:00",
@@ -17347,8 +17376,6 @@
   "a:v1|198791134851|0": "2026-11-23T04:36:47.200079+00:00",
   "a:v1|198792248237|0": "2026-11-21T01:15:49.627299+00:00",
   "a:v1|198792248290|0": "2026-11-21T01:36:33.529708+00:00",
-  "a:v1|198793066588|0": "2026-11-20T23:51:36.233937+00:00",
-  "a:v1|198793067563|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|198793549337|0": "2026-11-21T04:22:32.176251+00:00",
   "a:v1|198793550370|0": "2026-11-21T04:22:32.176251+00:00",
   "a:v1|198793630038|0": "2026-11-21T05:24:37.152280+00:00",
@@ -17412,7 +17439,6 @@
   "a:v1|198806360112|0": "2026-11-23T23:32:16.963542+00:00",
   "a:v1|206692565481|0": "2026-11-21T17:03:29.117233+00:00",
   "a:v1|206696994157|0": "2026-11-23T00:47:26.763216+00:00",
-  "a:v1|206699375889|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|206699431957|0": "2026-11-21T00:13:07.650093+00:00",
   "a:v1|206699719405|0": "2026-11-21T03:20:21.692261+00:00",
   "a:v1|206699721436|0": "2026-11-21T03:20:21.692261+00:00",
@@ -17480,12 +17506,9 @@
   "a:v1|206709842617|0": "2026-11-23T07:23:23.716921+00:00",
   "a:v1|206710371888|0": "2026-11-23T12:28:59.851028+00:00",
   "a:v1|206710371907|0": "2026-11-23T12:28:59.851028+00:00",
-  "a:v1|227608519575|0": "2026-11-20T23:51:36.233937+00:00",
-  "a:v1|227608520191|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|227609782352|0": "2026-11-21T22:36:05.523686+00:00",
   "a:v1|227610013322|0": "2026-11-21T20:51:30.399728+00:00",
   "a:v1|227611771272|0": "2026-11-22T23:03:06.843392+00:00",
-  "a:v1|227613337577|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|227613389021|0": "2026-11-21T00:55:05.684141+00:00",
   "a:v1|227613430342|0": "2026-11-21T01:36:33.529708+00:00",
   "a:v1|227613589676|0": "2026-11-21T04:43:13.108972+00:00",
@@ -17545,6 +17568,7 @@
   "a:v1|227617499063|0": "2026-11-23T19:43:54.746690+00:00",
   "a:v1|227617618327|0": "2026-11-23T21:48:32.616961+00:00",
   "a:v1|227617749134|0": "2026-11-23T23:33:11.660182+00:00",
+  "a:v1|227617765737|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|227619648844|0": "2026-11-21T05:03:56.980538+00:00",
   "a:v1|227619665690|0": "2026-11-23T05:18:14.746465+00:00",
   "a:v1|227619666865|0": "2026-11-23T05:18:14.746465+00:00",
@@ -17558,7 +17582,6 @@
   "a:v1|237179805570|0": "2026-11-23T03:55:16.742209+00:00",
   "a:v1|237181450867|0": "2026-11-23T19:43:54.746690+00:00",
   "a:v1|237181687694|0": "2026-11-23T03:34:30.783867+00:00",
-  "a:v1|237181734324|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|237181910436|0": "2026-11-21T02:59:35.269443+00:00",
   "a:v1|237182106494|0": "2026-11-21T06:06:46.123018+00:00",
   "a:v1|237182157823|0": "2026-11-21T06:48:10.768291+00:00",
@@ -17653,6 +17676,7 @@
   "a:v1|257855099742|0": "2026-11-23T13:10:20.863815+00:00",
   "a:v1|257855104055|0": "2026-11-23T13:10:20.863815+00:00",
   "a:v1|257855496132|0": "2026-11-21T18:26:27.106519+00:00",
+  "a:v1|257855860192|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|257856350010|0": "2026-11-22T06:12:52.238489+00:00",
   "a:v1|257856982486|0": "2026-11-22T15:05:41.189408+00:00",
   "a:v1|257857151307|0": "2026-11-22T17:09:44.247649+00:00",
@@ -17986,7 +18010,6 @@
   "a:v1|366802394598|0": "2026-11-22T03:48:03.299394+00:00",
   "a:v1|366802394602|0": "2026-11-22T03:48:03.299394+00:00",
   "a:v1|366808019562|0": "2026-11-22T19:55:34.635312+00:00",
-  "a:v1|366808426009|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|366808567316|0": "2026-11-21T01:15:49.627299+00:00",
   "a:v1|366808598622|0": "2026-11-21T01:36:33.529708+00:00",
   "a:v1|366808683422|0": "2026-11-21T02:38:50.813841+00:00",
@@ -18068,7 +18091,6 @@
   "a:v1|377628523759|0": "2026-11-22T19:55:34.635312+00:00",
   "a:v1|377628523763|0": "2026-11-22T19:55:34.635312+00:00",
   "a:v1|377628523769|0": "2026-11-22T19:55:34.635312+00:00",
-  "a:v1|377631208392|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|377636307887|0": "2026-11-21T02:18:07.147322+00:00",
   "a:v1|377636466096|0": "2026-11-21T07:29:30.780615+00:00",
   "a:v1|377636564423|0": "2026-11-22T01:42:50.568824+00:00",
@@ -18083,7 +18105,6 @@
   "a:v1|377641887002|0": "2026-11-23T07:44:01.453068+00:00",
   "a:v1|377642507412|0": "2026-11-23T13:10:20.863815+00:00",
   "a:v1|377642980463|0": "2026-11-22T03:27:20.753617+00:00",
-  "a:v1|377643848992|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|377644014703|0": "2026-11-21T00:55:05.684141+00:00",
   "a:v1|377644052638|0": "2026-11-21T01:15:49.627299+00:00",
   "a:v1|377644264871|0": "2026-11-21T03:20:21.692261+00:00",
@@ -18268,13 +18289,13 @@
   "a:v1|407368020592|0": "2026-11-23T22:09:15.162704+00:00",
   "a:v1|407368025780|0": "2026-11-23T22:09:15.162704+00:00",
   "a:v1|407368160101|0": "2026-11-23T23:33:11.660182+00:00",
+  "a:v1|407368181097|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|407369337274|0": "2026-11-22T10:59:31.788168+00:00",
   "a:v1|407369826812|0": "2026-11-22T15:26:16.875854+00:00",
   "a:v1|407370284492|0": "2026-11-22T19:34:51.427520+00:00",
   "a:v1|407371606196|0": "2026-11-23T09:46:15.392511+00:00",
   "a:v1|407376743781|0": "2026-11-23T11:07:25.730468+00:00",
   "a:v1|407378137486|0": "2026-11-21T23:58:45.206631+00:00",
-  "a:v1|800897290264|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|800901709317|0": "2026-11-21T00:55:05.684141+00:00",
   "a:v1|800902732285|0": "2026-11-21T07:49:59.877519+00:00",
   "a:v1|800905543763|0": "2026-11-22T14:45:00.602523+00:00",
@@ -18372,6 +18393,7 @@
   "a:v1|800926823690|0": "2026-11-23T22:09:15.162704+00:00",
   "a:v1|800926887151|0": "2026-11-23T22:30:02.705466+00:00",
   "a:v1|800927037477|0": "2026-11-21T23:38:08.148609+00:00",
+  "a:v1|800927072506|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|800927813448|0": "2026-11-22T04:50:08.329803+00:00",
   "a:v1|800931853059|0": "2026-11-23T01:28:57.019133+00:00",
   "a:v1|800934397098|0": "2026-11-23T14:53:00.834183+00:00",
@@ -18383,8 +18405,6 @@
   "a:v1|820344421585|0": "2026-11-21T22:36:05.523686+00:00",
   "a:v1|820344703965|0": "2026-11-22T00:19:26.114338+00:00",
   "a:v1|820348496437|0": "2026-11-23T01:29:55.887918+00:00",
-  "a:v1|820352139012|0": "2026-11-20T23:51:36.233937+00:00",
-  "a:v1|820352139785|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|820352421288|0": "2026-11-21T01:57:20.124428+00:00",
   "a:v1|820353038946|0": "2026-11-21T05:03:56.980538+00:00",
   "a:v1|820353131919|0": "2026-11-21T05:46:06.438326+00:00",
@@ -18684,6 +18704,7 @@
   "a:v1|860150303968|0": "2026-11-23T23:11:31.671927+00:00",
   "a:v1|860150304840|0": "2026-11-23T23:11:31.671927+00:00",
   "a:v1|860150304853|0": "2026-11-23T23:11:31.671927+00:00",
+  "a:v1|860150371661|0": "2026-11-23T23:53:53.883506+00:00",
   "a:v1|860151081833|0": "2026-11-22T05:52:10.766923+00:00",
   "a:v1|860151081864|0": "2026-11-22T05:52:10.766923+00:00",
   "a:v1|860151081893|0": "2026-11-22T05:52:10.766923+00:00",
@@ -18693,7 +18714,6 @@
   "a:v1|860152841206|0": "2026-11-22T19:34:51.427520+00:00",
   "a:v1|860153154994|0": "2026-11-22T22:00:55.302770+00:00",
   "a:v1|860153231465|0": "2026-11-22T22:42:24.946265+00:00",
-  "a:v1|860153338948|0": "2026-11-20T23:51:36.233937+00:00",
   "a:v1|860153659290|0": "2026-11-23T02:32:15.532286+00:00",
   "a:v1|860156127314|0": "2026-11-23T20:04:42.276720+00:00",
   "a:v1|860156266200|0": "2026-11-23T21:07:03.828630+00:00",
@@ -18710,7 +18730,6 @@
   "a:v1|880110924557|0": "2026-11-23T03:55:16.742209+00:00",
   "a:v1|880110929144|0": "2026-11-23T03:55:16.742209+00:00",
   "a:v1|880110929294|0": "2026-11-23T03:55:16.742209+00:00",
-  "a:v1|880113983776|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|880114417514|0": "2026-11-21T00:13:07.650093+00:00",
   "a:v1|880114457780|0": "2026-11-21T00:34:20.879329+00:00",
   "a:v1|880115098940|0": "2026-11-21T05:24:37.152280+00:00",
@@ -18837,8 +18856,6 @@
   "a:v1|900099891984|0": "2026-11-22T22:42:24.946265+00:00",
   "a:v1|920135120901|0": "2026-11-22T14:23:55.920320+00:00",
   "a:v1|920139110910|0": "2026-11-23T12:49:53.654098+00:00",
-  "a:v1|920139325171|0": "2026-11-20T23:52:32.587539+00:00",
-  "a:v1|920139397962|0": "2026-11-20T23:52:32.587539+00:00",
   "a:v1|920140976514|0": "2026-11-21T01:57:20.124428+00:00",
   "a:v1|920141173504|0": "2026-11-21T03:41:05.731983+00:00",
   "a:v1|920141327329|0": "2026-11-21T05:03:56.980538+00:00",
@@ -19098,8 +19115,6 @@
   "v1|117529634609|0": "2026-11-21T16:21:29.346146+00:00",
   "v1|117530558986|0": "2026-11-23T02:32:15.532286+00:00",
   "v1|117533112137|0": "2026-11-23T02:11:29.729419+00:00",
-  "v1|117533139632|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|117533152448|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|117533184710|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|117533202562|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|117533225792|0": "2026-11-21T00:55:05.684141+00:00",
@@ -19514,6 +19529,10 @@
   "v1|117538731221|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|117538732742|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|117538745416|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|117538776057|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|117538776713|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|117538779747|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|117538781155|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|128203141203|0": "2026-11-21T02:59:35.269443+00:00",
   "v1|128203179554|0": "2026-11-21T02:59:35.269443+00:00",
   "v1|128205460633|0": "2026-11-23T03:13:45.371514+00:00",
@@ -19825,12 +19844,8 @@
   "v1|128213104656|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|128213112387|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|128213139925|0": "2026-11-23T23:32:16.963542+00:00",
-  "v1|137948251921|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|137948274161|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|137948279825|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|137948296748|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|137948300600|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|137948304169|0": "2026-11-20T23:52:32.587539+00:00",
+  "v1|128213151014|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|128213161481|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|137948330301|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|137948335643|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|137948364060|0": "2026-11-21T00:13:07.650093+00:00",
@@ -20155,14 +20170,13 @@
   "v1|137957039709|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|137957092970|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|137957115349|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|137957181664|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|147676774138|0": "2026-11-21T11:54:07.246110+00:00",
   "v1|147682168884|0": "2026-11-21T23:17:27.367075+00:00",
   "v1|147685407810|0": "2026-11-22T01:01:30.688387+00:00",
   "v1|147685690183|0": "2026-11-22T02:03:32.648430+00:00",
   "v1|147688072666|0": "2026-11-22T03:48:03.299394+00:00",
   "v1|147689879166|0": "2026-11-21T03:20:21.692261+00:00",
-  "v1|147690264010|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|147690282541|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|147690288436|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|147690291871|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|147690313907|0": "2026-11-21T00:34:20.879329+00:00",
@@ -20466,15 +20480,14 @@
   "v1|147694879104|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|147694879133|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|147694879155|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|147694888502|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|147694888523|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|147694888535|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|168876588843|0": "2026-11-23T02:11:29.729419+00:00",
   "v1|168876594425|0": "2026-11-23T02:11:29.729419+00:00",
   "v1|168876607490|0": "2026-11-23T02:11:29.729419+00:00",
   "v1|168876616224|0": "2026-11-23T02:11:29.729419+00:00",
   "v1|168876846181|0": "2026-11-21T03:20:21.692261+00:00",
-  "v1|168876943924|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|168876951775|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|168876951797|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|168876953846|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|168876962135|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|168876965335|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|168876977607|0": "2026-11-21T00:34:20.879329+00:00",
@@ -20920,9 +20933,10 @@
   "v1|168882950821|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|168882952894|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|168882956824|0": "2026-11-23T23:11:31.671927+00:00",
-  "v1|198811567967|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|198811573210|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|198811586315|0": "2026-11-20T23:51:36.233937+00:00",
+  "v1|168882989502|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|168882990871|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|168882991692|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|168882994317|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|198811606182|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|198811631423|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|198811632601|0": "2026-11-21T00:34:20.879329+00:00",
@@ -21184,13 +21198,13 @@
   "v1|198819223860|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|198819230275|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|198819362550|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|198819414768|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|206673902916|0": "2026-11-23T08:04:32.273854+00:00",
   "v1|206673903616|0": "2026-11-23T08:04:32.273854+00:00",
   "v1|206673903717|0": "2026-11-23T08:04:32.273854+00:00",
   "v1|206673904187|0": "2026-11-23T08:04:32.273854+00:00",
   "v1|206701291606|0": "2026-11-22T19:14:05.427040+00:00",
   "v1|206708351398|0": "2026-11-23T00:47:26.763216+00:00",
-  "v1|206716332686|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|206716385943|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|206716391658|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|206716421269|0": "2026-11-21T00:55:05.684141+00:00",
@@ -21434,10 +21448,10 @@
   "v1|206723479361|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|206723481394|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|206723497030|0": "2026-11-23T23:11:31.671927+00:00",
+  "v1|206723551407|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|206723554805|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|227591915140|0": "2026-11-21T23:38:08.148609+00:00",
   "v1|227614957794|0": "2026-11-23T01:28:57.019133+00:00",
-  "v1|227623806760|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|227623809849|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|227623817223|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|227623820128|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|227623823382|0": "2026-11-21T00:13:07.650093+00:00",
@@ -21796,11 +21810,6 @@
   "v1|237194403810|0": "2026-11-21T11:33:46.309175+00:00",
   "v1|237194409946|0": "2026-11-21T07:08:51.358772+00:00",
   "v1|237195046577|0": "2026-11-22T20:17:08.515554+00:00",
-  "v1|237195542279|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|237195555205|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|237195556094|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|237195564688|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|237195571954|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|237195577955|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|237195583541|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|237195588192|0": "2026-11-21T00:13:07.650093+00:00",
@@ -22147,11 +22156,15 @@
   "v1|237202313556|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|237202350023|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|237202351928|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|237202386984|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|237202421370|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|237202423524|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|237202426416|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|237202428783|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|237202440499|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|257860155100|0": "2026-11-21T05:03:56.980538+00:00",
   "v1|257862837982|0": "2026-11-22T02:44:57.810767+00:00",
   "v1|257863074656|0": "2026-11-21T01:15:49.627299+00:00",
-  "v1|257863119738|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|257863121627|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|257863125310|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|257863132277|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|257863159969|0": "2026-11-21T00:34:20.879329+00:00",
@@ -22474,7 +22487,6 @@
   "v1|257868449657|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|257868475490|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|257868510891|0": "2026-11-23T23:32:16.963542+00:00",
-  "v1|267849515958|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|267849518484|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|267849521016|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|267849533521|0": "2026-11-21T00:13:07.650093+00:00",
@@ -22685,14 +22697,10 @@
   "v1|267852473055|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|267852475642|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|267852475666|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|267852497448|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|267852510733|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|287741726954|0": "2026-11-21T11:54:07.246110+00:00",
   "v1|287744115107|0": "2026-11-21T03:20:21.692261+00:00",
-  "v1|287744844150|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|287744847126|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|287744848984|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|287744854995|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|287744855198|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|287744858111|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|287744861477|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|287744867498|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|287744871165|0": "2026-11-21T00:13:07.650093+00:00",
@@ -23007,12 +23015,6 @@
   "v1|307291212682|0": "2026-11-23T02:52:58.778526+00:00",
   "v1|307292712276|0": "2026-11-21T01:36:33.529708+00:00",
   "v1|307292712280|0": "2026-11-21T00:34:20.879329+00:00",
-  "v1|307292754969|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|307292763960|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|307292765086|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|307292766068|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|307292770075|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|307292770146|0": "2026-11-20T23:52:32.587539+00:00",
   "v1|307292771310|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|307292772831|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|307292775394|0": "2026-11-21T00:13:07.650093+00:00",
@@ -23391,8 +23393,10 @@
   "v1|307298102305|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|307298105213|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|307298105688|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|307298118377|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|307298119475|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|307298126865|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|327442240002|0": "2026-11-21T14:17:14.227511+00:00",
-  "v1|327467550093|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|327467565480|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|327467576557|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|327467589915|0": "2026-11-21T00:34:20.879329+00:00",
@@ -23669,6 +23673,7 @@
   "v1|327472903373|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|327472904139|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|327472910481|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|327472924457|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|336900875802|0": "2026-11-22T14:03:10.366454+00:00",
   "v1|336900882651|0": "2026-11-22T14:03:10.366454+00:00",
   "v1|336900889217|0": "2026-11-22T14:03:10.366454+00:00",
@@ -23692,7 +23697,6 @@
   "v1|336908012815|0": "2026-11-22T14:03:10.366454+00:00",
   "v1|336908022450|0": "2026-11-21T02:18:07.147322+00:00",
   "v1|336908051574|0": "2026-11-23T02:11:29.729419+00:00",
-  "v1|336908053199|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|336908069524|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|336908072576|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|336908103629|0": "2026-11-21T00:34:20.879329+00:00",
@@ -23999,16 +24003,6 @@
   "v1|336913165595|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|336913192798|0": "2026-11-23T23:33:11.660182+00:00",
   "v1|366824979662|0": "2026-11-23T02:11:29.729419+00:00",
-  "v1|366826127615|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826141382|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826141387|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826141432|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826148840|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826149342|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826157985|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826158071|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826169345|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|366826177369|0": "2026-11-20T23:52:32.587539+00:00",
   "v1|366826177515|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|366826191815|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|366826191889|0": "2026-11-21T00:13:07.650093+00:00",
@@ -24366,8 +24360,8 @@
   "v1|366833427924|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|366833446720|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|366833492904|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|366833510683|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|377657209515|0": "2026-11-21T16:00:42.457215+00:00",
-  "v1|377663219653|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|377663245515|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|377663356548|0": "2026-11-21T01:15:49.627299+00:00",
   "v1|377663360739|0": "2026-11-21T01:15:49.627299+00:00",
@@ -24637,11 +24631,14 @@
   "v1|377671417256|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|377671420366|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|377671422335|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|377671466008|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|377671466273|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|377671466344|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|377671467330|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|377671469520|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|407375723454|0": "2026-11-21T01:57:20.124428+00:00",
   "v1|407375723544|0": "2026-11-21T02:18:07.147322+00:00",
   "v1|407375723674|0": "2026-11-21T02:18:07.147322+00:00",
-  "v1|407378098077|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|407378102028|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|407378119669|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|407378121940|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|407378123651|0": "2026-11-21T00:13:07.650093+00:00",
@@ -25094,12 +25091,12 @@
   "v1|407384272768|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|407384306336|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|407384306387|0": "2026-11-23T23:11:31.671927+00:00",
+  "v1|407384334253|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|407384336545|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|407384341234|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|407384355742|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|800927021869|0": "2026-11-21T02:18:07.147322+00:00",
   "v1|800944226547|0": "2026-11-21T03:20:21.692261+00:00",
-  "v1|800944545513|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|800944578750|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|800944589754|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|800944595673|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|800944650481|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|800944655618|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|800944665784|0": "2026-11-21T00:13:07.650093+00:00",
@@ -25627,6 +25624,15 @@
   "v1|800958005730|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|800958017432|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|800958022920|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|800958043742|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958045104|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958050315|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958061190|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958061573|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958062345|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958063776|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958064513|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|800958081332|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|820337485496|0": "2026-11-22T00:40:44.160515+00:00",
   "v1|820340485629|0": "2026-11-22T12:20:59.976748+00:00",
   "v1|820358231827|0": "2026-11-22T19:34:51.427520+00:00",
@@ -25648,9 +25654,6 @@
   "v1|820358244605|0": "2026-11-22T19:34:51.427520+00:00",
   "v1|820373698028|0": "2026-11-22T20:17:08.515554+00:00",
   "v1|820378290523|0": "2026-11-21T05:03:56.980538+00:00",
-  "v1|820378559191|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|820378570735|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|820378575267|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|820378604477|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|820378660258|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|820378667725|0": "2026-11-21T00:13:07.650093+00:00",
@@ -26107,8 +26110,7 @@
   "v1|820390310173|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|820390322929|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|820390331431|0": "2026-11-23T23:32:16.963542+00:00",
-  "v1|840149935046|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|840149946471|0": "2026-11-20T23:51:36.233937+00:00",
+  "v1|820390395376|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|840149962728|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|840149972704|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|840149977694|0": "2026-11-21T00:13:07.650093+00:00",
@@ -26485,12 +26487,6 @@
   "v1|840160115798|0": "2026-11-23T22:50:49.751363+00:00",
   "v1|840160158361|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|840160180377|0": "2026-11-23T23:32:16.963542+00:00",
-  "v1|860163067319|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|860163069935|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|860163079957|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|860163081569|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|860163085738|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|860163085911|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|860163104553|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|860163106171|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|860163115036|0": "2026-11-21T00:13:07.650093+00:00",
@@ -26977,13 +26973,12 @@
   "v1|860171571583|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|860171572695|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|860171585515|0": "2026-11-23T23:33:11.660182+00:00",
+  "v1|860171591560|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|860171604169|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|860171607773|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|880124611944|0": "2026-11-22T23:03:06.843392+00:00",
   "v1|880125057990|0": "2026-11-22T19:34:51.427520+00:00",
   "v1|880136333710|0": "2026-11-23T01:28:57.019133+00:00",
-  "v1|880137127478|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|880138395052|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|880138405117|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|880138405307|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|880138405312|0": "2026-11-21T01:36:33.529708+00:00",
   "v1|880138424014|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|880138470303|0": "2026-11-21T00:34:20.879329+00:00",
@@ -27566,21 +27561,11 @@
   "v1|880147823364|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|880147823428|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|880147862492|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|880147896886|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|880147903562|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|900104435353|0": "2026-11-23T02:11:29.729419+00:00",
   "v1|900107726335|0": "2026-11-22T02:24:17.198675+00:00",
-  "v1|900108237362|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108244060|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108254528|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108256592|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108257470|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108259813|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108260289|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108260788|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|900108261100|0": "2026-11-21T01:57:20.124428+00:00",
-  "v1|900108261413|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108262665|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108263711|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|900108267643|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|900108285919|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|900108317499|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|900108327991|0": "2026-11-21T00:34:20.879329+00:00",
@@ -28038,14 +28023,20 @@
   "v1|900116195199|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|900116196420|0": "2026-11-23T23:11:31.671927+00:00",
   "v1|900116203063|0": "2026-11-23T23:11:31.671927+00:00",
+  "v1|900116247075|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116249050|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116252050|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116252477|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116252928|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116253685|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116254119|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|900116257948|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|920146011386|0": "2026-11-23T21:07:03.828630+00:00",
   "v1|920146011415|0": "2026-11-23T21:27:47.170363+00:00",
   "v1|920146011436|0": "2026-11-23T21:27:47.170363+00:00",
   "v1|920146011470|0": "2026-11-23T21:07:03.828630+00:00",
   "v1|920146011482|0": "2026-11-23T21:27:47.170363+00:00",
   "v1|920160788831|0": "2026-11-21T01:15:49.627299+00:00",
-  "v1|920165876867|0": "2026-11-20T23:51:36.233937+00:00",
-  "v1|920165907326|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|920165929601|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|920165968849|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|920165995336|0": "2026-11-21T00:34:20.879329+00:00",
@@ -28538,6 +28529,11 @@
   "v1|920177079451|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|920177079569|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|920177081141|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|920177100659|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|920177105810|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|920177106573|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|920177113629|0": "2026-11-23T23:53:53.883506+00:00",
+  "v1|920177118572|0": "2026-11-23T23:53:53.883506+00:00",
   "v1|940109662056|0": "2026-11-21T00:34:20.879329+00:00",
   "v1|940109794583|0": "2026-11-21T01:36:33.529708+00:00",
   "v1|940109841535|0": "2026-11-21T01:57:20.124428+00:00",
@@ -28718,7 +28714,6 @@
   "v1|960204076800|0": "2026-11-22T13:01:48.902904+00:00",
   "v1|960204087697|0": "2026-11-23T13:10:20.863815+00:00",
   "v1|960210692664|0": "2026-11-23T08:04:32.273854+00:00",
-  "v1|960223015931|0": "2026-11-20T23:51:36.233937+00:00",
   "v1|960223110255|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|960223118133|0": "2026-11-21T00:13:07.650093+00:00",
   "v1|960223118224|0": "2026-11-21T00:13:07.650093+00:00",
@@ -29091,7 +29086,8 @@
   "v1|960236227283|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|960236227877|0": "2026-11-23T23:32:16.963542+00:00",
   "v1|960236229083|0": "2026-11-23T23:32:16.963542+00:00",
-  "v1|960236233593|0": "2026-11-23T23:32:16.963542+00:00"
+  "v1|960236233593|0": "2026-11-23T23:32:16.963542+00:00",
+  "v1|960236313867|0": "2026-11-23T23:53:53.883506+00:00"
  },
  "usage": {
   "calls": 565,
